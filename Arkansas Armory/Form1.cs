@@ -34,7 +34,7 @@ namespace Arkansas_Armory
                 {
                     connection = new SqlConnection(connectionstring);
                     connection.Open();
-                    string sql = "SELECT First_Name, Last_Name, Email, Password FROM Account WHERE First_Name = '" + cboAccount.SelectedItem.ToString() + "'";
+                    string sql = "SELECT * FROM Customer WHERE First_Name = '" + cboAccount.SelectedItem.ToString() + "'";
                     command = new SqlCommand(sql, connection);
                     datareader = command.ExecuteReader();
                     while (datareader.Read())
@@ -64,7 +64,7 @@ namespace Arkansas_Armory
                 connection = new SqlConnection(connectionstring);
                 connection.Open();
                 int answer;
-                string sql = "INSERT INTO Account VALUES (@Fname, @Lname, @email, @password)";
+                string sql = "INSERT INTO Cutsomer VALUES (@)";
                 command = new SqlCommand(sql, connection);
                 command.Parameters.AddWithValue("@Fname", txtFirst_Name.Text);
                 command.Parameters.AddWithValue("@Lname", txtLast_Name.Text);
