@@ -65,8 +65,8 @@ namespace Arkansas_Armory
                 connection = new SqlConnection(connectionstring);
                 connection.Open();
                 int answer;
-                string sql = "INSERT INTO dbo.Customer(Username,Password,FirstName,LastName,ShippingStreetAddress,ShippingCity,ShippingZipcode,ShippingState,BillingStreetAddress,BillingCity,BillingState,BillingZipcode,DoB,DriverseLicenseNumber,ConcealCarryStatus,CreditCardNumber,CryptoType,CryptoWalletAddress) VALUES (@User, @Pass, @Fname, @Lname, @ShipStreet, @ShipCity, @ShipZip, @ShipState, @BillStreet, @BillCity, " +
-                    "@BillZip, @BillState, @DoB, @DLNum, @CCStatus, @CCNUmber, @CryptoType, @CryptoWallet)";
+                string sql = "INSERT INTO dbo.Customer(Username,Password,FirstName,LastName,ShippingStreetAddress,ShippingCity,ShippingZipcode,ShippingState,BillingStreetAddress,BillingCity,BillingZipcode,BillingState,DoB,DriversLicenseNumber,ConcealCarryStatus,CreditCardNumber,CryptoType,CryptoWalletAddress,Email) VALUES (@User, @Pass, @Fname, @Lname, @ShipStreet, @ShipCity, @ShipZip, @ShipState, @BillStreet, @BillCity, " +
+                    "@BillZip, @BillState, @DoB, @DLNum, @CCStatus, @CCNUmber, @CryptoType, @CryptoWallet,@Email)";
                 command = new SqlCommand(sql, connection);
                 command.Parameters.AddWithValue("@Fname", txtFirst_Name.Text);
                 command.Parameters.AddWithValue("@Lname", txtLast_Name.Text);
@@ -87,7 +87,7 @@ namespace Arkansas_Armory
               
                 command.Parameters.AddWithValue("@CryptoType", txtCryptoType.Text);
                 command.Parameters.AddWithValue("@CryptoWallet", txtBillingCity.Text);
-                //command.Parameters.AddWithValue("@email", txtEmail.Text);
+                command.Parameters.AddWithValue("@Email", txtEmail.Text);
 
 
                 answer = command.ExecuteNonQuery();
