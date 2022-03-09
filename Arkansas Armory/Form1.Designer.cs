@@ -124,7 +124,7 @@ namespace Arkansas_Armory
             // 
             // txtLast_Name
             // 
-            this.txtLast_Name.Location = new System.Drawing.Point(196, 188);
+            this.txtLast_Name.Location = new System.Drawing.Point(196, 189);
             this.txtLast_Name.Name = "txtLast_Name";
             this.txtLast_Name.Size = new System.Drawing.Size(345, 20);
             this.txtLast_Name.TabIndex = 8;
@@ -138,7 +138,7 @@ namespace Arkansas_Armory
             // 
             // txtPassword
             // 
-            this.txtPassword.Location = new System.Drawing.Point(224, 355);
+            this.txtPassword.Location = new System.Drawing.Point(196, 349);
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.Size = new System.Drawing.Size(345, 20);
             this.txtPassword.TabIndex = 10;
@@ -245,7 +245,7 @@ namespace Arkansas_Armory
             // 
             // txtCryptoWallet
             // 
-            this.txtCryptoWallet.Location = new System.Drawing.Point(808, 522);
+            this.txtCryptoWallet.Location = new System.Drawing.Point(808, 551);
             this.txtCryptoWallet.Name = "txtCryptoWallet";
             this.txtCryptoWallet.Size = new System.Drawing.Size(345, 20);
             this.txtCryptoWallet.TabIndex = 40;
@@ -255,7 +255,7 @@ namespace Arkansas_Armory
             this.label18.AutoSize = true;
             this.label18.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.label18.Font = new System.Drawing.Font("HelveticaNeueforSAS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.Location = new System.Drawing.Point(599, 520);
+            this.label18.Location = new System.Drawing.Point(599, 549);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(181, 21);
             this.label18.TabIndex = 41;
@@ -263,7 +263,7 @@ namespace Arkansas_Armory
             // 
             // txtCryptoType
             // 
-            this.txtCryptoType.Location = new System.Drawing.Point(804, 477);
+            this.txtCryptoType.Location = new System.Drawing.Point(804, 506);
             this.txtCryptoType.Name = "txtCryptoType";
             this.txtCryptoType.Size = new System.Drawing.Size(345, 20);
             this.txtCryptoType.TabIndex = 38;
@@ -273,7 +273,7 @@ namespace Arkansas_Armory
             this.label19.AutoSize = true;
             this.label19.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.label19.Font = new System.Drawing.Font("HelveticaNeueforSAS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.Location = new System.Drawing.Point(595, 475);
+            this.label19.Location = new System.Drawing.Point(595, 504);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(98, 21);
             this.label19.TabIndex = 39;
@@ -479,7 +479,7 @@ namespace Arkansas_Armory
             // 
             // txtUsername
             // 
-            this.txtUsername.Location = new System.Drawing.Point(196, 319);
+            this.txtUsername.Location = new System.Drawing.Point(196, 307);
             this.txtUsername.Name = "txtUsername";
             this.txtUsername.Size = new System.Drawing.Size(345, 20);
             this.txtUsername.TabIndex = 14;

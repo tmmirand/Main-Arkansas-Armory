@@ -59,14 +59,14 @@ namespace Arkansas_Armory
 
         private void btnCreate_Account_Click(object sender, EventArgs e)
         {
-            /////////////////////////////////////////////////////
+            
             try
             {
                 connection = new SqlConnection(connectionstring);
                 connection.Open();
                 int answer;
-                string sql = "INSERT INTO Customer VALUES (@User, @Pass, @Fname, @Lname, @ShipStreet, @ShipCity, @ShipZip, @ShipState, @BillStreet, @BillCity, " +
-                    "@BillZip, @BillState, @DoB, @DLNum, @CCStatus, @CryptoType, @CryptoWallet)";
+                string sql = "INSERT INTO dbo.Customer(Username,Password,FirstName,LastName,ShippingStreetAddress,ShippingCity,ShippingZipcode,ShippingState,BillingStreetAddress,BillingCity,BillingState,BillingZipcode,DoB,DriverseLicenseNumber,ConcealCarryStatus,CreditCardNumber,CryptoType,CryptoWalletAddress) VALUES (@User, @Pass, @Fname, @Lname, @ShipStreet, @ShipCity, @ShipZip, @ShipState, @BillStreet, @BillCity, " +
+                    "@BillZip, @BillState, @DoB, @DLNum, @CCStatus, @CCNUmber, @CryptoType, @CryptoWallet)";
                 command = new SqlCommand(sql, connection);
                 command.Parameters.AddWithValue("@Fname", txtFirst_Name.Text);
                 command.Parameters.AddWithValue("@Lname", txtLast_Name.Text);
@@ -83,6 +83,8 @@ namespace Arkansas_Armory
                 command.Parameters.AddWithValue("@DoB", txtDateOfBirth.Text);
                 command.Parameters.AddWithValue("@DLNum", txtDriverLiscenceNum.Text);
                 command.Parameters.AddWithValue("@CCStatus", txtConcealedCarry.Text);
+                command.Parameters.AddWithValue("@CCNumber", txtCreditCardNum.Text);
+              
                 command.Parameters.AddWithValue("@CryptoType", txtCryptoType.Text);
                 command.Parameters.AddWithValue("@CryptoWallet", txtBillingCity.Text);
                 //command.Parameters.AddWithValue("@email", txtEmail.Text);
@@ -98,7 +100,7 @@ namespace Arkansas_Armory
             {
                 MessageBox.Show("Error! You need to solve: " + ex);
             }
-            /////////////////////////////////////////////////////
+            
         }
     }
 }
