@@ -41,22 +41,12 @@ namespace Arkansas_Armory
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.pnlCreateAccount = new System.Windows.Forms.Panel();
-            this.txtUsername = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.txtShippingCity = new System.Windows.Forms.TextBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.txtShippingZip = new System.Windows.Forms.TextBox();
-            this.label8 = new System.Windows.Forms.Label();
-            this.txtShippingState = new System.Windows.Forms.TextBox();
-            this.label9 = new System.Windows.Forms.Label();
-            this.txtBillingState = new System.Windows.Forms.TextBox();
-            this.label10 = new System.Windows.Forms.Label();
-            this.txtBillingZip = new System.Windows.Forms.TextBox();
-            this.label11 = new System.Windows.Forms.Label();
-            this.txtBillingCity = new System.Windows.Forms.TextBox();
-            this.label12 = new System.Windows.Forms.Label();
-            this.txtBillingStreetAdd = new System.Windows.Forms.TextBox();
-            this.label13 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.txtShippingStreetAddress = new System.Windows.Forms.TextBox();
+            this.txtCryptoWallet = new System.Windows.Forms.TextBox();
+            this.label18 = new System.Windows.Forms.Label();
+            this.txtCryptoType = new System.Windows.Forms.TextBox();
+            this.label19 = new System.Windows.Forms.Label();
             this.txtCreditCardNum = new System.Windows.Forms.TextBox();
             this.label14 = new System.Windows.Forms.Label();
             this.txtConcealedCarry = new System.Windows.Forms.TextBox();
@@ -65,12 +55,22 @@ namespace Arkansas_Armory
             this.label16 = new System.Windows.Forms.Label();
             this.txtDateOfBirth = new System.Windows.Forms.TextBox();
             this.label17 = new System.Windows.Forms.Label();
-            this.txtCryptoWallet = new System.Windows.Forms.TextBox();
-            this.label18 = new System.Windows.Forms.Label();
-            this.txtCryptoType = new System.Windows.Forms.TextBox();
-            this.label19 = new System.Windows.Forms.Label();
-            this.txtShippingStreetAdd = new System.Windows.Forms.TextBox();
-            this.label20 = new System.Windows.Forms.Label();
+            this.txtBillingState = new System.Windows.Forms.TextBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.txtBillingZip = new System.Windows.Forms.TextBox();
+            this.label11 = new System.Windows.Forms.Label();
+            this.txtBillingCity = new System.Windows.Forms.TextBox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.txtBillingStreetAddress = new System.Windows.Forms.TextBox();
+            this.label13 = new System.Windows.Forms.Label();
+            this.txtShippingState = new System.Windows.Forms.TextBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.txtShippingZip = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.txtShippingCity = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.txtUsername = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
             this.pnlCreateAccount.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -180,7 +180,7 @@ namespace Arkansas_Armory
             // 
             this.pnlCreateAccount.BackColor = System.Drawing.Color.White;
             this.pnlCreateAccount.Controls.Add(this.label20);
-            this.pnlCreateAccount.Controls.Add(this.txtShippingStreetAdd);
+            this.pnlCreateAccount.Controls.Add(this.txtShippingStreetAddress);
             this.pnlCreateAccount.Controls.Add(this.txtCryptoWallet);
             this.pnlCreateAccount.Controls.Add(this.label18);
             this.pnlCreateAccount.Controls.Add(this.txtCryptoType);
@@ -199,7 +199,7 @@ namespace Arkansas_Armory
             this.pnlCreateAccount.Controls.Add(this.label11);
             this.pnlCreateAccount.Controls.Add(this.txtBillingCity);
             this.pnlCreateAccount.Controls.Add(this.label12);
-            this.pnlCreateAccount.Controls.Add(this.txtBillingStreetAdd);
+            this.pnlCreateAccount.Controls.Add(this.txtBillingStreetAddress);
             this.pnlCreateAccount.Controls.Add(this.label13);
             this.pnlCreateAccount.Controls.Add(this.txtShippingState);
             this.pnlCreateAccount.Controls.Add(this.label9);
@@ -225,149 +225,59 @@ namespace Arkansas_Armory
             this.pnlCreateAccount.Size = new System.Drawing.Size(1190, 621);
             this.pnlCreateAccount.TabIndex = 14;
             // 
-            // txtUsername
+            // label20
             // 
-            this.txtUsername.Location = new System.Drawing.Point(196, 319);
-            this.txtUsername.Name = "txtUsername";
-            this.txtUsername.Size = new System.Drawing.Size(345, 20);
-            this.txtUsername.TabIndex = 14;
+            this.label20.AutoSize = true;
+            this.label20.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.label20.Font = new System.Drawing.Font("HelveticaNeueforSAS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.Location = new System.Drawing.Point(17, 348);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(87, 21);
+            this.label20.TabIndex = 43;
+            this.label20.Text = "Password";
             // 
-            // label6
+            // txtShippingStreetAddress
             // 
-            this.label6.AutoSize = true;
-            this.label6.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.label6.Font = new System.Drawing.Font("HelveticaNeueforSAS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(16, 307);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(88, 21);
-            this.label6.TabIndex = 15;
-            this.label6.Text = "Username";
+            this.txtShippingStreetAddress.Location = new System.Drawing.Point(228, 391);
+            this.txtShippingStreetAddress.Name = "txtShippingStreetAddress";
+            this.txtShippingStreetAddress.Size = new System.Drawing.Size(345, 20);
+            this.txtShippingStreetAddress.TabIndex = 42;
             // 
-            // txtShippingCity
+            // txtCryptoWallet
             // 
-            this.txtShippingCity.Location = new System.Drawing.Point(224, 432);
-            this.txtShippingCity.Name = "txtShippingCity";
-            this.txtShippingCity.Size = new System.Drawing.Size(345, 20);
-            this.txtShippingCity.TabIndex = 16;
+            this.txtCryptoWallet.Location = new System.Drawing.Point(808, 522);
+            this.txtCryptoWallet.Name = "txtCryptoWallet";
+            this.txtCryptoWallet.Size = new System.Drawing.Size(345, 20);
+            this.txtCryptoWallet.TabIndex = 40;
             // 
-            // label7
+            // label18
             // 
-            this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.label7.Font = new System.Drawing.Font("HelveticaNeueforSAS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(15, 430);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(110, 21);
-            this.label7.TabIndex = 17;
-            this.label7.Text = "Shipping City";
+            this.label18.AutoSize = true;
+            this.label18.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.label18.Font = new System.Drawing.Font("HelveticaNeueforSAS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.Location = new System.Drawing.Point(599, 520);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(181, 21);
+            this.label18.TabIndex = 41;
+            this.label18.Text = "Crypto Wallet Address";
             // 
-            // txtShippingZip
+            // txtCryptoType
             // 
-            this.txtShippingZip.Location = new System.Drawing.Point(224, 486);
-            this.txtShippingZip.Name = "txtShippingZip";
-            this.txtShippingZip.Size = new System.Drawing.Size(345, 20);
-            this.txtShippingZip.TabIndex = 18;
+            this.txtCryptoType.Location = new System.Drawing.Point(804, 477);
+            this.txtCryptoType.Name = "txtCryptoType";
+            this.txtCryptoType.Size = new System.Drawing.Size(345, 20);
+            this.txtCryptoType.TabIndex = 38;
             // 
-            // label8
+            // label19
             // 
-            this.label8.AutoSize = true;
-            this.label8.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.label8.Font = new System.Drawing.Font("HelveticaNeueforSAS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(15, 484);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(149, 21);
-            this.label8.TabIndex = 19;
-            this.label8.Text = "Shipping Zip Code";
-            // 
-            // txtShippingState
-            // 
-            this.txtShippingState.Location = new System.Drawing.Point(228, 531);
-            this.txtShippingState.Name = "txtShippingState";
-            this.txtShippingState.Size = new System.Drawing.Size(345, 20);
-            this.txtShippingState.TabIndex = 20;
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.label9.Font = new System.Drawing.Font("HelveticaNeueforSAS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(19, 529);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(120, 21);
-            this.label9.TabIndex = 21;
-            this.label9.Text = "Shipping State";
-            // 
-            // txtBillingState
-            // 
-            this.txtBillingState.Location = new System.Drawing.Point(804, 237);
-            this.txtBillingState.Name = "txtBillingState";
-            this.txtBillingState.Size = new System.Drawing.Size(345, 20);
-            this.txtBillingState.TabIndex = 28;
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.label10.Font = new System.Drawing.Font("HelveticaNeueforSAS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(595, 235);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(100, 21);
-            this.label10.TabIndex = 29;
-            this.label10.Text = "Billing State";
-            // 
-            // txtBillingZip
-            // 
-            this.txtBillingZip.Location = new System.Drawing.Point(800, 192);
-            this.txtBillingZip.Name = "txtBillingZip";
-            this.txtBillingZip.Size = new System.Drawing.Size(345, 20);
-            this.txtBillingZip.TabIndex = 26;
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.label11.Font = new System.Drawing.Font("HelveticaNeueforSAS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(591, 190);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(129, 21);
-            this.label11.TabIndex = 27;
-            this.label11.Text = "Billing Zip Code";
-            // 
-            // txtBillingCity
-            // 
-            this.txtBillingCity.Location = new System.Drawing.Point(800, 138);
-            this.txtBillingCity.Name = "txtBillingCity";
-            this.txtBillingCity.Size = new System.Drawing.Size(345, 20);
-            this.txtBillingCity.TabIndex = 24;
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.label12.Font = new System.Drawing.Font("HelveticaNeueforSAS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(591, 136);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(90, 21);
-            this.label12.TabIndex = 25;
-            this.label12.Text = "Billing City";
-            // 
-            // txtBillingStreetAdd
-            // 
-            this.txtBillingStreetAdd.Location = new System.Drawing.Point(800, 87);
-            this.txtBillingStreetAdd.Name = "txtBillingStreetAdd";
-            this.txtBillingStreetAdd.Size = new System.Drawing.Size(345, 20);
-            this.txtBillingStreetAdd.TabIndex = 22;
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.label13.Font = new System.Drawing.Font("HelveticaNeueforSAS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(591, 85);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(174, 21);
-            this.label13.TabIndex = 23;
-            this.label13.Text = "Billing Street Address";
+            this.label19.AutoSize = true;
+            this.label19.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.label19.Font = new System.Drawing.Font("HelveticaNeueforSAS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label19.Location = new System.Drawing.Point(595, 475);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(98, 21);
+            this.label19.TabIndex = 39;
+            this.label19.Text = "CryptoType";
             // 
             // txtCreditCardNum
             // 
@@ -441,59 +351,149 @@ namespace Arkansas_Armory
             this.label17.TabIndex = 31;
             this.label17.Text = "Date of Birth";
             // 
-            // txtCryptoWallet
+            // txtBillingState
             // 
-            this.txtCryptoWallet.Location = new System.Drawing.Point(808, 522);
-            this.txtCryptoWallet.Name = "txtCryptoWallet";
-            this.txtCryptoWallet.Size = new System.Drawing.Size(345, 20);
-            this.txtCryptoWallet.TabIndex = 40;
+            this.txtBillingState.Location = new System.Drawing.Point(804, 237);
+            this.txtBillingState.Name = "txtBillingState";
+            this.txtBillingState.Size = new System.Drawing.Size(345, 20);
+            this.txtBillingState.TabIndex = 28;
             // 
-            // label18
+            // label10
             // 
-            this.label18.AutoSize = true;
-            this.label18.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.label18.Font = new System.Drawing.Font("HelveticaNeueforSAS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.Location = new System.Drawing.Point(599, 520);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(181, 21);
-            this.label18.TabIndex = 41;
-            this.label18.Text = "Crypto Wallet Address";
+            this.label10.AutoSize = true;
+            this.label10.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.label10.Font = new System.Drawing.Font("HelveticaNeueforSAS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Location = new System.Drawing.Point(595, 235);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(100, 21);
+            this.label10.TabIndex = 29;
+            this.label10.Text = "Billing State";
             // 
-            // txtCryptoType
+            // txtBillingZip
             // 
-            this.txtCryptoType.Location = new System.Drawing.Point(804, 477);
-            this.txtCryptoType.Name = "txtCryptoType";
-            this.txtCryptoType.Size = new System.Drawing.Size(345, 20);
-            this.txtCryptoType.TabIndex = 38;
+            this.txtBillingZip.Location = new System.Drawing.Point(800, 192);
+            this.txtBillingZip.Name = "txtBillingZip";
+            this.txtBillingZip.Size = new System.Drawing.Size(345, 20);
+            this.txtBillingZip.TabIndex = 26;
             // 
-            // label19
+            // label11
             // 
-            this.label19.AutoSize = true;
-            this.label19.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.label19.Font = new System.Drawing.Font("HelveticaNeueforSAS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.Location = new System.Drawing.Point(595, 475);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(98, 21);
-            this.label19.TabIndex = 39;
-            this.label19.Text = "CryptoType";
+            this.label11.AutoSize = true;
+            this.label11.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.label11.Font = new System.Drawing.Font("HelveticaNeueforSAS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Location = new System.Drawing.Point(591, 190);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(129, 21);
+            this.label11.TabIndex = 27;
+            this.label11.Text = "Billing Zip Code";
             // 
-            // txtShippingStreetAdd
+            // txtBillingCity
             // 
-            this.txtShippingStreetAdd.Location = new System.Drawing.Point(228, 391);
-            this.txtShippingStreetAdd.Name = "txtShippingStreetAdd";
-            this.txtShippingStreetAdd.Size = new System.Drawing.Size(345, 20);
-            this.txtShippingStreetAdd.TabIndex = 42;
+            this.txtBillingCity.Location = new System.Drawing.Point(800, 138);
+            this.txtBillingCity.Name = "txtBillingCity";
+            this.txtBillingCity.Size = new System.Drawing.Size(345, 20);
+            this.txtBillingCity.TabIndex = 24;
             // 
-            // label20
+            // label12
             // 
-            this.label20.AutoSize = true;
-            this.label20.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.label20.Font = new System.Drawing.Font("HelveticaNeueforSAS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.Location = new System.Drawing.Point(17, 348);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(87, 21);
-            this.label20.TabIndex = 43;
-            this.label20.Text = "Password";
+            this.label12.AutoSize = true;
+            this.label12.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.label12.Font = new System.Drawing.Font("HelveticaNeueforSAS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.Location = new System.Drawing.Point(591, 136);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(90, 21);
+            this.label12.TabIndex = 25;
+            this.label12.Text = "Billing City";
+            // 
+            // txtBillingStreetAddress
+            // 
+            this.txtBillingStreetAddress.Location = new System.Drawing.Point(800, 87);
+            this.txtBillingStreetAddress.Name = "txtBillingStreetAddress";
+            this.txtBillingStreetAddress.Size = new System.Drawing.Size(345, 20);
+            this.txtBillingStreetAddress.TabIndex = 22;
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.label13.Font = new System.Drawing.Font("HelveticaNeueforSAS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Location = new System.Drawing.Point(591, 85);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(174, 21);
+            this.label13.TabIndex = 23;
+            this.label13.Text = "Billing Street Address";
+            // 
+            // txtShippingState
+            // 
+            this.txtShippingState.Location = new System.Drawing.Point(228, 531);
+            this.txtShippingState.Name = "txtShippingState";
+            this.txtShippingState.Size = new System.Drawing.Size(345, 20);
+            this.txtShippingState.TabIndex = 20;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.label9.Font = new System.Drawing.Font("HelveticaNeueforSAS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(19, 529);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(120, 21);
+            this.label9.TabIndex = 21;
+            this.label9.Text = "Shipping State";
+            // 
+            // txtShippingZip
+            // 
+            this.txtShippingZip.Location = new System.Drawing.Point(224, 486);
+            this.txtShippingZip.Name = "txtShippingZip";
+            this.txtShippingZip.Size = new System.Drawing.Size(345, 20);
+            this.txtShippingZip.TabIndex = 18;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.label8.Font = new System.Drawing.Font("HelveticaNeueforSAS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(15, 484);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(149, 21);
+            this.label8.TabIndex = 19;
+            this.label8.Text = "Shipping Zip Code";
+            // 
+            // txtShippingCity
+            // 
+            this.txtShippingCity.Location = new System.Drawing.Point(224, 432);
+            this.txtShippingCity.Name = "txtShippingCity";
+            this.txtShippingCity.Size = new System.Drawing.Size(345, 20);
+            this.txtShippingCity.TabIndex = 16;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.label7.Font = new System.Drawing.Font("HelveticaNeueforSAS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(15, 430);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(110, 21);
+            this.label7.TabIndex = 17;
+            this.label7.Text = "Shipping City";
+            // 
+            // txtUsername
+            // 
+            this.txtUsername.Location = new System.Drawing.Point(196, 319);
+            this.txtUsername.Name = "txtUsername";
+            this.txtUsername.Size = new System.Drawing.Size(345, 20);
+            this.txtUsername.TabIndex = 14;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.label6.Font = new System.Drawing.Font("HelveticaNeueforSAS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(16, 307);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(88, 21);
+            this.label6.TabIndex = 15;
+            this.label6.Text = "Username";
             // 
             // Form1
             // 
@@ -525,7 +525,7 @@ namespace Arkansas_Armory
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Panel pnlCreateAccount;
         private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.TextBox txtShippingStreetAdd;
+        private System.Windows.Forms.TextBox txtShippingStreetAddress;
         private System.Windows.Forms.TextBox txtCryptoWallet;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.TextBox txtCryptoType;
@@ -544,7 +544,7 @@ namespace Arkansas_Armory
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.TextBox txtBillingCity;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.TextBox txtBillingStreetAdd;
+        private System.Windows.Forms.TextBox txtBillingStreetAddress;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.TextBox txtShippingState;
         private System.Windows.Forms.Label label9;

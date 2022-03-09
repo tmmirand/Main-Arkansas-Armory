@@ -39,10 +39,11 @@ namespace Arkansas_Armory
                     datareader = command.ExecuteReader();
                     while (datareader.Read())
                     {
-                        txtFirst_Name.Text = datareader[0].ToString();
-                        txtLast_Name.Text = datareader[1].ToString();
-                        txtEmail.Text = datareader[2].ToString();
-                        txtPassword.Text = datareader[3].ToString();
+                        txtPassword.Text = datareader[1].ToString();
+                        txtFirst_Name.Text = datareader[2].ToString();
+                        txtLast_Name.Text = datareader[3].ToString();
+                        //txtEmail.Text = datareader[].ToString();
+
                     }
                     connection.Close();
                     command.Dispose();
@@ -64,12 +65,28 @@ namespace Arkansas_Armory
                 connection = new SqlConnection(connectionstring);
                 connection.Open();
                 int answer;
-                string sql = "INSERT INTO Cutsomer VALUES (@)";
+                string sql = "INSERT INTO Customer VALUES (@User, @Pass, @Fname, @Lname, @ShipStreet, @ShipCity, @ShipZip, @ShipState, @BillStreet, @BillCity, " +
+                    "@BillZip, @BillState, @DoB, @DLNum, @CCStatus, @CryptoType, @CryptoWallet)";
                 command = new SqlCommand(sql, connection);
                 command.Parameters.AddWithValue("@Fname", txtFirst_Name.Text);
                 command.Parameters.AddWithValue("@Lname", txtLast_Name.Text);
-                command.Parameters.AddWithValue("@email", txtEmail.Text);
-                command.Parameters.AddWithValue("@password", txtPassword.Text);
+                command.Parameters.AddWithValue("@Pass", txtPassword.Text);
+                command.Parameters.AddWithValue("@User", txtUsername.Text);
+                command.Parameters.AddWithValue("@ShipStreet", txtShippingStreetAddress.Text);
+                command.Parameters.AddWithValue("@ShipCity", txtShippingCity.Text);
+                command.Parameters.AddWithValue("@ShipZip", txtShippingZip.Text);
+                command.Parameters.AddWithValue("@ShipState", txtShippingState.Text);
+                command.Parameters.AddWithValue("@BillStreet", txtBillingStreetAddress.Text);
+                command.Parameters.AddWithValue("@BillCity", txtBillingCity.Text);
+                command.Parameters.AddWithValue("@BillZip", txtBillingZip.Text);
+                command.Parameters.AddWithValue("@BillState", txtBillingState.Text);
+                command.Parameters.AddWithValue("@DoB", txtDateOfBirth.Text);
+                command.Parameters.AddWithValue("@DLNum", txtDriverLiscenceNum.Text);
+                command.Parameters.AddWithValue("@CCStatus", txtConcealedCarry.Text);
+                command.Parameters.AddWithValue("@CryptoType", txtCryptoType.Text);
+                command.Parameters.AddWithValue("@CryptoWallet", txtBillingCity.Text);
+                //command.Parameters.AddWithValue("@email", txtEmail.Text);
+
 
                 answer = command.ExecuteNonQuery();
 
