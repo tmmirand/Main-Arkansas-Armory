@@ -71,7 +71,19 @@ namespace Arkansas_Armory
             this.label7 = new System.Windows.Forms.Label();
             this.txtUsername = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
+            this.btnLogin = new System.Windows.Forms.Button();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.btnCreateAccount = new System.Windows.Forms.Button();
+            this.btnShoppingCart = new System.Windows.Forms.Button();
+            this.btnOrders = new System.Windows.Forms.Button();
+            this.dgvInventory = new System.Windows.Forms.DataGridView();
+            this.cboInventoryFilter = new System.Windows.Forms.ComboBox();
+            this.label21 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.btnLogOut = new System.Windows.Forms.Button();
             this.pnlCreateAccount.SuspendLayout();
+            this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvInventory)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -220,7 +232,7 @@ namespace Arkansas_Armory
             this.pnlCreateAccount.Controls.Add(this.txtFirst_Name);
             this.pnlCreateAccount.Controls.Add(this.txtEmail);
             this.pnlCreateAccount.Controls.Add(this.txtLast_Name);
-            this.pnlCreateAccount.Location = new System.Drawing.Point(12, 12);
+            this.pnlCreateAccount.Location = new System.Drawing.Point(1276, 436);
             this.pnlCreateAccount.Name = "pnlCreateAccount";
             this.pnlCreateAccount.Size = new System.Drawing.Size(1190, 621);
             this.pnlCreateAccount.TabIndex = 14;
@@ -495,18 +507,122 @@ namespace Arkansas_Armory
             this.label6.TabIndex = 15;
             this.label6.Text = "Username";
             // 
+            // btnLogin
+            // 
+            this.btnLogin.Location = new System.Drawing.Point(6, 19);
+            this.btnLogin.Name = "btnLogin";
+            this.btnLogin.Size = new System.Drawing.Size(126, 44);
+            this.btnLogin.TabIndex = 15;
+            this.btnLogin.Text = "Login";
+            this.btnLogin.UseVisualStyleBackColor = true;
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.BackColor = System.Drawing.Color.White;
+            this.groupBox1.Controls.Add(this.btnLogOut);
+            this.groupBox1.Controls.Add(this.btnOrders);
+            this.groupBox1.Controls.Add(this.btnShoppingCart);
+            this.groupBox1.Controls.Add(this.btnCreateAccount);
+            this.groupBox1.Controls.Add(this.btnLogin);
+            this.groupBox1.Location = new System.Drawing.Point(12, 12);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(1388, 72);
+            this.groupBox1.TabIndex = 16;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Arkansas Armory";
+            // 
+            // btnCreateAccount
+            // 
+            this.btnCreateAccount.Location = new System.Drawing.Point(328, 19);
+            this.btnCreateAccount.Name = "btnCreateAccount";
+            this.btnCreateAccount.Size = new System.Drawing.Size(126, 44);
+            this.btnCreateAccount.TabIndex = 17;
+            this.btnCreateAccount.Text = "Create Account";
+            this.btnCreateAccount.UseVisualStyleBackColor = true;
+            // 
+            // btnShoppingCart
+            // 
+            this.btnShoppingCart.Location = new System.Drawing.Point(657, 19);
+            this.btnShoppingCart.Name = "btnShoppingCart";
+            this.btnShoppingCart.Size = new System.Drawing.Size(126, 44);
+            this.btnShoppingCart.TabIndex = 17;
+            this.btnShoppingCart.Text = "Shopping Cart";
+            this.btnShoppingCart.UseVisualStyleBackColor = true;
+            // 
+            // btnOrders
+            // 
+            this.btnOrders.Location = new System.Drawing.Point(969, 19);
+            this.btnOrders.Name = "btnOrders";
+            this.btnOrders.Size = new System.Drawing.Size(126, 44);
+            this.btnOrders.TabIndex = 17;
+            this.btnOrders.Text = "Orders";
+            this.btnOrders.UseVisualStyleBackColor = true;
+            // 
+            // dgvInventory
+            // 
+            this.dgvInventory.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvInventory.Location = new System.Drawing.Point(18, 190);
+            this.dgvInventory.Name = "dgvInventory";
+            this.dgvInventory.Size = new System.Drawing.Size(1383, 522);
+            this.dgvInventory.TabIndex = 17;
+            // 
+            // cboInventoryFilter
+            // 
+            this.cboInventoryFilter.FormattingEnabled = true;
+            this.cboInventoryFilter.Location = new System.Drawing.Point(18, 143);
+            this.cboInventoryFilter.Name = "cboInventoryFilter";
+            this.cboInventoryFilter.Size = new System.Drawing.Size(1149, 21);
+            this.cboInventoryFilter.TabIndex = 18;
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label21.ForeColor = System.Drawing.Color.Snow;
+            this.label21.Location = new System.Drawing.Point(12, 101);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(101, 39);
+            this.label21.TabIndex = 19;
+            this.label21.Text = "Filter";
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(1173, 101);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(227, 73);
+            this.button1.TabIndex = 20;
+            this.button1.Text = "Add to Cart";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // btnLogOut
+            // 
+            this.btnLogOut.Location = new System.Drawing.Point(1256, 19);
+            this.btnLogOut.Name = "btnLogOut";
+            this.btnLogOut.Size = new System.Drawing.Size(126, 44);
+            this.btnLogOut.TabIndex = 18;
+            this.btnLogOut.Text = "Log Out";
+            this.btnLogOut.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkRed;
             this.ClientSize = new System.Drawing.Size(1412, 711);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.label21);
+            this.Controls.Add(this.cboInventoryFilter);
+            this.Controls.Add(this.dgvInventory);
+            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.pnlCreateAccount);
             this.Name = "Form1";
             this.Text = "Form1";
             this.pnlCreateAccount.ResumeLayout(false);
             this.pnlCreateAccount.PerformLayout();
+            this.groupBox1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dgvInventory)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -554,6 +670,16 @@ namespace Arkansas_Armory
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox txtUsername;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Button btnLogin;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.Button btnLogOut;
+        private System.Windows.Forms.Button btnOrders;
+        private System.Windows.Forms.Button btnShoppingCart;
+        private System.Windows.Forms.Button btnCreateAccount;
+        private System.Windows.Forms.DataGridView dgvInventory;
+        private System.Windows.Forms.ComboBox cboInventoryFilter;
+        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.Button button1;
     }
 }
 
