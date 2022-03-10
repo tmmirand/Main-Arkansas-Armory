@@ -571,7 +571,7 @@ namespace Arkansas_Armory
             this.cboInventoryFilter.FormattingEnabled = true;
             this.cboInventoryFilter.Location = new System.Drawing.Point(18, 143);
             this.cboInventoryFilter.Name = "cboInventoryFilter";
-            this.cboInventoryFilter.Size = new System.Drawing.Size(1149, 21);
+            this.cboInventoryFilter.Size = new System.Drawing.Size(403, 21);
             this.cboInventoryFilter.TabIndex = 18;
             // 
             // label21
@@ -581,15 +581,15 @@ namespace Arkansas_Armory
             this.label21.ForeColor = System.Drawing.Color.Snow;
             this.label21.Location = new System.Drawing.Point(12, 101);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(101, 39);
+            this.label21.Size = new System.Drawing.Size(420, 39);
             this.label21.TabIndex = 19;
-            this.label21.Text = "Filter";
+            this.label21.Text = "Select Gun Classifcation";
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(1173, 101);
+            this.button1.Location = new System.Drawing.Point(1268, 101);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(227, 73);
+            this.button1.Size = new System.Drawing.Size(132, 73);
             this.button1.TabIndex = 20;
             this.button1.Text = "Add to Cart";
             this.button1.UseVisualStyleBackColor = true;
