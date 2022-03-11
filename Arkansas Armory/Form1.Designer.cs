@@ -73,14 +73,14 @@ namespace Arkansas_Armory
             this.label6 = new System.Windows.Forms.Label();
             this.btnLogin = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.btnCreateAccount = new System.Windows.Forms.Button();
-            this.btnShoppingCart = new System.Windows.Forms.Button();
+            this.btnLogOut = new System.Windows.Forms.Button();
             this.btnOrders = new System.Windows.Forms.Button();
+            this.btnShoppingCart = new System.Windows.Forms.Button();
+            this.btnCreateAccount = new System.Windows.Forms.Button();
             this.dgvInventory = new System.Windows.Forms.DataGridView();
             this.cboInventoryFilter = new System.Windows.Forms.ComboBox();
             this.label21 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
-            this.btnLogOut = new System.Windows.Forms.Button();
             this.pnlCreateAccount.SuspendLayout();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvInventory)).BeginInit();
@@ -102,7 +102,7 @@ namespace Arkansas_Armory
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.label2.Font = new System.Drawing.Font("HelveticaNeueforSAS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(13, 124);
+            this.label2.Location = new System.Drawing.Point(107, 123);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(93, 21);
             this.label2.TabIndex = 1;
@@ -110,7 +110,7 @@ namespace Arkansas_Armory
             // 
             // btnCreate_Account
             // 
-            this.btnCreate_Account.Location = new System.Drawing.Point(383, 559);
+            this.btnCreate_Account.Location = new System.Drawing.Point(545, 492);
             this.btnCreate_Account.Name = "btnCreate_Account";
             this.btnCreate_Account.Size = new System.Drawing.Size(99, 48);
             this.btnCreate_Account.TabIndex = 5;
@@ -121,7 +121,7 @@ namespace Arkansas_Armory
             // cboAccount
             // 
             this.cboAccount.FormattingEnabled = true;
-            this.cboAccount.Location = new System.Drawing.Point(196, 86);
+            this.cboAccount.Location = new System.Drawing.Point(206, 88);
             this.cboAccount.Name = "cboAccount";
             this.cboAccount.Size = new System.Drawing.Size(345, 21);
             this.cboAccount.TabIndex = 6;
@@ -129,28 +129,28 @@ namespace Arkansas_Armory
             // 
             // txtFirst_Name
             // 
-            this.txtFirst_Name.Location = new System.Drawing.Point(196, 124);
+            this.txtFirst_Name.Location = new System.Drawing.Point(206, 123);
             this.txtFirst_Name.Name = "txtFirst_Name";
             this.txtFirst_Name.Size = new System.Drawing.Size(345, 20);
             this.txtFirst_Name.TabIndex = 7;
             // 
             // txtLast_Name
             // 
-            this.txtLast_Name.Location = new System.Drawing.Point(196, 189);
+            this.txtLast_Name.Location = new System.Drawing.Point(206, 158);
             this.txtLast_Name.Name = "txtLast_Name";
             this.txtLast_Name.Size = new System.Drawing.Size(345, 20);
             this.txtLast_Name.TabIndex = 8;
             // 
             // txtEmail
             // 
-            this.txtEmail.Location = new System.Drawing.Point(196, 256);
+            this.txtEmail.Location = new System.Drawing.Point(206, 191);
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(345, 20);
             this.txtEmail.TabIndex = 9;
             // 
             // txtPassword
             // 
-            this.txtPassword.Location = new System.Drawing.Point(196, 349);
+            this.txtPassword.Location = new System.Drawing.Point(206, 270);
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.Size = new System.Drawing.Size(345, 20);
             this.txtPassword.TabIndex = 10;
@@ -160,7 +160,7 @@ namespace Arkansas_Armory
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.label3.Font = new System.Drawing.Font("HelveticaNeueforSAS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(16, 188);
+            this.label3.Location = new System.Drawing.Point(108, 158);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(92, 21);
             this.label3.TabIndex = 11;
@@ -171,7 +171,7 @@ namespace Arkansas_Armory
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.label4.Font = new System.Drawing.Font("HelveticaNeueforSAS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(16, 256);
+            this.label4.Location = new System.Drawing.Point(148, 191);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(52, 21);
             this.label4.TabIndex = 12;
@@ -182,7 +182,7 @@ namespace Arkansas_Armory
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.label5.Font = new System.Drawing.Font("HelveticaNeueforSAS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(15, 389);
+            this.label5.Location = new System.Drawing.Point(6, 307);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(194, 21);
             this.label5.TabIndex = 13;
@@ -232,7 +232,7 @@ namespace Arkansas_Armory
             this.pnlCreateAccount.Controls.Add(this.txtFirst_Name);
             this.pnlCreateAccount.Controls.Add(this.txtEmail);
             this.pnlCreateAccount.Controls.Add(this.txtLast_Name);
-            this.pnlCreateAccount.Location = new System.Drawing.Point(1276, 436);
+            this.pnlCreateAccount.Location = new System.Drawing.Point(981, 451);
             this.pnlCreateAccount.Name = "pnlCreateAccount";
             this.pnlCreateAccount.Size = new System.Drawing.Size(1190, 621);
             this.pnlCreateAccount.TabIndex = 14;
@@ -242,7 +242,7 @@ namespace Arkansas_Armory
             this.label20.AutoSize = true;
             this.label20.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.label20.Font = new System.Drawing.Font("HelveticaNeueforSAS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.Location = new System.Drawing.Point(17, 348);
+            this.label20.Location = new System.Drawing.Point(113, 270);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(87, 21);
             this.label20.TabIndex = 43;
@@ -250,14 +250,14 @@ namespace Arkansas_Armory
             // 
             // txtShippingStreetAddress
             // 
-            this.txtShippingStreetAddress.Location = new System.Drawing.Point(228, 391);
+            this.txtShippingStreetAddress.Location = new System.Drawing.Point(206, 307);
             this.txtShippingStreetAddress.Name = "txtShippingStreetAddress";
             this.txtShippingStreetAddress.Size = new System.Drawing.Size(345, 20);
             this.txtShippingStreetAddress.TabIndex = 42;
             // 
             // txtCryptoWallet
             // 
-            this.txtCryptoWallet.Location = new System.Drawing.Point(808, 551);
+            this.txtCryptoWallet.Location = new System.Drawing.Point(811, 425);
             this.txtCryptoWallet.Name = "txtCryptoWallet";
             this.txtCryptoWallet.Size = new System.Drawing.Size(345, 20);
             this.txtCryptoWallet.TabIndex = 40;
@@ -267,7 +267,7 @@ namespace Arkansas_Armory
             this.label18.AutoSize = true;
             this.label18.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.label18.Font = new System.Drawing.Font("HelveticaNeueforSAS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.Location = new System.Drawing.Point(599, 549);
+            this.label18.Location = new System.Drawing.Point(624, 425);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(181, 21);
             this.label18.TabIndex = 41;
@@ -275,7 +275,7 @@ namespace Arkansas_Armory
             // 
             // txtCryptoType
             // 
-            this.txtCryptoType.Location = new System.Drawing.Point(804, 506);
+            this.txtCryptoType.Location = new System.Drawing.Point(811, 386);
             this.txtCryptoType.Name = "txtCryptoType";
             this.txtCryptoType.Size = new System.Drawing.Size(345, 20);
             this.txtCryptoType.TabIndex = 38;
@@ -285,7 +285,7 @@ namespace Arkansas_Armory
             this.label19.AutoSize = true;
             this.label19.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.label19.Font = new System.Drawing.Font("HelveticaNeueforSAS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.Location = new System.Drawing.Point(595, 504);
+            this.label19.Location = new System.Drawing.Point(707, 387);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(98, 21);
             this.label19.TabIndex = 39;
@@ -293,7 +293,7 @@ namespace Arkansas_Armory
             // 
             // txtCreditCardNum
             // 
-            this.txtCreditCardNum.Location = new System.Drawing.Point(808, 434);
+            this.txtCreditCardNum.Location = new System.Drawing.Point(811, 347);
             this.txtCreditCardNum.Name = "txtCreditCardNum";
             this.txtCreditCardNum.Size = new System.Drawing.Size(345, 20);
             this.txtCreditCardNum.TabIndex = 36;
@@ -303,7 +303,7 @@ namespace Arkansas_Armory
             this.label14.AutoSize = true;
             this.label14.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.label14.Font = new System.Drawing.Font("HelveticaNeueforSAS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(599, 432);
+            this.label14.Location = new System.Drawing.Point(642, 347);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(163, 21);
             this.label14.TabIndex = 37;
@@ -311,7 +311,7 @@ namespace Arkansas_Armory
             // 
             // txtConcealedCarry
             // 
-            this.txtConcealedCarry.Location = new System.Drawing.Point(804, 389);
+            this.txtConcealedCarry.Location = new System.Drawing.Point(811, 307);
             this.txtConcealedCarry.Name = "txtConcealedCarry";
             this.txtConcealedCarry.Size = new System.Drawing.Size(345, 20);
             this.txtConcealedCarry.TabIndex = 34;
@@ -321,7 +321,7 @@ namespace Arkansas_Armory
             this.label15.AutoSize = true;
             this.label15.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.label15.Font = new System.Drawing.Font("HelveticaNeueforSAS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(595, 387);
+            this.label15.Location = new System.Drawing.Point(616, 307);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(189, 21);
             this.label15.TabIndex = 35;
@@ -329,7 +329,7 @@ namespace Arkansas_Armory
             // 
             // txtDriverLiscenceNum
             // 
-            this.txtDriverLiscenceNum.Location = new System.Drawing.Point(804, 335);
+            this.txtDriverLiscenceNum.Location = new System.Drawing.Point(811, 270);
             this.txtDriverLiscenceNum.Name = "txtDriverLiscenceNum";
             this.txtDriverLiscenceNum.Size = new System.Drawing.Size(345, 20);
             this.txtDriverLiscenceNum.TabIndex = 32;
@@ -339,7 +339,7 @@ namespace Arkansas_Armory
             this.label16.AutoSize = true;
             this.label16.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.label16.Font = new System.Drawing.Font("HelveticaNeueforSAS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(595, 333);
+            this.label16.Location = new System.Drawing.Point(614, 270);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(191, 21);
             this.label16.TabIndex = 33;
@@ -347,7 +347,7 @@ namespace Arkansas_Armory
             // 
             // txtDateOfBirth
             // 
-            this.txtDateOfBirth.Location = new System.Drawing.Point(804, 284);
+            this.txtDateOfBirth.Location = new System.Drawing.Point(811, 231);
             this.txtDateOfBirth.Name = "txtDateOfBirth";
             this.txtDateOfBirth.Size = new System.Drawing.Size(345, 20);
             this.txtDateOfBirth.TabIndex = 30;
@@ -357,7 +357,7 @@ namespace Arkansas_Armory
             this.label17.AutoSize = true;
             this.label17.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.label17.Font = new System.Drawing.Font("HelveticaNeueforSAS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.Location = new System.Drawing.Point(595, 282);
+            this.label17.Location = new System.Drawing.Point(700, 229);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(105, 21);
             this.label17.TabIndex = 31;
@@ -365,7 +365,7 @@ namespace Arkansas_Armory
             // 
             // txtBillingState
             // 
-            this.txtBillingState.Location = new System.Drawing.Point(804, 237);
+            this.txtBillingState.Location = new System.Drawing.Point(811, 191);
             this.txtBillingState.Name = "txtBillingState";
             this.txtBillingState.Size = new System.Drawing.Size(345, 20);
             this.txtBillingState.TabIndex = 28;
@@ -375,7 +375,7 @@ namespace Arkansas_Armory
             this.label10.AutoSize = true;
             this.label10.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.label10.Font = new System.Drawing.Font("HelveticaNeueforSAS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(595, 235);
+            this.label10.Location = new System.Drawing.Point(705, 190);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(100, 21);
             this.label10.TabIndex = 29;
@@ -383,7 +383,7 @@ namespace Arkansas_Armory
             // 
             // txtBillingZip
             // 
-            this.txtBillingZip.Location = new System.Drawing.Point(800, 192);
+            this.txtBillingZip.Location = new System.Drawing.Point(811, 158);
             this.txtBillingZip.Name = "txtBillingZip";
             this.txtBillingZip.Size = new System.Drawing.Size(345, 20);
             this.txtBillingZip.TabIndex = 26;
@@ -393,7 +393,7 @@ namespace Arkansas_Armory
             this.label11.AutoSize = true;
             this.label11.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.label11.Font = new System.Drawing.Font("HelveticaNeueforSAS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(591, 190);
+            this.label11.Location = new System.Drawing.Point(676, 158);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(129, 21);
             this.label11.TabIndex = 27;
@@ -401,7 +401,7 @@ namespace Arkansas_Armory
             // 
             // txtBillingCity
             // 
-            this.txtBillingCity.Location = new System.Drawing.Point(800, 138);
+            this.txtBillingCity.Location = new System.Drawing.Point(811, 124);
             this.txtBillingCity.Name = "txtBillingCity";
             this.txtBillingCity.Size = new System.Drawing.Size(345, 20);
             this.txtBillingCity.TabIndex = 24;
@@ -411,7 +411,7 @@ namespace Arkansas_Armory
             this.label12.AutoSize = true;
             this.label12.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.label12.Font = new System.Drawing.Font("HelveticaNeueforSAS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(591, 136);
+            this.label12.Location = new System.Drawing.Point(715, 124);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(90, 21);
             this.label12.TabIndex = 25;
@@ -419,7 +419,7 @@ namespace Arkansas_Armory
             // 
             // txtBillingStreetAddress
             // 
-            this.txtBillingStreetAddress.Location = new System.Drawing.Point(800, 87);
+            this.txtBillingStreetAddress.Location = new System.Drawing.Point(811, 89);
             this.txtBillingStreetAddress.Name = "txtBillingStreetAddress";
             this.txtBillingStreetAddress.Size = new System.Drawing.Size(345, 20);
             this.txtBillingStreetAddress.TabIndex = 22;
@@ -429,7 +429,7 @@ namespace Arkansas_Armory
             this.label13.AutoSize = true;
             this.label13.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.label13.Font = new System.Drawing.Font("HelveticaNeueforSAS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(591, 85);
+            this.label13.Location = new System.Drawing.Point(631, 88);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(174, 21);
             this.label13.TabIndex = 23;
@@ -437,7 +437,7 @@ namespace Arkansas_Armory
             // 
             // txtShippingState
             // 
-            this.txtShippingState.Location = new System.Drawing.Point(228, 531);
+            this.txtShippingState.Location = new System.Drawing.Point(206, 424);
             this.txtShippingState.Name = "txtShippingState";
             this.txtShippingState.Size = new System.Drawing.Size(345, 20);
             this.txtShippingState.TabIndex = 20;
@@ -447,7 +447,7 @@ namespace Arkansas_Armory
             this.label9.AutoSize = true;
             this.label9.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.label9.Font = new System.Drawing.Font("HelveticaNeueforSAS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(19, 529);
+            this.label9.Location = new System.Drawing.Point(80, 424);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(120, 21);
             this.label9.TabIndex = 21;
@@ -455,7 +455,7 @@ namespace Arkansas_Armory
             // 
             // txtShippingZip
             // 
-            this.txtShippingZip.Location = new System.Drawing.Point(224, 486);
+            this.txtShippingZip.Location = new System.Drawing.Point(206, 386);
             this.txtShippingZip.Name = "txtShippingZip";
             this.txtShippingZip.Size = new System.Drawing.Size(345, 20);
             this.txtShippingZip.TabIndex = 18;
@@ -465,7 +465,7 @@ namespace Arkansas_Armory
             this.label8.AutoSize = true;
             this.label8.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.label8.Font = new System.Drawing.Font("HelveticaNeueforSAS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(15, 484);
+            this.label8.Location = new System.Drawing.Point(51, 387);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(149, 21);
             this.label8.TabIndex = 19;
@@ -473,7 +473,7 @@ namespace Arkansas_Armory
             // 
             // txtShippingCity
             // 
-            this.txtShippingCity.Location = new System.Drawing.Point(224, 432);
+            this.txtShippingCity.Location = new System.Drawing.Point(206, 347);
             this.txtShippingCity.Name = "txtShippingCity";
             this.txtShippingCity.Size = new System.Drawing.Size(345, 20);
             this.txtShippingCity.TabIndex = 16;
@@ -483,7 +483,7 @@ namespace Arkansas_Armory
             this.label7.AutoSize = true;
             this.label7.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.label7.Font = new System.Drawing.Font("HelveticaNeueforSAS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(15, 430);
+            this.label7.Location = new System.Drawing.Point(90, 347);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(110, 21);
             this.label7.TabIndex = 17;
@@ -491,7 +491,7 @@ namespace Arkansas_Armory
             // 
             // txtUsername
             // 
-            this.txtUsername.Location = new System.Drawing.Point(196, 307);
+            this.txtUsername.Location = new System.Drawing.Point(206, 231);
             this.txtUsername.Name = "txtUsername";
             this.txtUsername.Size = new System.Drawing.Size(345, 20);
             this.txtUsername.TabIndex = 14;
@@ -501,7 +501,7 @@ namespace Arkansas_Armory
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.label6.Font = new System.Drawing.Font("HelveticaNeueforSAS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(16, 307);
+            this.label6.Location = new System.Drawing.Point(112, 231);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(88, 21);
             this.label6.TabIndex = 15;
@@ -531,14 +531,23 @@ namespace Arkansas_Armory
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Arkansas Armory";
             // 
-            // btnCreateAccount
+            // btnLogOut
             // 
-            this.btnCreateAccount.Location = new System.Drawing.Point(328, 19);
-            this.btnCreateAccount.Name = "btnCreateAccount";
-            this.btnCreateAccount.Size = new System.Drawing.Size(126, 44);
-            this.btnCreateAccount.TabIndex = 17;
-            this.btnCreateAccount.Text = "Create Account";
-            this.btnCreateAccount.UseVisualStyleBackColor = true;
+            this.btnLogOut.Location = new System.Drawing.Point(1256, 19);
+            this.btnLogOut.Name = "btnLogOut";
+            this.btnLogOut.Size = new System.Drawing.Size(126, 44);
+            this.btnLogOut.TabIndex = 18;
+            this.btnLogOut.Text = "Log Out";
+            this.btnLogOut.UseVisualStyleBackColor = true;
+            // 
+            // btnOrders
+            // 
+            this.btnOrders.Location = new System.Drawing.Point(969, 19);
+            this.btnOrders.Name = "btnOrders";
+            this.btnOrders.Size = new System.Drawing.Size(126, 44);
+            this.btnOrders.TabIndex = 17;
+            this.btnOrders.Text = "Orders";
+            this.btnOrders.UseVisualStyleBackColor = true;
             // 
             // btnShoppingCart
             // 
@@ -549,14 +558,14 @@ namespace Arkansas_Armory
             this.btnShoppingCart.Text = "Shopping Cart";
             this.btnShoppingCart.UseVisualStyleBackColor = true;
             // 
-            // btnOrders
+            // btnCreateAccount
             // 
-            this.btnOrders.Location = new System.Drawing.Point(969, 19);
-            this.btnOrders.Name = "btnOrders";
-            this.btnOrders.Size = new System.Drawing.Size(126, 44);
-            this.btnOrders.TabIndex = 17;
-            this.btnOrders.Text = "Orders";
-            this.btnOrders.UseVisualStyleBackColor = true;
+            this.btnCreateAccount.Location = new System.Drawing.Point(328, 19);
+            this.btnCreateAccount.Name = "btnCreateAccount";
+            this.btnCreateAccount.Size = new System.Drawing.Size(126, 44);
+            this.btnCreateAccount.TabIndex = 17;
+            this.btnCreateAccount.Text = "Create Account";
+            this.btnCreateAccount.UseVisualStyleBackColor = true;
             // 
             // dgvInventory
             // 
@@ -594,27 +603,18 @@ namespace Arkansas_Armory
             this.button1.Text = "Add to Cart";
             this.button1.UseVisualStyleBackColor = true;
             // 
-            // btnLogOut
-            // 
-            this.btnLogOut.Location = new System.Drawing.Point(1256, 19);
-            this.btnLogOut.Name = "btnLogOut";
-            this.btnLogOut.Size = new System.Drawing.Size(126, 44);
-            this.btnLogOut.TabIndex = 18;
-            this.btnLogOut.Text = "Log Out";
-            this.btnLogOut.UseVisualStyleBackColor = true;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkRed;
             this.ClientSize = new System.Drawing.Size(1412, 711);
+            this.Controls.Add(this.pnlCreateAccount);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label21);
             this.Controls.Add(this.cboInventoryFilter);
             this.Controls.Add(this.dgvInventory);
             this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.pnlCreateAccount);
             this.Name = "Form1";
             this.Text = "Form1";
             this.pnlCreateAccount.ResumeLayout(false);
