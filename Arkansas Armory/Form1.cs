@@ -27,34 +27,7 @@ namespace Arkansas_Armory
 
         private void cboAccount_SelectedIndexChanged(object sender, EventArgs e)
         {
-            /////////////////////////////////////////////////////
-            try
-            {
-                if (cboAccount.SelectedIndex > -1)
-                {
-                    connection = new SqlConnection(connectionstring);
-                    connection.Open();
-                    string sql = "SELECT * FROM Customer WHERE First_Name = '" + cboAccount.SelectedItem.ToString() + "'";
-                    command = new SqlCommand(sql, connection);
-                    datareader = command.ExecuteReader();
-                    while (datareader.Read())
-                    {
-                        txtPassword.Text = datareader[1].ToString();
-                        txtFirst_Name.Text = datareader[2].ToString();
-                        txtLast_Name.Text = datareader[3].ToString();
-                        //txtEmail.Text = datareader[].ToString();
-
-                    }
-                    connection.Close();
-                    command.Dispose();
-                    datareader.Close();
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Error" + ex);
-            }
-            /////////////////////////////////////////////////////
+            
         }
 
         private void btnCreate_Account_Click(object sender, EventArgs e)
@@ -111,6 +84,26 @@ namespace Arkansas_Armory
         private void label22_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            pnlCreateAccount.Visible = false;
+            pnlShoppingCart.Visible = false;
+
+            
+        }
+
+        private void btnCreateAccount_Click(object sender, EventArgs e)
+        {
+            pnlCreateAccount.Visible = true;
+            pnlCreateAccount.Location = new Point(0, 0);
+        }
+
+        private void btnShoppingCart_Click(object sender, EventArgs e)
+        {
+            pnlShoppingCart.Visible = true;
+            pnlShoppingCart.Location = new Point(0, 0);
         }
     }
 }
