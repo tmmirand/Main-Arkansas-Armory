@@ -244,7 +244,7 @@ namespace Arkansas_Armory
             this.pnlCreateAccount.Controls.Add(this.txtFirst_Name);
             this.pnlCreateAccount.Controls.Add(this.txtEmail);
             this.pnlCreateAccount.Controls.Add(this.txtLast_Name);
-            this.pnlCreateAccount.Location = new System.Drawing.Point(1080, 143);
+            this.pnlCreateAccount.Location = new System.Drawing.Point(1340, 3);
             this.pnlCreateAccount.Name = "pnlCreateAccount";
             this.pnlCreateAccount.Size = new System.Drawing.Size(1190, 621);
             this.pnlCreateAccount.TabIndex = 14;
@@ -627,7 +627,7 @@ namespace Arkansas_Armory
             this.pnlShoppingCart.Controls.Add(this.label23);
             this.pnlShoppingCart.Controls.Add(this.label22);
             this.pnlShoppingCart.Controls.Add(this.dataGridView1);
-            this.pnlShoppingCart.Location = new System.Drawing.Point(109, 257);
+            this.pnlShoppingCart.Location = new System.Drawing.Point(1298, 92);
             this.pnlShoppingCart.Name = "pnlShoppingCart";
             this.pnlShoppingCart.Size = new System.Drawing.Size(686, 372);
             this.pnlShoppingCart.TabIndex = 21;

@@ -13,12 +13,34 @@ namespace Arkansas_Armory
 {
     public partial class Form1 : Form
     {
-        /////////////////////////////////////////////////////
         SqlConnection connection;
         SqlCommand command;
         SqlDataReader datareader;
         string connectionstring = "Data Source=essql1.walton.uark.edu;Initial Catalog=PROJECTS2241;User ID=PROJECTS2241;Password=CN74kyu$";
-        /////////////////////////////////////////////////////
+
+        DataTable dtInventory;
+
+        public void refresh()
+        {
+
+            string connectionstring;
+            SqlConnection cnn;
+            SqlDataAdapter adpt;
+
+            connectionstring = @"Data Source=essql1.walton.uark.edu;Initial Catalog=PROJECTS2241;User ID=PROJECTS2241;Password=CN74kyu$";
+            cnn = new SqlConnection(connectionstring);
+            cnn.Open();
+            
+            adpt = new SqlDataAdapter("Select * from dbo.GunInventory", cnn);
+            dtInventory = new DataTable();
+            adpt.Fill(dtInventory);
+            dgvInventory.DataSource = dtInventory;           
+
+            cnn.Close();
+
+
+        }
+
 
         public Form1()
         {
@@ -90,6 +112,8 @@ namespace Arkansas_Armory
         {
             pnlCreateAccount.Visible = false;
             pnlShoppingCart.Visible = false;
+
+            refresh();
 
             
         }
