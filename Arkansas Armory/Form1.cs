@@ -134,5 +134,11 @@ namespace Arkansas_Armory
         {
             pnlCreateAccount.Visible = false;
         }
+
+        private void btnLogin_Click(object sender, EventArgs e)
+        {
+            pnlLogin.Visible = true;
+            pnlLogin.Location = new Point(0, 0);
+        }
     }
 }

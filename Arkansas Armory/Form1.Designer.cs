@@ -91,14 +91,14 @@ namespace Arkansas_Armory
             this.label23 = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.label25 = new System.Windows.Forms.Label();
-            this.label26 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.pnlLogin = new System.Windows.Forms.Panel();
+            this.CreateAccntBTN = new System.Windows.Forms.Button();
+            this.loginBTN = new System.Windows.Forms.Button();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label27 = new System.Windows.Forms.Label();
-            this.loginBTN = new System.Windows.Forms.Button();
-            this.CreateAccntBTN = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label26 = new System.Windows.Forms.Label();
+            this.label25 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pnlCreateAccount.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -106,7 +106,7 @@ namespace Arkansas_Armory
             this.pnlShoppingCart.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            this.panel1.SuspendLayout();
+            this.pnlLogin.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
@@ -550,6 +550,7 @@ namespace Arkansas_Armory
             this.btnLogin.TabIndex = 15;
             this.btnLogin.Text = "Login";
             this.btnLogin.UseVisualStyleBackColor = true;
+            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
             // groupBox1
             // 
@@ -718,49 +719,39 @@ namespace Arkansas_Armory
             this.dataGridView1.Size = new System.Drawing.Size(308, 142);
             this.dataGridView1.TabIndex = 0;
             // 
-            // panel1
+            // pnlLogin
             // 
-            this.panel1.BackColor = System.Drawing.Color.White;
-            this.panel1.Controls.Add(this.CreateAccntBTN);
-            this.panel1.Controls.Add(this.loginBTN);
-            this.panel1.Controls.Add(this.textBox2);
-            this.panel1.Controls.Add(this.label27);
-            this.panel1.Controls.Add(this.textBox1);
-            this.panel1.Controls.Add(this.label26);
-            this.panel1.Controls.Add(this.label25);
-            this.panel1.Controls.Add(this.pictureBox2);
-            this.panel1.Location = new System.Drawing.Point(403, 149);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(621, 373);
-            this.panel1.TabIndex = 22;
+            this.pnlLogin.BackColor = System.Drawing.Color.White;
+            this.pnlLogin.Controls.Add(this.CreateAccntBTN);
+            this.pnlLogin.Controls.Add(this.loginBTN);
+            this.pnlLogin.Controls.Add(this.textBox2);
+            this.pnlLogin.Controls.Add(this.label27);
+            this.pnlLogin.Controls.Add(this.textBox1);
+            this.pnlLogin.Controls.Add(this.label26);
+            this.pnlLogin.Controls.Add(this.label25);
+            this.pnlLogin.Controls.Add(this.pictureBox2);
+            this.pnlLogin.Location = new System.Drawing.Point(403, 149);
+            this.pnlLogin.Name = "pnlLogin";
+            this.pnlLogin.Size = new System.Drawing.Size(621, 373);
+            this.pnlLogin.TabIndex = 22;
             // 
-            // label25
+            // CreateAccntBTN
             // 
-            this.label25.AutoSize = true;
-            this.label25.BackColor = System.Drawing.Color.White;
-            this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label25.Location = new System.Drawing.Point(267, 63);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(78, 29);
-            this.label25.TabIndex = 0;
-            this.label25.Text = "Login";
+            this.CreateAccntBTN.Location = new System.Drawing.Point(318, 259);
+            this.CreateAccntBTN.Name = "CreateAccntBTN";
+            this.CreateAccntBTN.Size = new System.Drawing.Size(135, 23);
+            this.CreateAccntBTN.TabIndex = 6;
+            this.CreateAccntBTN.Text = "Create Account";
+            this.CreateAccntBTN.UseVisualStyleBackColor = true;
             // 
-            // label26
+            // loginBTN
             // 
-            this.label26.AutoSize = true;
-            this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label26.Location = new System.Drawing.Point(194, 153);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(77, 18);
-            this.label26.TabIndex = 1;
-            this.label26.Text = "Username";
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(302, 153);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(170, 20);
-            this.textBox1.TabIndex = 2;
+            this.loginBTN.Location = new System.Drawing.Point(194, 259);
+            this.loginBTN.Name = "loginBTN";
+            this.loginBTN.Size = new System.Drawing.Size(75, 23);
+            this.loginBTN.TabIndex = 5;
+            this.loginBTN.Text = "Login";
+            this.loginBTN.UseVisualStyleBackColor = true;
             // 
             // textBox2
             // 
@@ -779,28 +770,38 @@ namespace Arkansas_Armory
             this.label27.TabIndex = 3;
             this.label27.Text = "Password";
             // 
-            // loginBTN
+            // textBox1
             // 
-            this.loginBTN.Location = new System.Drawing.Point(194, 259);
-            this.loginBTN.Name = "loginBTN";
-            this.loginBTN.Size = new System.Drawing.Size(75, 23);
-            this.loginBTN.TabIndex = 5;
-            this.loginBTN.Text = "Login";
-            this.loginBTN.UseVisualStyleBackColor = true;
+            this.textBox1.Location = new System.Drawing.Point(302, 153);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(170, 20);
+            this.textBox1.TabIndex = 2;
             // 
-            // CreateAccntBTN
+            // label26
             // 
-            this.CreateAccntBTN.Location = new System.Drawing.Point(318, 259);
-            this.CreateAccntBTN.Name = "CreateAccntBTN";
-            this.CreateAccntBTN.Size = new System.Drawing.Size(135, 23);
-            this.CreateAccntBTN.TabIndex = 6;
-            this.CreateAccntBTN.Text = "Create Account";
-            this.CreateAccntBTN.UseVisualStyleBackColor = true;
+            this.label26.AutoSize = true;
+            this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label26.Location = new System.Drawing.Point(194, 153);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(77, 18);
+            this.label26.TabIndex = 1;
+            this.label26.Text = "Username";
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.BackColor = System.Drawing.Color.White;
+            this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label25.Location = new System.Drawing.Point(267, 63);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(78, 29);
+            this.label25.TabIndex = 0;
+            this.label25.Text = "Login";
             // 
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(-285, 0);
+            this.pictureBox2.Location = new System.Drawing.Point(-238, -8);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(1127, 393);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -813,7 +814,7 @@ namespace Arkansas_Armory
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkRed;
             this.ClientSize = new System.Drawing.Size(1444, 848);
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.pnlLogin);
             this.Controls.Add(this.pnlShoppingCart);
             this.Controls.Add(this.pnlCreateAccount);
             this.Controls.Add(this.button1);
@@ -832,8 +833,8 @@ namespace Arkansas_Armory
             this.pnlShoppingCart.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
+            this.pnlLogin.ResumeLayout(false);
+            this.pnlLogin.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -903,7 +904,7 @@ namespace Arkansas_Armory
         private System.Windows.Forms.TextBox txttotal;
         private System.Windows.Forms.Label label23;
         private System.Windows.Forms.Button btnBack;
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel pnlLogin;
         private System.Windows.Forms.Button CreateAccntBTN;
         private System.Windows.Forms.Button loginBTN;
         private System.Windows.Forms.TextBox textBox2;
