@@ -90,6 +90,7 @@ namespace Arkansas_Armory
             this.label23 = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.btnBack = new System.Windows.Forms.Button();
             this.pnlCreateAccount.SuspendLayout();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvInventory)).BeginInit();
@@ -203,6 +204,7 @@ namespace Arkansas_Armory
             // pnlCreateAccount
             // 
             this.pnlCreateAccount.BackColor = System.Drawing.Color.White;
+            this.pnlCreateAccount.Controls.Add(this.btnBack);
             this.pnlCreateAccount.Controls.Add(this.label20);
             this.pnlCreateAccount.Controls.Add(this.txtShippingStreetAddress);
             this.pnlCreateAccount.Controls.Add(this.txtCryptoWallet);
@@ -244,7 +246,7 @@ namespace Arkansas_Armory
             this.pnlCreateAccount.Controls.Add(this.txtFirst_Name);
             this.pnlCreateAccount.Controls.Add(this.txtEmail);
             this.pnlCreateAccount.Controls.Add(this.txtLast_Name);
-            this.pnlCreateAccount.Location = new System.Drawing.Point(1340, 3);
+            this.pnlCreateAccount.Location = new System.Drawing.Point(330, 90);
             this.pnlCreateAccount.Name = "pnlCreateAccount";
             this.pnlCreateAccount.Size = new System.Drawing.Size(1190, 621);
             this.pnlCreateAccount.TabIndex = 14;
@@ -695,6 +697,16 @@ namespace Arkansas_Armory
             this.dataGridView1.Size = new System.Drawing.Size(308, 142);
             this.dataGridView1.TabIndex = 0;
             // 
+            // btnBack
+            // 
+            this.btnBack.Location = new System.Drawing.Point(687, 492);
+            this.btnBack.Name = "btnBack";
+            this.btnBack.Size = new System.Drawing.Size(99, 48);
+            this.btnBack.TabIndex = 44;
+            this.btnBack.Text = "Main Menu";
+            this.btnBack.UseVisualStyleBackColor = true;
+            this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -786,6 +798,7 @@ namespace Arkansas_Armory
         private System.Windows.Forms.Label label24;
         private System.Windows.Forms.TextBox txttotal;
         private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.Button btnBack;
     }
 }
 

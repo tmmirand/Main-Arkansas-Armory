@@ -129,5 +129,10 @@ namespace Arkansas_Armory
             pnlShoppingCart.Visible = true;
             pnlShoppingCart.Location = new Point(0, 0);
         }
+
+        private void btnBack_Click(object sender, EventArgs e)
+        {
+            pnlCreateAccount.Visible = false;
+        }
     }
 }
