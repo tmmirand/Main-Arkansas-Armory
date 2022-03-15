@@ -112,6 +112,7 @@ namespace Arkansas_Armory
         {
             pnlCreateAccount.Visible = false;
             pnlShoppingCart.Visible = false;
+            pnlLogin.Visible = false;
 
             refresh();
 
