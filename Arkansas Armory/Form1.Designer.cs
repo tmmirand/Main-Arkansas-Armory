@@ -727,7 +727,7 @@ namespace Arkansas_Armory
             this.pnlLogin.Controls.Add(this.textBox1);
             this.pnlLogin.Controls.Add(this.label26);
             this.pnlLogin.Controls.Add(this.label25);
-            this.pnlLogin.Location = new System.Drawing.Point(1181, 117);
+            this.pnlLogin.Location = new System.Drawing.Point(208, 249);
             this.pnlLogin.Name = "pnlLogin";
             this.pnlLogin.Size = new System.Drawing.Size(621, 373);
             this.pnlLogin.TabIndex = 22;
