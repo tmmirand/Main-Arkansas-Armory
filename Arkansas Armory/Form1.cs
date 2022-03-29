@@ -23,21 +23,7 @@ namespace Arkansas_Armory
         public void refresh()
         {
 
-            string connectionstring;
-            SqlConnection cnn;
-            SqlDataAdapter adpt;
-
-            connectionstring = @"Data Source=essql1.walton.uark.edu;Initial Catalog=PROJECTS2241;User ID=PROJECTS2241;Password=CN74kyu$";
-            cnn = new SqlConnection(connectionstring);
-            cnn.Open();
-            
-            adpt = new SqlDataAdapter("Select * from dbo.GunInventory", cnn);
-            dtInventory = new DataTable();
-            adpt.Fill(dtInventory);
-            dgvInventory.DataSource = dtInventory;           
-
-            cnn.Close();
-
+           
 
         }
 
@@ -140,6 +126,11 @@ namespace Arkansas_Armory
         {
             pnlLogin.Visible = true;
             pnlLogin.Location = new Point(0, 0);
+        }
+
+        private void dgvInventory_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }

@@ -65,6 +65,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -78,6 +79,66 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picture1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picture2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picture3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picture4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picture5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picture6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picture7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picture8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picture9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picture10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picture11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picture12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picture13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picture14.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picture15.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picture16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picture17.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picture18.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picture19.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picture20.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -79,7 +79,6 @@ namespace Arkansas_Armory
             this.btnOrders = new System.Windows.Forms.Button();
             this.btnShoppingCart = new System.Windows.Forms.Button();
             this.btnCreateAccount = new System.Windows.Forms.Button();
-            this.dgvInventory = new System.Windows.Forms.DataGridView();
             this.cboInventoryFilter = new System.Windows.Forms.ComboBox();
             this.label21 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
@@ -101,14 +100,41 @@ namespace Arkansas_Armory
             this.label25 = new System.Windows.Forms.Label();
             this.gboGun1 = new System.Windows.Forms.GroupBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.label28 = new System.Windows.Forms.Label();
+            this.label29 = new System.Windows.Forms.Label();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.label30 = new System.Windows.Forms.Label();
+            this.label31 = new System.Windows.Forms.Label();
+            this.label32 = new System.Windows.Forms.Label();
+            this.label33 = new System.Windows.Forms.Label();
+            this.label34 = new System.Windows.Forms.Label();
+            this.label35 = new System.Windows.Forms.Label();
+            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.textBox11 = new System.Windows.Forms.TextBox();
+            this.label36 = new System.Windows.Forms.Label();
+            this.textBox12 = new System.Windows.Forms.TextBox();
             this.pnlCreateAccount.SuspendLayout();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvInventory)).BeginInit();
             this.pnlShoppingCart.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.pnlLogin.SuspendLayout();
+            this.gboGun1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            this.groupBox2.SuspendLayout();
+            this.groupBox3.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -258,7 +284,7 @@ namespace Arkansas_Armory
             this.pnlCreateAccount.Controls.Add(this.txtFirst_Name);
             this.pnlCreateAccount.Controls.Add(this.txtEmail);
             this.pnlCreateAccount.Controls.Add(this.txtLast_Name);
-            this.pnlCreateAccount.Location = new System.Drawing.Point(1252, 530);
+            this.pnlCreateAccount.Location = new System.Drawing.Point(1407, 425);
             this.pnlCreateAccount.Name = "pnlCreateAccount";
             this.pnlCreateAccount.Size = new System.Drawing.Size(1190, 621);
             this.pnlCreateAccount.TabIndex = 14;
@@ -606,14 +632,6 @@ namespace Arkansas_Armory
             this.btnCreateAccount.UseVisualStyleBackColor = true;
             this.btnCreateAccount.Click += new System.EventHandler(this.btnCreateAccount_Click);
             // 
-            // dgvInventory
-            // 
-            this.dgvInventory.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvInventory.Location = new System.Drawing.Point(18, 190);
-            this.dgvInventory.Name = "dgvInventory";
-            this.dgvInventory.Size = new System.Drawing.Size(1383, 522);
-            this.dgvInventory.TabIndex = 17;
-            // 
             // cboInventoryFilter
             // 
             this.cboInventoryFilter.FormattingEnabled = true;
@@ -652,7 +670,7 @@ namespace Arkansas_Armory
             this.pnlShoppingCart.Controls.Add(this.label23);
             this.pnlShoppingCart.Controls.Add(this.label22);
             this.pnlShoppingCart.Controls.Add(this.dataGridView1);
-            this.pnlShoppingCart.Location = new System.Drawing.Point(1243, 106);
+            this.pnlShoppingCart.Location = new System.Drawing.Point(1407, 1071);
             this.pnlShoppingCart.Name = "pnlShoppingCart";
             this.pnlShoppingCart.Size = new System.Drawing.Size(686, 372);
             this.pnlShoppingCart.TabIndex = 21;
@@ -730,7 +748,7 @@ namespace Arkansas_Armory
             this.pnlLogin.Controls.Add(this.textBox1);
             this.pnlLogin.Controls.Add(this.label26);
             this.pnlLogin.Controls.Add(this.label25);
-            this.pnlLogin.Location = new System.Drawing.Point(208, 249);
+            this.pnlLogin.Location = new System.Drawing.Point(1407, 12);
             this.pnlLogin.Name = "pnlLogin";
             this.pnlLogin.Size = new System.Drawing.Size(621, 373);
             this.pnlLogin.TabIndex = 22;
@@ -800,12 +818,15 @@ namespace Arkansas_Armory
             // 
             // gboGun1
             // 
-            this.gboGun1.Location = new System.Drawing.Point(116, 776);
+            this.gboGun1.Controls.Add(this.groupBox3);
+            this.gboGun1.Controls.Add(this.groupBox2);
+            this.gboGun1.Controls.Add(this.pictureBox3);
+            this.gboGun1.Location = new System.Drawing.Point(19, 191);
             this.gboGun1.Name = "gboGun1";
-            this.gboGun1.Size = new System.Drawing.Size(591, 434);
+            this.gboGun1.Size = new System.Drawing.Size(568, 351);
             this.gboGun1.TabIndex = 23;
             this.gboGun1.TabStop = false;
-            this.gboGun1.Text = "groupBox2";
+            this.gboGun1.Text = "Handgun";
             // 
             // pictureBox2
             // 
@@ -814,6 +835,224 @@ namespace Arkansas_Armory
             this.pictureBox2.Size = new System.Drawing.Size(100, 50);
             this.pictureBox2.TabIndex = 24;
             this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::Arkansas_Armory.Properties.Resources.Picture1;
+            this.pictureBox3.Location = new System.Drawing.Point(248, 28);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(299, 253);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox3.TabIndex = 0;
+            this.pictureBox3.TabStop = false;
+            // 
+            // label28
+            // 
+            this.label28.AutoSize = true;
+            this.label28.Location = new System.Drawing.Point(6, 29);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(70, 13);
+            this.label28.TabIndex = 1;
+            this.label28.Text = "Manufacturer";
+            // 
+            // label29
+            // 
+            this.label29.AutoSize = true;
+            this.label29.Location = new System.Drawing.Point(6, 56);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(36, 13);
+            this.label29.TabIndex = 2;
+            this.label29.Text = "Model";
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(83, 265);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(100, 23);
+            this.button3.TabIndex = 4;
+            this.button3.Text = "Full Description";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(203, 17);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(75, 23);
+            this.button4.TabIndex = 5;
+            this.button4.Text = "Add to Cart";
+            this.button4.UseVisualStyleBackColor = true;
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.label36);
+            this.groupBox2.Controls.Add(this.textBox12);
+            this.groupBox2.Controls.Add(this.label34);
+            this.groupBox2.Controls.Add(this.label35);
+            this.groupBox2.Controls.Add(this.textBox10);
+            this.groupBox2.Controls.Add(this.textBox11);
+            this.groupBox2.Controls.Add(this.label33);
+            this.groupBox2.Controls.Add(this.label32);
+            this.groupBox2.Controls.Add(this.label31);
+            this.groupBox2.Controls.Add(this.label30);
+            this.groupBox2.Controls.Add(this.textBox8);
+            this.groupBox2.Controls.Add(this.textBox7);
+            this.groupBox2.Controls.Add(this.textBox6);
+            this.groupBox2.Controls.Add(this.textBox5);
+            this.groupBox2.Controls.Add(this.textBox4);
+            this.groupBox2.Controls.Add(this.textBox3);
+            this.groupBox2.Controls.Add(this.label28);
+            this.groupBox2.Controls.Add(this.label29);
+            this.groupBox2.Controls.Add(this.button3);
+            this.groupBox2.Location = new System.Drawing.Point(27, 28);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(200, 309);
+            this.groupBox2.TabIndex = 6;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Specifications";
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(83, 29);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(100, 20);
+            this.textBox3.TabIndex = 6;
+            // 
+            // textBox4
+            // 
+            this.textBox4.Location = new System.Drawing.Point(84, 56);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(100, 20);
+            this.textBox4.TabIndex = 7;
+            // 
+            // textBox5
+            // 
+            this.textBox5.Location = new System.Drawing.Point(83, 82);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(100, 20);
+            this.textBox5.TabIndex = 8;
+            // 
+            // textBox6
+            // 
+            this.textBox6.Location = new System.Drawing.Point(84, 108);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(100, 20);
+            this.textBox6.TabIndex = 9;
+            // 
+            // textBox7
+            // 
+            this.textBox7.Location = new System.Drawing.Point(83, 134);
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(100, 20);
+            this.textBox7.TabIndex = 10;
+            // 
+            // textBox8
+            // 
+            this.textBox8.Location = new System.Drawing.Point(83, 160);
+            this.textBox8.Name = "textBox8";
+            this.textBox8.Size = new System.Drawing.Size(100, 20);
+            this.textBox8.TabIndex = 11;
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.Controls.Add(this.textBox9);
+            this.groupBox3.Controls.Add(this.button4);
+            this.groupBox3.Location = new System.Drawing.Point(248, 293);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(299, 50);
+            this.groupBox3.TabIndex = 7;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "Price";
+            // 
+            // textBox9
+            // 
+            this.textBox9.Location = new System.Drawing.Point(19, 19);
+            this.textBox9.Name = "textBox9";
+            this.textBox9.Size = new System.Drawing.Size(100, 20);
+            this.textBox9.TabIndex = 12;
+            // 
+            // label30
+            // 
+            this.label30.AutoSize = true;
+            this.label30.Location = new System.Drawing.Point(6, 111);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(66, 13);
+            this.label30.TabIndex = 25;
+            this.label30.Text = "Round Type";
+            // 
+            // label31
+            // 
+            this.label31.AutoSize = true;
+            this.label31.Location = new System.Drawing.Point(6, 85);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(37, 13);
+            this.label31.TabIndex = 26;
+            this.label31.Text = "Action";
+            // 
+            // label32
+            // 
+            this.label32.AutoSize = true;
+            this.label32.Location = new System.Drawing.Point(6, 137);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(48, 13);
+            this.label32.TabIndex = 27;
+            this.label32.Text = "Capacity";
+            // 
+            // label33
+            // 
+            this.label33.AutoSize = true;
+            this.label33.Location = new System.Drawing.Point(6, 163);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(73, 13);
+            this.label33.TabIndex = 28;
+            this.label33.Text = "Barrel Length ";
+            // 
+            // label34
+            // 
+            this.label34.AutoSize = true;
+            this.label34.Location = new System.Drawing.Point(6, 215);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(37, 13);
+            this.label34.TabIndex = 32;
+            this.label34.Text = "Finish ";
+            // 
+            // label35
+            // 
+            this.label35.AutoSize = true;
+            this.label35.Location = new System.Drawing.Point(6, 189);
+            this.label35.Name = "label35";
+            this.label35.Size = new System.Drawing.Size(41, 13);
+            this.label35.TabIndex = 31;
+            this.label35.Text = "Weight";
+            // 
+            // textBox10
+            // 
+            this.textBox10.Location = new System.Drawing.Point(83, 212);
+            this.textBox10.Name = "textBox10";
+            this.textBox10.Size = new System.Drawing.Size(100, 20);
+            this.textBox10.TabIndex = 30;
+            // 
+            // textBox11
+            // 
+            this.textBox11.Location = new System.Drawing.Point(83, 186);
+            this.textBox11.Name = "textBox11";
+            this.textBox11.Size = new System.Drawing.Size(100, 20);
+            this.textBox11.TabIndex = 29;
+            // 
+            // label36
+            // 
+            this.label36.AutoSize = true;
+            this.label36.Location = new System.Drawing.Point(6, 241);
+            this.label36.Name = "label36";
+            this.label36.Size = new System.Drawing.Size(29, 13);
+            this.label36.TabIndex = 34;
+            this.label36.Text = "UPC";
+            // 
+            // textBox12
+            // 
+            this.textBox12.Location = new System.Drawing.Point(83, 238);
+            this.textBox12.Name = "textBox12";
+            this.textBox12.Size = new System.Drawing.Size(100, 20);
+            this.textBox12.TabIndex = 33;
             // 
             // Form1
             // 
@@ -830,7 +1069,6 @@ namespace Arkansas_Armory
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label21);
             this.Controls.Add(this.cboInventoryFilter);
-            this.Controls.Add(this.dgvInventory);
             this.Controls.Add(this.groupBox1);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -838,14 +1076,20 @@ namespace Arkansas_Armory
             this.pnlCreateAccount.ResumeLayout(false);
             this.pnlCreateAccount.PerformLayout();
             this.groupBox1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dgvInventory)).EndInit();
             this.pnlShoppingCart.ResumeLayout(false);
             this.pnlShoppingCart.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.pnlLogin.ResumeLayout(false);
             this.pnlLogin.PerformLayout();
+            this.gboGun1.ResumeLayout(false);
+            this.gboGun1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
+            this.groupBox3.ResumeLayout(false);
+            this.groupBox3.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -901,7 +1145,6 @@ namespace Arkansas_Armory
         private System.Windows.Forms.Button btnOrders;
         private System.Windows.Forms.Button btnShoppingCart;
         private System.Windows.Forms.Button btnCreateAccount;
-        private System.Windows.Forms.DataGridView dgvInventory;
         private System.Windows.Forms.ComboBox cboInventoryFilter;
         private System.Windows.Forms.Label label21;
         private System.Windows.Forms.Button button1;
@@ -924,6 +1167,30 @@ namespace Arkansas_Armory
         private System.Windows.Forms.Label label25;
         private System.Windows.Forms.GroupBox gboGun1;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.GroupBox groupBox3;
+        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.Label label36;
+        private System.Windows.Forms.TextBox textBox12;
+        private System.Windows.Forms.Label label34;
+        private System.Windows.Forms.Label label35;
+        private System.Windows.Forms.TextBox textBox10;
+        private System.Windows.Forms.TextBox textBox11;
+        private System.Windows.Forms.Label label33;
+        private System.Windows.Forms.Label label32;
+        private System.Windows.Forms.Label label31;
+        private System.Windows.Forms.Label label30;
+        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.Label label28;
+        private System.Windows.Forms.Label label29;
+        private System.Windows.Forms.Button button3;
     }
 }
 
