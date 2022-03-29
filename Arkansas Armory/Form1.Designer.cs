@@ -99,6 +99,8 @@ namespace Arkansas_Armory
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label26 = new System.Windows.Forms.Label();
             this.label25 = new System.Windows.Forms.Label();
+            this.gboGun1 = new System.Windows.Forms.GroupBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pnlCreateAccount.SuspendLayout();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvInventory)).BeginInit();
@@ -106,6 +108,7 @@ namespace Arkansas_Armory
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.pnlLogin.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -255,7 +258,7 @@ namespace Arkansas_Armory
             this.pnlCreateAccount.Controls.Add(this.txtFirst_Name);
             this.pnlCreateAccount.Controls.Add(this.txtEmail);
             this.pnlCreateAccount.Controls.Add(this.txtLast_Name);
-            this.pnlCreateAccount.Location = new System.Drawing.Point(1298, 484);
+            this.pnlCreateAccount.Location = new System.Drawing.Point(1252, 530);
             this.pnlCreateAccount.Name = "pnlCreateAccount";
             this.pnlCreateAccount.Size = new System.Drawing.Size(1190, 621);
             this.pnlCreateAccount.TabIndex = 14;
@@ -649,7 +652,7 @@ namespace Arkansas_Armory
             this.pnlShoppingCart.Controls.Add(this.label23);
             this.pnlShoppingCart.Controls.Add(this.label22);
             this.pnlShoppingCart.Controls.Add(this.dataGridView1);
-            this.pnlShoppingCart.Location = new System.Drawing.Point(1298, 92);
+            this.pnlShoppingCart.Location = new System.Drawing.Point(1243, 106);
             this.pnlShoppingCart.Name = "pnlShoppingCart";
             this.pnlShoppingCart.Size = new System.Drawing.Size(686, 372);
             this.pnlShoppingCart.TabIndex = 21;
@@ -795,6 +798,23 @@ namespace Arkansas_Armory
             this.label25.TabIndex = 0;
             this.label25.Text = "Login";
             // 
+            // gboGun1
+            // 
+            this.gboGun1.Location = new System.Drawing.Point(116, 776);
+            this.gboGun1.Name = "gboGun1";
+            this.gboGun1.Size = new System.Drawing.Size(591, 434);
+            this.gboGun1.TabIndex = 23;
+            this.gboGun1.TabStop = false;
+            this.gboGun1.Text = "groupBox2";
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Location = new System.Drawing.Point(922, 737);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(100, 50);
+            this.pictureBox2.TabIndex = 24;
+            this.pictureBox2.TabStop = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -802,6 +822,8 @@ namespace Arkansas_Armory
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.DarkRed;
             this.ClientSize = new System.Drawing.Size(1444, 848);
+            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.gboGun1);
             this.Controls.Add(this.pnlLogin);
             this.Controls.Add(this.pnlShoppingCart);
             this.Controls.Add(this.pnlCreateAccount);
@@ -823,6 +845,7 @@ namespace Arkansas_Armory
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.pnlLogin.ResumeLayout(false);
             this.pnlLogin.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -899,6 +922,8 @@ namespace Arkansas_Armory
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label26;
         private System.Windows.Forms.Label label25;
+        private System.Windows.Forms.GroupBox gboGun1;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }
 
