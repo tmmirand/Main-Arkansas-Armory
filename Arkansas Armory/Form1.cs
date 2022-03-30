@@ -132,5 +132,16 @@ namespace Arkansas_Armory
         {
 
         }
+
+        private void btnOrdersMainMenu_Click(object sender, EventArgs e)
+        {
+            pnlOrders.Visible = false;
+        }
+
+        private void btnOrders_Click(object sender, EventArgs e)
+        {
+            pnlOrders.Visible = true;
+            pnlOrders.Location = new Point(0, 0);
+        }
     }
 }
