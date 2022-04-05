@@ -140,5 +140,125 @@
   <ItemGroup>
     <None Include="Resources\Picture20.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picture21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picture22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picture23.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picture24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picture25.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picture26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picture27.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picture28.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picture29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picture30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picture31.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picture32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picture33.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picture34.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picture35.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picture36.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picture37.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picture38.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picture39.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picture40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picture41.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picture42.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picture43.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picture44.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picture45.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picture46.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picture47.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picture48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picture49.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picture50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picture51.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picture52.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picture53.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picture54.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picture55.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picture56.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picture57.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picture58.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picture59.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picture60.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

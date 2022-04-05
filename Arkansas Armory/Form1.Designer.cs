@@ -83,7 +83,6 @@ namespace Arkansas_Armory
             this.label21 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.pnlShoppingCart = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button2 = new System.Windows.Forms.Button();
             this.label24 = new System.Windows.Forms.Label();
             this.txttotal = new System.Windows.Forms.TextBox();
@@ -122,26 +121,27 @@ namespace Arkansas_Armory
             this.label28 = new System.Windows.Forms.Label();
             this.label29 = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pnlOrders = new System.Windows.Forms.Panel();
-            this.label37 = new System.Windows.Forms.Label();
-            this.label38 = new System.Windows.Forms.Label();
-            this.dgvPurchaseHistory = new System.Windows.Forms.DataGridView();
             this.btnOrdersMainMenu = new System.Windows.Forms.Button();
+            this.dgvPurchaseHistory = new System.Windows.Forms.DataGridView();
+            this.label38 = new System.Windows.Forms.Label();
+            this.label37 = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pnlCreateAccount.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.pnlShoppingCart.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.pnlLogin.SuspendLayout();
             this.gboGun1.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.pnlOrders.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvPurchaseHistory)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -683,16 +683,6 @@ namespace Arkansas_Armory
             this.pnlShoppingCart.Size = new System.Drawing.Size(686, 372);
             this.pnlShoppingCart.TabIndex = 21;
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(423, 208);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(223, 42);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 6;
-            this.pictureBox1.TabStop = false;
-            // 
             // button2
             // 
             this.button2.Location = new System.Drawing.Point(463, 157);
@@ -1044,24 +1034,6 @@ namespace Arkansas_Armory
             this.button3.Text = "Full Description";
             this.button3.UseVisualStyleBackColor = true;
             // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = global::Arkansas_Armory.Properties.Resources.Picture1;
-            this.pictureBox3.Location = new System.Drawing.Point(248, 28);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(299, 253);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox3.TabIndex = 0;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Location = new System.Drawing.Point(1142, 985);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(100, 50);
-            this.pictureBox2.TabIndex = 24;
-            this.pictureBox2.TabStop = false;
-            // 
             // pnlOrders
             // 
             this.pnlOrders.BackColor = System.Drawing.Color.White;
@@ -1074,16 +1046,23 @@ namespace Arkansas_Armory
             this.pnlOrders.Size = new System.Drawing.Size(725, 533);
             this.pnlOrders.TabIndex = 25;
             // 
-            // label37
+            // btnOrdersMainMenu
             // 
-            this.label37.AutoSize = true;
-            this.label37.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label37.Font = new System.Drawing.Font("HelveticaNeueforSAS", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label37.Location = new System.Drawing.Point(297, 14);
-            this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(141, 47);
-            this.label37.TabIndex = 1;
-            this.label37.Text = "Orders";
+            this.btnOrdersMainMenu.Location = new System.Drawing.Point(598, 461);
+            this.btnOrdersMainMenu.Name = "btnOrdersMainMenu";
+            this.btnOrdersMainMenu.Size = new System.Drawing.Size(99, 48);
+            this.btnOrdersMainMenu.TabIndex = 45;
+            this.btnOrdersMainMenu.Text = "Main Menu";
+            this.btnOrdersMainMenu.UseVisualStyleBackColor = true;
+            this.btnOrdersMainMenu.Click += new System.EventHandler(this.btnOrdersMainMenu_Click);
+            // 
+            // dgvPurchaseHistory
+            // 
+            this.dgvPurchaseHistory.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvPurchaseHistory.Location = new System.Drawing.Point(37, 113);
+            this.dgvPurchaseHistory.Name = "dgvPurchaseHistory";
+            this.dgvPurchaseHistory.Size = new System.Drawing.Size(660, 317);
+            this.dgvPurchaseHistory.TabIndex = 3;
             // 
             // label38
             // 
@@ -1096,23 +1075,45 @@ namespace Arkansas_Armory
             this.label38.TabIndex = 2;
             this.label38.Text = "Purchase History";
             // 
-            // dgvPurchaseHistory
+            // label37
             // 
-            this.dgvPurchaseHistory.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvPurchaseHistory.Location = new System.Drawing.Point(37, 113);
-            this.dgvPurchaseHistory.Name = "dgvPurchaseHistory";
-            this.dgvPurchaseHistory.Size = new System.Drawing.Size(660, 317);
-            this.dgvPurchaseHistory.TabIndex = 3;
+            this.label37.AutoSize = true;
+            this.label37.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label37.Font = new System.Drawing.Font("HelveticaNeueforSAS", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label37.Location = new System.Drawing.Point(297, 14);
+            this.label37.Name = "label37";
+            this.label37.Size = new System.Drawing.Size(141, 47);
+            this.label37.TabIndex = 1;
+            this.label37.Text = "Orders";
             // 
-            // btnOrdersMainMenu
+            // pictureBox2
             // 
-            this.btnOrdersMainMenu.Location = new System.Drawing.Point(598, 461);
-            this.btnOrdersMainMenu.Name = "btnOrdersMainMenu";
-            this.btnOrdersMainMenu.Size = new System.Drawing.Size(99, 48);
-            this.btnOrdersMainMenu.TabIndex = 45;
-            this.btnOrdersMainMenu.Text = "Main Menu";
-            this.btnOrdersMainMenu.UseVisualStyleBackColor = true;
-            this.btnOrdersMainMenu.Click += new System.EventHandler(this.btnOrdersMainMenu_Click);
+            this.pictureBox2.Location = new System.Drawing.Point(1142, 985);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(100, 50);
+            this.pictureBox2.TabIndex = 24;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::Arkansas_Armory.Properties.Resources.Picture1;
+            this.pictureBox3.Location = new System.Drawing.Point(248, 28);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(299, 253);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox3.TabIndex = 0;
+            this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(423, 208);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(223, 42);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 6;
+            this.pictureBox1.TabStop = false;
             // 
             // Form1
             // 
@@ -1139,7 +1140,6 @@ namespace Arkansas_Armory
             this.groupBox1.ResumeLayout(false);
             this.pnlShoppingCart.ResumeLayout(false);
             this.pnlShoppingCart.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.pnlLogin.ResumeLayout(false);
             this.pnlLogin.PerformLayout();
@@ -1149,11 +1149,12 @@ namespace Arkansas_Armory
             this.groupBox3.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.pnlOrders.ResumeLayout(false);
             this.pnlOrders.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvPurchaseHistory)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

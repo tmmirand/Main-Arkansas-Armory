@@ -143,5 +143,10 @@ namespace Arkansas_Armory
             pnlOrders.Visible = true;
             pnlOrders.Location = new Point(0, 0);
         }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
