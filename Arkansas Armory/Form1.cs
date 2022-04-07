@@ -126,6 +126,7 @@ namespace Arkansas_Armory
         {
             pnlLogin.Visible = true;
             pnlLogin.Location = new Point(0, 0);
+            pnlLogin.BringToFront();
         }
 
         private void dgvInventory_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -147,6 +148,11 @@ namespace Arkansas_Armory
         private void pictureBox3_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("FNs 509 pistol is built on the proven architecture of the FNS Compact. It features a cold hammer-forged stainless-steel barrel with a recessed target crown and polished chamber and feed ramp. The polymer frame has an enhanced grip texture for faster follow-up shots in all conditions a MIL-STD-1913 accessory rail and interchangeable backstraps. This striker-fired double action pistol has an external extractor loaded chamber indicator and no manual safety. It is equipped with a fully ambidextrous slide stop lever and magazine release. This FN 509 Tactical model has a Flat Dark Earth slide with an FDE polymer gripframe two FDE interchangeable backstraps and suppressor height night sights. This model comes with one (1) 17-round magazine two (2) 24-round magazines and a FN logo soft pistol case.");
         }
     }
 }

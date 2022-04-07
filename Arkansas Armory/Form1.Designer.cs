@@ -81,7 +81,6 @@ namespace Arkansas_Armory
             this.btnCreateAccount = new System.Windows.Forms.Button();
             this.cboInventoryFilter = new System.Windows.Forms.ComboBox();
             this.label21 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
             this.pnlShoppingCart = new System.Windows.Forms.Panel();
             this.groupBox13 = new System.Windows.Forms.GroupBox();
             this.groupBox16 = new System.Windows.Forms.GroupBox();
@@ -1553,6 +1552,10 @@ namespace Arkansas_Armory
             this.label542 = new System.Windows.Forms.Label();
             this.button116 = new System.Windows.Forms.Button();
             this.pictureBox58 = new System.Windows.Forms.PictureBox();
+            this.groupBox175 = new System.Windows.Forms.GroupBox();
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.radioButton3 = new System.Windows.Forms.RadioButton();
             this.pnlCreateAccount.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.pnlShoppingCart.SuspendLayout();
@@ -1793,6 +1796,7 @@ namespace Arkansas_Armory
             this.groupBox171.SuspendLayout();
             this.groupBox172.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox58)).BeginInit();
+            this.groupBox175.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -2310,15 +2314,6 @@ namespace Arkansas_Armory
             this.label21.TabIndex = 19;
             this.label21.Text = "Select Gun Classifcation";
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(1268, 101);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(132, 73);
-            this.button1.TabIndex = 20;
-            this.button1.Text = "Add to Cart";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
             // pnlShoppingCart
             // 
             this.pnlShoppingCart.BackColor = System.Drawing.Color.White;
@@ -2330,7 +2325,7 @@ namespace Arkansas_Armory
             this.pnlShoppingCart.Controls.Add(this.label23);
             this.pnlShoppingCart.Controls.Add(this.label22);
             this.pnlShoppingCart.Controls.Add(this.dataGridView1);
-            this.pnlShoppingCart.Location = new System.Drawing.Point(1374, 645);
+            this.pnlShoppingCart.Location = new System.Drawing.Point(1362, 642);
             this.pnlShoppingCart.Name = "pnlShoppingCart";
             this.pnlShoppingCart.Size = new System.Drawing.Size(1451, 788);
             this.pnlShoppingCart.TabIndex = 21;
@@ -2939,6 +2934,7 @@ namespace Arkansas_Armory
             // 
             // gboGun1
             // 
+            this.gboGun1.BackColor = System.Drawing.Color.White;
             this.gboGun1.Controls.Add(this.groupBox3);
             this.gboGun1.Controls.Add(this.groupBox2);
             this.gboGun1.Controls.Add(this.pictureBox3);
@@ -3165,6 +3161,7 @@ namespace Arkansas_Armory
             this.button3.TabIndex = 4;
             this.button3.Text = "Full Description";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // pictureBox3
             // 
@@ -15887,13 +15884,59 @@ namespace Arkansas_Armory
             this.pictureBox58.TabIndex = 0;
             this.pictureBox58.TabStop = false;
             // 
+            // groupBox175
+            // 
+            this.groupBox175.Controls.Add(this.radioButton3);
+            this.groupBox175.Controls.Add(this.radioButton2);
+            this.groupBox175.Controls.Add(this.radioButton1);
+            this.groupBox175.Location = new System.Drawing.Point(480, 90);
+            this.groupBox175.Name = "groupBox175";
+            this.groupBox175.Size = new System.Drawing.Size(117, 100);
+            this.groupBox175.TabIndex = 58;
+            this.groupBox175.TabStop = false;
+            this.groupBox175.Text = "Filters";
+            // 
+            // radioButton1
+            // 
+            this.radioButton1.AutoSize = true;
+            this.radioButton1.Location = new System.Drawing.Point(17, 30);
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.Size = new System.Drawing.Size(85, 17);
+            this.radioButton1.TabIndex = 0;
+            this.radioButton1.TabStop = true;
+            this.radioButton1.Text = "radioButton1";
+            this.radioButton1.UseVisualStyleBackColor = true;
+            // 
+            // radioButton2
+            // 
+            this.radioButton2.AutoSize = true;
+            this.radioButton2.Location = new System.Drawing.Point(17, 54);
+            this.radioButton2.Name = "radioButton2";
+            this.radioButton2.Size = new System.Drawing.Size(85, 17);
+            this.radioButton2.TabIndex = 1;
+            this.radioButton2.TabStop = true;
+            this.radioButton2.Text = "radioButton2";
+            this.radioButton2.UseVisualStyleBackColor = true;
+            // 
+            // radioButton3
+            // 
+            this.radioButton3.AutoSize = true;
+            this.radioButton3.Location = new System.Drawing.Point(16, 77);
+            this.radioButton3.Name = "radioButton3";
+            this.radioButton3.Size = new System.Drawing.Size(85, 17);
+            this.radioButton3.TabIndex = 2;
+            this.radioButton3.TabStop = true;
+            this.radioButton3.Text = "radioButton3";
+            this.radioButton3.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.DarkRed;
-            this.ClientSize = new System.Drawing.Size(1370, 749);
+            this.ClientSize = new System.Drawing.Size(1436, 749);
+            this.Controls.Add(this.groupBox175);
             this.Controls.Add(this.groupBox170);
             this.Controls.Add(this.groupBox169);
             this.Controls.Add(this.groupBox163);
@@ -15952,7 +15995,6 @@ namespace Arkansas_Armory
             this.Controls.Add(this.pnlLogin);
             this.Controls.Add(this.pnlShoppingCart);
             this.Controls.Add(this.pnlCreateAccount);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.label21);
             this.Controls.Add(this.cboInventoryFilter);
             this.Controls.Add(this.groupBox1);
@@ -16366,6 +16408,8 @@ namespace Arkansas_Armory
             this.groupBox172.ResumeLayout(false);
             this.groupBox172.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox58)).EndInit();
+            this.groupBox175.ResumeLayout(false);
+            this.groupBox175.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -16423,7 +16467,6 @@ namespace Arkansas_Armory
         private System.Windows.Forms.Button btnCreateAccount;
         private System.Windows.Forms.ComboBox cboInventoryFilter;
         private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Panel pnlShoppingCart;
         private System.Windows.Forms.Label label22;
         private System.Windows.Forms.DataGridView dataGridView1;
@@ -17896,6 +17939,10 @@ namespace Arkansas_Armory
         private System.Windows.Forms.Label label551;
         private System.Windows.Forms.Button button118;
         private System.Windows.Forms.PictureBox pictureBox59;
+        private System.Windows.Forms.GroupBox groupBox175;
+        private System.Windows.Forms.RadioButton radioButton3;
+        private System.Windows.Forms.RadioButton radioButton2;
+        private System.Windows.Forms.RadioButton radioButton1;
     }
 }
 
