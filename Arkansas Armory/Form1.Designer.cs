@@ -11236,6 +11236,7 @@ namespace Arkansas_Armory
             this.textBox363.Name = "textBox363";
             this.textBox363.Size = new System.Drawing.Size(100, 20);
             this.textBox363.TabIndex = 12;
+            this.textBox363.Text = "$11,973.99 ";
             // 
             // button75
             // 
@@ -11289,6 +11290,7 @@ namespace Arkansas_Armory
             this.textBox364.Name = "textBox364";
             this.textBox364.Size = new System.Drawing.Size(100, 20);
             this.textBox364.TabIndex = 33;
+            this.textBox364.Text = "810021510422";
             // 
             // label355
             // 
@@ -11314,6 +11316,7 @@ namespace Arkansas_Armory
             this.textBox365.Name = "textBox365";
             this.textBox365.Size = new System.Drawing.Size(100, 20);
             this.textBox365.TabIndex = 30;
+            this.textBox365.Text = "BLACK";
             // 
             // textBox366
             // 
@@ -11321,6 +11324,7 @@ namespace Arkansas_Armory
             this.textBox366.Name = "textBox366";
             this.textBox366.Size = new System.Drawing.Size(100, 20);
             this.textBox366.TabIndex = 29;
+            this.textBox366.Text = "28.7 LBS";
             // 
             // label357
             // 
@@ -11364,6 +11368,7 @@ namespace Arkansas_Armory
             this.textBox367.Name = "textBox367";
             this.textBox367.Size = new System.Drawing.Size(100, 20);
             this.textBox367.TabIndex = 11;
+            this.textBox367.Text = "20\" BARREL";
             // 
             // textBox368
             // 
@@ -11371,6 +11376,7 @@ namespace Arkansas_Armory
             this.textBox368.Name = "textBox368";
             this.textBox368.Size = new System.Drawing.Size(100, 20);
             this.textBox368.TabIndex = 10;
+            this.textBox368.Text = "10 ROUNDS";
             // 
             // textBox369
             // 
@@ -11378,6 +11384,7 @@ namespace Arkansas_Armory
             this.textBox369.Name = "textBox369";
             this.textBox369.Size = new System.Drawing.Size(100, 20);
             this.textBox369.TabIndex = 9;
+            this.textBox369.Text = ".50 BMG";
             // 
             // textBox370
             // 
@@ -11385,6 +11392,7 @@ namespace Arkansas_Armory
             this.textBox370.Name = "textBox370";
             this.textBox370.Size = new System.Drawing.Size(100, 20);
             this.textBox370.TabIndex = 8;
+            this.textBox370.Text = "SEMI AUTO";
             // 
             // textBox371
             // 
@@ -11392,6 +11400,7 @@ namespace Arkansas_Armory
             this.textBox371.Name = "textBox371";
             this.textBox371.Size = new System.Drawing.Size(100, 20);
             this.textBox371.TabIndex = 7;
+            this.textBox371.Text = "M107A1";
             // 
             // textBox372
             // 
@@ -11399,6 +11408,7 @@ namespace Arkansas_Armory
             this.textBox372.Name = "textBox372";
             this.textBox372.Size = new System.Drawing.Size(100, 20);
             this.textBox372.TabIndex = 6;
+            this.textBox372.Text = "BARRETT";
             // 
             // label361
             // 
@@ -11468,6 +11478,7 @@ namespace Arkansas_Armory
             this.textBox373.Name = "textBox373";
             this.textBox373.Size = new System.Drawing.Size(100, 20);
             this.textBox373.TabIndex = 12;
+            this.textBox373.Text = "$1,816.99 ";
             // 
             // button77
             // 
@@ -11521,6 +11532,7 @@ namespace Arkansas_Armory
             this.textBox374.Name = "textBox374";
             this.textBox374.Size = new System.Drawing.Size(100, 20);
             this.textBox374.TabIndex = 33;
+            this.textBox374.Text = "810237024676";
             // 
             // label364
             // 
@@ -11546,6 +11558,7 @@ namespace Arkansas_Armory
             this.textBox375.Name = "textBox375";
             this.textBox375.Size = new System.Drawing.Size(100, 20);
             this.textBox375.TabIndex = 30;
+            this.textBox375.Text = "OD GREEN";
             // 
             // textBox376
             // 
@@ -11553,6 +11566,7 @@ namespace Arkansas_Armory
             this.textBox376.Name = "textBox376";
             this.textBox376.Size = new System.Drawing.Size(100, 20);
             this.textBox376.TabIndex = 29;
+            this.textBox376.Text = "8 LBS";
             // 
             // label366
             // 
@@ -11596,6 +11610,7 @@ namespace Arkansas_Armory
             this.textBox377.Name = "textBox377";
             this.textBox377.Size = new System.Drawing.Size(100, 20);
             this.textBox377.TabIndex = 11;
+            this.textBox377.Text = "16\" BARREL";
             // 
             // textBox378
             // 
@@ -11603,6 +11618,7 @@ namespace Arkansas_Armory
             this.textBox378.Name = "textBox378";
             this.textBox378.Size = new System.Drawing.Size(100, 20);
             this.textBox378.TabIndex = 10;
+            this.textBox378.Text = "15+1 ROUNDS";
             // 
             // textBox379
             // 
@@ -11610,6 +11626,7 @@ namespace Arkansas_Armory
             this.textBox379.Name = "textBox379";
             this.textBox379.Size = new System.Drawing.Size(100, 20);
             this.textBox379.TabIndex = 9;
+            this.textBox379.Text = "10 MM";
             // 
             // textBox380
             // 
@@ -11617,6 +11634,7 @@ namespace Arkansas_Armory
             this.textBox380.Name = "textBox380";
             this.textBox380.Size = new System.Drawing.Size(100, 20);
             this.textBox380.TabIndex = 8;
+            this.textBox380.Text = "BLOW BACK";
             // 
             // textBox381
             // 
@@ -11624,6 +11642,7 @@ namespace Arkansas_Armory
             this.textBox381.Name = "textBox381";
             this.textBox381.Size = new System.Drawing.Size(100, 20);
             this.textBox381.TabIndex = 7;
+            this.textBox381.Text = "VECTOR GEN II CRB";
             // 
             // textBox382
             // 
@@ -11631,6 +11650,7 @@ namespace Arkansas_Armory
             this.textBox382.Name = "textBox382";
             this.textBox382.Size = new System.Drawing.Size(100, 20);
             this.textBox382.TabIndex = 6;
+            this.textBox382.Text = "KRISS";
             // 
             // label370
             // 
@@ -11700,6 +11720,7 @@ namespace Arkansas_Armory
             this.textBox383.Name = "textBox383";
             this.textBox383.Size = new System.Drawing.Size(100, 20);
             this.textBox383.TabIndex = 12;
+            this.textBox383.Text = "$816.99 ";
             // 
             // button79
             // 
@@ -11753,6 +11774,7 @@ namespace Arkansas_Armory
             this.textBox384.Name = "textBox384";
             this.textBox384.Size = new System.Drawing.Size(100, 20);
             this.textBox384.TabIndex = 33;
+            this.textBox384.Text = "854509008636";
             // 
             // label373
             // 
@@ -11778,6 +11800,7 @@ namespace Arkansas_Armory
             this.textBox385.Name = "textBox385";
             this.textBox385.Size = new System.Drawing.Size(100, 20);
             this.textBox385.TabIndex = 30;
+            this.textBox385.Text = "BLACK";
             // 
             // textBox386
             // 
@@ -11785,6 +11808,7 @@ namespace Arkansas_Armory
             this.textBox386.Name = "textBox386";
             this.textBox386.Size = new System.Drawing.Size(100, 20);
             this.textBox386.TabIndex = 29;
+            this.textBox386.Text = "7.49 LBS";
             // 
             // label375
             // 
@@ -11828,6 +11852,7 @@ namespace Arkansas_Armory
             this.textBox387.Name = "textBox387";
             this.textBox387.Size = new System.Drawing.Size(100, 20);
             this.textBox387.TabIndex = 11;
+            this.textBox387.Text = "16.3\" BARREL";
             // 
             // textBox388
             // 
@@ -11835,6 +11860,7 @@ namespace Arkansas_Armory
             this.textBox388.Name = "textBox388";
             this.textBox388.Size = new System.Drawing.Size(100, 20);
             this.textBox388.TabIndex = 10;
+            this.textBox388.Text = "30+1 ROUNDS";
             // 
             // textBox389
             // 
@@ -11842,6 +11868,7 @@ namespace Arkansas_Armory
             this.textBox389.Name = "textBox389";
             this.textBox389.Size = new System.Drawing.Size(100, 20);
             this.textBox389.TabIndex = 9;
+            this.textBox389.Text = "7.62 X 39 MM";
             // 
             // textBox390
             // 
@@ -11849,6 +11876,7 @@ namespace Arkansas_Armory
             this.textBox390.Name = "textBox390";
             this.textBox390.Size = new System.Drawing.Size(100, 20);
             this.textBox390.TabIndex = 8;
+            this.textBox390.Text = "SEMI AUTO";
             // 
             // textBox391
             // 
@@ -11856,6 +11884,7 @@ namespace Arkansas_Armory
             this.textBox391.Name = "textBox391";
             this.textBox391.Size = new System.Drawing.Size(100, 20);
             this.textBox391.TabIndex = 7;
+            this.textBox391.Text = "AK-47";
             // 
             // textBox392
             // 
@@ -11863,6 +11892,7 @@ namespace Arkansas_Armory
             this.textBox392.Name = "textBox392";
             this.textBox392.Size = new System.Drawing.Size(100, 20);
             this.textBox392.TabIndex = 6;
+            this.textBox392.Text = "PIONEER ARMS";
             // 
             // label379
             // 
@@ -11932,6 +11962,7 @@ namespace Arkansas_Armory
             this.textBox393.Name = "textBox393";
             this.textBox393.Size = new System.Drawing.Size(100, 20);
             this.textBox393.TabIndex = 12;
+            this.textBox393.Text = "$424.99 ";
             // 
             // button81
             // 
@@ -11985,6 +12016,7 @@ namespace Arkansas_Armory
             this.textBox394.Name = "textBox394";
             this.textBox394.Size = new System.Drawing.Size(100, 20);
             this.textBox394.TabIndex = 33;
+            this.textBox394.Text = "819644021476";
             // 
             // label382
             // 
@@ -12010,6 +12042,7 @@ namespace Arkansas_Armory
             this.textBox395.Name = "textBox395";
             this.textBox395.Size = new System.Drawing.Size(100, 20);
             this.textBox395.TabIndex = 30;
+            this.textBox395.Text = "BLACK";
             // 
             // textBox396
             // 
@@ -12017,6 +12050,7 @@ namespace Arkansas_Armory
             this.textBox396.Name = "textBox396";
             this.textBox396.Size = new System.Drawing.Size(100, 20);
             this.textBox396.TabIndex = 29;
+            this.textBox396.Text = "5.8 LBS";
             // 
             // label384
             // 
@@ -12060,6 +12094,7 @@ namespace Arkansas_Armory
             this.textBox397.Name = "textBox397";
             this.textBox397.Size = new System.Drawing.Size(100, 20);
             this.textBox397.TabIndex = 11;
+            this.textBox397.Text = "16.3\" BARREL";
             // 
             // textBox398
             // 
@@ -12067,6 +12102,7 @@ namespace Arkansas_Armory
             this.textBox398.Name = "textBox398";
             this.textBox398.Size = new System.Drawing.Size(100, 20);
             this.textBox398.TabIndex = 10;
+            this.textBox398.Text = "22 ROUNDS";
             // 
             // textBox399
             // 
@@ -12074,6 +12110,7 @@ namespace Arkansas_Armory
             this.textBox399.Name = "textBox399";
             this.textBox399.Size = new System.Drawing.Size(100, 20);
             this.textBox399.TabIndex = 9;
+            this.textBox399.Text = ".22 LR";
             // 
             // textBox400
             // 
@@ -12081,6 +12118,7 @@ namespace Arkansas_Armory
             this.textBox400.Name = "textBox400";
             this.textBox400.Size = new System.Drawing.Size(100, 20);
             this.textBox400.TabIndex = 8;
+            this.textBox400.Text = "SEMI AUTO";
             // 
             // textBox401
             // 
@@ -12088,6 +12126,7 @@ namespace Arkansas_Armory
             this.textBox401.Name = "textBox401";
             this.textBox401.Size = new System.Drawing.Size(100, 20);
             this.textBox401.TabIndex = 7;
+            this.textBox401.Text = "GSG-16";
             // 
             // textBox402
             // 
@@ -12095,6 +12134,7 @@ namespace Arkansas_Armory
             this.textBox402.Name = "textBox402";
             this.textBox402.Size = new System.Drawing.Size(100, 20);
             this.textBox402.TabIndex = 6;
+            this.textBox402.Text = "GERMAN SPORTS GUNS";
             // 
             // label388
             // 
@@ -12164,6 +12204,7 @@ namespace Arkansas_Armory
             this.textBox403.Name = "textBox403";
             this.textBox403.Size = new System.Drawing.Size(100, 20);
             this.textBox403.TabIndex = 12;
+            this.textBox403.Text = "$592.99 ";
             // 
             // button83
             // 
@@ -12217,6 +12258,7 @@ namespace Arkansas_Armory
             this.textBox404.Name = "textBox404";
             this.textBox404.Size = new System.Drawing.Size(100, 20);
             this.textBox404.TabIndex = 33;
+            this.textBox404.Text = "857253008013";
             // 
             // label391
             // 
@@ -12242,6 +12284,7 @@ namespace Arkansas_Armory
             this.textBox405.Name = "textBox405";
             this.textBox405.Size = new System.Drawing.Size(100, 20);
             this.textBox405.TabIndex = 30;
+            this.textBox405.Text = "BLACK";
             // 
             // textBox406
             // 
@@ -12249,6 +12292,7 @@ namespace Arkansas_Armory
             this.textBox406.Name = "textBox406";
             this.textBox406.Size = new System.Drawing.Size(100, 20);
             this.textBox406.TabIndex = 29;
+            this.textBox406.Text = "5.7 LBS";
             // 
             // label393
             // 
@@ -12292,6 +12336,7 @@ namespace Arkansas_Armory
             this.textBox407.Name = "textBox407";
             this.textBox407.Size = new System.Drawing.Size(100, 20);
             this.textBox407.TabIndex = 11;
+            this.textBox407.Text = "16\" BARREL";
             // 
             // textBox408
             // 
@@ -12299,6 +12344,7 @@ namespace Arkansas_Armory
             this.textBox408.Name = "textBox408";
             this.textBox408.Size = new System.Drawing.Size(100, 20);
             this.textBox408.TabIndex = 10;
+            this.textBox408.Text = "25+1 ROUNDS";
             // 
             // textBox409
             // 
@@ -12306,6 +12352,7 @@ namespace Arkansas_Armory
             this.textBox409.Name = "textBox409";
             this.textBox409.Size = new System.Drawing.Size(100, 20);
             this.textBox409.TabIndex = 9;
+            this.textBox409.Text = ".22 LR";
             // 
             // textBox410
             // 
@@ -12313,6 +12360,7 @@ namespace Arkansas_Armory
             this.textBox410.Name = "textBox410";
             this.textBox410.Size = new System.Drawing.Size(100, 20);
             this.textBox410.TabIndex = 8;
+            this.textBox410.Text = "SEMI AUTO";
             // 
             // textBox411
             // 
@@ -12320,6 +12368,7 @@ namespace Arkansas_Armory
             this.textBox411.Name = "textBox411";
             this.textBox411.Size = new System.Drawing.Size(100, 20);
             this.textBox411.TabIndex = 7;
+            this.textBox411.Text = "M4-22 ELITE";
             // 
             // textBox412
             // 
@@ -12327,6 +12376,7 @@ namespace Arkansas_Armory
             this.textBox412.Name = "textBox412";
             this.textBox412.Size = new System.Drawing.Size(100, 20);
             this.textBox412.TabIndex = 6;
+            this.textBox412.Text = "TIPPMAN ARMS";
             // 
             // label397
             // 
@@ -12396,6 +12446,7 @@ namespace Arkansas_Armory
             this.textBox413.Name = "textBox413";
             this.textBox413.Size = new System.Drawing.Size(100, 20);
             this.textBox413.TabIndex = 12;
+            this.textBox413.Text = "$2,685.99 ";
             // 
             // button85
             // 
@@ -12449,6 +12500,7 @@ namespace Arkansas_Armory
             this.textBox414.Name = "textBox414";
             this.textBox414.Size = new System.Drawing.Size(100, 20);
             this.textBox414.TabIndex = 33;
+            this.textBox414.Text = "847313015655";
             // 
             // label400
             // 
@@ -12474,6 +12526,7 @@ namespace Arkansas_Armory
             this.textBox415.Name = "textBox415";
             this.textBox415.Size = new System.Drawing.Size(100, 20);
             this.textBox415.TabIndex = 30;
+            this.textBox415.Text = "DESERT";
             // 
             // textBox416
             // 
@@ -12481,6 +12534,7 @@ namespace Arkansas_Armory
             this.textBox416.Name = "textBox416";
             this.textBox416.Size = new System.Drawing.Size(100, 20);
             this.textBox416.TabIndex = 29;
+            this.textBox416.Text = "9.4 LBS";
             // 
             // label402
             // 
@@ -12524,6 +12578,7 @@ namespace Arkansas_Armory
             this.textBox417.Name = "textBox417";
             this.textBox417.Size = new System.Drawing.Size(100, 20);
             this.textBox417.TabIndex = 11;
+            this.textBox417.Text = "20\" BARREL";
             // 
             // textBox418
             // 
@@ -12531,6 +12586,7 @@ namespace Arkansas_Armory
             this.textBox418.Name = "textBox418";
             this.textBox418.Size = new System.Drawing.Size(100, 20);
             this.textBox418.TabIndex = 10;
+            this.textBox418.Text = "20 ROUNDS";
             // 
             // textBox419
             // 
@@ -12538,6 +12594,7 @@ namespace Arkansas_Armory
             this.textBox419.Name = "textBox419";
             this.textBox419.Size = new System.Drawing.Size(100, 20);
             this.textBox419.TabIndex = 9;
+            this.textBox419.Text = "6.5 MM CREEDMOOR";
             // 
             // textBox420
             // 
@@ -12545,6 +12602,7 @@ namespace Arkansas_Armory
             this.textBox420.Name = "textBox420";
             this.textBox420.Size = new System.Drawing.Size(100, 20);
             this.textBox420.TabIndex = 8;
+            this.textBox420.Text = "SEMI AUTO";
             // 
             // textBox421
             // 
@@ -12552,6 +12610,7 @@ namespace Arkansas_Armory
             this.textBox421.Name = "textBox421";
             this.textBox421.Size = new System.Drawing.Size(100, 20);
             this.textBox421.TabIndex = 7;
+            this.textBox421.Text = "FACTORY REVOLUTION";
             // 
             // textBox422
             // 
@@ -12559,6 +12618,7 @@ namespace Arkansas_Armory
             this.textBox422.Name = "textBox422";
             this.textBox422.Size = new System.Drawing.Size(100, 20);
             this.textBox422.TabIndex = 6;
+            this.textBox422.Text = "PATRIOT ORDNANCE";
             // 
             // label406
             // 
@@ -12628,6 +12688,7 @@ namespace Arkansas_Armory
             this.textBox423.Name = "textBox423";
             this.textBox423.Size = new System.Drawing.Size(100, 20);
             this.textBox423.TabIndex = 12;
+            this.textBox423.Text = "$980.99 ";
             // 
             // button87
             // 
@@ -12681,6 +12742,7 @@ namespace Arkansas_Armory
             this.textBox424.Name = "textBox424";
             this.textBox424.Size = new System.Drawing.Size(100, 20);
             this.textBox424.TabIndex = 33;
+            this.textBox424.Text = "811069029488";
             // 
             // label409
             // 
@@ -12706,6 +12768,7 @@ namespace Arkansas_Armory
             this.textBox425.Name = "textBox425";
             this.textBox425.Size = new System.Drawing.Size(100, 20);
             this.textBox425.TabIndex = 30;
+            this.textBox425.Text = "BLACK";
             // 
             // textBox426
             // 
@@ -12713,6 +12776,7 @@ namespace Arkansas_Armory
             this.textBox426.Name = "textBox426";
             this.textBox426.Size = new System.Drawing.Size(100, 20);
             this.textBox426.TabIndex = 29;
+            this.textBox426.Text = "7.1 LBS";
             // 
             // label411
             // 
@@ -12756,6 +12820,7 @@ namespace Arkansas_Armory
             this.textBox427.Name = "textBox427";
             this.textBox427.Size = new System.Drawing.Size(100, 20);
             this.textBox427.TabIndex = 11;
+            this.textBox427.Text = "16\" BARREL";
             // 
             // textBox428
             // 
@@ -12763,6 +12828,7 @@ namespace Arkansas_Armory
             this.textBox428.Name = "textBox428";
             this.textBox428.Size = new System.Drawing.Size(100, 20);
             this.textBox428.TabIndex = 10;
+            this.textBox428.Text = "30+1 ROUNDS";
             // 
             // textBox429
             // 
@@ -12770,6 +12836,7 @@ namespace Arkansas_Armory
             this.textBox429.Name = "textBox429";
             this.textBox429.Size = new System.Drawing.Size(100, 20);
             this.textBox429.TabIndex = 9;
+            this.textBox429.Text = ".223 REM/5.56 NATO";
             // 
             // textBox430
             // 
@@ -12777,6 +12844,7 @@ namespace Arkansas_Armory
             this.textBox430.Name = "textBox430";
             this.textBox430.Size = new System.Drawing.Size(100, 20);
             this.textBox430.TabIndex = 8;
+            this.textBox430.Text = "SEMI AUTO";
             // 
             // textBox431
             // 
@@ -12784,6 +12852,7 @@ namespace Arkansas_Armory
             this.textBox431.Name = "textBox431";
             this.textBox431.Size = new System.Drawing.Size(100, 20);
             this.textBox431.TabIndex = 7;
+            this.textBox431.Text = "BASE RIFLE AR-15";
             // 
             // textBox432
             // 
@@ -12791,6 +12860,7 @@ namespace Arkansas_Armory
             this.textBox432.Name = "textBox432";
             this.textBox432.Size = new System.Drawing.Size(100, 20);
             this.textBox432.TabIndex = 6;
+            this.textBox432.Text = "ZRO DELTA";
             // 
             // label415
             // 
@@ -12860,6 +12930,7 @@ namespace Arkansas_Armory
             this.textBox433.Name = "textBox433";
             this.textBox433.Size = new System.Drawing.Size(100, 20);
             this.textBox433.TabIndex = 12;
+            this.textBox433.Text = "$1,304.99 ";
             // 
             // button89
             // 
@@ -12913,6 +12984,7 @@ namespace Arkansas_Armory
             this.textBox434.Name = "textBox434";
             this.textBox434.Size = new System.Drawing.Size(100, 20);
             this.textBox434.TabIndex = 33;
+            this.textBox434.Text = "810033782657";
             // 
             // label418
             // 
@@ -12938,6 +13010,7 @@ namespace Arkansas_Armory
             this.textBox435.Name = "textBox435";
             this.textBox435.Size = new System.Drawing.Size(100, 20);
             this.textBox435.TabIndex = 30;
+            this.textBox435.Text = "BLACK";
             // 
             // textBox436
             // 
@@ -12945,6 +13018,7 @@ namespace Arkansas_Armory
             this.textBox436.Name = "textBox436";
             this.textBox436.Size = new System.Drawing.Size(100, 20);
             this.textBox436.TabIndex = 29;
+            this.textBox436.Text = "NOT LISTED";
             // 
             // label420
             // 
@@ -12988,6 +13062,7 @@ namespace Arkansas_Armory
             this.textBox437.Name = "textBox437";
             this.textBox437.Size = new System.Drawing.Size(100, 20);
             this.textBox437.TabIndex = 11;
+            this.textBox437.Text = "16\" BARREL";
             // 
             // textBox438
             // 
@@ -12995,6 +13070,7 @@ namespace Arkansas_Armory
             this.textBox438.Name = "textBox438";
             this.textBox438.Size = new System.Drawing.Size(100, 20);
             this.textBox438.TabIndex = 10;
+            this.textBox438.Text = "30+1 ROUNDS";
             // 
             // textBox439
             // 
@@ -13002,6 +13078,7 @@ namespace Arkansas_Armory
             this.textBox439.Name = "textBox439";
             this.textBox439.Size = new System.Drawing.Size(100, 20);
             this.textBox439.TabIndex = 9;
+            this.textBox439.Text = ".223 REM/5.56 NATO";
             // 
             // textBox440
             // 
@@ -13009,6 +13086,7 @@ namespace Arkansas_Armory
             this.textBox440.Name = "textBox440";
             this.textBox440.Size = new System.Drawing.Size(100, 20);
             this.textBox440.TabIndex = 8;
+            this.textBox440.Text = "SEMI AUTO";
             // 
             // textBox441
             // 
@@ -13016,6 +13094,7 @@ namespace Arkansas_Armory
             this.textBox441.Name = "textBox441";
             this.textBox441.Size = new System.Drawing.Size(100, 20);
             this.textBox441.TabIndex = 7;
+            this.textBox441.Text = "WORKHORSE PATROL RIFLE";
             // 
             // textBox442
             // 
@@ -13023,6 +13102,7 @@ namespace Arkansas_Armory
             this.textBox442.Name = "textBox442";
             this.textBox442.Size = new System.Drawing.Size(100, 20);
             this.textBox442.TabIndex = 6;
+            this.textBox442.Text = "BATTLE ARMS DEVELOPMENT";
             // 
             // label424
             // 
@@ -13092,6 +13172,7 @@ namespace Arkansas_Armory
             this.textBox443.Name = "textBox443";
             this.textBox443.Size = new System.Drawing.Size(100, 20);
             this.textBox443.TabIndex = 12;
+            this.textBox443.Text = "$849.99 ";
             // 
             // button91
             // 
@@ -13145,6 +13226,7 @@ namespace Arkansas_Armory
             this.textBox444.Name = "textBox444";
             this.textBox444.Size = new System.Drawing.Size(100, 20);
             this.textBox444.TabIndex = 33;
+            this.textBox444.Text = "GDC0000014082";
             // 
             // label427
             // 
@@ -13170,6 +13252,7 @@ namespace Arkansas_Armory
             this.textBox445.Name = "textBox445";
             this.textBox445.Size = new System.Drawing.Size(100, 20);
             this.textBox445.TabIndex = 30;
+            this.textBox445.Text = "BLACK";
             // 
             // textBox446
             // 
@@ -13177,6 +13260,7 @@ namespace Arkansas_Armory
             this.textBox446.Name = "textBox446";
             this.textBox446.Size = new System.Drawing.Size(100, 20);
             this.textBox446.TabIndex = 29;
+            this.textBox446.Text = "7.4 LBS";
             // 
             // label429
             // 
@@ -13220,6 +13304,7 @@ namespace Arkansas_Armory
             this.textBox447.Name = "textBox447";
             this.textBox447.Size = new System.Drawing.Size(100, 20);
             this.textBox447.TabIndex = 11;
+            this.textBox447.Text = "16\" BARREL";
             // 
             // textBox448
             // 
@@ -13227,6 +13312,7 @@ namespace Arkansas_Armory
             this.textBox448.Name = "textBox448";
             this.textBox448.Size = new System.Drawing.Size(100, 20);
             this.textBox448.TabIndex = 10;
+            this.textBox448.Text = "30+1 ROUNDS";
             // 
             // textBox449
             // 
@@ -13234,6 +13320,7 @@ namespace Arkansas_Armory
             this.textBox449.Name = "textBox449";
             this.textBox449.Size = new System.Drawing.Size(100, 20);
             this.textBox449.TabIndex = 9;
+            this.textBox449.Text = "5.56X45MM NATO";
             // 
             // textBox450
             // 
@@ -13241,6 +13328,7 @@ namespace Arkansas_Armory
             this.textBox450.Name = "textBox450";
             this.textBox450.Size = new System.Drawing.Size(100, 20);
             this.textBox450.TabIndex = 8;
+            this.textBox450.Text = "SEMI AUTO";
             // 
             // textBox451
             // 
@@ -13248,6 +13336,7 @@ namespace Arkansas_Armory
             this.textBox451.Name = "textBox451";
             this.textBox451.Size = new System.Drawing.Size(100, 20);
             this.textBox451.TabIndex = 7;
+            this.textBox451.Text = "LAR-15";
             // 
             // textBox452
             // 
@@ -13255,6 +13344,7 @@ namespace Arkansas_Armory
             this.textBox452.Name = "textBox452";
             this.textBox452.Size = new System.Drawing.Size(100, 20);
             this.textBox452.TabIndex = 6;
+            this.textBox452.Text = "ROCK RIVER ARMS";
             // 
             // label433
             // 
@@ -13324,6 +13414,7 @@ namespace Arkansas_Armory
             this.textBox453.Name = "textBox453";
             this.textBox453.Size = new System.Drawing.Size(100, 20);
             this.textBox453.TabIndex = 12;
+            this.textBox453.Text = "$1,300.99 ";
             // 
             // button93
             // 
@@ -13377,6 +13468,7 @@ namespace Arkansas_Armory
             this.textBox454.Name = "textBox454";
             this.textBox454.Size = new System.Drawing.Size(100, 20);
             this.textBox454.TabIndex = 33;
+            this.textBox454.Text = "MCM-LFDFDNR";
             // 
             // label436
             // 
@@ -13402,6 +13494,7 @@ namespace Arkansas_Armory
             this.textBox455.Name = "textBox455";
             this.textBox455.Size = new System.Drawing.Size(100, 20);
             this.textBox455.TabIndex = 30;
+            this.textBox455.Text = "DESERT";
             // 
             // textBox456
             // 
@@ -13409,6 +13502,7 @@ namespace Arkansas_Armory
             this.textBox456.Name = "textBox456";
             this.textBox456.Size = new System.Drawing.Size(100, 20);
             this.textBox456.TabIndex = 29;
+            this.textBox456.Text = "8 LBS";
             // 
             // label438
             // 
@@ -13452,6 +13546,7 @@ namespace Arkansas_Armory
             this.textBox457.Name = "textBox457";
             this.textBox457.Size = new System.Drawing.Size(100, 20);
             this.textBox457.TabIndex = 11;
+            this.textBox457.Text = "16.1\" BARREL";
             // 
             // textBox458
             // 
@@ -13459,6 +13554,7 @@ namespace Arkansas_Armory
             this.textBox458.Name = "textBox458";
             this.textBox458.Size = new System.Drawing.Size(100, 20);
             this.textBox458.TabIndex = 10;
+            this.textBox458.Text = "30+1 ROUNDS";
             // 
             // textBox459
             // 
@@ -13466,6 +13562,7 @@ namespace Arkansas_Armory
             this.textBox459.Name = "textBox459";
             this.textBox459.Size = new System.Drawing.Size(100, 20);
             this.textBox459.TabIndex = 9;
+            this.textBox459.Text = ".223 REM/5.56 NATO";
             // 
             // textBox460
             // 
@@ -13473,6 +13570,7 @@ namespace Arkansas_Armory
             this.textBox460.Name = "textBox460";
             this.textBox460.Size = new System.Drawing.Size(100, 20);
             this.textBox460.TabIndex = 8;
+            this.textBox460.Text = "SEMI AUTO";
             // 
             // textBox461
             // 
@@ -13480,6 +13578,7 @@ namespace Arkansas_Armory
             this.textBox461.Name = "textBox461";
             this.textBox461.Size = new System.Drawing.Size(100, 20);
             this.textBox461.TabIndex = 7;
+            this.textBox461.Text = "L NO RAIL";
             // 
             // textBox462
             // 
@@ -13487,6 +13586,7 @@ namespace Arkansas_Armory
             this.textBox462.Name = "textBox462";
             this.textBox462.Size = new System.Drawing.Size(100, 20);
             this.textBox462.TabIndex = 6;
+            this.textBox462.Text = "MARCOLMAR CETME";
             // 
             // label442
             // 
@@ -13556,6 +13656,7 @@ namespace Arkansas_Armory
             this.textBox463.Name = "textBox463";
             this.textBox463.Size = new System.Drawing.Size(100, 20);
             this.textBox463.TabIndex = 12;
+            this.textBox463.Text = "$1,218.99 ";
             // 
             // button95
             // 
@@ -13609,6 +13710,7 @@ namespace Arkansas_Armory
             this.textBox464.Name = "textBox464";
             this.textBox464.Size = new System.Drawing.Size(100, 20);
             this.textBox464.TabIndex = 33;
+            this.textBox464.Text = "787450620728";
             // 
             // label445
             // 
@@ -13634,6 +13736,7 @@ namespace Arkansas_Armory
             this.textBox465.Name = "textBox465";
             this.textBox465.Size = new System.Drawing.Size(100, 20);
             this.textBox465.TabIndex = 30;
+            this.textBox465.Text = "BLACK & TAN";
             // 
             // textBox466
             // 
@@ -13641,6 +13744,7 @@ namespace Arkansas_Armory
             this.textBox466.Name = "textBox466";
             this.textBox466.Size = new System.Drawing.Size(100, 20);
             this.textBox466.TabIndex = 29;
+            this.textBox466.Text = "8 LBS";
             // 
             // label447
             // 
@@ -13684,6 +13788,7 @@ namespace Arkansas_Armory
             this.textBox467.Name = "textBox467";
             this.textBox467.Size = new System.Drawing.Size(100, 20);
             this.textBox467.TabIndex = 11;
+            this.textBox467.Text = "16.5\" BARREL";
             // 
             // textBox468
             // 
@@ -13691,6 +13796,7 @@ namespace Arkansas_Armory
             this.textBox468.Name = "textBox468";
             this.textBox468.Size = new System.Drawing.Size(100, 20);
             this.textBox468.TabIndex = 10;
+            this.textBox468.Text = "30+1 ROUNDS";
             // 
             // textBox469
             // 
@@ -13698,6 +13804,7 @@ namespace Arkansas_Armory
             this.textBox469.Name = "textBox469";
             this.textBox469.Size = new System.Drawing.Size(100, 20);
             this.textBox469.TabIndex = 9;
+            this.textBox469.Text = "7.62 X 39 MM";
             // 
             // textBox470
             // 
@@ -13705,6 +13812,7 @@ namespace Arkansas_Armory
             this.textBox470.Name = "textBox470";
             this.textBox470.Size = new System.Drawing.Size(100, 20);
             this.textBox470.TabIndex = 8;
+            this.textBox470.Text = "SEMI AUTO";
             // 
             // textBox471
             // 
@@ -13712,6 +13820,7 @@ namespace Arkansas_Armory
             this.textBox471.Name = "textBox471";
             this.textBox471.Size = new System.Drawing.Size(100, 20);
             this.textBox471.TabIndex = 7;
+            this.textBox471.Text = "WASR FOLDING PARATROOPER";
             // 
             // textBox472
             // 
@@ -13719,6 +13828,7 @@ namespace Arkansas_Armory
             this.textBox472.Name = "textBox472";
             this.textBox472.Size = new System.Drawing.Size(100, 20);
             this.textBox472.TabIndex = 6;
+            this.textBox472.Text = "CENTURY ARMS";
             // 
             // label451
             // 
@@ -13788,6 +13898,7 @@ namespace Arkansas_Armory
             this.textBox473.Name = "textBox473";
             this.textBox473.Size = new System.Drawing.Size(100, 20);
             this.textBox473.TabIndex = 12;
+            this.textBox473.Text = "$4,019.99 ";
             // 
             // button97
             // 
@@ -13841,6 +13952,7 @@ namespace Arkansas_Armory
             this.textBox474.Name = "textBox474";
             this.textBox474.Size = new System.Drawing.Size(100, 20);
             this.textBox474.TabIndex = 33;
+            this.textBox474.Text = "845737011178";
             // 
             // label454
             // 
@@ -13866,6 +13978,7 @@ namespace Arkansas_Armory
             this.textBox475.Name = "textBox475";
             this.textBox475.Size = new System.Drawing.Size(100, 20);
             this.textBox475.TabIndex = 30;
+            this.textBox475.Text = "BLACK & TAN";
             // 
             // textBox476
             // 
@@ -13873,6 +13986,7 @@ namespace Arkansas_Armory
             this.textBox476.Name = "textBox476";
             this.textBox476.Size = new System.Drawing.Size(100, 20);
             this.textBox476.TabIndex = 29;
+            this.textBox476.Text = "11.6 LBS";
             // 
             // label456
             // 
@@ -13916,6 +14030,7 @@ namespace Arkansas_Armory
             this.textBox477.Name = "textBox477";
             this.textBox477.Size = new System.Drawing.Size(100, 20);
             this.textBox477.TabIndex = 11;
+            this.textBox477.Text = "20\" BARREL";
             // 
             // textBox478
             // 
@@ -13923,6 +14038,7 @@ namespace Arkansas_Armory
             this.textBox478.Name = "textBox478";
             this.textBox478.Size = new System.Drawing.Size(100, 20);
             this.textBox478.TabIndex = 10;
+            this.textBox478.Text = "10+1 ROUNDS";
             // 
             // textBox479
             // 
@@ -13930,6 +14046,7 @@ namespace Arkansas_Armory
             this.textBox479.Name = "textBox479";
             this.textBox479.Size = new System.Drawing.Size(100, 20);
             this.textBox479.TabIndex = 9;
+            this.textBox479.Text = "7.62X51MM";
             // 
             // textBox480
             // 
@@ -13937,6 +14054,7 @@ namespace Arkansas_Armory
             this.textBox480.Name = "textBox480";
             this.textBox480.Size = new System.Drawing.Size(100, 20);
             this.textBox480.TabIndex = 8;
+            this.textBox480.Text = "SEMI AUTO";
             // 
             // textBox481
             // 
@@ -13944,6 +14062,7 @@ namespace Arkansas_Armory
             this.textBox481.Name = "textBox481";
             this.textBox481.Size = new System.Drawing.Size(100, 20);
             this.textBox481.TabIndex = 7;
+            this.textBox481.Text = "AMERICA SCAR 20S";
             // 
             // textBox482
             // 
@@ -13951,6 +14070,7 @@ namespace Arkansas_Armory
             this.textBox482.Name = "textBox482";
             this.textBox482.Size = new System.Drawing.Size(100, 20);
             this.textBox482.TabIndex = 6;
+            this.textBox482.Text = "FN";
             // 
             // label460
             // 
@@ -14020,6 +14140,7 @@ namespace Arkansas_Armory
             this.textBox483.Name = "textBox483";
             this.textBox483.Size = new System.Drawing.Size(100, 20);
             this.textBox483.TabIndex = 12;
+            this.textBox483.Text = "$4,140.99 ";
             // 
             // button99
             // 
@@ -14073,6 +14194,7 @@ namespace Arkansas_Armory
             this.textBox484.Name = "textBox484";
             this.textBox484.Size = new System.Drawing.Size(100, 20);
             this.textBox484.TabIndex = 33;
+            this.textBox484.Text = "845737011208";
             // 
             // label463
             // 
@@ -14098,6 +14220,7 @@ namespace Arkansas_Armory
             this.textBox485.Name = "textBox485";
             this.textBox485.Size = new System.Drawing.Size(100, 20);
             this.textBox485.TabIndex = 30;
+            this.textBox485.Text = "BLACK & TAN";
             // 
             // textBox486
             // 
@@ -14105,6 +14228,7 @@ namespace Arkansas_Armory
             this.textBox486.Name = "textBox486";
             this.textBox486.Size = new System.Drawing.Size(100, 20);
             this.textBox486.TabIndex = 29;
+            this.textBox486.Text = "11.6 LBS";
             // 
             // label465
             // 
@@ -14148,6 +14272,7 @@ namespace Arkansas_Armory
             this.textBox487.Name = "textBox487";
             this.textBox487.Size = new System.Drawing.Size(100, 20);
             this.textBox487.TabIndex = 11;
+            this.textBox487.Text = "20\" BARREL";
             // 
             // textBox488
             // 
@@ -14155,6 +14280,7 @@ namespace Arkansas_Armory
             this.textBox488.Name = "textBox488";
             this.textBox488.Size = new System.Drawing.Size(100, 20);
             this.textBox488.TabIndex = 10;
+            this.textBox488.Text = "10+1 ROUNDS";
             // 
             // textBox489
             // 
@@ -14162,6 +14288,7 @@ namespace Arkansas_Armory
             this.textBox489.Name = "textBox489";
             this.textBox489.Size = new System.Drawing.Size(100, 20);
             this.textBox489.TabIndex = 9;
+            this.textBox489.Text = "6.5 MM CREEDMOOR";
             // 
             // textBox490
             // 
@@ -14169,6 +14296,7 @@ namespace Arkansas_Armory
             this.textBox490.Name = "textBox490";
             this.textBox490.Size = new System.Drawing.Size(100, 20);
             this.textBox490.TabIndex = 8;
+            this.textBox490.Text = "SEMI AUTO";
             // 
             // textBox491
             // 
@@ -14176,6 +14304,7 @@ namespace Arkansas_Armory
             this.textBox491.Name = "textBox491";
             this.textBox491.Size = new System.Drawing.Size(100, 20);
             this.textBox491.TabIndex = 7;
+            this.textBox491.Text = "AMERICA SCAR 20S";
             // 
             // textBox492
             // 
@@ -14183,6 +14312,7 @@ namespace Arkansas_Armory
             this.textBox492.Name = "textBox492";
             this.textBox492.Size = new System.Drawing.Size(100, 20);
             this.textBox492.TabIndex = 6;
+            this.textBox492.Text = "FN";
             // 
             // label469
             // 
@@ -14483,6 +14613,7 @@ namespace Arkansas_Armory
             this.textBox503.Name = "textBox503";
             this.textBox503.Size = new System.Drawing.Size(100, 20);
             this.textBox503.TabIndex = 12;
+            this.textBox503.Text = "$1,132.99 ";
             // 
             // button103
             // 
@@ -14536,6 +14667,7 @@ namespace Arkansas_Armory
             this.textBox504.Name = "textBox504";
             this.textBox504.Size = new System.Drawing.Size(100, 20);
             this.textBox504.TabIndex = 33;
+            this.textBox504.Text = "GDC0000231516";
             // 
             // label481
             // 
@@ -14561,6 +14693,7 @@ namespace Arkansas_Armory
             this.textBox505.Name = "textBox505";
             this.textBox505.Size = new System.Drawing.Size(100, 20);
             this.textBox505.TabIndex = 30;
+            this.textBox505.Text = "BLACK";
             // 
             // textBox506
             // 
@@ -14568,6 +14701,7 @@ namespace Arkansas_Armory
             this.textBox506.Name = "textBox506";
             this.textBox506.Size = new System.Drawing.Size(100, 20);
             this.textBox506.TabIndex = 29;
+            this.textBox506.Text = "6.6 LBS";
             // 
             // label483
             // 
@@ -14611,6 +14745,7 @@ namespace Arkansas_Armory
             this.textBox507.Name = "textBox507";
             this.textBox507.Size = new System.Drawing.Size(100, 20);
             this.textBox507.TabIndex = 11;
+            this.textBox507.Text = "16\" BARREL";
             // 
             // textBox508
             // 
@@ -14618,6 +14753,7 @@ namespace Arkansas_Armory
             this.textBox508.Name = "textBox508";
             this.textBox508.Size = new System.Drawing.Size(100, 20);
             this.textBox508.TabIndex = 10;
+            this.textBox508.Text = "30+1 ROUNDS";
             // 
             // textBox509
             // 
@@ -14625,6 +14761,7 @@ namespace Arkansas_Armory
             this.textBox509.Name = "textBox509";
             this.textBox509.Size = new System.Drawing.Size(100, 20);
             this.textBox509.TabIndex = 9;
+            this.textBox509.Text = ".223 REM/5.56 NATO";
             // 
             // textBox510
             // 
@@ -14632,6 +14769,7 @@ namespace Arkansas_Armory
             this.textBox510.Name = "textBox510";
             this.textBox510.Size = new System.Drawing.Size(100, 20);
             this.textBox510.TabIndex = 8;
+            this.textBox510.Text = "SEMI AUTO";
             // 
             // textBox511
             // 
@@ -14639,6 +14777,7 @@ namespace Arkansas_Armory
             this.textBox511.Name = "textBox511";
             this.textBox511.Size = new System.Drawing.Size(100, 20);
             this.textBox511.TabIndex = 7;
+            this.textBox511.Text = "CR6920 CARBINE";
             // 
             // textBox512
             // 
@@ -14646,6 +14785,7 @@ namespace Arkansas_Armory
             this.textBox512.Name = "textBox512";
             this.textBox512.Size = new System.Drawing.Size(100, 20);
             this.textBox512.TabIndex = 6;
+            this.textBox512.Text = "COLT";
             // 
             // label487
             // 
@@ -14715,6 +14855,7 @@ namespace Arkansas_Armory
             this.textBox513.Name = "textBox513";
             this.textBox513.Size = new System.Drawing.Size(100, 20);
             this.textBox513.TabIndex = 12;
+            this.textBox513.Text = "$1,942.99 ";
             // 
             // button105
             // 
@@ -14768,6 +14909,7 @@ namespace Arkansas_Armory
             this.textBox514.Name = "textBox514";
             this.textBox514.Size = new System.Drawing.Size(100, 20);
             this.textBox514.TabIndex = 33;
+            this.textBox514.Text = "688218739426";
             // 
             // label490
             // 
@@ -14793,6 +14935,7 @@ namespace Arkansas_Armory
             this.textBox515.Name = "textBox515";
             this.textBox515.Size = new System.Drawing.Size(100, 20);
             this.textBox515.TabIndex = 30;
+            this.textBox515.Text = "BLACK";
             // 
             // textBox516
             // 
@@ -14800,6 +14943,7 @@ namespace Arkansas_Armory
             this.textBox516.Name = "textBox516";
             this.textBox516.Size = new System.Drawing.Size(100, 20);
             this.textBox516.TabIndex = 29;
+            this.textBox516.Text = "7.7 LBS";
             // 
             // label492
             // 
@@ -14843,6 +14987,7 @@ namespace Arkansas_Armory
             this.textBox517.Name = "textBox517";
             this.textBox517.Size = new System.Drawing.Size(100, 20);
             this.textBox517.TabIndex = 11;
+            this.textBox517.Text = "16\" BARREL";
             // 
             // textBox518
             // 
@@ -14850,6 +14995,7 @@ namespace Arkansas_Armory
             this.textBox518.Name = "textBox518";
             this.textBox518.Size = new System.Drawing.Size(100, 20);
             this.textBox518.TabIndex = 10;
+            this.textBox518.Text = "30+1 ROUNDS";
             // 
             // textBox519
             // 
@@ -14857,6 +15003,7 @@ namespace Arkansas_Armory
             this.textBox519.Name = "textBox519";
             this.textBox519.Size = new System.Drawing.Size(100, 20);
             this.textBox519.TabIndex = 9;
+            this.textBox519.Text = ".223 REM/5.56 NATO";
             // 
             // textBox520
             // 
@@ -14864,6 +15011,7 @@ namespace Arkansas_Armory
             this.textBox520.Name = "textBox520";
             this.textBox520.Size = new System.Drawing.Size(100, 20);
             this.textBox520.TabIndex = 8;
+            this.textBox520.Text = "SEMI AUTO";
             // 
             // textBox521
             // 
@@ -14871,6 +15019,7 @@ namespace Arkansas_Armory
             this.textBox521.Name = "textBox521";
             this.textBox521.Size = new System.Drawing.Size(100, 20);
             this.textBox521.TabIndex = 7;
+            this.textBox521.Text = "AUG A3 M1";
             // 
             // textBox522
             // 
@@ -14878,6 +15027,7 @@ namespace Arkansas_Armory
             this.textBox522.Name = "textBox522";
             this.textBox522.Size = new System.Drawing.Size(100, 20);
             this.textBox522.TabIndex = 6;
+            this.textBox522.Text = "STEYR";
             // 
             // label496
             // 
@@ -14947,6 +15097,7 @@ namespace Arkansas_Armory
             this.textBox523.Name = "textBox523";
             this.textBox523.Size = new System.Drawing.Size(100, 20);
             this.textBox523.TabIndex = 12;
+            this.textBox523.Text = "$457.99 ";
             // 
             // button107
             // 
@@ -15000,6 +15151,7 @@ namespace Arkansas_Armory
             this.textBox524.Name = "textBox524";
             this.textBox524.Size = new System.Drawing.Size(100, 20);
             this.textBox524.TabIndex = 33;
+            this.textBox524.Text = "022188868203";
             // 
             // label499
             // 
@@ -15025,6 +15177,7 @@ namespace Arkansas_Armory
             this.textBox525.Name = "textBox525";
             this.textBox525.Size = new System.Drawing.Size(100, 20);
             this.textBox525.TabIndex = 30;
+            this.textBox525.Text = "BLACK";
             // 
             // textBox526
             // 
@@ -15032,6 +15185,7 @@ namespace Arkansas_Armory
             this.textBox526.Name = "textBox526";
             this.textBox526.Size = new System.Drawing.Size(100, 20);
             this.textBox526.TabIndex = 29;
+            this.textBox526.Text = "4.8 LBS";
             // 
             // label501
             // 
@@ -15075,6 +15229,7 @@ namespace Arkansas_Armory
             this.textBox527.Name = "textBox527";
             this.textBox527.Size = new System.Drawing.Size(100, 20);
             this.textBox527.TabIndex = 11;
+            this.textBox527.Text = "16.5\" BARREL";
             // 
             // textBox528
             // 
@@ -15082,6 +15237,7 @@ namespace Arkansas_Armory
             this.textBox528.Name = "textBox528";
             this.textBox528.Size = new System.Drawing.Size(100, 20);
             this.textBox528.TabIndex = 10;
+            this.textBox528.Text = "25+1 ROUNDS";
             // 
             // textBox529
             // 
@@ -15089,6 +15245,7 @@ namespace Arkansas_Armory
             this.textBox529.Name = "textBox529";
             this.textBox529.Size = new System.Drawing.Size(100, 20);
             this.textBox529.TabIndex = 9;
+            this.textBox529.Text = ".22 LR";
             // 
             // textBox530
             // 
@@ -15096,6 +15253,7 @@ namespace Arkansas_Armory
             this.textBox530.Name = "textBox530";
             this.textBox530.Size = new System.Drawing.Size(100, 20);
             this.textBox530.TabIndex = 8;
+            this.textBox530.Text = "SEMI AUTO";
             // 
             // textBox531
             // 
@@ -15103,6 +15261,7 @@ namespace Arkansas_Armory
             this.textBox531.Name = "textBox531";
             this.textBox531.Size = new System.Drawing.Size(100, 20);
             this.textBox531.TabIndex = 7;
+            this.textBox531.Text = "M&P15-22 SPORT";
             // 
             // textBox532
             // 
@@ -15110,6 +15269,7 @@ namespace Arkansas_Armory
             this.textBox532.Name = "textBox532";
             this.textBox532.Size = new System.Drawing.Size(100, 20);
             this.textBox532.TabIndex = 6;
+            this.textBox532.Text = "SMITH & WESSON";
             // 
             // label505
             // 
@@ -15410,6 +15570,7 @@ namespace Arkansas_Armory
             this.textBox533.Name = "textBox533";
             this.textBox533.Size = new System.Drawing.Size(100, 20);
             this.textBox533.TabIndex = 12;
+            this.textBox533.Text = "$763.99 ";
             // 
             // button109
             // 
@@ -15463,6 +15624,7 @@ namespace Arkansas_Armory
             this.textBox534.Name = "textBox534";
             this.textBox534.Size = new System.Drawing.Size(100, 20);
             this.textBox534.TabIndex = 33;
+            this.textBox534.Text = "022188872729";
             // 
             // label508
             // 
@@ -15488,6 +15650,7 @@ namespace Arkansas_Armory
             this.textBox535.Name = "textBox535";
             this.textBox535.Size = new System.Drawing.Size(100, 20);
             this.textBox535.TabIndex = 30;
+            this.textBox535.Text = "BLACK";
             // 
             // textBox536
             // 
@@ -15495,6 +15658,7 @@ namespace Arkansas_Armory
             this.textBox536.Name = "textBox536";
             this.textBox536.Size = new System.Drawing.Size(100, 20);
             this.textBox536.TabIndex = 29;
+            this.textBox536.Text = "6.5 LBS";
             // 
             // label510
             // 
@@ -15538,6 +15702,7 @@ namespace Arkansas_Armory
             this.textBox537.Name = "textBox537";
             this.textBox537.Size = new System.Drawing.Size(100, 20);
             this.textBox537.TabIndex = 11;
+            this.textBox537.Text = "16\" BARREL";
             // 
             // textBox538
             // 
@@ -15545,6 +15710,7 @@ namespace Arkansas_Armory
             this.textBox538.Name = "textBox538";
             this.textBox538.Size = new System.Drawing.Size(100, 20);
             this.textBox538.TabIndex = 10;
+            this.textBox538.Text = "10+1 ROUNDS";
             // 
             // textBox539
             // 
@@ -15552,6 +15718,7 @@ namespace Arkansas_Armory
             this.textBox539.Name = "textBox539";
             this.textBox539.Size = new System.Drawing.Size(100, 20);
             this.textBox539.TabIndex = 9;
+            this.textBox539.Text = ".223 REM/5.56 NATO";
             // 
             // textBox540
             // 
@@ -15559,6 +15726,7 @@ namespace Arkansas_Armory
             this.textBox540.Name = "textBox540";
             this.textBox540.Size = new System.Drawing.Size(100, 20);
             this.textBox540.TabIndex = 8;
+            this.textBox540.Text = "SEMI AUTO";
             // 
             // textBox541
             // 
@@ -15566,6 +15734,7 @@ namespace Arkansas_Armory
             this.textBox541.Name = "textBox541";
             this.textBox541.Size = new System.Drawing.Size(100, 20);
             this.textBox541.TabIndex = 7;
+            this.textBox541.Text = "M&P15 SPORT II CA COMPLIANT";
             // 
             // textBox542
             // 
@@ -15573,6 +15742,7 @@ namespace Arkansas_Armory
             this.textBox542.Name = "textBox542";
             this.textBox542.Size = new System.Drawing.Size(100, 20);
             this.textBox542.TabIndex = 6;
+            this.textBox542.Text = "SMITH & WESSON";
             // 
             // label514
             // 
@@ -15642,6 +15812,7 @@ namespace Arkansas_Armory
             this.textBox553.Name = "textBox553";
             this.textBox553.Size = new System.Drawing.Size(100, 20);
             this.textBox553.TabIndex = 12;
+            this.textBox553.Text = "$991.99 ";
             // 
             // button113
             // 
@@ -15695,6 +15866,7 @@ namespace Arkansas_Armory
             this.textBox554.Name = "textBox554";
             this.textBox554.Size = new System.Drawing.Size(100, 20);
             this.textBox554.TabIndex = 33;
+            this.textBox554.Text = "910018200180";
             // 
             // label526
             // 
@@ -15720,6 +15892,7 @@ namespace Arkansas_Armory
             this.textBox555.Name = "textBox555";
             this.textBox555.Size = new System.Drawing.Size(100, 20);
             this.textBox555.TabIndex = 30;
+            this.textBox555.Text = "BLACK";
             // 
             // textBox556
             // 
@@ -15727,6 +15900,7 @@ namespace Arkansas_Armory
             this.textBox556.Name = "textBox556";
             this.textBox556.Size = new System.Drawing.Size(100, 20);
             this.textBox556.TabIndex = 29;
+            this.textBox556.Text = "6 LBS";
             // 
             // label528
             // 
@@ -15770,6 +15944,7 @@ namespace Arkansas_Armory
             this.textBox557.Name = "textBox557";
             this.textBox557.Size = new System.Drawing.Size(100, 20);
             this.textBox557.TabIndex = 11;
+            this.textBox557.Text = "16\" BARREL";
             // 
             // textBox558
             // 
@@ -15777,6 +15952,7 @@ namespace Arkansas_Armory
             this.textBox558.Name = "textBox558";
             this.textBox558.Size = new System.Drawing.Size(100, 20);
             this.textBox558.TabIndex = 10;
+            this.textBox558.Text = "30+1 ROUNDS";
             // 
             // textBox559
             // 
@@ -15784,6 +15960,7 @@ namespace Arkansas_Armory
             this.textBox559.Name = "textBox559";
             this.textBox559.Size = new System.Drawing.Size(100, 20);
             this.textBox559.TabIndex = 9;
+            this.textBox559.Text = "5.56X45MM NATO";
             // 
             // textBox560
             // 
@@ -15791,6 +15968,7 @@ namespace Arkansas_Armory
             this.textBox560.Name = "textBox560";
             this.textBox560.Size = new System.Drawing.Size(100, 20);
             this.textBox560.TabIndex = 8;
+            this.textBox560.Text = "SEMI AUTO";
             // 
             // textBox561
             // 
@@ -15798,6 +15976,7 @@ namespace Arkansas_Armory
             this.textBox561.Name = "textBox561";
             this.textBox561.Size = new System.Drawing.Size(100, 20);
             this.textBox561.TabIndex = 7;
+            this.textBox561.Text = "D-15";
             // 
             // textBox562
             // 
@@ -15805,6 +15984,7 @@ namespace Arkansas_Armory
             this.textBox562.Name = "textBox562";
             this.textBox562.Size = new System.Drawing.Size(100, 20);
             this.textBox562.TabIndex = 6;
+            this.textBox562.Text = "BIRD DOG ARMS";
             // 
             // label532
             // 
@@ -15874,6 +16054,7 @@ namespace Arkansas_Armory
             this.textBox573.Name = "textBox573";
             this.textBox573.Size = new System.Drawing.Size(100, 20);
             this.textBox573.TabIndex = 12;
+            this.textBox573.Text = "$1,598.99 ";
             // 
             // button117
             // 
@@ -15927,6 +16108,7 @@ namespace Arkansas_Armory
             this.textBox574.Name = "textBox574";
             this.textBox574.Size = new System.Drawing.Size(100, 20);
             this.textBox574.TabIndex = 33;
+            this.textBox574.Text = "736676180288";
             // 
             // label544
             // 
@@ -15952,6 +16134,7 @@ namespace Arkansas_Armory
             this.textBox575.Name = "textBox575";
             this.textBox575.Size = new System.Drawing.Size(100, 20);
             this.textBox575.TabIndex = 30;
+            this.textBox575.Text = "BLACK";
             // 
             // textBox576
             // 
@@ -15959,6 +16142,7 @@ namespace Arkansas_Armory
             this.textBox576.Name = "textBox576";
             this.textBox576.Size = new System.Drawing.Size(100, 20);
             this.textBox576.TabIndex = 29;
+            this.textBox576.Text = "9.8 LBS";
             // 
             // label546
             // 
@@ -16002,6 +16186,7 @@ namespace Arkansas_Armory
             this.textBox577.Name = "textBox577";
             this.textBox577.Size = new System.Drawing.Size(100, 20);
             this.textBox577.TabIndex = 11;
+            this.textBox577.Text = "20\" BARREL";
             // 
             // textBox578
             // 
@@ -16009,6 +16194,7 @@ namespace Arkansas_Armory
             this.textBox578.Name = "textBox578";
             this.textBox578.Size = new System.Drawing.Size(100, 20);
             this.textBox578.TabIndex = 10;
+            this.textBox578.Text = "10+1 ROUNDS";
             // 
             // textBox579
             // 
@@ -16016,6 +16202,7 @@ namespace Arkansas_Armory
             this.textBox579.Name = "textBox579";
             this.textBox579.Size = new System.Drawing.Size(100, 20);
             this.textBox579.TabIndex = 9;
+            this.textBox579.Text = ".308 WIN";
             // 
             // textBox580
             // 
@@ -16023,6 +16210,7 @@ namespace Arkansas_Armory
             this.textBox580.Name = "textBox580";
             this.textBox580.Size = new System.Drawing.Size(100, 20);
             this.textBox580.TabIndex = 8;
+            this.textBox580.Text = "BOLT ACTION";
             // 
             // textBox581
             // 
@@ -16030,6 +16218,7 @@ namespace Arkansas_Armory
             this.textBox581.Name = "textBox581";
             this.textBox581.Size = new System.Drawing.Size(100, 20);
             this.textBox581.TabIndex = 7;
+            this.textBox581.Text = "PRECISION RIFLE";
             // 
             // textBox582
             // 
@@ -16037,6 +16226,7 @@ namespace Arkansas_Armory
             this.textBox582.Name = "textBox582";
             this.textBox582.Size = new System.Drawing.Size(100, 20);
             this.textBox582.TabIndex = 6;
+            this.textBox582.Text = "RUGER";
             // 
             // label550
             // 
@@ -16106,6 +16296,7 @@ namespace Arkansas_Armory
             this.textBox563.Name = "textBox563";
             this.textBox563.Size = new System.Drawing.Size(100, 20);
             this.textBox563.TabIndex = 12;
+            this.textBox563.Text = "$1,607.99 ";
             // 
             // button115
             // 
@@ -16159,6 +16350,7 @@ namespace Arkansas_Armory
             this.textBox564.Name = "textBox564";
             this.textBox564.Size = new System.Drawing.Size(100, 20);
             this.textBox564.TabIndex = 33;
+            this.textBox564.Text = "798681625819";
             // 
             // label535
             // 
@@ -16184,6 +16376,7 @@ namespace Arkansas_Armory
             this.textBox565.Name = "textBox565";
             this.textBox565.Size = new System.Drawing.Size(100, 20);
             this.textBox565.TabIndex = 30;
+            this.textBox565.Text = "BLACK";
             // 
             // textBox566
             // 
@@ -16191,6 +16384,7 @@ namespace Arkansas_Armory
             this.textBox566.Name = "textBox566";
             this.textBox566.Size = new System.Drawing.Size(100, 20);
             this.textBox566.TabIndex = 29;
+            this.textBox566.Text = "6.8 LBS";
             // 
             // label537
             // 
@@ -16234,6 +16428,7 @@ namespace Arkansas_Armory
             this.textBox567.Name = "textBox567";
             this.textBox567.Size = new System.Drawing.Size(100, 20);
             this.textBox567.TabIndex = 11;
+            this.textBox567.Text = "20\" BARREL";
             // 
             // textBox568
             // 
@@ -16241,6 +16436,7 @@ namespace Arkansas_Armory
             this.textBox568.Name = "textBox568";
             this.textBox568.Size = new System.Drawing.Size(100, 20);
             this.textBox568.TabIndex = 10;
+            this.textBox568.Text = "5+1 ROUNDS";
             // 
             // textBox569
             // 
@@ -16248,6 +16444,7 @@ namespace Arkansas_Armory
             this.textBox569.Name = "textBox569";
             this.textBox569.Size = new System.Drawing.Size(100, 20);
             this.textBox569.TabIndex = 9;
+            this.textBox569.Text = "6.5 MM CREEDMOOR";
             // 
             // textBox570
             // 
@@ -16255,6 +16452,7 @@ namespace Arkansas_Armory
             this.textBox570.Name = "textBox570";
             this.textBox570.Size = new System.Drawing.Size(100, 20);
             this.textBox570.TabIndex = 8;
+            this.textBox570.Text = "BOLT ACTION";
             // 
             // textBox571
             // 
@@ -16262,6 +16460,7 @@ namespace Arkansas_Armory
             this.textBox571.Name = "textBox571";
             this.textBox571.Size = new System.Drawing.Size(100, 20);
             this.textBox571.TabIndex = 7;
+            this.textBox571.Text = "CROSS";
             // 
             // textBox572
             // 
@@ -16269,6 +16468,7 @@ namespace Arkansas_Armory
             this.textBox572.Name = "textBox572";
             this.textBox572.Size = new System.Drawing.Size(100, 20);
             this.textBox572.TabIndex = 6;
+            this.textBox572.Text = "SIG SAUER";
             // 
             // label541
             // 
