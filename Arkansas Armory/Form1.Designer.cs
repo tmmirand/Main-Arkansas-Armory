@@ -3552,6 +3552,7 @@ namespace Arkansas_Armory
             this.textBox24.Name = "textBox24";
             this.textBox24.Size = new System.Drawing.Size(100, 20);
             this.textBox24.TabIndex = 33;
+            this.textBox24.Text = "764503195020";
             // 
             // label49
             // 
@@ -3577,6 +3578,7 @@ namespace Arkansas_Armory
             this.textBox25.Name = "textBox25";
             this.textBox25.Size = new System.Drawing.Size(100, 20);
             this.textBox25.TabIndex = 30;
+            this.textBox25.Text = "Black";
             // 
             // textBox26
             // 
@@ -3584,6 +3586,7 @@ namespace Arkansas_Armory
             this.textBox26.Name = "textBox26";
             this.textBox26.Size = new System.Drawing.Size(100, 20);
             this.textBox26.TabIndex = 29;
+            this.textBox26.Text = "1.5 lbs";
             // 
             // label51
             // 
@@ -3627,6 +3630,7 @@ namespace Arkansas_Armory
             this.textBox27.Name = "textBox27";
             this.textBox27.Size = new System.Drawing.Size(100, 20);
             this.textBox27.TabIndex = 11;
+            this.textBox27.Text = "4\" Barrel";
             // 
             // textBox28
             // 
@@ -3634,6 +3638,7 @@ namespace Arkansas_Armory
             this.textBox28.Name = "textBox28";
             this.textBox28.Size = new System.Drawing.Size(100, 20);
             this.textBox28.TabIndex = 10;
+            this.textBox28.Text = "10 Rounds";
             // 
             // textBox29
             // 
@@ -3641,6 +3646,7 @@ namespace Arkansas_Armory
             this.textBox29.Name = "textBox29";
             this.textBox29.Size = new System.Drawing.Size(100, 20);
             this.textBox29.TabIndex = 9;
+            this.textBox29.Text = "9MM Luger (9x19 Para)";
             // 
             // textBox30
             // 
@@ -3648,6 +3654,7 @@ namespace Arkansas_Armory
             this.textBox30.Name = "textBox30";
             this.textBox30.Size = new System.Drawing.Size(100, 20);
             this.textBox30.TabIndex = 8;
+            this.textBox30.Text = "Safe Action";
             // 
             // textBox31
             // 
@@ -3655,6 +3662,7 @@ namespace Arkansas_Armory
             this.textBox31.Name = "textBox31";
             this.textBox31.Size = new System.Drawing.Size(100, 20);
             this.textBox31.TabIndex = 7;
+            this.textBox31.Text = "G19 Gen 3";
             // 
             // textBox32
             // 
@@ -3662,6 +3670,7 @@ namespace Arkansas_Armory
             this.textBox32.Name = "textBox32";
             this.textBox32.Size = new System.Drawing.Size(100, 20);
             this.textBox32.TabIndex = 6;
+            this.textBox32.Text = "Glock";
             // 
             // label55
             // 
@@ -3784,6 +3793,7 @@ namespace Arkansas_Armory
             this.textBox34.Name = "textBox34";
             this.textBox34.Size = new System.Drawing.Size(100, 20);
             this.textBox34.TabIndex = 33;
+            this.textBox34.Text = "764503195020";
             // 
             // label58
             // 
@@ -3809,6 +3819,7 @@ namespace Arkansas_Armory
             this.textBox35.Name = "textBox35";
             this.textBox35.Size = new System.Drawing.Size(100, 20);
             this.textBox35.TabIndex = 30;
+            this.textBox35.Text = "Black";
             // 
             // textBox36
             // 
@@ -3816,6 +3827,7 @@ namespace Arkansas_Armory
             this.textBox36.Name = "textBox36";
             this.textBox36.Size = new System.Drawing.Size(100, 20);
             this.textBox36.TabIndex = 29;
+            this.textBox36.Text = "1.3 lbs";
             // 
             // label60
             // 
@@ -3859,6 +3871,7 @@ namespace Arkansas_Armory
             this.textBox37.Name = "textBox37";
             this.textBox37.Size = new System.Drawing.Size(100, 20);
             this.textBox37.TabIndex = 11;
+            this.textBox37.Text = "4\" Barrel";
             // 
             // textBox38
             // 
@@ -3866,6 +3879,7 @@ namespace Arkansas_Armory
             this.textBox38.Name = "textBox38";
             this.textBox38.Size = new System.Drawing.Size(100, 20);
             this.textBox38.TabIndex = 10;
+            this.textBox38.Text = "15 Rounds";
             // 
             // textBox39
             // 
@@ -3873,6 +3887,7 @@ namespace Arkansas_Armory
             this.textBox39.Name = "textBox39";
             this.textBox39.Size = new System.Drawing.Size(100, 20);
             this.textBox39.TabIndex = 9;
+            this.textBox39.Text = "9MM Luger";
             // 
             // textBox40
             // 
@@ -3880,6 +3895,7 @@ namespace Arkansas_Armory
             this.textBox40.Name = "textBox40";
             this.textBox40.Size = new System.Drawing.Size(100, 20);
             this.textBox40.TabIndex = 8;
+            this.textBox40.Text = "Semi Auto";
             // 
             // textBox41
             // 
@@ -3887,6 +3903,7 @@ namespace Arkansas_Armory
             this.textBox41.Name = "textBox41";
             this.textBox41.Size = new System.Drawing.Size(100, 20);
             this.textBox41.TabIndex = 7;
+            this.textBox41.Text = "G19 Gen 4";
             // 
             // textBox42
             // 
@@ -3894,6 +3911,7 @@ namespace Arkansas_Armory
             this.textBox42.Name = "textBox42";
             this.textBox42.Size = new System.Drawing.Size(100, 20);
             this.textBox42.TabIndex = 6;
+            this.textBox42.Text = "Glock";
             // 
             // label64
             // 
@@ -4016,6 +4034,7 @@ namespace Arkansas_Armory
             this.textBox64.Name = "textBox64";
             this.textBox64.Size = new System.Drawing.Size(100, 20);
             this.textBox64.TabIndex = 33;
+            this.textBox64.Text = "798681622719";
             // 
             // label85
             // 
@@ -4041,6 +4060,7 @@ namespace Arkansas_Armory
             this.textBox65.Name = "textBox65";
             this.textBox65.Size = new System.Drawing.Size(100, 20);
             this.textBox65.TabIndex = 30;
+            this.textBox65.Text = "Black";
             // 
             // textBox66
             // 
@@ -4048,6 +4068,7 @@ namespace Arkansas_Armory
             this.textBox66.Name = "textBox66";
             this.textBox66.Size = new System.Drawing.Size(100, 20);
             this.textBox66.TabIndex = 29;
+            this.textBox66.Text = "2.6 lbs";
             // 
             // label87
             // 
@@ -4091,6 +4112,7 @@ namespace Arkansas_Armory
             this.textBox67.Name = "textBox67";
             this.textBox67.Size = new System.Drawing.Size(100, 20);
             this.textBox67.TabIndex = 11;
+            this.textBox67.Text = "3.7\" Barrel";
             // 
             // textBox68
             // 
@@ -4098,6 +4120,7 @@ namespace Arkansas_Armory
             this.textBox68.Name = "textBox68";
             this.textBox68.Size = new System.Drawing.Size(100, 20);
             this.textBox68.TabIndex = 10;
+            this.textBox68.Text = "12 Rounds";
             // 
             // textBox69
             // 
@@ -4105,6 +4128,7 @@ namespace Arkansas_Armory
             this.textBox69.Name = "textBox69";
             this.textBox69.Size = new System.Drawing.Size(100, 20);
             this.textBox69.TabIndex = 9;
+            this.textBox69.Text = "9MM";
             // 
             // textBox70
             // 
@@ -4112,6 +4136,7 @@ namespace Arkansas_Armory
             this.textBox70.Name = "textBox70";
             this.textBox70.Size = new System.Drawing.Size(100, 20);
             this.textBox70.TabIndex = 8;
+            this.textBox70.Text = "Striker Fired";
             // 
             // textBox71
             // 
@@ -4119,6 +4144,7 @@ namespace Arkansas_Armory
             this.textBox71.Name = "textBox71";
             this.textBox71.Size = new System.Drawing.Size(100, 20);
             this.textBox71.TabIndex = 7;
+            this.textBox71.Text = "P365 XL RomeoZero";
             // 
             // textBox72
             // 
@@ -4126,6 +4152,7 @@ namespace Arkansas_Armory
             this.textBox72.Name = "textBox72";
             this.textBox72.Size = new System.Drawing.Size(100, 20);
             this.textBox72.TabIndex = 6;
+            this.textBox72.Text = "Sig Sauer";
             // 
             // label91
             // 
@@ -4247,6 +4274,7 @@ namespace Arkansas_Armory
             this.textBox74.Name = "textBox74";
             this.textBox74.Size = new System.Drawing.Size(100, 20);
             this.textBox74.TabIndex = 33;
+            this.textBox74.Text = "752334091604";
             // 
             // label94
             // 
@@ -4272,6 +4300,7 @@ namespace Arkansas_Armory
             this.textBox75.Name = "textBox75";
             this.textBox75.Size = new System.Drawing.Size(100, 20);
             this.textBox75.TabIndex = 30;
+            this.textBox75.Text = "Black";
             // 
             // textBox76
             // 
@@ -4279,6 +4308,7 @@ namespace Arkansas_Armory
             this.textBox76.Name = "textBox76";
             this.textBox76.Size = new System.Drawing.Size(100, 20);
             this.textBox76.TabIndex = 29;
+            this.textBox76.Text = "1.9 lbs";
             // 
             // label96
             // 
@@ -4322,6 +4352,7 @@ namespace Arkansas_Armory
             this.textBox77.Name = "textBox77";
             this.textBox77.Size = new System.Drawing.Size(100, 20);
             this.textBox77.TabIndex = 11;
+            this.textBox77.Text = "3.5\" Barrel";
             // 
             // textBox78
             // 
@@ -4329,6 +4360,7 @@ namespace Arkansas_Armory
             this.textBox78.Name = "textBox78";
             this.textBox78.Size = new System.Drawing.Size(100, 20);
             this.textBox78.TabIndex = 10;
+            this.textBox78.Text = "8+1 Rounds";
             // 
             // textBox79
             // 
@@ -4336,6 +4368,7 @@ namespace Arkansas_Armory
             this.textBox79.Name = "textBox79";
             this.textBox79.Size = new System.Drawing.Size(100, 20);
             this.textBox79.TabIndex = 9;
+            this.textBox79.Text = "9MM Luger (9x19 Para)";
             // 
             // textBox80
             // 
@@ -4343,6 +4376,7 @@ namespace Arkansas_Armory
             this.textBox80.Name = "textBox80";
             this.textBox80.Size = new System.Drawing.Size(100, 20);
             this.textBox80.TabIndex = 8;
+            this.textBox80.Text = "Double Action";
             // 
             // textBox81
             // 
@@ -4350,6 +4384,7 @@ namespace Arkansas_Armory
             this.textBox81.Name = "textBox81";
             this.textBox81.Size = new System.Drawing.Size(100, 20);
             this.textBox81.TabIndex = 7;
+            this.textBox81.Text = "916 C9";
             // 
             // textBox82
             // 
@@ -4357,6 +4392,7 @@ namespace Arkansas_Armory
             this.textBox82.Name = "textBox82";
             this.textBox82.Size = new System.Drawing.Size(100, 20);
             this.textBox82.TabIndex = 6;
+            this.textBox82.Text = "Hi-Point";
             // 
             // label100
             // 
@@ -4478,6 +4514,7 @@ namespace Arkansas_Armory
             this.textBox84.Name = "textBox84";
             this.textBox84.Size = new System.Drawing.Size(100, 20);
             this.textBox84.TabIndex = 33;
+            this.textBox84.Text = "850016570147";
             // 
             // label103
             // 
@@ -4503,6 +4540,7 @@ namespace Arkansas_Armory
             this.textBox85.Name = "textBox85";
             this.textBox85.Size = new System.Drawing.Size(100, 20);
             this.textBox85.TabIndex = 30;
+            this.textBox85.Text = "Dark Earth";
             // 
             // textBox86
             // 
@@ -4510,6 +4548,7 @@ namespace Arkansas_Armory
             this.textBox86.Name = "textBox86";
             this.textBox86.Size = new System.Drawing.Size(100, 20);
             this.textBox86.TabIndex = 29;
+            this.textBox86.Text = "2.1 lbs";
             // 
             // label105
             // 
@@ -4553,6 +4592,7 @@ namespace Arkansas_Armory
             this.textBox87.Name = "textBox87";
             this.textBox87.Size = new System.Drawing.Size(100, 20);
             this.textBox87.TabIndex = 11;
+            this.textBox87.Text = "4.49\" Barrel";
             // 
             // textBox88
             // 
@@ -4560,6 +4600,7 @@ namespace Arkansas_Armory
             this.textBox88.Name = "textBox88";
             this.textBox88.Size = new System.Drawing.Size(100, 20);
             this.textBox88.TabIndex = 10;
+            this.textBox88.Text = "17+1 Rounds";
             // 
             // textBox89
             // 
@@ -4567,6 +4608,7 @@ namespace Arkansas_Armory
             this.textBox89.Name = "textBox89";
             this.textBox89.Size = new System.Drawing.Size(100, 20);
             this.textBox89.TabIndex = 9;
+            this.textBox89.Text = "9MM";
             // 
             // textBox90
             // 
@@ -4574,6 +4616,7 @@ namespace Arkansas_Armory
             this.textBox90.Name = "textBox90";
             this.textBox90.Size = new System.Drawing.Size(100, 20);
             this.textBox90.TabIndex = 8;
+            this.textBox90.Text = "Safe Action";
             // 
             // textBox91
             // 
@@ -4581,6 +4624,7 @@ namespace Arkansas_Armory
             this.textBox91.Name = "textBox91";
             this.textBox91.Size = new System.Drawing.Size(100, 20);
             this.textBox91.TabIndex = 7;
+            this.textBox91.Text = "G17 Gen 5";
             // 
             // textBox92
             // 
@@ -4588,6 +4632,7 @@ namespace Arkansas_Armory
             this.textBox92.Name = "textBox92";
             this.textBox92.Size = new System.Drawing.Size(100, 20);
             this.textBox92.TabIndex = 6;
+            this.textBox92.Text = "Glock";
             // 
             // label109
             // 
@@ -4709,6 +4754,7 @@ namespace Arkansas_Armory
             this.textBox94.Name = "textBox94";
             this.textBox94.Size = new System.Drawing.Size(100, 20);
             this.textBox94.TabIndex = 33;
+            this.textBox94.Text = "669278323282";
             // 
             // label112
             // 
@@ -4734,6 +4780,7 @@ namespace Arkansas_Armory
             this.textBox95.Name = "textBox95";
             this.textBox95.Size = new System.Drawing.Size(100, 20);
             this.textBox95.TabIndex = 30;
+            this.textBox95.Text = "Satin w/ RosebudGrips";
             // 
             // textBox96
             // 
@@ -4741,6 +4788,7 @@ namespace Arkansas_Armory
             this.textBox96.Name = "textBox96";
             this.textBox96.Size = new System.Drawing.Size(100, 20);
             this.textBox96.TabIndex = 29;
+            this.textBox96.Text = "2.3 lbs";
             // 
             // label114
             // 
@@ -4784,6 +4832,7 @@ namespace Arkansas_Armory
             this.textBox97.Name = "textBox97";
             this.textBox97.Size = new System.Drawing.Size(100, 20);
             this.textBox97.TabIndex = 11;
+            this.textBox97.Text = "5\" Barrel";
             // 
             // textBox98
             // 
@@ -4791,6 +4840,7 @@ namespace Arkansas_Armory
             this.textBox98.Name = "textBox98";
             this.textBox98.Size = new System.Drawing.Size(100, 20);
             this.textBox98.TabIndex = 10;
+            this.textBox98.Text = "7 Rounds";
             // 
             // textBox99
             // 
@@ -4798,6 +4848,7 @@ namespace Arkansas_Armory
             this.textBox99.Name = "textBox99";
             this.textBox99.Size = new System.Drawing.Size(100, 20);
             this.textBox99.TabIndex = 9;
+            this.textBox99.Text = ".45 ACP";
             // 
             // textBox100
             // 
@@ -4805,6 +4856,7 @@ namespace Arkansas_Armory
             this.textBox100.Name = "textBox100";
             this.textBox100.Size = new System.Drawing.Size(100, 20);
             this.textBox100.TabIndex = 8;
+            this.textBox100.Text = "Single Action";
             // 
             // textBox101
             // 
@@ -4812,6 +4864,7 @@ namespace Arkansas_Armory
             this.textBox101.Name = "textBox101";
             this.textBox101.Size = new System.Drawing.Size(100, 20);
             this.textBox101.TabIndex = 7;
+            this.textBox101.Text = "Stainless II";
             // 
             // textBox102
             // 
@@ -4819,6 +4872,7 @@ namespace Arkansas_Armory
             this.textBox102.Name = "textBox102";
             this.textBox102.Size = new System.Drawing.Size(100, 20);
             this.textBox102.TabIndex = 6;
+            this.textBox102.Text = "Kimber";
             // 
             // label118
             // 
@@ -4941,6 +4995,7 @@ namespace Arkansas_Armory
             this.textBox104.Name = "textBox104";
             this.textBox104.Size = new System.Drawing.Size(100, 20);
             this.textBox104.TabIndex = 33;
+            this.textBox104.Text = "736676057207";
             // 
             // label121
             // 
@@ -4966,6 +5021,7 @@ namespace Arkansas_Armory
             this.textBox105.Name = "textBox105";
             this.textBox105.Size = new System.Drawing.Size(100, 20);
             this.textBox105.TabIndex = 30;
+            this.textBox105.Text = "Silver w/ Black Handle";
             // 
             // textBox106
             // 
@@ -4973,6 +5029,7 @@ namespace Arkansas_Armory
             this.textBox106.Name = "textBox106";
             this.textBox106.Size = new System.Drawing.Size(100, 20);
             this.textBox106.TabIndex = 29;
+            this.textBox106.Text = "1.5 lbs";
             // 
             // label123
             // 
@@ -5016,6 +5073,7 @@ namespace Arkansas_Armory
             this.textBox107.Name = "textBox107";
             this.textBox107.Size = new System.Drawing.Size(100, 20);
             this.textBox107.TabIndex = 11;
+            this.textBox107.Text = "2.3\" Barrel";
             // 
             // textBox108
             // 
@@ -5023,6 +5081,7 @@ namespace Arkansas_Armory
             this.textBox108.Name = "textBox108";
             this.textBox108.Size = new System.Drawing.Size(100, 20);
             this.textBox108.TabIndex = 10;
+            this.textBox108.Text = "5 Rounds";
             // 
             // textBox109
             // 
@@ -5030,6 +5089,7 @@ namespace Arkansas_Armory
             this.textBox109.Name = "textBox109";
             this.textBox109.Size = new System.Drawing.Size(100, 20);
             this.textBox109.TabIndex = 9;
+            this.textBox109.Text = ".357 Mag";
             // 
             // textBox110
             // 
@@ -5037,6 +5097,7 @@ namespace Arkansas_Armory
             this.textBox110.Name = "textBox110";
             this.textBox110.Size = new System.Drawing.Size(100, 20);
             this.textBox110.TabIndex = 8;
+            this.textBox110.Text = "Double Action";
             // 
             // textBox111
             // 
@@ -5044,6 +5105,7 @@ namespace Arkansas_Armory
             this.textBox111.Name = "textBox111";
             this.textBox111.Size = new System.Drawing.Size(100, 20);
             this.textBox111.TabIndex = 7;
+            this.textBox111.Text = "SP101";
             // 
             // textBox112
             // 
@@ -5051,6 +5113,7 @@ namespace Arkansas_Armory
             this.textBox112.Name = "textBox112";
             this.textBox112.Size = new System.Drawing.Size(100, 20);
             this.textBox112.TabIndex = 6;
+            this.textBox112.Text = "Ruger";
             // 
             // label127
             // 
@@ -5172,6 +5235,7 @@ namespace Arkansas_Armory
             this.textBox114.Name = "textBox114";
             this.textBox114.Size = new System.Drawing.Size(100, 20);
             this.textBox114.TabIndex = 33;
+            this.textBox114.Text = "022188865813";
             // 
             // label130
             // 
@@ -5197,6 +5261,7 @@ namespace Arkansas_Armory
             this.textBox115.Name = "textBox115";
             this.textBox115.Size = new System.Drawing.Size(100, 20);
             this.textBox115.TabIndex = 30;
+            this.textBox115.Text = "Black";
             // 
             // textBox116
             // 
@@ -5204,6 +5269,7 @@ namespace Arkansas_Armory
             this.textBox116.Name = "textBox116";
             this.textBox116.Size = new System.Drawing.Size(100, 20);
             this.textBox116.TabIndex = 29;
+            this.textBox116.Text = ".8 lbs";
             // 
             // label132
             // 
@@ -5247,6 +5313,7 @@ namespace Arkansas_Armory
             this.textBox117.Name = "textBox117";
             this.textBox117.Size = new System.Drawing.Size(100, 20);
             this.textBox117.TabIndex = 11;
+            this.textBox117.Text = "2.75\" Barrel";
             // 
             // textBox118
             // 
@@ -5254,6 +5321,7 @@ namespace Arkansas_Armory
             this.textBox118.Name = "textBox118";
             this.textBox118.Size = new System.Drawing.Size(100, 20);
             this.textBox118.TabIndex = 10;
+            this.textBox118.Text = "6+1 Rounds";
             // 
             // textBox119
             // 
@@ -5261,6 +5329,7 @@ namespace Arkansas_Armory
             this.textBox119.Name = "textBox119";
             this.textBox119.Size = new System.Drawing.Size(100, 20);
             this.textBox119.TabIndex = 9;
+            this.textBox119.Text = ".380 ACP";
             // 
             // textBox120
             // 
@@ -5268,6 +5337,7 @@ namespace Arkansas_Armory
             this.textBox120.Name = "textBox120";
             this.textBox120.Size = new System.Drawing.Size(100, 20);
             this.textBox120.TabIndex = 8;
+            this.textBox120.Text = "Double Action";
             // 
             // textBox121
             // 
@@ -5275,6 +5345,7 @@ namespace Arkansas_Armory
             this.textBox121.Name = "textBox121";
             this.textBox121.Size = new System.Drawing.Size(100, 20);
             this.textBox121.TabIndex = 7;
+            this.textBox121.Text = "M&P Bodyguard 380 Engraved";
             // 
             // textBox122
             // 
@@ -5282,6 +5353,7 @@ namespace Arkansas_Armory
             this.textBox122.Name = "textBox122";
             this.textBox122.Size = new System.Drawing.Size(100, 20);
             this.textBox122.TabIndex = 6;
+            this.textBox122.Text = "Smith & Wesson";
             // 
             // label136
             // 
@@ -5404,6 +5476,7 @@ namespace Arkansas_Armory
             this.textBox124.Name = "textBox124";
             this.textBox124.Size = new System.Drawing.Size(100, 20);
             this.textBox124.TabIndex = 33;
+            this.textBox124.Text = "864845000386";
             // 
             // label139
             // 
@@ -5429,6 +5502,7 @@ namespace Arkansas_Armory
             this.textBox125.Name = "textBox125";
             this.textBox125.Size = new System.Drawing.Size(100, 20);
             this.textBox125.TabIndex = 30;
+            this.textBox125.Text = "Matte Gray";
             // 
             // textBox126
             // 
@@ -5436,6 +5510,7 @@ namespace Arkansas_Armory
             this.textBox126.Name = "textBox126";
             this.textBox126.Size = new System.Drawing.Size(100, 20);
             this.textBox126.TabIndex = 29;
+            this.textBox126.Text = "0.5 lbs";
             // 
             // label141
             // 
@@ -5479,6 +5554,7 @@ namespace Arkansas_Armory
             this.textBox127.Name = "textBox127";
             this.textBox127.Size = new System.Drawing.Size(100, 20);
             this.textBox127.TabIndex = 11;
+            this.textBox127.Text = "2.5\" Barrel";
             // 
             // textBox128
             // 
@@ -5486,6 +5562,7 @@ namespace Arkansas_Armory
             this.textBox128.Name = "textBox128";
             this.textBox128.Size = new System.Drawing.Size(100, 20);
             this.textBox128.TabIndex = 10;
+            this.textBox128.Text = "1 Round";
             // 
             // textBox129
             // 
@@ -5493,6 +5570,7 @@ namespace Arkansas_Armory
             this.textBox129.Name = "textBox129";
             this.textBox129.Size = new System.Drawing.Size(100, 20);
             this.textBox129.TabIndex = 9;
+            this.textBox129.Text = ".22 WMR";
             // 
             // textBox130
             // 
@@ -5500,6 +5578,7 @@ namespace Arkansas_Armory
             this.textBox130.Name = "textBox130";
             this.textBox130.Size = new System.Drawing.Size(100, 20);
             this.textBox130.TabIndex = 8;
+            this.textBox130.Text = "Break Action";
             // 
             // textBox131
             // 
@@ -5507,6 +5586,7 @@ namespace Arkansas_Armory
             this.textBox131.Name = "textBox131";
             this.textBox131.Size = new System.Drawing.Size(100, 20);
             this.textBox131.TabIndex = 7;
+            this.textBox131.Text = "Life Card .22 WMR";
             // 
             // textBox132
             // 
@@ -5514,6 +5594,7 @@ namespace Arkansas_Armory
             this.textBox132.Name = "textBox132";
             this.textBox132.Size = new System.Drawing.Size(100, 20);
             this.textBox132.TabIndex = 6;
+            this.textBox132.Text = "Trailblazer";
             // 
             // label145
             // 
@@ -5635,6 +5716,7 @@ namespace Arkansas_Armory
             this.textBox134.Name = "textBox134";
             this.textBox134.Size = new System.Drawing.Size(100, 20);
             this.textBox134.TabIndex = 33;
+            this.textBox134.Text = "TacPack8";
             // 
             // label148
             // 
@@ -5660,6 +5742,7 @@ namespace Arkansas_Armory
             this.textBox135.Name = "textBox135";
             this.textBox135.Size = new System.Drawing.Size(100, 20);
             this.textBox135.TabIndex = 30;
+            this.textBox135.Text = "FCZ";
             // 
             // textBox136
             // 
@@ -5667,6 +5750,7 @@ namespace Arkansas_Armory
             this.textBox136.Name = "textBox136";
             this.textBox136.Size = new System.Drawing.Size(100, 20);
             this.textBox136.TabIndex = 29;
+            this.textBox136.Text = "N/A";
             // 
             // label150
             // 
@@ -5710,6 +5794,7 @@ namespace Arkansas_Armory
             this.textBox137.Name = "textBox137";
             this.textBox137.Size = new System.Drawing.Size(100, 20);
             this.textBox137.TabIndex = 11;
+            this.textBox137.Text = "7.7\" Barrel";
             // 
             // textBox138
             // 
@@ -5717,6 +5802,7 @@ namespace Arkansas_Armory
             this.textBox138.Name = "textBox138";
             this.textBox138.Size = new System.Drawing.Size(100, 20);
             this.textBox138.TabIndex = 10;
+            this.textBox138.Text = "30+1 Rounds";
             // 
             // textBox139
             // 
@@ -5724,6 +5810,7 @@ namespace Arkansas_Armory
             this.textBox139.Name = "textBox139";
             this.textBox139.Size = new System.Drawing.Size(100, 20);
             this.textBox139.TabIndex = 9;
+            this.textBox139.Text = "9MM Luger (9x19 Para)";
             // 
             // textBox140
             // 
@@ -5731,6 +5818,7 @@ namespace Arkansas_Armory
             this.textBox140.Name = "textBox140";
             this.textBox140.Size = new System.Drawing.Size(100, 20);
             this.textBox140.TabIndex = 8;
+            this.textBox140.Text = "Semi Auto";
             // 
             // textBox141
             // 
@@ -5738,6 +5826,7 @@ namespace Arkansas_Armory
             this.textBox141.Name = "textBox141";
             this.textBox141.Size = new System.Drawing.Size(100, 20);
             this.textBox141.TabIndex = 7;
+            this.textBox141.Text = "Scorpion Evo 3 S1";
             // 
             // textBox142
             // 
@@ -5745,6 +5834,7 @@ namespace Arkansas_Armory
             this.textBox142.Name = "textBox142";
             this.textBox142.Size = new System.Drawing.Size(100, 20);
             this.textBox142.TabIndex = 6;
+            this.textBox142.Text = "CZ-USA";
             // 
             // label154
             // 
@@ -5866,6 +5956,7 @@ namespace Arkansas_Armory
             this.textBox154.Name = "textBox154";
             this.textBox154.Size = new System.Drawing.Size(100, 20);
             this.textBox154.TabIndex = 33;
+            this.textBox154.Text = "725327933878";
             // 
             // label166
             // 
@@ -5891,6 +5982,7 @@ namespace Arkansas_Armory
             this.textBox155.Name = "textBox155";
             this.textBox155.Size = new System.Drawing.Size(100, 20);
             this.textBox155.TabIndex = 30;
+            this.textBox155.Text = "Black";
             // 
             // textBox156
             // 
@@ -5898,6 +5990,7 @@ namespace Arkansas_Armory
             this.textBox156.Name = "textBox156";
             this.textBox156.Size = new System.Drawing.Size(100, 20);
             this.textBox156.TabIndex = 29;
+            this.textBox156.Text = "1.5 lbs";
             // 
             // label168
             // 
@@ -5941,6 +6034,7 @@ namespace Arkansas_Armory
             this.textBox157.Name = "textBox157";
             this.textBox157.Size = new System.Drawing.Size(100, 20);
             this.textBox157.TabIndex = 11;
+            this.textBox157.Text = "3\" Barrel";
             // 
             // textBox158
             // 
@@ -5948,6 +6042,7 @@ namespace Arkansas_Armory
             this.textBox158.Name = "textBox158";
             this.textBox158.Size = new System.Drawing.Size(100, 20);
             this.textBox158.TabIndex = 10;
+            this.textBox158.Text = "6 Rounds";
             // 
             // textBox159
             // 
@@ -5955,6 +6050,7 @@ namespace Arkansas_Armory
             this.textBox159.Name = "textBox159";
             this.textBox159.Size = new System.Drawing.Size(100, 20);
             this.textBox159.TabIndex = 9;
+            this.textBox159.Text = ".38 SPL";
             // 
             // textBox160
             // 
@@ -5962,6 +6058,7 @@ namespace Arkansas_Armory
             this.textBox160.Name = "textBox160";
             this.textBox160.Size = new System.Drawing.Size(100, 20);
             this.textBox160.TabIndex = 8;
+            this.textBox160.Text = "Revolver";
             // 
             // textBox161
             // 
@@ -5969,6 +6066,7 @@ namespace Arkansas_Armory
             this.textBox161.Name = "textBox161";
             this.textBox161.Size = new System.Drawing.Size(100, 20);
             this.textBox161.TabIndex = 7;
+            this.textBox161.Text = "856";
             // 
             // textBox162
             // 
@@ -5976,6 +6074,7 @@ namespace Arkansas_Armory
             this.textBox162.Name = "textBox162";
             this.textBox162.Size = new System.Drawing.Size(100, 20);
             this.textBox162.TabIndex = 6;
+            this.textBox162.Text = "Taurus";
             // 
             // label172
             // 
@@ -6098,6 +6197,7 @@ namespace Arkansas_Armory
             this.textBox144.Name = "textBox144";
             this.textBox144.Size = new System.Drawing.Size(100, 20);
             this.textBox144.TabIndex = 33;
+            this.textBox144.Text = "798681618798";
             // 
             // label157
             // 
@@ -6123,6 +6223,7 @@ namespace Arkansas_Armory
             this.textBox145.Name = "textBox145";
             this.textBox145.Size = new System.Drawing.Size(100, 20);
             this.textBox145.TabIndex = 30;
+            this.textBox145.Text = "Black";
             // 
             // textBox146
             // 
@@ -6130,6 +6231,7 @@ namespace Arkansas_Armory
             this.textBox146.Name = "textBox146";
             this.textBox146.Size = new System.Drawing.Size(100, 20);
             this.textBox146.TabIndex = 29;
+            this.textBox146.Text = "N/A";
             // 
             // label159
             // 
@@ -6173,6 +6275,7 @@ namespace Arkansas_Armory
             this.textBox147.Name = "textBox147";
             this.textBox147.Size = new System.Drawing.Size(100, 20);
             this.textBox147.TabIndex = 11;
+            this.textBox147.Text = "3.7\" Barrel";
             // 
             // textBox148
             // 
@@ -6180,6 +6283,7 @@ namespace Arkansas_Armory
             this.textBox148.Name = "textBox148";
             this.textBox148.Size = new System.Drawing.Size(100, 20);
             this.textBox148.TabIndex = 10;
+            this.textBox148.Text = "12+1 Rounds";
             // 
             // textBox149
             // 
@@ -6187,6 +6291,7 @@ namespace Arkansas_Armory
             this.textBox149.Name = "textBox149";
             this.textBox149.Size = new System.Drawing.Size(100, 20);
             this.textBox149.TabIndex = 9;
+            this.textBox149.Text = "9MM Luger (9x19 Para)";
             // 
             // textBox150
             // 
@@ -6194,6 +6299,7 @@ namespace Arkansas_Armory
             this.textBox150.Name = "textBox150";
             this.textBox150.Size = new System.Drawing.Size(100, 20);
             this.textBox150.TabIndex = 8;
+            this.textBox150.Text = "Striker Fired";
             // 
             // textBox151
             // 
@@ -6201,6 +6307,7 @@ namespace Arkansas_Armory
             this.textBox151.Name = "textBox151";
             this.textBox151.Size = new System.Drawing.Size(100, 20);
             this.textBox151.TabIndex = 7;
+            this.textBox151.Text = "P365 XL";
             // 
             // textBox152
             // 
@@ -6208,6 +6315,7 @@ namespace Arkansas_Armory
             this.textBox152.Name = "textBox152";
             this.textBox152.Size = new System.Drawing.Size(100, 20);
             this.textBox152.TabIndex = 6;
+            this.textBox152.Text = "Sig Sauer";
             // 
             // label163
             // 
@@ -16039,7 +16147,7 @@ namespace Arkansas_Armory
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.DarkRed;
-            this.ClientSize = new System.Drawing.Size(1436, 749);
+            this.ClientSize = new System.Drawing.Size(1370, 749);
             this.Controls.Add(this.groupBox175);
             this.Controls.Add(this.groupBox170);
             this.Controls.Add(this.groupBox169);
