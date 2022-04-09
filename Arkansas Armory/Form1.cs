@@ -100,6 +100,10 @@ namespace Arkansas_Armory
             pnlShoppingCart.Visible = false;
             pnlLogin.Visible = false;
 
+            txtLoginUsername.Text = "Guest";
+            txtLoginPassword.Text = "Guest";
+            txtLoginCustomerID.Text = "4";
+
             refresh();
 
             
@@ -426,6 +430,16 @@ namespace Arkansas_Armory
         private void button116_Click(object sender, EventArgs e)
         {
             MessageBox.Show("The Sig Cross was designed and built from the ground up at the Sig Sauer research and development facilities in New Hampshire with the input of hunters, military snipers and elite long-range shooters. The Cross rifle was created to meet the demands of both precision long-range shooting and extreme back country hunting. The rifle features the lightest, most portable rifle in its class, folding precision-style stock, one piece receiver for increased accuracy, 2 Stage adjustable match trigger and a free floating M-LOK handguard. Designed and built in the USA.");
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            pnlLogin.Visible = false;
+        }
+
+        private void loginBTN_Click(object sender, EventArgs e)
+        {
+           
         }
     }
 }

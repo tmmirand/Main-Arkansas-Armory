@@ -79,7 +79,6 @@ namespace Arkansas_Armory
             this.btnOrders = new System.Windows.Forms.Button();
             this.btnShoppingCart = new System.Windows.Forms.Button();
             this.btnCreateAccount = new System.Windows.Forms.Button();
-            this.cboInventoryFilter = new System.Windows.Forms.ComboBox();
             this.label21 = new System.Windows.Forms.Label();
             this.pnlShoppingCart = new System.Windows.Forms.Panel();
             this.groupBox13 = new System.Windows.Forms.GroupBox();
@@ -142,9 +141,9 @@ namespace Arkansas_Armory
             this.pnlLogin = new System.Windows.Forms.Panel();
             this.CreateAccntBTN = new System.Windows.Forms.Button();
             this.loginBTN = new System.Windows.Forms.Button();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtLoginPassword = new System.Windows.Forms.TextBox();
             this.label27 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtLoginUsername = new System.Windows.Forms.TextBox();
             this.label26 = new System.Windows.Forms.Label();
             this.label25 = new System.Windows.Forms.Label();
             this.gboGun1 = new System.Windows.Forms.GroupBox();
@@ -1556,6 +1555,8 @@ namespace Arkansas_Armory
             this.radioButton3 = new System.Windows.Forms.RadioButton();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.button1 = new System.Windows.Forms.Button();
+            this.txtLoginCustomerID = new System.Windows.Forms.TextBox();
             this.pnlCreateAccount.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.pnlShoppingCart.SuspendLayout();
@@ -2295,14 +2296,6 @@ namespace Arkansas_Armory
             this.btnCreateAccount.UseVisualStyleBackColor = true;
             this.btnCreateAccount.Click += new System.EventHandler(this.btnCreateAccount_Click);
             // 
-            // cboInventoryFilter
-            // 
-            this.cboInventoryFilter.FormattingEnabled = true;
-            this.cboInventoryFilter.Location = new System.Drawing.Point(18, 143);
-            this.cboInventoryFilter.Name = "cboInventoryFilter";
-            this.cboInventoryFilter.Size = new System.Drawing.Size(403, 21);
-            this.cboInventoryFilter.TabIndex = 18;
-            // 
             // label21
             // 
             this.label21.AutoSize = true;
@@ -2857,14 +2850,16 @@ namespace Arkansas_Armory
             // pnlLogin
             // 
             this.pnlLogin.BackColor = System.Drawing.Color.White;
+            this.pnlLogin.Controls.Add(this.txtLoginCustomerID);
+            this.pnlLogin.Controls.Add(this.button1);
             this.pnlLogin.Controls.Add(this.CreateAccntBTN);
             this.pnlLogin.Controls.Add(this.loginBTN);
-            this.pnlLogin.Controls.Add(this.textBox2);
+            this.pnlLogin.Controls.Add(this.txtLoginPassword);
             this.pnlLogin.Controls.Add(this.label27);
-            this.pnlLogin.Controls.Add(this.textBox1);
+            this.pnlLogin.Controls.Add(this.txtLoginUsername);
             this.pnlLogin.Controls.Add(this.label26);
             this.pnlLogin.Controls.Add(this.label25);
-            this.pnlLogin.Location = new System.Drawing.Point(2094, 59);
+            this.pnlLogin.Location = new System.Drawing.Point(1615, 56);
             this.pnlLogin.Name = "pnlLogin";
             this.pnlLogin.Size = new System.Drawing.Size(1451, 788);
             this.pnlLogin.TabIndex = 22;
@@ -2886,13 +2881,14 @@ namespace Arkansas_Armory
             this.loginBTN.TabIndex = 5;
             this.loginBTN.Text = "Login";
             this.loginBTN.UseVisualStyleBackColor = true;
+            this.loginBTN.Click += new System.EventHandler(this.loginBTN_Click);
             // 
-            // textBox2
+            // txtLoginPassword
             // 
-            this.textBox2.Location = new System.Drawing.Point(302, 196);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(170, 20);
-            this.textBox2.TabIndex = 4;
+            this.txtLoginPassword.Location = new System.Drawing.Point(302, 196);
+            this.txtLoginPassword.Name = "txtLoginPassword";
+            this.txtLoginPassword.Size = new System.Drawing.Size(170, 20);
+            this.txtLoginPassword.TabIndex = 4;
             // 
             // label27
             // 
@@ -2904,12 +2900,12 @@ namespace Arkansas_Armory
             this.label27.TabIndex = 3;
             this.label27.Text = "Password";
             // 
-            // textBox1
+            // txtLoginUsername
             // 
-            this.textBox1.Location = new System.Drawing.Point(302, 153);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(170, 20);
-            this.textBox1.TabIndex = 2;
+            this.txtLoginUsername.Location = new System.Drawing.Point(302, 153);
+            this.txtLoginUsername.Name = "txtLoginUsername";
+            this.txtLoginUsername.Size = new System.Drawing.Size(170, 20);
+            this.txtLoginUsername.TabIndex = 2;
             // 
             // label26
             // 
@@ -16525,10 +16521,10 @@ namespace Arkansas_Armory
             this.radioButton3.AutoSize = true;
             this.radioButton3.Location = new System.Drawing.Point(16, 77);
             this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(85, 17);
+            this.radioButton3.Size = new System.Drawing.Size(51, 17);
             this.radioButton3.TabIndex = 2;
             this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "radioButton3";
+            this.radioButton3.Text = "Rifles";
             this.radioButton3.UseVisualStyleBackColor = true;
             // 
             // radioButton2
@@ -16536,10 +16532,10 @@ namespace Arkansas_Armory
             this.radioButton2.AutoSize = true;
             this.radioButton2.Location = new System.Drawing.Point(17, 54);
             this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(85, 17);
+            this.radioButton2.Size = new System.Drawing.Size(70, 17);
             this.radioButton2.TabIndex = 1;
             this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "radioButton2";
+            this.radioButton2.Text = "Shotguns";
             this.radioButton2.UseVisualStyleBackColor = true;
             // 
             // radioButton1
@@ -16547,11 +16543,29 @@ namespace Arkansas_Armory
             this.radioButton1.AutoSize = true;
             this.radioButton1.Location = new System.Drawing.Point(17, 30);
             this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(85, 17);
+            this.radioButton1.Size = new System.Drawing.Size(74, 17);
             this.radioButton1.TabIndex = 0;
             this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "radioButton1";
+            this.radioButton1.Text = "Handguns";
             this.radioButton1.UseVisualStyleBackColor = true;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(524, 261);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 7;
+            this.button1.Text = "Exit Login ";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // txtLoginCustomerID
+            // 
+            this.txtLoginCustomerID.Location = new System.Drawing.Point(558, 150);
+            this.txtLoginCustomerID.Name = "txtLoginCustomerID";
+            this.txtLoginCustomerID.ReadOnly = true;
+            this.txtLoginCustomerID.Size = new System.Drawing.Size(100, 20);
+            this.txtLoginCustomerID.TabIndex = 8;
             // 
             // Form1
             // 
@@ -16620,7 +16634,6 @@ namespace Arkansas_Armory
             this.Controls.Add(this.pnlShoppingCart);
             this.Controls.Add(this.pnlCreateAccount);
             this.Controls.Add(this.label21);
-            this.Controls.Add(this.cboInventoryFilter);
             this.Controls.Add(this.groupBox1);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -17081,7 +17094,6 @@ namespace Arkansas_Armory
         private System.Windows.Forms.Button btnOrders;
         private System.Windows.Forms.Button btnShoppingCart;
         private System.Windows.Forms.Button btnCreateAccount;
-        private System.Windows.Forms.ComboBox cboInventoryFilter;
         private System.Windows.Forms.Label label21;
         private System.Windows.Forms.Panel pnlShoppingCart;
         private System.Windows.Forms.Label label22;
@@ -17095,9 +17107,9 @@ namespace Arkansas_Armory
         private System.Windows.Forms.Panel pnlLogin;
         private System.Windows.Forms.Button CreateAccntBTN;
         private System.Windows.Forms.Button loginBTN;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtLoginPassword;
         private System.Windows.Forms.Label label27;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtLoginUsername;
         private System.Windows.Forms.Label label26;
         private System.Windows.Forms.Label label25;
         private System.Windows.Forms.GroupBox gboGun1;
@@ -18559,6 +18571,8 @@ namespace Arkansas_Armory
         private System.Windows.Forms.RadioButton radioButton3;
         private System.Windows.Forms.RadioButton radioButton2;
         private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox txtLoginCustomerID;
     }
 }
 
