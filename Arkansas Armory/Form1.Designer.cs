@@ -139,7 +139,6 @@ namespace Arkansas_Armory
             this.label22 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.pnlLogin = new System.Windows.Forms.Panel();
-            this.CreateAccntBTN = new System.Windows.Forms.Button();
             this.loginBTN = new System.Windows.Forms.Button();
             this.txtLoginPassword = new System.Windows.Forms.TextBox();
             this.label27 = new System.Windows.Forms.Label();
@@ -2852,7 +2851,6 @@ namespace Arkansas_Armory
             this.pnlLogin.BackColor = System.Drawing.Color.White;
             this.pnlLogin.Controls.Add(this.txtLoginCustomerID);
             this.pnlLogin.Controls.Add(this.button1);
-            this.pnlLogin.Controls.Add(this.CreateAccntBTN);
             this.pnlLogin.Controls.Add(this.loginBTN);
             this.pnlLogin.Controls.Add(this.txtLoginPassword);
             this.pnlLogin.Controls.Add(this.label27);
@@ -2864,18 +2862,9 @@ namespace Arkansas_Armory
             this.pnlLogin.Size = new System.Drawing.Size(1451, 788);
             this.pnlLogin.TabIndex = 22;
             // 
-            // CreateAccntBTN
-            // 
-            this.CreateAccntBTN.Location = new System.Drawing.Point(318, 259);
-            this.CreateAccntBTN.Name = "CreateAccntBTN";
-            this.CreateAccntBTN.Size = new System.Drawing.Size(135, 23);
-            this.CreateAccntBTN.TabIndex = 6;
-            this.CreateAccntBTN.Text = "Create Account";
-            this.CreateAccntBTN.UseVisualStyleBackColor = true;
-            // 
             // loginBTN
             // 
-            this.loginBTN.Location = new System.Drawing.Point(194, 259);
+            this.loginBTN.Location = new System.Drawing.Point(358, 245);
             this.loginBTN.Name = "loginBTN";
             this.loginBTN.Size = new System.Drawing.Size(75, 23);
             this.loginBTN.TabIndex = 5;
@@ -16551,7 +16540,7 @@ namespace Arkansas_Armory
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(524, 261);
+            this.button1.Location = new System.Drawing.Point(1347, 26);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 7;
@@ -17105,7 +17094,6 @@ namespace Arkansas_Armory
         private System.Windows.Forms.Label label23;
         private System.Windows.Forms.Button btnBack;
         private System.Windows.Forms.Panel pnlLogin;
-        private System.Windows.Forms.Button CreateAccntBTN;
         private System.Windows.Forms.Button loginBTN;
         private System.Windows.Forms.TextBox txtLoginPassword;
         private System.Windows.Forms.Label label27;

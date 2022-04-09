@@ -99,10 +99,12 @@ namespace Arkansas_Armory
             pnlCreateAccount.Visible = false;
             pnlShoppingCart.Visible = false;
             pnlLogin.Visible = false;
+            pnlOrders.Visible = false;
 
             txtLoginUsername.Text = "Guest";
             txtLoginPassword.Text = "Guest";
             txtLoginCustomerID.Text = "4";
+            txtLoginCustomerID.Visible = false;
 
             refresh();
 
