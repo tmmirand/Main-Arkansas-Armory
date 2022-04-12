@@ -15748,10 +15748,10 @@ namespace Arkansas_Armory
             // pictureBox59
             // 
             this.pictureBox59.Image = global::Arkansas_Armory.Properties.Resources.Picture59;
-            this.pictureBox59.Location = new System.Drawing.Point(248, 28);
+            this.pictureBox59.Location = new System.Drawing.Point(253, 124);
             this.pictureBox59.Name = "pictureBox59";
-            this.pictureBox59.Size = new System.Drawing.Size(473, 79);
-            this.pictureBox59.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox59.Size = new System.Drawing.Size(288, 60);
+            this.pictureBox59.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox59.TabIndex = 0;
             this.pictureBox59.TabStop = false;
             // 
@@ -15990,10 +15990,10 @@ namespace Arkansas_Armory
             // pictureBox58
             // 
             this.pictureBox58.Image = global::Arkansas_Armory.Properties.Resources.Picture60;
-            this.pictureBox58.Location = new System.Drawing.Point(248, 28);
+            this.pictureBox58.Location = new System.Drawing.Point(248, 120);
             this.pictureBox58.Name = "pictureBox58";
-            this.pictureBox58.Size = new System.Drawing.Size(449, 103);
-            this.pictureBox58.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox58.Size = new System.Drawing.Size(299, 64);
+            this.pictureBox58.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox58.TabIndex = 0;
             this.pictureBox58.TabStop = false;
             // 
@@ -16501,14 +16501,12 @@ namespace Arkansas_Armory
             this.groupBox168.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox57)).EndInit();
             this.groupBox169.ResumeLayout(false);
-            this.groupBox169.PerformLayout();
             this.groupBox173.ResumeLayout(false);
             this.groupBox173.PerformLayout();
             this.groupBox174.ResumeLayout(false);
             this.groupBox174.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox59)).EndInit();
             this.groupBox170.ResumeLayout(false);
-            this.groupBox170.PerformLayout();
             this.groupBox171.ResumeLayout(false);
             this.groupBox171.PerformLayout();
             this.groupBox172.ResumeLayout(false);
