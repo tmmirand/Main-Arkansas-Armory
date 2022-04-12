@@ -482,6 +482,7 @@ namespace Arkansas_Armory
             else
             {
                 Handguns.Visible = true;
+                Handguns.Location = new Point(105, 154);
             }
             
         }
@@ -489,6 +490,19 @@ namespace Arkansas_Armory
         private void button11_Click(object sender, EventArgs e)
         {
             pnlShoppingCart.Visible = false; 
+        }
+
+        private void radioButton2_CheckedChanged(object sender, EventArgs e)
+        {
+            if (radioButton2.Checked == false)
+            {
+                gboShotguns.Visible = false;
+            }
+            else
+            {
+                gboShotguns.Visible = true;
+                gboShotguns.Location = new Point(105, 154);
+            }
         }
     }
 }
