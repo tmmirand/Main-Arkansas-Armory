@@ -103,7 +103,7 @@ namespace Arkansas_Armory
 
             txtLoginUsername.Text = "Guest";
             txtLoginPassword.Text = "Guest";
-            txtLoginCustomerID.Text = "4";
+            txtLoginCustomerID.Text = "1";
             txtLoginCustomerID.Visible = false;
 
             refresh();
@@ -123,6 +123,11 @@ namespace Arkansas_Armory
             pnlShoppingCart.Visible = true;
             pnlShoppingCart.Location = new Point(0, 0);
             pnlShoppingCart.BringToFront();
+
+           // var da = new SqlDataAdapter(sql, connectionstring);
+          //  var ds = new DataSet();
+           // da.Fill(ds);
+           // dataGridView1.DataSource = ds.Tables[0];
         }
 
         private void btnBack_Click(object sender, EventArgs e)
@@ -503,6 +508,25 @@ namespace Arkansas_Armory
                 gboShotguns.Visible = true;
                 gboShotguns.Location = new Point(105, 154);
             }
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+
+            connection = new SqlConnection(connectionstring);
+            connection.Open();
+            int answer;
+            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 3)";
+            command = new SqlCommand(sql, connection);
+            //These @Name command parameters reference the @name insert into statement above
+            command.Parameters.AddWithValue("@CustomerID", txtLoginCustomerID.Text);
+
+            answer = command.ExecuteNonQuery();
+            MessageBox.Show("Successfully added Gun to cart");
+            connection.Close();
+            command.Dispose();
+
+
         }
     }
 }

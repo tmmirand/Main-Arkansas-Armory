@@ -2459,6 +2459,7 @@ namespace Arkansas_Armory
             this.button4.TabIndex = 5;
             this.button4.Text = "Add to Cart";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // groupBox2
             // 
@@ -16097,6 +16098,7 @@ namespace Arkansas_Armory
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.DarkRed;
             this.ClientSize = new System.Drawing.Size(1452, 618);
+            this.Controls.Add(this.pnlLogin);
             this.Controls.Add(this.pnlCreateAccount);
             this.Controls.Add(this.pnlShoppingCart);
             this.Controls.Add(this.groupBox175);
@@ -16128,7 +16130,6 @@ namespace Arkansas_Armory
             this.Controls.Add(this.groupBox94);
             this.Controls.Add(this.groupBox67);
             this.Controls.Add(this.pnlOrders);
-            this.Controls.Add(this.pnlLogin);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.Handguns);
             this.Controls.Add(this.gboShotguns);
