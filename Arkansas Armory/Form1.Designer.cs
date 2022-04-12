@@ -80,6 +80,7 @@ namespace Arkansas_Armory
             this.btnShoppingCart = new System.Windows.Forms.Button();
             this.btnCreateAccount = new System.Windows.Forms.Button();
             this.pnlShoppingCart = new System.Windows.Forms.Panel();
+            this.button11 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button2 = new System.Windows.Forms.Button();
             this.label24 = new System.Windows.Forms.Label();
@@ -1506,7 +1507,6 @@ namespace Arkansas_Armory
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.Handguns = new System.Windows.Forms.GroupBox();
-            this.button11 = new System.Windows.Forms.Button();
             this.gboShotguns = new System.Windows.Forms.GroupBox();
             this.pnlCreateAccount.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -2256,6 +2256,16 @@ namespace Arkansas_Armory
             this.pnlShoppingCart.Name = "pnlShoppingCart";
             this.pnlShoppingCart.Size = new System.Drawing.Size(1451, 788);
             this.pnlShoppingCart.TabIndex = 21;
+            // 
+            // button11
+            // 
+            this.button11.Location = new System.Drawing.Point(1246, 73);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(107, 23);
+            this.button11.TabIndex = 7;
+            this.button11.Text = "Main Menu";
+            this.button11.UseVisualStyleBackColor = true;
+            this.button11.Click += new System.EventHandler(this.button11_Click);
             // 
             // pictureBox1
             // 
@@ -16058,16 +16068,6 @@ namespace Arkansas_Armory
             this.Handguns.TabIndex = 59;
             this.Handguns.TabStop = false;
             // 
-            // button11
-            // 
-            this.button11.Location = new System.Drawing.Point(1246, 73);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(107, 23);
-            this.button11.TabIndex = 7;
-            this.button11.Text = "Main Menu";
-            this.button11.UseVisualStyleBackColor = true;
-            this.button11.Click += new System.EventHandler(this.button11_Click);
-            // 
             // gboShotguns
             // 
             this.gboShotguns.BackColor = System.Drawing.Color.Black;
@@ -16096,7 +16096,7 @@ namespace Arkansas_Armory
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.DarkRed;
-            this.ClientSize = new System.Drawing.Size(1259, 618);
+            this.ClientSize = new System.Drawing.Size(1452, 618);
             this.Controls.Add(this.pnlCreateAccount);
             this.Controls.Add(this.pnlShoppingCart);
             this.Controls.Add(this.groupBox175);
