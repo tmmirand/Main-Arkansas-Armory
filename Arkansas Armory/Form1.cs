@@ -115,6 +115,7 @@ namespace Arkansas_Armory
         {
             pnlCreateAccount.Visible = true;
             pnlCreateAccount.Location = new Point(0, 0);
+            pnlCreateAccount.BringToFront();
         }
 
         private void btnShoppingCart_Click(object sender, EventArgs e)
@@ -441,7 +442,33 @@ namespace Arkansas_Armory
 
         private void loginBTN_Click(object sender, EventArgs e)
         {
+            string connectionstring;
+            SqlConnection cnn;
+            connectionstring = @"Data Source=essql1.walton.uark.edu; Initial Catalog=PROJECTS2241; User ID=PROJECTS2241; Password=CN74kyu$;";
+            cnn = new SqlConnection(connectionstring);
+            cnn.Open();
+
+            //I think we need to use a data reader here and display the result in the hidden text box.
+            
+                command = new SqlCommand("Select FROM dbo.Customer(CustomerID) WHERE Username=@Username,Password=@Password", cnn);
+                command.Parameters.AddWithValue("@Username",txtLoginUsername.Text);
+                command.Parameters.AddWithValue("@Password", txtLoginUsername.Text);
+
+
            
+                //MessageBox.Show("Incorrect Login!");
+
+               
+
+            
+
+
+           // MessageBox.Show("Connection Open!");
+            cnn.Close();
+           // pnlLogin.Visible = false;
+            
+          
+            
         }
     }
 }
