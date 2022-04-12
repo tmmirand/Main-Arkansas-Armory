@@ -122,6 +122,7 @@ namespace Arkansas_Armory
         {
             pnlShoppingCart.Visible = true;
             pnlShoppingCart.Location = new Point(0, 0);
+            pnlShoppingCart.BringToFront();
         }
 
         private void btnBack_Click(object sender, EventArgs e)
@@ -150,6 +151,7 @@ namespace Arkansas_Armory
         {
             pnlOrders.Visible = true;
             pnlOrders.Location = new Point(0, 0);
+            pnlOrders.BringToFront();
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)
@@ -482,6 +484,11 @@ namespace Arkansas_Armory
                 Handguns.Visible = true;
             }
             
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            pnlShoppingCart.Visible = false; 
         }
     }
 }
