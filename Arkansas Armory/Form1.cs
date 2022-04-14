@@ -16,14 +16,18 @@ namespace Arkansas_Armory
         SqlConnection connection;
         SqlCommand command;
         SqlDataReader datareader;
+        SqlDataAdapter adpt;
         string connectionstring = "Data Source=essql1.walton.uark.edu;Initial Catalog=PROJECTS2241;User ID=PROJECTS2241;Password=CN74kyu$";
 
-        DataTable dtInventory;
+        DataTable dtCustomer;
 
         public void refresh()
         {
+            connection.Open();
+            adpt = new SqlDataAdapter("Select * from dbo.Customer Where CustomerID",connection);
+            adpt.Fill(dtCustomer);
+            connection.Close();
 
-           
 
         }
 
@@ -97,10 +101,10 @@ namespace Arkansas_Armory
             pnlLogin.Visible = false;
             pnlOrders.Visible = false;
 
-            txtLoginUsername.Text = "Guest";
+           
             txtLoginPassword.Text = "Guest";
             txtLoginCustomerID.Text = "1";
-            txtLoginCustomerID.Visible = false;
+            
 
             refresh();
 
