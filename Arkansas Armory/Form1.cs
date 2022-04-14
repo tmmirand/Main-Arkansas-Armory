@@ -24,7 +24,7 @@ namespace Arkansas_Armory
         public void refresh()
         {
             connection.Open();
-            adpt = new SqlDataAdapter("Select * from dbo.Customer Where CustomerID",connection);
+            //adpt = new SqlDataAdapter("Select * from dbo.Customer Where CustomerID=" + txtLoginCustomerID + " & ",connection);
             adpt.Fill(dtCustomer);
             connection.Close();
 
