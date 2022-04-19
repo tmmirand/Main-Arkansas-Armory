@@ -23,10 +23,10 @@ namespace Arkansas_Armory
 
         public void refresh()
         {
-            connection.Open();
+            //connection.Open();
             //adpt = new SqlDataAdapter("Select * from dbo.Customer Where CustomerID=" + txtLoginCustomerID + " & ",connection);
-            adpt.Fill(dtCustomer);
-            connection.Close();
+            //adpt.Fill(dtCustomer);
+            //connection.Close();
 
 
         }
@@ -50,7 +50,7 @@ namespace Arkansas_Armory
                 connection = new SqlConnection(connectionstring);
                 connection.Open();
                 int answer;
-                string sql = "INSERT INTO dbo.Customer(Password,FirstName,LastName,ShippingStreetAddress,ShippingCity,ShippingZipcode,ShippingState,BillingStreetAddress,BillingCity,BillingZipcode,BillingState,DoB,DriversLicenseNumber,ConcealCarryStatus,CreditCardNumber,CryptoType,CryptoWalletAddress,Email) VALUES (@User, @Pass, @Fname, @Lname, @ShipStreet, @ShipCity, @ShipZip, @ShipState, @BillStreet, @BillCity, " +
+                string sql = "INSERT INTO dbo.Customer(Password,FirstName,LastName,ShippingStreetAddress,ShippingCity,ShippingZipcode,ShippingState,BillingStreetAddress,BillingCity,BillingZipcode,BillingState,DoB,DriversLicenseNumber,ConcealCarryStatus,CreditCardNumber,Email) VALUES (@Pass, @Fname, @Lname, @ShipStreet, @ShipCity, @ShipZip, @ShipState, @BillStreet, @BillCity, " +
                     "@BillZip, @BillState, @DoB, @DLNum, @CCStatus, @CCNUmber,@Email)";
                 command = new SqlCommand(sql, connection);
                 command.Parameters.AddWithValue("@Fname", txtFirst_Name.Text);
@@ -69,6 +69,7 @@ namespace Arkansas_Armory
                 command.Parameters.AddWithValue("@CCStatus", txtConcealedCarry.Text);
                 command.Parameters.AddWithValue("@CCNumber", txtCreditCardNum.Text);
                 command.Parameters.AddWithValue("@Email", txtEmail.Text);
+             
 
 
                 answer = command.ExecuteNonQuery();
