@@ -51,7 +51,7 @@ namespace Arkansas_Armory
                 connection.Open();
                 int answer;
                 string sql = "INSERT INTO dbo.Customer(Password,FirstName,LastName,ShippingStreetAddress,ShippingCity,ShippingZipcode,ShippingState,BillingStreetAddress,BillingCity,BillingZipcode,BillingState,DoB,DriversLicenseNumber,ConcealCarryStatus,CreditCardNumber,Email) VALUES (@Pass, @Fname, @Lname, @ShipStreet, @ShipCity, @ShipZip, @ShipState, @BillStreet, @BillCity, " +
-                    "@BillZip, @BillState, @DoB, @DLNum, @CCStatus, @CCNUmber,@Email)";
+                "@BillZip, @BillState, @DoB, @DLNum, @CCStatus, @CCNUmber,@Email)";
                 command = new SqlCommand(sql, connection);
                 command.Parameters.AddWithValue("@Fname", txtFirst_Name.Text);
                 command.Parameters.AddWithValue("@Lname", txtLast_Name.Text);
@@ -69,16 +69,22 @@ namespace Arkansas_Armory
                 command.Parameters.AddWithValue("@CCStatus", txtConcealedCarry.Text);
                 command.Parameters.AddWithValue("@CCNumber", txtCreditCardNum.Text);
                 command.Parameters.AddWithValue("@Email", txtEmail.Text);
-             
-
-
                 answer = command.ExecuteNonQuery();
 
+
+
+                int Count;
                 string sqlcount = "SELECT COUNT(CustomerID) FROM Customer";
-                int answercount;
+                SqlDataReader datareader;
                 command = new SqlCommand(sqlcount, connection);
-                answercount = command.ExecuteNonQuery();
-                MessageBox.Show("You have successfully entered " + answer + " into the database. Your Customer ID is " + answercount + "");
+                datareader = command.ExecuteReader();
+                //while (datareader.Read())
+                //{
+                 //   int Count = datareader.Depth;
+               // }
+                
+                datareader.Close();
+                MessageBox.Show("You have successfully entered " + answer + " into the database. Your Customer ID is " + Count + "");
                 connection.Close();
                 command.Dispose();
 
