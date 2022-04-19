@@ -73,9 +73,14 @@ namespace Arkansas_Armory
 
                 answer = command.ExecuteNonQuery();
 
+                string sqlcount = "SELECT COUNT(CustomerID) FROM Customer";
+                int answercount;
+                command = new SqlCommand(sqlcount, connection);
+                answercount = command.ExecuteNonQuery();
+                MessageBox.Show("You have successfully entered " + answer + " into the database. Your Customer ID is " + answercount + "");
                 connection.Close();
                 command.Dispose();
-                MessageBox.Show("You have successfully entered " + answer + " into the database");
+
             }
             catch (Exception ex)
             {
@@ -458,8 +463,8 @@ namespace Arkansas_Armory
             //I think we need to use a data reader here and display the result in the hidden text box.
             
                 command = new SqlCommand("Select FROM dbo.Customer(CustomerID) WHERE Username=@Username,Password=@Password", cnn);
-                command.Parameters.AddWithValue("@Username",txtLoginUsername.Text);
-                command.Parameters.AddWithValue("@Password", txtLoginUsername.Text);
+                command.Parameters.AddWithValue("@Username",txtLoginCustomerID.Text);
+                command.Parameters.AddWithValue("@Password", txtLoginPassword.Text);
 
 
            
