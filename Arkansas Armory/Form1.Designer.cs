@@ -67,7 +67,6 @@ namespace Arkansas_Armory
             this.txtShippingCity = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.btnLogin = new System.Windows.Forms.Button();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.btnLogOut = new System.Windows.Forms.Button();
             this.btnOrders = new System.Windows.Forms.Button();
             this.btnShoppingCart = new System.Windows.Forms.Button();
@@ -1500,8 +1499,8 @@ namespace Arkansas_Armory
             this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.Handguns = new System.Windows.Forms.GroupBox();
             this.gboShotguns = new System.Windows.Forms.GroupBox();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.pnlCreateAccount.SuspendLayout();
-            this.groupBox1.SuspendLayout();
             this.pnlShoppingCart.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -1735,6 +1734,7 @@ namespace Arkansas_Armory
             this.groupBox175.SuspendLayout();
             this.Handguns.SuspendLayout();
             this.gboShotguns.SuspendLayout();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -2101,32 +2101,23 @@ namespace Arkansas_Armory
             // 
             // btnLogin
             // 
-            this.btnLogin.Location = new System.Drawing.Point(6, 19);
+            this.btnLogin.BackColor = System.Drawing.Color.White;
+            this.btnLogin.FlatAppearance.BorderSize = 0;
+            this.btnLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLogin.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLogin.ForeColor = System.Drawing.Color.DarkRed;
+            this.btnLogin.Location = new System.Drawing.Point(0, 0);
             this.btnLogin.Name = "btnLogin";
-            this.btnLogin.Size = new System.Drawing.Size(126, 44);
+            this.btnLogin.Size = new System.Drawing.Size(200, 44);
             this.btnLogin.TabIndex = 15;
             this.btnLogin.Text = "Login";
-            this.btnLogin.UseVisualStyleBackColor = true;
+            this.btnLogin.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.btnLogin.UseVisualStyleBackColor = false;
             this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
-            // 
-            // groupBox1
-            // 
-            this.groupBox1.BackColor = System.Drawing.Color.White;
-            this.groupBox1.Controls.Add(this.btnLogOut);
-            this.groupBox1.Controls.Add(this.btnOrders);
-            this.groupBox1.Controls.Add(this.btnShoppingCart);
-            this.groupBox1.Controls.Add(this.btnCreateAccount);
-            this.groupBox1.Controls.Add(this.btnLogin);
-            this.groupBox1.Location = new System.Drawing.Point(12, 12);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(1388, 72);
-            this.groupBox1.TabIndex = 16;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Arkansas Armory";
             // 
             // btnLogOut
             // 
-            this.btnLogOut.Location = new System.Drawing.Point(1256, 19);
+            this.btnLogOut.Location = new System.Drawing.Point(1098, 92);
             this.btnLogOut.Name = "btnLogOut";
             this.btnLogOut.Size = new System.Drawing.Size(126, 44);
             this.btnLogOut.TabIndex = 18;
@@ -2135,7 +2126,7 @@ namespace Arkansas_Armory
             // 
             // btnOrders
             // 
-            this.btnOrders.Location = new System.Drawing.Point(969, 19);
+            this.btnOrders.Location = new System.Drawing.Point(895, 90);
             this.btnOrders.Name = "btnOrders";
             this.btnOrders.Size = new System.Drawing.Size(126, 44);
             this.btnOrders.TabIndex = 17;
@@ -2145,22 +2136,32 @@ namespace Arkansas_Armory
             // 
             // btnShoppingCart
             // 
-            this.btnShoppingCart.Location = new System.Drawing.Point(657, 19);
+            this.btnShoppingCart.BackColor = System.Drawing.Color.White;
+            this.btnShoppingCart.FlatAppearance.BorderSize = 0;
+            this.btnShoppingCart.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnShoppingCart.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnShoppingCart.ForeColor = System.Drawing.Color.DarkRed;
+            this.btnShoppingCart.Location = new System.Drawing.Point(0, 80);
             this.btnShoppingCart.Name = "btnShoppingCart";
-            this.btnShoppingCart.Size = new System.Drawing.Size(126, 44);
+            this.btnShoppingCart.Size = new System.Drawing.Size(200, 44);
             this.btnShoppingCart.TabIndex = 17;
             this.btnShoppingCart.Text = "Shopping Cart";
-            this.btnShoppingCart.UseVisualStyleBackColor = true;
+            this.btnShoppingCart.UseVisualStyleBackColor = false;
             this.btnShoppingCart.Click += new System.EventHandler(this.btnShoppingCart_Click);
             // 
             // btnCreateAccount
             // 
-            this.btnCreateAccount.Location = new System.Drawing.Point(328, 19);
+            this.btnCreateAccount.BackColor = System.Drawing.Color.White;
+            this.btnCreateAccount.FlatAppearance.BorderSize = 0;
+            this.btnCreateAccount.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCreateAccount.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCreateAccount.ForeColor = System.Drawing.Color.DarkRed;
+            this.btnCreateAccount.Location = new System.Drawing.Point(0, 42);
             this.btnCreateAccount.Name = "btnCreateAccount";
-            this.btnCreateAccount.Size = new System.Drawing.Size(126, 44);
+            this.btnCreateAccount.Size = new System.Drawing.Size(200, 44);
             this.btnCreateAccount.TabIndex = 17;
             this.btnCreateAccount.Text = "Create Account";
-            this.btnCreateAccount.UseVisualStyleBackColor = true;
+            this.btnCreateAccount.UseVisualStyleBackColor = false;
             this.btnCreateAccount.Click += new System.EventHandler(this.btnCreateAccount_Click);
             // 
             // pnlShoppingCart
@@ -15916,7 +15917,7 @@ namespace Arkansas_Armory
             this.groupBox175.Controls.Add(this.radioButton3);
             this.groupBox175.Controls.Add(this.radioButton2);
             this.groupBox175.Controls.Add(this.radioButton1);
-            this.groupBox175.Location = new System.Drawing.Point(66, 92);
+            this.groupBox175.Location = new System.Drawing.Point(528, 12);
             this.groupBox175.Name = "groupBox175";
             this.groupBox175.Size = new System.Drawing.Size(288, 56);
             this.groupBox175.TabIndex = 58;
@@ -15976,7 +15977,7 @@ namespace Arkansas_Armory
             this.Handguns.Controls.Add(this.groupBox46);
             this.Handguns.Controls.Add(this.groupBox22);
             this.Handguns.ForeColor = System.Drawing.Color.DarkRed;
-            this.Handguns.Location = new System.Drawing.Point(105, 154);
+            this.Handguns.Location = new System.Drawing.Point(255, 145);
             this.Handguns.Name = "Handguns";
             this.Handguns.Size = new System.Drawing.Size(1211, 2656);
             this.Handguns.TabIndex = 59;
@@ -16005,14 +16006,29 @@ namespace Arkansas_Armory
             this.gboShotguns.TabIndex = 60;
             this.gboShotguns.TabStop = false;
             // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.DarkGray;
+            this.panel1.Controls.Add(this.btnLogin);
+            this.panel1.Controls.Add(this.btnCreateAccount);
+            this.panel1.Controls.Add(this.btnShoppingCart);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(200, 10371);
+            this.panel1.TabIndex = 61;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.DarkRed;
-            this.ClientSize = new System.Drawing.Size(1461, 635);
+            this.ClientSize = new System.Drawing.Size(1353, 618);
+            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.btnLogOut);
             this.Controls.Add(this.pnlCreateAccount);
+            this.Controls.Add(this.btnOrders);
             this.Controls.Add(this.pnlShoppingCart);
             this.Controls.Add(this.groupBox175);
             this.Controls.Add(this.groupBox170);
@@ -16042,16 +16058,16 @@ namespace Arkansas_Armory
             this.Controls.Add(this.groupBox100);
             this.Controls.Add(this.groupBox94);
             this.Controls.Add(this.pnlOrders);
-            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.Handguns);
             this.Controls.Add(this.gboShotguns);
             this.Controls.Add(this.pnlLogin);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.pnlCreateAccount.ResumeLayout(false);
             this.pnlCreateAccount.PerformLayout();
-            this.groupBox1.ResumeLayout(false);
             this.pnlShoppingCart.ResumeLayout(false);
             this.pnlShoppingCart.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -16427,6 +16443,7 @@ namespace Arkansas_Armory
             this.groupBox175.PerformLayout();
             this.Handguns.ResumeLayout(false);
             this.gboShotguns.ResumeLayout(false);
+            this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -16469,7 +16486,6 @@ namespace Arkansas_Armory
         private System.Windows.Forms.TextBox txtShippingCity;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Button btnLogin;
-        private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Button btnLogOut;
         private System.Windows.Forms.Button btnOrders;
         private System.Windows.Forms.Button btnShoppingCart;
@@ -17903,6 +17919,7 @@ namespace Arkansas_Armory
         private System.Windows.Forms.GroupBox gboShotguns;
         private System.Windows.Forms.Label label21;
         private System.Windows.Forms.MaskedTextBox txtLoginPassword;
+        private System.Windows.Forms.Panel panel1;
     }
 }
 
