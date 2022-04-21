@@ -20,13 +20,21 @@ namespace Arkansas_Armory
         string connectionstring = "Data Source=essql1.walton.uark.edu;Initial Catalog=PROJECTS2241;User ID=PROJECTS2241;Password=CN74kyu$";
 
         DataTable dtCustomer;
+        DataTable dtCustomerCount;
 
         public void refresh()
         {
-            //connection.Open();
-            //adpt = new SqlDataAdapter("Select * from dbo.Customer Where CustomerID=" + txtLoginCustomerID + " & ",connection);
-            //adpt.Fill(dtCustomer);
-            //connection.Close();
+            string connectionstring;
+            SqlConnection cnn;
+            connectionstring = @"Data Source=essql1.walton.uark.edu; Initial Catalog=PROJECTS2241; User ID=PROJECTS2241; Password=CN74kyu$;";
+            cnn = new SqlConnection(connectionstring);
+
+            cnn.Open();
+            adpt = new SqlDataAdapter("Select CustomerID FROM Customer", cnn);
+            dtCustomerCount = new DataTable();
+            adpt.Fill(dtCustomerCount);
+            cnn.Close();
+            
 
 
         }
@@ -70,9 +78,10 @@ namespace Arkansas_Armory
                 command.Parameters.AddWithValue("@CCNumber", txtCreditCardNum.Text);
                 command.Parameters.AddWithValue("@Email", txtEmail.Text);
                 answer = command.ExecuteNonQuery();
-
-                datareader.Close();
-                MessageBox.Show("You have successfully entered " + answer + " into the database. Your Customer ID is ");
+                refresh();
+                
+                MessageBox.Show("You have successfully entered " + answer + " into the database.");
+                MessageBox.Show("Your Customer ID is " + (dtCustomerCount.Rows.Count+5) + "");
                 connection.Close();
                 command.Dispose();
 
@@ -542,5 +551,7 @@ namespace Arkansas_Armory
         {
 
         }
+
+        
     }
 }
