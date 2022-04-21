@@ -84,7 +84,7 @@ namespace Arkansas_Armory
                // }
                 
                 datareader.Close();
-                MessageBox.Show("You have successfully entered " + answer + " into the database. Your Customer ID is " + Count + "");
+                //MessageBox.Show("You have successfully entered " + answer + " into the database. Your Customer ID is " + Count + "");
                 connection.Close();
                 command.Dispose();
 
@@ -169,6 +169,18 @@ namespace Arkansas_Armory
             pnlOrders.Visible = true;
             pnlOrders.Location = new Point(0, 0);
             pnlOrders.BringToFront();
+
+            connection = new SqlConnection(connectionstring);
+            connection.Open();
+
+            string sql = "SELECT * FROM Orders";
+
+            var da = new SqlDataAdapter(sql, connection);
+            var ds = new DataSet();
+            da.Fill(ds);
+            dgvPurchaseHistory.DataSource = ds.Tables[0];
+            connection.Close();
+            dgvPurchaseHistory.Columns["Total"].DefaultCellStyle.Format = "c";
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)
@@ -538,6 +550,11 @@ namespace Arkansas_Armory
             connection.Close();
             command.Dispose();
 
+
+        }
+
+        private void btnLogOut_Click(object sender, EventArgs e)
+        {
 
         }
     }

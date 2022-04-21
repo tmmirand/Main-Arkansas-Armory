@@ -2123,6 +2123,7 @@ namespace Arkansas_Armory
             this.btnLogOut.TabIndex = 18;
             this.btnLogOut.Text = "Log Out";
             this.btnLogOut.UseVisualStyleBackColor = true;
+            this.btnLogOut.Click += new System.EventHandler(this.btnLogOut_Click);
             // 
             // btnOrders
             // 
@@ -16025,6 +16026,7 @@ namespace Arkansas_Armory
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.DarkRed;
             this.ClientSize = new System.Drawing.Size(1353, 618);
+            this.Controls.Add(this.pnlOrders);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.btnLogOut);
             this.Controls.Add(this.pnlCreateAccount);
@@ -16057,7 +16059,6 @@ namespace Arkansas_Armory
             this.Controls.Add(this.groupBox91);
             this.Controls.Add(this.groupBox100);
             this.Controls.Add(this.groupBox94);
-            this.Controls.Add(this.pnlOrders);
             this.Controls.Add(this.Handguns);
             this.Controls.Add(this.gboShotguns);
             this.Controls.Add(this.pnlLogin);
