@@ -71,20 +71,8 @@ namespace Arkansas_Armory
                 command.Parameters.AddWithValue("@Email", txtEmail.Text);
                 answer = command.ExecuteNonQuery();
 
-
-
-                int Count;
-                string sqlcount = "SELECT COUNT(CustomerID) FROM Customer";
-                SqlDataReader datareader;
-                command = new SqlCommand(sqlcount, connection);
-                datareader = command.ExecuteReader();
-                //while (datareader.Read())
-                //{
-                 //   int Count = datareader.Depth;
-               // }
-                
                 datareader.Close();
-                //MessageBox.Show("You have successfully entered " + answer + " into the database. Your Customer ID is " + Count + "");
+                MessageBox.Show("You have successfully entered " + answer + " into the database. Your Customer ID is ");
                 connection.Close();
                 command.Dispose();
 
@@ -473,30 +461,27 @@ namespace Arkansas_Armory
 
         private void loginBTN_Click(object sender, EventArgs e)
         {
+            
             string connectionstring;
             SqlConnection cnn;
             connectionstring = @"Data Source=essql1.walton.uark.edu; Initial Catalog=PROJECTS2241; User ID=PROJECTS2241; Password=CN74kyu$;";
             cnn = new SqlConnection(connectionstring);
+            
             cnn.Open();
-
-            //I think we need to use a data reader here and display the result in the hidden text box.
-            
-                command = new SqlCommand("Select FROM dbo.Customer(CustomerID) WHERE Username=@Username,Password=@Password", cnn);
-                command.Parameters.AddWithValue("@Username",txtLoginCustomerID.Text);
-                command.Parameters.AddWithValue("@Password", txtLoginPassword.Text);
-
-
-           
-                //MessageBox.Show("Incorrect Login!");
-
-               
-
-            
-
-
-           // MessageBox.Show("Connection Open!");
+            adpt = new SqlDataAdapter("Select CustomerID FROM Customer WHERE CustomerID=" + txtLoginCustomerID.Text + " AND Password='" + txtLoginPassword.Text + "'", cnn);
+            dtCustomer = new DataTable();
+            adpt.Fill(dtCustomer);
+            if (dtCustomer.Rows.Count >0)
+            {
+                MessageBox.Show("Login Success!");
+            }
+            else
+            {
+                MessageBox.Show("Incorrect Login!");
+                return;
+            }
             cnn.Close();
-           // pnlLogin.Visible = false;
+            pnlLogin.Visible = false;
             
           
             
