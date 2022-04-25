@@ -260,5 +260,23 @@
   <ItemGroup>
     <None Include="Resources\Picture60.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-shopping-cart-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-login-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-add-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-order-history-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-log-out-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Arkansas armory.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

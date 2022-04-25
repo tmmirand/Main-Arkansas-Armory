@@ -66,14 +66,8 @@ namespace Arkansas_Armory
             this.label8 = new System.Windows.Forms.Label();
             this.txtShippingCity = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.btnLogin = new System.Windows.Forms.Button();
-            this.btnLogOut = new System.Windows.Forms.Button();
-            this.btnOrders = new System.Windows.Forms.Button();
-            this.btnShoppingCart = new System.Windows.Forms.Button();
-            this.btnCreateAccount = new System.Windows.Forms.Button();
             this.pnlShoppingCart = new System.Windows.Forms.Panel();
             this.button11 = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button2 = new System.Windows.Forms.Button();
             this.label24 = new System.Windows.Forms.Label();
             this.txttotal = new System.Windows.Forms.TextBox();
@@ -87,7 +81,6 @@ namespace Arkansas_Armory
             this.button1 = new System.Windows.Forms.Button();
             this.loginBTN = new System.Windows.Forms.Button();
             this.label27 = new System.Windows.Forms.Label();
-            this.label25 = new System.Windows.Forms.Label();
             this.gboGun1 = new System.Windows.Forms.GroupBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.textBox9 = new System.Windows.Forms.TextBox();
@@ -112,7 +105,6 @@ namespace Arkansas_Armory
             this.label28 = new System.Windows.Forms.Label();
             this.label29 = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pnlOrders = new System.Windows.Forms.Panel();
             this.btnOrdersMainMenu = new System.Windows.Forms.Button();
             this.dgvPurchaseHistory = new System.Windows.Forms.DataGridView();
@@ -142,7 +134,6 @@ namespace Arkansas_Armory
             this.label46 = new System.Windows.Forms.Label();
             this.label47 = new System.Windows.Forms.Label();
             this.button6 = new System.Windows.Forms.Button();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.groupBox7 = new System.Windows.Forms.GroupBox();
             this.groupBox8 = new System.Windows.Forms.GroupBox();
             this.textBox23 = new System.Windows.Forms.TextBox();
@@ -167,7 +158,6 @@ namespace Arkansas_Armory
             this.label55 = new System.Windows.Forms.Label();
             this.label56 = new System.Windows.Forms.Label();
             this.button8 = new System.Windows.Forms.Button();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.groupBox10 = new System.Windows.Forms.GroupBox();
             this.groupBox11 = new System.Windows.Forms.GroupBox();
             this.textBox33 = new System.Windows.Forms.TextBox();
@@ -192,7 +182,6 @@ namespace Arkansas_Armory
             this.label64 = new System.Windows.Forms.Label();
             this.label65 = new System.Windows.Forms.Label();
             this.button10 = new System.Windows.Forms.Button();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.groupBox19 = new System.Windows.Forms.GroupBox();
             this.groupBox20 = new System.Windows.Forms.GroupBox();
             this.textBox63 = new System.Windows.Forms.TextBox();
@@ -217,7 +206,6 @@ namespace Arkansas_Armory
             this.label91 = new System.Windows.Forms.Label();
             this.label92 = new System.Windows.Forms.Label();
             this.button16 = new System.Windows.Forms.Button();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.groupBox22 = new System.Windows.Forms.GroupBox();
             this.groupBox23 = new System.Windows.Forms.GroupBox();
             this.textBox73 = new System.Windows.Forms.TextBox();
@@ -242,7 +230,6 @@ namespace Arkansas_Armory
             this.label100 = new System.Windows.Forms.Label();
             this.label101 = new System.Windows.Forms.Label();
             this.button18 = new System.Windows.Forms.Button();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.groupBox25 = new System.Windows.Forms.GroupBox();
             this.groupBox26 = new System.Windows.Forms.GroupBox();
             this.textBox83 = new System.Windows.Forms.TextBox();
@@ -267,7 +254,6 @@ namespace Arkansas_Armory
             this.label109 = new System.Windows.Forms.Label();
             this.label110 = new System.Windows.Forms.Label();
             this.button20 = new System.Windows.Forms.Button();
-            this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.groupBox28 = new System.Windows.Forms.GroupBox();
             this.groupBox29 = new System.Windows.Forms.GroupBox();
             this.textBox93 = new System.Windows.Forms.TextBox();
@@ -292,7 +278,6 @@ namespace Arkansas_Armory
             this.label118 = new System.Windows.Forms.Label();
             this.label119 = new System.Windows.Forms.Label();
             this.button22 = new System.Windows.Forms.Button();
-            this.pictureBox11 = new System.Windows.Forms.PictureBox();
             this.groupBox31 = new System.Windows.Forms.GroupBox();
             this.groupBox32 = new System.Windows.Forms.GroupBox();
             this.textBox103 = new System.Windows.Forms.TextBox();
@@ -317,7 +302,6 @@ namespace Arkansas_Armory
             this.label127 = new System.Windows.Forms.Label();
             this.label128 = new System.Windows.Forms.Label();
             this.button24 = new System.Windows.Forms.Button();
-            this.pictureBox12 = new System.Windows.Forms.PictureBox();
             this.groupBox34 = new System.Windows.Forms.GroupBox();
             this.groupBox35 = new System.Windows.Forms.GroupBox();
             this.textBox113 = new System.Windows.Forms.TextBox();
@@ -342,7 +326,6 @@ namespace Arkansas_Armory
             this.label136 = new System.Windows.Forms.Label();
             this.label137 = new System.Windows.Forms.Label();
             this.button26 = new System.Windows.Forms.Button();
-            this.pictureBox13 = new System.Windows.Forms.PictureBox();
             this.groupBox37 = new System.Windows.Forms.GroupBox();
             this.groupBox38 = new System.Windows.Forms.GroupBox();
             this.textBox123 = new System.Windows.Forms.TextBox();
@@ -367,7 +350,6 @@ namespace Arkansas_Armory
             this.label145 = new System.Windows.Forms.Label();
             this.label146 = new System.Windows.Forms.Label();
             this.button28 = new System.Windows.Forms.Button();
-            this.pictureBox14 = new System.Windows.Forms.PictureBox();
             this.groupBox40 = new System.Windows.Forms.GroupBox();
             this.groupBox41 = new System.Windows.Forms.GroupBox();
             this.textBox133 = new System.Windows.Forms.TextBox();
@@ -392,7 +374,6 @@ namespace Arkansas_Armory
             this.label154 = new System.Windows.Forms.Label();
             this.label155 = new System.Windows.Forms.Label();
             this.button30 = new System.Windows.Forms.Button();
-            this.pictureBox15 = new System.Windows.Forms.PictureBox();
             this.groupBox46 = new System.Windows.Forms.GroupBox();
             this.groupBox47 = new System.Windows.Forms.GroupBox();
             this.textBox153 = new System.Windows.Forms.TextBox();
@@ -417,7 +398,6 @@ namespace Arkansas_Armory
             this.label172 = new System.Windows.Forms.Label();
             this.label173 = new System.Windows.Forms.Label();
             this.button34 = new System.Windows.Forms.Button();
-            this.pictureBox17 = new System.Windows.Forms.PictureBox();
             this.groupBox43 = new System.Windows.Forms.GroupBox();
             this.groupBox44 = new System.Windows.Forms.GroupBox();
             this.textBox143 = new System.Windows.Forms.TextBox();
@@ -442,7 +422,6 @@ namespace Arkansas_Armory
             this.label163 = new System.Windows.Forms.Label();
             this.label164 = new System.Windows.Forms.Label();
             this.button32 = new System.Windows.Forms.Button();
-            this.pictureBox16 = new System.Windows.Forms.PictureBox();
             this.groupBox49 = new System.Windows.Forms.GroupBox();
             this.groupBox50 = new System.Windows.Forms.GroupBox();
             this.textBox163 = new System.Windows.Forms.TextBox();
@@ -467,7 +446,6 @@ namespace Arkansas_Armory
             this.label181 = new System.Windows.Forms.Label();
             this.label182 = new System.Windows.Forms.Label();
             this.button36 = new System.Windows.Forms.Button();
-            this.pictureBox18 = new System.Windows.Forms.PictureBox();
             this.groupBox52 = new System.Windows.Forms.GroupBox();
             this.groupBox53 = new System.Windows.Forms.GroupBox();
             this.textBox173 = new System.Windows.Forms.TextBox();
@@ -492,7 +470,6 @@ namespace Arkansas_Armory
             this.label190 = new System.Windows.Forms.Label();
             this.label191 = new System.Windows.Forms.Label();
             this.button38 = new System.Windows.Forms.Button();
-            this.pictureBox19 = new System.Windows.Forms.PictureBox();
             this.groupBox55 = new System.Windows.Forms.GroupBox();
             this.groupBox56 = new System.Windows.Forms.GroupBox();
             this.textBox183 = new System.Windows.Forms.TextBox();
@@ -517,7 +494,6 @@ namespace Arkansas_Armory
             this.label199 = new System.Windows.Forms.Label();
             this.label200 = new System.Windows.Forms.Label();
             this.button40 = new System.Windows.Forms.Button();
-            this.pictureBox20 = new System.Windows.Forms.PictureBox();
             this.groupBox58 = new System.Windows.Forms.GroupBox();
             this.groupBox59 = new System.Windows.Forms.GroupBox();
             this.textBox193 = new System.Windows.Forms.TextBox();
@@ -542,7 +518,6 @@ namespace Arkansas_Armory
             this.label208 = new System.Windows.Forms.Label();
             this.label209 = new System.Windows.Forms.Label();
             this.button42 = new System.Windows.Forms.Button();
-            this.pictureBox21 = new System.Windows.Forms.PictureBox();
             this.groupBox61 = new System.Windows.Forms.GroupBox();
             this.groupBox62 = new System.Windows.Forms.GroupBox();
             this.textBox203 = new System.Windows.Forms.TextBox();
@@ -567,7 +542,6 @@ namespace Arkansas_Armory
             this.label217 = new System.Windows.Forms.Label();
             this.label218 = new System.Windows.Forms.Label();
             this.button44 = new System.Windows.Forms.Button();
-            this.pictureBox22 = new System.Windows.Forms.PictureBox();
             this.groupBox64 = new System.Windows.Forms.GroupBox();
             this.groupBox65 = new System.Windows.Forms.GroupBox();
             this.textBox213 = new System.Windows.Forms.TextBox();
@@ -592,7 +566,6 @@ namespace Arkansas_Armory
             this.label226 = new System.Windows.Forms.Label();
             this.label227 = new System.Windows.Forms.Label();
             this.button46 = new System.Windows.Forms.Button();
-            this.pictureBox23 = new System.Windows.Forms.PictureBox();
             this.groupBox67 = new System.Windows.Forms.GroupBox();
             this.groupBox68 = new System.Windows.Forms.GroupBox();
             this.textBox223 = new System.Windows.Forms.TextBox();
@@ -617,7 +590,6 @@ namespace Arkansas_Armory
             this.label235 = new System.Windows.Forms.Label();
             this.label236 = new System.Windows.Forms.Label();
             this.button48 = new System.Windows.Forms.Button();
-            this.pictureBox24 = new System.Windows.Forms.PictureBox();
             this.groupBox70 = new System.Windows.Forms.GroupBox();
             this.groupBox71 = new System.Windows.Forms.GroupBox();
             this.textBox233 = new System.Windows.Forms.TextBox();
@@ -642,7 +614,6 @@ namespace Arkansas_Armory
             this.label244 = new System.Windows.Forms.Label();
             this.label245 = new System.Windows.Forms.Label();
             this.button50 = new System.Windows.Forms.Button();
-            this.pictureBox25 = new System.Windows.Forms.PictureBox();
             this.groupBox73 = new System.Windows.Forms.GroupBox();
             this.groupBox74 = new System.Windows.Forms.GroupBox();
             this.textBox243 = new System.Windows.Forms.TextBox();
@@ -667,7 +638,6 @@ namespace Arkansas_Armory
             this.label253 = new System.Windows.Forms.Label();
             this.label254 = new System.Windows.Forms.Label();
             this.button52 = new System.Windows.Forms.Button();
-            this.pictureBox26 = new System.Windows.Forms.PictureBox();
             this.groupBox76 = new System.Windows.Forms.GroupBox();
             this.groupBox77 = new System.Windows.Forms.GroupBox();
             this.textBox253 = new System.Windows.Forms.TextBox();
@@ -692,7 +662,6 @@ namespace Arkansas_Armory
             this.label262 = new System.Windows.Forms.Label();
             this.label263 = new System.Windows.Forms.Label();
             this.button54 = new System.Windows.Forms.Button();
-            this.pictureBox27 = new System.Windows.Forms.PictureBox();
             this.groupBox79 = new System.Windows.Forms.GroupBox();
             this.groupBox80 = new System.Windows.Forms.GroupBox();
             this.textBox263 = new System.Windows.Forms.TextBox();
@@ -717,7 +686,6 @@ namespace Arkansas_Armory
             this.label271 = new System.Windows.Forms.Label();
             this.label272 = new System.Windows.Forms.Label();
             this.button56 = new System.Windows.Forms.Button();
-            this.pictureBox28 = new System.Windows.Forms.PictureBox();
             this.groupBox82 = new System.Windows.Forms.GroupBox();
             this.groupBox83 = new System.Windows.Forms.GroupBox();
             this.textBox273 = new System.Windows.Forms.TextBox();
@@ -742,7 +710,6 @@ namespace Arkansas_Armory
             this.label280 = new System.Windows.Forms.Label();
             this.label281 = new System.Windows.Forms.Label();
             this.button58 = new System.Windows.Forms.Button();
-            this.pictureBox29 = new System.Windows.Forms.PictureBox();
             this.groupBox85 = new System.Windows.Forms.GroupBox();
             this.groupBox86 = new System.Windows.Forms.GroupBox();
             this.textBox283 = new System.Windows.Forms.TextBox();
@@ -767,7 +734,6 @@ namespace Arkansas_Armory
             this.label289 = new System.Windows.Forms.Label();
             this.label290 = new System.Windows.Forms.Label();
             this.button60 = new System.Windows.Forms.Button();
-            this.pictureBox30 = new System.Windows.Forms.PictureBox();
             this.groupBox88 = new System.Windows.Forms.GroupBox();
             this.groupBox89 = new System.Windows.Forms.GroupBox();
             this.textBox293 = new System.Windows.Forms.TextBox();
@@ -792,7 +758,6 @@ namespace Arkansas_Armory
             this.label298 = new System.Windows.Forms.Label();
             this.label299 = new System.Windows.Forms.Label();
             this.button62 = new System.Windows.Forms.Button();
-            this.pictureBox31 = new System.Windows.Forms.PictureBox();
             this.groupBox91 = new System.Windows.Forms.GroupBox();
             this.groupBox92 = new System.Windows.Forms.GroupBox();
             this.textBox303 = new System.Windows.Forms.TextBox();
@@ -817,7 +782,6 @@ namespace Arkansas_Armory
             this.label307 = new System.Windows.Forms.Label();
             this.label308 = new System.Windows.Forms.Label();
             this.button64 = new System.Windows.Forms.Button();
-            this.pictureBox32 = new System.Windows.Forms.PictureBox();
             this.groupBox94 = new System.Windows.Forms.GroupBox();
             this.groupBox95 = new System.Windows.Forms.GroupBox();
             this.textBox313 = new System.Windows.Forms.TextBox();
@@ -842,7 +806,6 @@ namespace Arkansas_Armory
             this.label316 = new System.Windows.Forms.Label();
             this.label317 = new System.Windows.Forms.Label();
             this.button66 = new System.Windows.Forms.Button();
-            this.pictureBox33 = new System.Windows.Forms.PictureBox();
             this.groupBox97 = new System.Windows.Forms.GroupBox();
             this.groupBox98 = new System.Windows.Forms.GroupBox();
             this.textBox323 = new System.Windows.Forms.TextBox();
@@ -867,7 +830,6 @@ namespace Arkansas_Armory
             this.label325 = new System.Windows.Forms.Label();
             this.label326 = new System.Windows.Forms.Label();
             this.button68 = new System.Windows.Forms.Button();
-            this.pictureBox34 = new System.Windows.Forms.PictureBox();
             this.groupBox100 = new System.Windows.Forms.GroupBox();
             this.groupBox101 = new System.Windows.Forms.GroupBox();
             this.textBox333 = new System.Windows.Forms.TextBox();
@@ -892,7 +854,6 @@ namespace Arkansas_Armory
             this.label334 = new System.Windows.Forms.Label();
             this.label335 = new System.Windows.Forms.Label();
             this.button70 = new System.Windows.Forms.Button();
-            this.pictureBox35 = new System.Windows.Forms.PictureBox();
             this.groupBox103 = new System.Windows.Forms.GroupBox();
             this.groupBox104 = new System.Windows.Forms.GroupBox();
             this.textBox343 = new System.Windows.Forms.TextBox();
@@ -917,7 +878,6 @@ namespace Arkansas_Armory
             this.label343 = new System.Windows.Forms.Label();
             this.label344 = new System.Windows.Forms.Label();
             this.button72 = new System.Windows.Forms.Button();
-            this.pictureBox36 = new System.Windows.Forms.PictureBox();
             this.groupBox106 = new System.Windows.Forms.GroupBox();
             this.groupBox107 = new System.Windows.Forms.GroupBox();
             this.textBox353 = new System.Windows.Forms.TextBox();
@@ -942,7 +902,6 @@ namespace Arkansas_Armory
             this.label352 = new System.Windows.Forms.Label();
             this.label353 = new System.Windows.Forms.Label();
             this.button74 = new System.Windows.Forms.Button();
-            this.pictureBox37 = new System.Windows.Forms.PictureBox();
             this.groupBox109 = new System.Windows.Forms.GroupBox();
             this.groupBox110 = new System.Windows.Forms.GroupBox();
             this.textBox363 = new System.Windows.Forms.TextBox();
@@ -967,7 +926,6 @@ namespace Arkansas_Armory
             this.label361 = new System.Windows.Forms.Label();
             this.label362 = new System.Windows.Forms.Label();
             this.button76 = new System.Windows.Forms.Button();
-            this.pictureBox38 = new System.Windows.Forms.PictureBox();
             this.groupBox112 = new System.Windows.Forms.GroupBox();
             this.groupBox113 = new System.Windows.Forms.GroupBox();
             this.textBox373 = new System.Windows.Forms.TextBox();
@@ -992,7 +950,6 @@ namespace Arkansas_Armory
             this.label370 = new System.Windows.Forms.Label();
             this.label371 = new System.Windows.Forms.Label();
             this.button78 = new System.Windows.Forms.Button();
-            this.pictureBox39 = new System.Windows.Forms.PictureBox();
             this.groupBox115 = new System.Windows.Forms.GroupBox();
             this.groupBox116 = new System.Windows.Forms.GroupBox();
             this.textBox383 = new System.Windows.Forms.TextBox();
@@ -1017,7 +974,6 @@ namespace Arkansas_Armory
             this.label379 = new System.Windows.Forms.Label();
             this.label380 = new System.Windows.Forms.Label();
             this.button80 = new System.Windows.Forms.Button();
-            this.pictureBox40 = new System.Windows.Forms.PictureBox();
             this.groupBox118 = new System.Windows.Forms.GroupBox();
             this.groupBox119 = new System.Windows.Forms.GroupBox();
             this.textBox393 = new System.Windows.Forms.TextBox();
@@ -1042,7 +998,6 @@ namespace Arkansas_Armory
             this.label388 = new System.Windows.Forms.Label();
             this.label389 = new System.Windows.Forms.Label();
             this.button82 = new System.Windows.Forms.Button();
-            this.pictureBox41 = new System.Windows.Forms.PictureBox();
             this.groupBox121 = new System.Windows.Forms.GroupBox();
             this.groupBox122 = new System.Windows.Forms.GroupBox();
             this.textBox403 = new System.Windows.Forms.TextBox();
@@ -1067,7 +1022,6 @@ namespace Arkansas_Armory
             this.label397 = new System.Windows.Forms.Label();
             this.label398 = new System.Windows.Forms.Label();
             this.button84 = new System.Windows.Forms.Button();
-            this.pictureBox42 = new System.Windows.Forms.PictureBox();
             this.groupBox124 = new System.Windows.Forms.GroupBox();
             this.groupBox125 = new System.Windows.Forms.GroupBox();
             this.textBox413 = new System.Windows.Forms.TextBox();
@@ -1092,7 +1046,6 @@ namespace Arkansas_Armory
             this.label406 = new System.Windows.Forms.Label();
             this.label407 = new System.Windows.Forms.Label();
             this.button86 = new System.Windows.Forms.Button();
-            this.pictureBox43 = new System.Windows.Forms.PictureBox();
             this.groupBox127 = new System.Windows.Forms.GroupBox();
             this.groupBox128 = new System.Windows.Forms.GroupBox();
             this.textBox423 = new System.Windows.Forms.TextBox();
@@ -1117,7 +1070,6 @@ namespace Arkansas_Armory
             this.label415 = new System.Windows.Forms.Label();
             this.label416 = new System.Windows.Forms.Label();
             this.button88 = new System.Windows.Forms.Button();
-            this.pictureBox44 = new System.Windows.Forms.PictureBox();
             this.groupBox130 = new System.Windows.Forms.GroupBox();
             this.groupBox131 = new System.Windows.Forms.GroupBox();
             this.textBox433 = new System.Windows.Forms.TextBox();
@@ -1142,7 +1094,6 @@ namespace Arkansas_Armory
             this.label424 = new System.Windows.Forms.Label();
             this.label425 = new System.Windows.Forms.Label();
             this.button90 = new System.Windows.Forms.Button();
-            this.pictureBox45 = new System.Windows.Forms.PictureBox();
             this.groupBox133 = new System.Windows.Forms.GroupBox();
             this.groupBox134 = new System.Windows.Forms.GroupBox();
             this.textBox443 = new System.Windows.Forms.TextBox();
@@ -1167,7 +1118,6 @@ namespace Arkansas_Armory
             this.label433 = new System.Windows.Forms.Label();
             this.label434 = new System.Windows.Forms.Label();
             this.button92 = new System.Windows.Forms.Button();
-            this.pictureBox46 = new System.Windows.Forms.PictureBox();
             this.groupBox136 = new System.Windows.Forms.GroupBox();
             this.groupBox137 = new System.Windows.Forms.GroupBox();
             this.textBox453 = new System.Windows.Forms.TextBox();
@@ -1192,7 +1142,6 @@ namespace Arkansas_Armory
             this.label442 = new System.Windows.Forms.Label();
             this.label443 = new System.Windows.Forms.Label();
             this.button94 = new System.Windows.Forms.Button();
-            this.pictureBox47 = new System.Windows.Forms.PictureBox();
             this.groupBox139 = new System.Windows.Forms.GroupBox();
             this.groupBox140 = new System.Windows.Forms.GroupBox();
             this.textBox463 = new System.Windows.Forms.TextBox();
@@ -1217,7 +1166,6 @@ namespace Arkansas_Armory
             this.label451 = new System.Windows.Forms.Label();
             this.label452 = new System.Windows.Forms.Label();
             this.button96 = new System.Windows.Forms.Button();
-            this.pictureBox48 = new System.Windows.Forms.PictureBox();
             this.groupBox142 = new System.Windows.Forms.GroupBox();
             this.groupBox143 = new System.Windows.Forms.GroupBox();
             this.textBox473 = new System.Windows.Forms.TextBox();
@@ -1242,7 +1190,6 @@ namespace Arkansas_Armory
             this.label460 = new System.Windows.Forms.Label();
             this.label461 = new System.Windows.Forms.Label();
             this.button98 = new System.Windows.Forms.Button();
-            this.pictureBox49 = new System.Windows.Forms.PictureBox();
             this.groupBox145 = new System.Windows.Forms.GroupBox();
             this.groupBox146 = new System.Windows.Forms.GroupBox();
             this.textBox483 = new System.Windows.Forms.TextBox();
@@ -1267,7 +1214,6 @@ namespace Arkansas_Armory
             this.label469 = new System.Windows.Forms.Label();
             this.label470 = new System.Windows.Forms.Label();
             this.button100 = new System.Windows.Forms.Button();
-            this.pictureBox50 = new System.Windows.Forms.PictureBox();
             this.groupBox148 = new System.Windows.Forms.GroupBox();
             this.groupBox149 = new System.Windows.Forms.GroupBox();
             this.groupBox150 = new System.Windows.Forms.GroupBox();
@@ -1293,7 +1239,6 @@ namespace Arkansas_Armory
             this.label478 = new System.Windows.Forms.Label();
             this.label479 = new System.Windows.Forms.Label();
             this.button102 = new System.Windows.Forms.Button();
-            this.pictureBox51 = new System.Windows.Forms.PictureBox();
             this.groupBox152 = new System.Windows.Forms.GroupBox();
             this.textBox503 = new System.Windows.Forms.TextBox();
             this.button103 = new System.Windows.Forms.Button();
@@ -1317,7 +1262,6 @@ namespace Arkansas_Armory
             this.label487 = new System.Windows.Forms.Label();
             this.label488 = new System.Windows.Forms.Label();
             this.button104 = new System.Windows.Forms.Button();
-            this.pictureBox52 = new System.Windows.Forms.PictureBox();
             this.groupBox154 = new System.Windows.Forms.GroupBox();
             this.groupBox155 = new System.Windows.Forms.GroupBox();
             this.textBox513 = new System.Windows.Forms.TextBox();
@@ -1342,7 +1286,6 @@ namespace Arkansas_Armory
             this.label496 = new System.Windows.Forms.Label();
             this.label497 = new System.Windows.Forms.Label();
             this.button106 = new System.Windows.Forms.Button();
-            this.pictureBox53 = new System.Windows.Forms.PictureBox();
             this.groupBox157 = new System.Windows.Forms.GroupBox();
             this.groupBox158 = new System.Windows.Forms.GroupBox();
             this.textBox523 = new System.Windows.Forms.TextBox();
@@ -1367,7 +1310,6 @@ namespace Arkansas_Armory
             this.label505 = new System.Windows.Forms.Label();
             this.label506 = new System.Windows.Forms.Label();
             this.button108 = new System.Windows.Forms.Button();
-            this.pictureBox54 = new System.Windows.Forms.PictureBox();
             this.groupBox160 = new System.Windows.Forms.GroupBox();
             this.groupBox164 = new System.Windows.Forms.GroupBox();
             this.groupBox165 = new System.Windows.Forms.GroupBox();
@@ -1393,7 +1335,6 @@ namespace Arkansas_Armory
             this.label523 = new System.Windows.Forms.Label();
             this.label524 = new System.Windows.Forms.Label();
             this.button112 = new System.Windows.Forms.Button();
-            this.pictureBox56 = new System.Windows.Forms.PictureBox();
             this.groupBox161 = new System.Windows.Forms.GroupBox();
             this.textBox533 = new System.Windows.Forms.TextBox();
             this.button109 = new System.Windows.Forms.Button();
@@ -1417,7 +1358,6 @@ namespace Arkansas_Armory
             this.label514 = new System.Windows.Forms.Label();
             this.label515 = new System.Windows.Forms.Label();
             this.button110 = new System.Windows.Forms.Button();
-            this.pictureBox55 = new System.Windows.Forms.PictureBox();
             this.groupBox163 = new System.Windows.Forms.GroupBox();
             this.groupBox167 = new System.Windows.Forms.GroupBox();
             this.textBox553 = new System.Windows.Forms.TextBox();
@@ -1442,7 +1382,6 @@ namespace Arkansas_Armory
             this.label532 = new System.Windows.Forms.Label();
             this.label533 = new System.Windows.Forms.Label();
             this.button114 = new System.Windows.Forms.Button();
-            this.pictureBox57 = new System.Windows.Forms.PictureBox();
             this.groupBox169 = new System.Windows.Forms.GroupBox();
             this.groupBox173 = new System.Windows.Forms.GroupBox();
             this.textBox573 = new System.Windows.Forms.TextBox();
@@ -1467,7 +1406,6 @@ namespace Arkansas_Armory
             this.label550 = new System.Windows.Forms.Label();
             this.label551 = new System.Windows.Forms.Label();
             this.button118 = new System.Windows.Forms.Button();
-            this.pictureBox59 = new System.Windows.Forms.PictureBox();
             this.groupBox170 = new System.Windows.Forms.GroupBox();
             this.groupBox171 = new System.Windows.Forms.GroupBox();
             this.textBox563 = new System.Windows.Forms.TextBox();
@@ -1492,7 +1430,6 @@ namespace Arkansas_Armory
             this.label541 = new System.Windows.Forms.Label();
             this.label542 = new System.Windows.Forms.Label();
             this.button116 = new System.Windows.Forms.Button();
-            this.pictureBox58 = new System.Windows.Forms.PictureBox();
             this.groupBox175 = new System.Windows.Forms.GroupBox();
             this.radioButton3 = new System.Windows.Forms.RadioButton();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
@@ -1500,241 +1437,308 @@ namespace Arkansas_Armory
             this.Handguns = new System.Windows.Forms.GroupBox();
             this.gboShotguns = new System.Windows.Forms.GroupBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label6 = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.btnShoppingCart = new System.Windows.Forms.Button();
+            this.btnLogin = new System.Windows.Forms.Button();
+            this.btnLogOut = new System.Windows.Forms.Button();
+            this.btnCreateAccount = new System.Windows.Forms.Button();
+            this.btnOrders = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox58 = new System.Windows.Forms.PictureBox();
+            this.pictureBox59 = new System.Windows.Forms.PictureBox();
+            this.pictureBox57 = new System.Windows.Forms.PictureBox();
+            this.pictureBox56 = new System.Windows.Forms.PictureBox();
+            this.pictureBox55 = new System.Windows.Forms.PictureBox();
+            this.pictureBox54 = new System.Windows.Forms.PictureBox();
+            this.pictureBox53 = new System.Windows.Forms.PictureBox();
+            this.pictureBox50 = new System.Windows.Forms.PictureBox();
+            this.pictureBox51 = new System.Windows.Forms.PictureBox();
+            this.pictureBox52 = new System.Windows.Forms.PictureBox();
+            this.pictureBox48 = new System.Windows.Forms.PictureBox();
+            this.pictureBox46 = new System.Windows.Forms.PictureBox();
+            this.pictureBox49 = new System.Windows.Forms.PictureBox();
+            this.pictureBox44 = new System.Windows.Forms.PictureBox();
+            this.pictureBox47 = new System.Windows.Forms.PictureBox();
+            this.pictureBox42 = new System.Windows.Forms.PictureBox();
+            this.pictureBox45 = new System.Windows.Forms.PictureBox();
+            this.pictureBox40 = new System.Windows.Forms.PictureBox();
+            this.pictureBox43 = new System.Windows.Forms.PictureBox();
+            this.pictureBox38 = new System.Windows.Forms.PictureBox();
+            this.pictureBox41 = new System.Windows.Forms.PictureBox();
+            this.pictureBox36 = new System.Windows.Forms.PictureBox();
+            this.pictureBox39 = new System.Windows.Forms.PictureBox();
+            this.pictureBox37 = new System.Windows.Forms.PictureBox();
+            this.pictureBox34 = new System.Windows.Forms.PictureBox();
+            this.pictureBox32 = new System.Windows.Forms.PictureBox();
+            this.pictureBox35 = new System.Windows.Forms.PictureBox();
+            this.pictureBox33 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox13 = new System.Windows.Forms.PictureBox();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
+            this.pictureBox10 = new System.Windows.Forms.PictureBox();
+            this.pictureBox11 = new System.Windows.Forms.PictureBox();
+            this.pictureBox12 = new System.Windows.Forms.PictureBox();
+            this.pictureBox14 = new System.Windows.Forms.PictureBox();
+            this.pictureBox15 = new System.Windows.Forms.PictureBox();
+            this.pictureBox16 = new System.Windows.Forms.PictureBox();
+            this.pictureBox17 = new System.Windows.Forms.PictureBox();
+            this.pictureBox9 = new System.Windows.Forms.PictureBox();
+            this.pictureBox19 = new System.Windows.Forms.PictureBox();
+            this.pictureBox18 = new System.Windows.Forms.PictureBox();
+            this.pictureBox20 = new System.Windows.Forms.PictureBox();
+            this.pictureBox21 = new System.Windows.Forms.PictureBox();
+            this.pictureBox22 = new System.Windows.Forms.PictureBox();
+            this.pictureBox23 = new System.Windows.Forms.PictureBox();
+            this.pictureBox25 = new System.Windows.Forms.PictureBox();
+            this.pictureBox27 = new System.Windows.Forms.PictureBox();
+            this.pictureBox26 = new System.Windows.Forms.PictureBox();
+            this.pictureBox28 = new System.Windows.Forms.PictureBox();
+            this.pictureBox29 = new System.Windows.Forms.PictureBox();
+            this.pictureBox30 = new System.Windows.Forms.PictureBox();
+            this.pictureBox31 = new System.Windows.Forms.PictureBox();
+            this.pictureBox24 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pnlCreateAccount.SuspendLayout();
             this.pnlShoppingCart.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.pnlLogin.SuspendLayout();
             this.gboGun1.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.pnlOrders.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvPurchaseHistory)).BeginInit();
             this.groupBox4.SuspendLayout();
             this.groupBox5.SuspendLayout();
             this.groupBox6.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.groupBox7.SuspendLayout();
             this.groupBox8.SuspendLayout();
             this.groupBox9.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.groupBox10.SuspendLayout();
             this.groupBox11.SuspendLayout();
             this.groupBox12.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             this.groupBox19.SuspendLayout();
             this.groupBox20.SuspendLayout();
             this.groupBox21.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             this.groupBox22.SuspendLayout();
             this.groupBox23.SuspendLayout();
             this.groupBox24.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             this.groupBox25.SuspendLayout();
             this.groupBox26.SuspendLayout();
             this.groupBox27.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             this.groupBox28.SuspendLayout();
             this.groupBox29.SuspendLayout();
             this.groupBox30.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
             this.groupBox31.SuspendLayout();
             this.groupBox32.SuspendLayout();
             this.groupBox33.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
             this.groupBox34.SuspendLayout();
             this.groupBox35.SuspendLayout();
             this.groupBox36.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
             this.groupBox37.SuspendLayout();
             this.groupBox38.SuspendLayout();
             this.groupBox39.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
             this.groupBox40.SuspendLayout();
             this.groupBox41.SuspendLayout();
             this.groupBox42.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
             this.groupBox46.SuspendLayout();
             this.groupBox47.SuspendLayout();
             this.groupBox48.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
             this.groupBox43.SuspendLayout();
             this.groupBox44.SuspendLayout();
             this.groupBox45.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
             this.groupBox49.SuspendLayout();
             this.groupBox50.SuspendLayout();
             this.groupBox51.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).BeginInit();
             this.groupBox52.SuspendLayout();
             this.groupBox53.SuspendLayout();
             this.groupBox54.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).BeginInit();
             this.groupBox55.SuspendLayout();
             this.groupBox56.SuspendLayout();
             this.groupBox57.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).BeginInit();
             this.groupBox58.SuspendLayout();
             this.groupBox59.SuspendLayout();
             this.groupBox60.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).BeginInit();
             this.groupBox61.SuspendLayout();
             this.groupBox62.SuspendLayout();
             this.groupBox63.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).BeginInit();
             this.groupBox64.SuspendLayout();
             this.groupBox65.SuspendLayout();
             this.groupBox66.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).BeginInit();
             this.groupBox67.SuspendLayout();
             this.groupBox68.SuspendLayout();
             this.groupBox69.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).BeginInit();
             this.groupBox70.SuspendLayout();
             this.groupBox71.SuspendLayout();
             this.groupBox72.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).BeginInit();
             this.groupBox73.SuspendLayout();
             this.groupBox74.SuspendLayout();
             this.groupBox75.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox26)).BeginInit();
             this.groupBox76.SuspendLayout();
             this.groupBox77.SuspendLayout();
             this.groupBox78.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox27)).BeginInit();
             this.groupBox79.SuspendLayout();
             this.groupBox80.SuspendLayout();
             this.groupBox81.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox28)).BeginInit();
             this.groupBox82.SuspendLayout();
             this.groupBox83.SuspendLayout();
             this.groupBox84.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox29)).BeginInit();
             this.groupBox85.SuspendLayout();
             this.groupBox86.SuspendLayout();
             this.groupBox87.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox30)).BeginInit();
             this.groupBox88.SuspendLayout();
             this.groupBox89.SuspendLayout();
             this.groupBox90.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox31)).BeginInit();
             this.groupBox91.SuspendLayout();
             this.groupBox92.SuspendLayout();
             this.groupBox93.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox32)).BeginInit();
             this.groupBox94.SuspendLayout();
             this.groupBox95.SuspendLayout();
             this.groupBox96.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox33)).BeginInit();
             this.groupBox97.SuspendLayout();
             this.groupBox98.SuspendLayout();
             this.groupBox99.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox34)).BeginInit();
             this.groupBox100.SuspendLayout();
             this.groupBox101.SuspendLayout();
             this.groupBox102.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox35)).BeginInit();
             this.groupBox103.SuspendLayout();
             this.groupBox104.SuspendLayout();
             this.groupBox105.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox36)).BeginInit();
             this.groupBox106.SuspendLayout();
             this.groupBox107.SuspendLayout();
             this.groupBox108.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox37)).BeginInit();
             this.groupBox109.SuspendLayout();
             this.groupBox110.SuspendLayout();
             this.groupBox111.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox38)).BeginInit();
             this.groupBox112.SuspendLayout();
             this.groupBox113.SuspendLayout();
             this.groupBox114.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox39)).BeginInit();
             this.groupBox115.SuspendLayout();
             this.groupBox116.SuspendLayout();
             this.groupBox117.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox40)).BeginInit();
             this.groupBox118.SuspendLayout();
             this.groupBox119.SuspendLayout();
             this.groupBox120.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox41)).BeginInit();
             this.groupBox121.SuspendLayout();
             this.groupBox122.SuspendLayout();
             this.groupBox123.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox42)).BeginInit();
             this.groupBox124.SuspendLayout();
             this.groupBox125.SuspendLayout();
             this.groupBox126.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox43)).BeginInit();
             this.groupBox127.SuspendLayout();
             this.groupBox128.SuspendLayout();
             this.groupBox129.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox44)).BeginInit();
             this.groupBox130.SuspendLayout();
             this.groupBox131.SuspendLayout();
             this.groupBox132.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox45)).BeginInit();
             this.groupBox133.SuspendLayout();
             this.groupBox134.SuspendLayout();
             this.groupBox135.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox46)).BeginInit();
             this.groupBox136.SuspendLayout();
             this.groupBox137.SuspendLayout();
             this.groupBox138.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox47)).BeginInit();
             this.groupBox139.SuspendLayout();
             this.groupBox140.SuspendLayout();
             this.groupBox141.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox48)).BeginInit();
             this.groupBox142.SuspendLayout();
             this.groupBox143.SuspendLayout();
             this.groupBox144.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox49)).BeginInit();
             this.groupBox145.SuspendLayout();
             this.groupBox146.SuspendLayout();
             this.groupBox147.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox50)).BeginInit();
             this.groupBox148.SuspendLayout();
             this.groupBox149.SuspendLayout();
             this.groupBox150.SuspendLayout();
             this.groupBox151.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox51)).BeginInit();
             this.groupBox152.SuspendLayout();
             this.groupBox153.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox52)).BeginInit();
             this.groupBox154.SuspendLayout();
             this.groupBox155.SuspendLayout();
             this.groupBox156.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox53)).BeginInit();
             this.groupBox157.SuspendLayout();
             this.groupBox158.SuspendLayout();
             this.groupBox159.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox54)).BeginInit();
             this.groupBox160.SuspendLayout();
             this.groupBox164.SuspendLayout();
             this.groupBox165.SuspendLayout();
             this.groupBox166.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox56)).BeginInit();
             this.groupBox161.SuspendLayout();
             this.groupBox162.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox55)).BeginInit();
             this.groupBox163.SuspendLayout();
             this.groupBox167.SuspendLayout();
             this.groupBox168.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox57)).BeginInit();
             this.groupBox169.SuspendLayout();
             this.groupBox173.SuspendLayout();
             this.groupBox174.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox59)).BeginInit();
             this.groupBox170.SuspendLayout();
             this.groupBox171.SuspendLayout();
             this.groupBox172.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox58)).BeginInit();
             this.groupBox175.SuspendLayout();
             this.Handguns.SuspendLayout();
             this.gboShotguns.SuspendLayout();
             this.panel1.SuspendLayout();
+            this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox58)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox59)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox57)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox56)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox55)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox54)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox53)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox50)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox51)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox52)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox48)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox46)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox49)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox44)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox47)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox42)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox45)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox40)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox43)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox38)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox41)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox36)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox39)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox37)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox34)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox32)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox35)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox33)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox27)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox26)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox28)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox29)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox30)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox31)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -1868,7 +1872,7 @@ namespace Arkansas_Armory
             this.pnlCreateAccount.Controls.Add(this.txtFirst_Name);
             this.pnlCreateAccount.Controls.Add(this.txtEmail);
             this.pnlCreateAccount.Controls.Add(this.txtLast_Name);
-            this.pnlCreateAccount.Location = new System.Drawing.Point(1991, 21);
+            this.pnlCreateAccount.Location = new System.Drawing.Point(3146, 1471);
             this.pnlCreateAccount.Name = "pnlCreateAccount";
             this.pnlCreateAccount.Size = new System.Drawing.Size(1451, 788);
             this.pnlCreateAccount.TabIndex = 14;
@@ -2099,72 +2103,6 @@ namespace Arkansas_Armory
             this.label7.TabIndex = 17;
             this.label7.Text = "Shipping City";
             // 
-            // btnLogin
-            // 
-            this.btnLogin.BackColor = System.Drawing.Color.White;
-            this.btnLogin.FlatAppearance.BorderSize = 0;
-            this.btnLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnLogin.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLogin.ForeColor = System.Drawing.Color.DarkRed;
-            this.btnLogin.Location = new System.Drawing.Point(0, 0);
-            this.btnLogin.Name = "btnLogin";
-            this.btnLogin.Size = new System.Drawing.Size(200, 44);
-            this.btnLogin.TabIndex = 15;
-            this.btnLogin.Text = "Login";
-            this.btnLogin.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.btnLogin.UseVisualStyleBackColor = false;
-            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
-            // 
-            // btnLogOut
-            // 
-            this.btnLogOut.Location = new System.Drawing.Point(1098, 92);
-            this.btnLogOut.Name = "btnLogOut";
-            this.btnLogOut.Size = new System.Drawing.Size(126, 44);
-            this.btnLogOut.TabIndex = 18;
-            this.btnLogOut.Text = "Log Out";
-            this.btnLogOut.UseVisualStyleBackColor = true;
-            this.btnLogOut.Click += new System.EventHandler(this.btnLogOut_Click);
-            // 
-            // btnOrders
-            // 
-            this.btnOrders.Location = new System.Drawing.Point(895, 90);
-            this.btnOrders.Name = "btnOrders";
-            this.btnOrders.Size = new System.Drawing.Size(126, 44);
-            this.btnOrders.TabIndex = 17;
-            this.btnOrders.Text = "Orders";
-            this.btnOrders.UseVisualStyleBackColor = true;
-            this.btnOrders.Click += new System.EventHandler(this.btnOrders_Click);
-            // 
-            // btnShoppingCart
-            // 
-            this.btnShoppingCart.BackColor = System.Drawing.Color.White;
-            this.btnShoppingCart.FlatAppearance.BorderSize = 0;
-            this.btnShoppingCart.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnShoppingCart.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnShoppingCart.ForeColor = System.Drawing.Color.DarkRed;
-            this.btnShoppingCart.Location = new System.Drawing.Point(0, 80);
-            this.btnShoppingCart.Name = "btnShoppingCart";
-            this.btnShoppingCart.Size = new System.Drawing.Size(200, 44);
-            this.btnShoppingCart.TabIndex = 17;
-            this.btnShoppingCart.Text = "Shopping Cart";
-            this.btnShoppingCart.UseVisualStyleBackColor = false;
-            this.btnShoppingCart.Click += new System.EventHandler(this.btnShoppingCart_Click);
-            // 
-            // btnCreateAccount
-            // 
-            this.btnCreateAccount.BackColor = System.Drawing.Color.White;
-            this.btnCreateAccount.FlatAppearance.BorderSize = 0;
-            this.btnCreateAccount.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCreateAccount.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCreateAccount.ForeColor = System.Drawing.Color.DarkRed;
-            this.btnCreateAccount.Location = new System.Drawing.Point(0, 42);
-            this.btnCreateAccount.Name = "btnCreateAccount";
-            this.btnCreateAccount.Size = new System.Drawing.Size(200, 44);
-            this.btnCreateAccount.TabIndex = 17;
-            this.btnCreateAccount.Text = "Create Account";
-            this.btnCreateAccount.UseVisualStyleBackColor = false;
-            this.btnCreateAccount.Click += new System.EventHandler(this.btnCreateAccount_Click);
-            // 
             // pnlShoppingCart
             // 
             this.pnlShoppingCart.BackColor = System.Drawing.Color.White;
@@ -2176,7 +2114,7 @@ namespace Arkansas_Armory
             this.pnlShoppingCart.Controls.Add(this.label23);
             this.pnlShoppingCart.Controls.Add(this.label22);
             this.pnlShoppingCart.Controls.Add(this.dataGridView1);
-            this.pnlShoppingCart.Location = new System.Drawing.Point(1362, 642);
+            this.pnlShoppingCart.Location = new System.Drawing.Point(2517, 2092);
             this.pnlShoppingCart.Name = "pnlShoppingCart";
             this.pnlShoppingCart.Size = new System.Drawing.Size(1451, 788);
             this.pnlShoppingCart.TabIndex = 21;
@@ -2190,16 +2128,6 @@ namespace Arkansas_Armory
             this.button11.Text = "Main Menu";
             this.button11.UseVisualStyleBackColor = true;
             this.button11.Click += new System.EventHandler(this.button11_Click);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(423, 208);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(223, 42);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 6;
-            this.pictureBox1.TabStop = false;
             // 
             // button2
             // 
@@ -2256,15 +2184,15 @@ namespace Arkansas_Armory
             // 
             // pnlLogin
             // 
-            this.pnlLogin.BackColor = System.Drawing.Color.White;
+            this.pnlLogin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(97)))), ((int)(((byte)(102)))));
+            this.pnlLogin.Controls.Add(this.pictureBox2);
+            this.pnlLogin.Controls.Add(this.panel2);
             this.pnlLogin.Controls.Add(this.label21);
             this.pnlLogin.Controls.Add(this.txtLoginPassword);
             this.pnlLogin.Controls.Add(this.txtLoginCustomerID);
-            this.pnlLogin.Controls.Add(this.button1);
             this.pnlLogin.Controls.Add(this.loginBTN);
             this.pnlLogin.Controls.Add(this.label27);
-            this.pnlLogin.Controls.Add(this.label25);
-            this.pnlLogin.Location = new System.Drawing.Point(1615, 56);
+            this.pnlLogin.Location = new System.Drawing.Point(2668, 2970);
             this.pnlLogin.Name = "pnlLogin";
             this.pnlLogin.Size = new System.Drawing.Size(1451, 788);
             this.pnlLogin.TabIndex = 22;
@@ -2273,7 +2201,7 @@ namespace Arkansas_Armory
             // 
             this.label21.AutoSize = true;
             this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.Location = new System.Drawing.Point(194, 158);
+            this.label21.Location = new System.Drawing.Point(510, 219);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(92, 18);
             this.label21.TabIndex = 10;
@@ -2281,31 +2209,36 @@ namespace Arkansas_Armory
             // 
             // txtLoginPassword
             // 
-            this.txtLoginPassword.Location = new System.Drawing.Point(308, 194);
+            this.txtLoginPassword.Location = new System.Drawing.Point(646, 277);
             this.txtLoginPassword.Name = "txtLoginPassword";
             this.txtLoginPassword.Size = new System.Drawing.Size(100, 20);
             this.txtLoginPassword.TabIndex = 9;
             // 
             // txtLoginCustomerID
             // 
-            this.txtLoginCustomerID.Location = new System.Drawing.Point(308, 159);
+            this.txtLoginCustomerID.Location = new System.Drawing.Point(646, 217);
             this.txtLoginCustomerID.Name = "txtLoginCustomerID";
             this.txtLoginCustomerID.Size = new System.Drawing.Size(100, 20);
             this.txtLoginCustomerID.TabIndex = 8;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(1347, 26);
+            this.button1.Dock = System.Windows.Forms.DockStyle.Right;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Nirmala UI", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(254)))), ((int)(((byte)(254)))));
+            this.button1.Location = new System.Drawing.Point(1376, 0);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(75, 100);
             this.button1.TabIndex = 7;
-            this.button1.Text = "Main Menu";
+            this.button1.Text = "X";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // loginBTN
             // 
-            this.loginBTN.Location = new System.Drawing.Point(318, 235);
+            this.loginBTN.Location = new System.Drawing.Point(646, 358);
             this.loginBTN.Name = "loginBTN";
             this.loginBTN.Size = new System.Drawing.Size(75, 23);
             this.loginBTN.TabIndex = 5;
@@ -2317,22 +2250,11 @@ namespace Arkansas_Armory
             // 
             this.label27.AutoSize = true;
             this.label27.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label27.Location = new System.Drawing.Point(207, 196);
+            this.label27.Location = new System.Drawing.Point(510, 279);
             this.label27.Name = "label27";
             this.label27.Size = new System.Drawing.Size(75, 18);
             this.label27.TabIndex = 3;
             this.label27.Text = "Password";
-            // 
-            // label25
-            // 
-            this.label25.AutoSize = true;
-            this.label25.BackColor = System.Drawing.Color.White;
-            this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label25.Location = new System.Drawing.Point(267, 63);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(78, 29);
-            this.label25.TabIndex = 0;
-            this.label25.Text = "Login";
             // 
             // gboGun1
             // 
@@ -2567,17 +2489,6 @@ namespace Arkansas_Armory
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = global::Arkansas_Armory.Properties.Resources.Picture1;
-            this.pictureBox3.Location = new System.Drawing.Point(248, 28);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(299, 253);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox3.TabIndex = 0;
-            this.pictureBox3.TabStop = false;
-            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
-            // 
             // pnlOrders
             // 
             this.pnlOrders.BackColor = System.Drawing.Color.White;
@@ -2585,7 +2496,7 @@ namespace Arkansas_Armory
             this.pnlOrders.Controls.Add(this.dgvPurchaseHistory);
             this.pnlOrders.Controls.Add(this.label38);
             this.pnlOrders.Controls.Add(this.label37);
-            this.pnlOrders.Location = new System.Drawing.Point(1325, 679);
+            this.pnlOrders.Location = new System.Drawing.Point(2480, 2129);
             this.pnlOrders.Name = "pnlOrders";
             this.pnlOrders.Size = new System.Drawing.Size(1451, 788);
             this.pnlOrders.TabIndex = 25;
@@ -2862,16 +2773,6 @@ namespace Arkansas_Armory
             this.button6.UseVisualStyleBackColor = true;
             this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = global::Arkansas_Armory.Properties.Resources.Picture2;
-            this.pictureBox4.Location = new System.Drawing.Point(248, 28);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(299, 253);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox4.TabIndex = 0;
-            this.pictureBox4.TabStop = false;
-            // 
             // groupBox7
             // 
             this.groupBox7.BackColor = System.Drawing.Color.White;
@@ -3103,16 +3004,6 @@ namespace Arkansas_Armory
             this.button8.Text = "Full Description";
             this.button8.UseVisualStyleBackColor = true;
             this.button8.Click += new System.EventHandler(this.button8_Click);
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Image = global::Arkansas_Armory.Properties.Resources.Picture3;
-            this.pictureBox5.Location = new System.Drawing.Point(232, 28);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(330, 232);
-            this.pictureBox5.TabIndex = 0;
-            this.pictureBox5.TabStop = false;
-            this.pictureBox5.Tag = "299, 253";
             // 
             // groupBox10
             // 
@@ -3346,16 +3237,6 @@ namespace Arkansas_Armory
             this.button10.UseVisualStyleBackColor = true;
             this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
-            // pictureBox6
-            // 
-            this.pictureBox6.Image = global::Arkansas_Armory.Properties.Resources.Picture4;
-            this.pictureBox6.Location = new System.Drawing.Point(233, 19);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(336, 302);
-            this.pictureBox6.TabIndex = 0;
-            this.pictureBox6.TabStop = false;
-            this.pictureBox6.Tag = "299, 253";
-            // 
             // groupBox19
             // 
             this.groupBox19.BackColor = System.Drawing.Color.White;
@@ -3587,15 +3468,6 @@ namespace Arkansas_Armory
             this.button16.Text = "Full Description";
             this.button16.UseVisualStyleBackColor = true;
             this.button16.Click += new System.EventHandler(this.button16_Click);
-            // 
-            // pictureBox8
-            // 
-            this.pictureBox8.Image = global::Arkansas_Armory.Properties.Resources.Picture5;
-            this.pictureBox8.Location = new System.Drawing.Point(248, 28);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(299, 253);
-            this.pictureBox8.TabIndex = 0;
-            this.pictureBox8.TabStop = false;
             // 
             // groupBox22
             // 
@@ -3829,15 +3701,6 @@ namespace Arkansas_Armory
             this.button18.UseVisualStyleBackColor = true;
             this.button18.Click += new System.EventHandler(this.button18_Click);
             // 
-            // pictureBox9
-            // 
-            this.pictureBox9.Image = global::Arkansas_Armory.Properties.Resources.Picture6;
-            this.pictureBox9.Location = new System.Drawing.Point(248, 28);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(299, 253);
-            this.pictureBox9.TabIndex = 0;
-            this.pictureBox9.TabStop = false;
-            // 
             // groupBox25
             // 
             this.groupBox25.BackColor = System.Drawing.Color.White;
@@ -4069,15 +3932,6 @@ namespace Arkansas_Armory
             this.button20.Text = "Full Description";
             this.button20.UseVisualStyleBackColor = true;
             this.button20.Click += new System.EventHandler(this.button20_Click);
-            // 
-            // pictureBox10
-            // 
-            this.pictureBox10.Image = global::Arkansas_Armory.Properties.Resources.Picture7;
-            this.pictureBox10.Location = new System.Drawing.Point(248, 28);
-            this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(299, 253);
-            this.pictureBox10.TabIndex = 0;
-            this.pictureBox10.TabStop = false;
             // 
             // groupBox28
             // 
@@ -4311,16 +4165,6 @@ namespace Arkansas_Armory
             this.button22.UseVisualStyleBackColor = true;
             this.button22.Click += new System.EventHandler(this.button22_Click);
             // 
-            // pictureBox11
-            // 
-            this.pictureBox11.Image = global::Arkansas_Armory.Properties.Resources.Picture8;
-            this.pictureBox11.Location = new System.Drawing.Point(248, 28);
-            this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(299, 253);
-            this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox11.TabIndex = 0;
-            this.pictureBox11.TabStop = false;
-            // 
             // groupBox31
             // 
             this.groupBox31.BackColor = System.Drawing.Color.White;
@@ -4552,16 +4396,6 @@ namespace Arkansas_Armory
             this.button24.Text = "Full Description";
             this.button24.UseVisualStyleBackColor = true;
             this.button24.Click += new System.EventHandler(this.button24_Click);
-            // 
-            // pictureBox12
-            // 
-            this.pictureBox12.Image = global::Arkansas_Armory.Properties.Resources.Picture9;
-            this.pictureBox12.Location = new System.Drawing.Point(238, 32);
-            this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(305, 202);
-            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox12.TabIndex = 0;
-            this.pictureBox12.TabStop = false;
             // 
             // groupBox34
             // 
@@ -4795,16 +4629,6 @@ namespace Arkansas_Armory
             this.button26.UseVisualStyleBackColor = true;
             this.button26.Click += new System.EventHandler(this.button26_Click);
             // 
-            // pictureBox13
-            // 
-            this.pictureBox13.Image = global::Arkansas_Armory.Properties.Resources.Picture10;
-            this.pictureBox13.Location = new System.Drawing.Point(233, 19);
-            this.pictureBox13.Name = "pictureBox13";
-            this.pictureBox13.Size = new System.Drawing.Size(299, 253);
-            this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox13.TabIndex = 0;
-            this.pictureBox13.TabStop = false;
-            // 
             // groupBox37
             // 
             this.groupBox37.BackColor = System.Drawing.Color.White;
@@ -5036,15 +4860,6 @@ namespace Arkansas_Armory
             this.button28.Text = "Full Description";
             this.button28.UseVisualStyleBackColor = true;
             this.button28.Click += new System.EventHandler(this.button28_Click);
-            // 
-            // pictureBox14
-            // 
-            this.pictureBox14.Image = global::Arkansas_Armory.Properties.Resources.Picture11;
-            this.pictureBox14.Location = new System.Drawing.Point(248, 28);
-            this.pictureBox14.Name = "pictureBox14";
-            this.pictureBox14.Size = new System.Drawing.Size(299, 253);
-            this.pictureBox14.TabIndex = 0;
-            this.pictureBox14.TabStop = false;
             // 
             // groupBox40
             // 
@@ -5278,15 +5093,6 @@ namespace Arkansas_Armory
             this.button30.UseVisualStyleBackColor = true;
             this.button30.Click += new System.EventHandler(this.button30_Click);
             // 
-            // pictureBox15
-            // 
-            this.pictureBox15.Image = global::Arkansas_Armory.Properties.Resources.Picture12;
-            this.pictureBox15.Location = new System.Drawing.Point(248, 23);
-            this.pictureBox15.Name = "pictureBox15";
-            this.pictureBox15.Size = new System.Drawing.Size(299, 253);
-            this.pictureBox15.TabIndex = 0;
-            this.pictureBox15.TabStop = false;
-            // 
             // groupBox46
             // 
             this.groupBox46.BackColor = System.Drawing.Color.White;
@@ -5518,16 +5324,6 @@ namespace Arkansas_Armory
             this.button34.Text = "Full Description";
             this.button34.UseVisualStyleBackColor = true;
             this.button34.Click += new System.EventHandler(this.button34_Click);
-            // 
-            // pictureBox17
-            // 
-            this.pictureBox17.Image = global::Arkansas_Armory.Properties.Resources.Picture14;
-            this.pictureBox17.Location = new System.Drawing.Point(248, 28);
-            this.pictureBox17.Name = "pictureBox17";
-            this.pictureBox17.Size = new System.Drawing.Size(299, 253);
-            this.pictureBox17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox17.TabIndex = 0;
-            this.pictureBox17.TabStop = false;
             // 
             // groupBox43
             // 
@@ -5761,16 +5557,6 @@ namespace Arkansas_Armory
             this.button32.UseVisualStyleBackColor = true;
             this.button32.Click += new System.EventHandler(this.button32_Click);
             // 
-            // pictureBox16
-            // 
-            this.pictureBox16.Image = global::Arkansas_Armory.Properties.Resources.Picture13;
-            this.pictureBox16.Location = new System.Drawing.Point(248, 28);
-            this.pictureBox16.Name = "pictureBox16";
-            this.pictureBox16.Size = new System.Drawing.Size(299, 253);
-            this.pictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox16.TabIndex = 0;
-            this.pictureBox16.TabStop = false;
-            // 
             // groupBox49
             // 
             this.groupBox49.BackColor = System.Drawing.Color.White;
@@ -6002,16 +5788,6 @@ namespace Arkansas_Armory
             this.button36.Text = "Full Description";
             this.button36.UseVisualStyleBackColor = true;
             this.button36.Click += new System.EventHandler(this.button36_Click);
-            // 
-            // pictureBox18
-            // 
-            this.pictureBox18.Image = global::Arkansas_Armory.Properties.Resources.Picture22;
-            this.pictureBox18.Location = new System.Drawing.Point(248, 84);
-            this.pictureBox18.Name = "pictureBox18";
-            this.pictureBox18.Size = new System.Drawing.Size(299, 113);
-            this.pictureBox18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox18.TabIndex = 0;
-            this.pictureBox18.TabStop = false;
             // 
             // groupBox52
             // 
@@ -6245,16 +6021,6 @@ namespace Arkansas_Armory
             this.button38.UseVisualStyleBackColor = true;
             this.button38.Click += new System.EventHandler(this.button38_Click);
             // 
-            // pictureBox19
-            // 
-            this.pictureBox19.Image = global::Arkansas_Armory.Properties.Resources.Picture21;
-            this.pictureBox19.Location = new System.Drawing.Point(260, 84);
-            this.pictureBox19.Name = "pictureBox19";
-            this.pictureBox19.Size = new System.Drawing.Size(276, 98);
-            this.pictureBox19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox19.TabIndex = 0;
-            this.pictureBox19.TabStop = false;
-            // 
             // groupBox55
             // 
             this.groupBox55.BackColor = System.Drawing.Color.White;
@@ -6486,16 +6252,6 @@ namespace Arkansas_Armory
             this.button40.Text = "Full Description";
             this.button40.UseVisualStyleBackColor = true;
             this.button40.Click += new System.EventHandler(this.button40_Click);
-            // 
-            // pictureBox20
-            // 
-            this.pictureBox20.Image = global::Arkansas_Armory.Properties.Resources.Picture24;
-            this.pictureBox20.Location = new System.Drawing.Point(306, 84);
-            this.pictureBox20.Name = "pictureBox20";
-            this.pictureBox20.Size = new System.Drawing.Size(198, 102);
-            this.pictureBox20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox20.TabIndex = 0;
-            this.pictureBox20.TabStop = false;
             // 
             // groupBox58
             // 
@@ -6729,16 +6485,6 @@ namespace Arkansas_Armory
             this.button42.UseVisualStyleBackColor = true;
             this.button42.Click += new System.EventHandler(this.button42_Click);
             // 
-            // pictureBox21
-            // 
-            this.pictureBox21.Image = global::Arkansas_Armory.Properties.Resources.Picture23;
-            this.pictureBox21.Location = new System.Drawing.Point(260, 84);
-            this.pictureBox21.Name = "pictureBox21";
-            this.pictureBox21.Size = new System.Drawing.Size(272, 124);
-            this.pictureBox21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox21.TabIndex = 0;
-            this.pictureBox21.TabStop = false;
-            // 
             // groupBox61
             // 
             this.groupBox61.BackColor = System.Drawing.Color.White;
@@ -6970,16 +6716,6 @@ namespace Arkansas_Armory
             this.button44.Text = "Full Description";
             this.button44.UseVisualStyleBackColor = true;
             this.button44.Click += new System.EventHandler(this.button44_Click);
-            // 
-            // pictureBox22
-            // 
-            this.pictureBox22.Image = global::Arkansas_Armory.Properties.Resources.Picture26;
-            this.pictureBox22.Location = new System.Drawing.Point(233, 28);
-            this.pictureBox22.Name = "pictureBox22";
-            this.pictureBox22.Size = new System.Drawing.Size(326, 238);
-            this.pictureBox22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox22.TabIndex = 0;
-            this.pictureBox22.TabStop = false;
             // 
             // groupBox64
             // 
@@ -7213,16 +6949,6 @@ namespace Arkansas_Armory
             this.button46.UseVisualStyleBackColor = true;
             this.button46.Click += new System.EventHandler(this.button46_Click);
             // 
-            // pictureBox23
-            // 
-            this.pictureBox23.Image = global::Arkansas_Armory.Properties.Resources.Picture25;
-            this.pictureBox23.Location = new System.Drawing.Point(249, 124);
-            this.pictureBox23.Name = "pictureBox23";
-            this.pictureBox23.Size = new System.Drawing.Size(287, 67);
-            this.pictureBox23.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox23.TabIndex = 0;
-            this.pictureBox23.TabStop = false;
-            // 
             // groupBox67
             // 
             this.groupBox67.BackColor = System.Drawing.Color.White;
@@ -7454,16 +7180,6 @@ namespace Arkansas_Armory
             this.button48.Text = "Full Description";
             this.button48.UseVisualStyleBackColor = true;
             this.button48.Click += new System.EventHandler(this.button48_Click);
-            // 
-            // pictureBox24
-            // 
-            this.pictureBox24.Image = global::Arkansas_Armory.Properties.Resources.Picture28;
-            this.pictureBox24.Location = new System.Drawing.Point(255, 106);
-            this.pictureBox24.Name = "pictureBox24";
-            this.pictureBox24.Size = new System.Drawing.Size(292, 72);
-            this.pictureBox24.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox24.TabIndex = 0;
-            this.pictureBox24.TabStop = false;
             // 
             // groupBox70
             // 
@@ -7697,16 +7413,6 @@ namespace Arkansas_Armory
             this.button50.UseVisualStyleBackColor = true;
             this.button50.Click += new System.EventHandler(this.button50_Click);
             // 
-            // pictureBox25
-            // 
-            this.pictureBox25.Image = global::Arkansas_Armory.Properties.Resources.Picture27;
-            this.pictureBox25.Location = new System.Drawing.Point(248, 28);
-            this.pictureBox25.Name = "pictureBox25";
-            this.pictureBox25.Size = new System.Drawing.Size(299, 253);
-            this.pictureBox25.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox25.TabIndex = 0;
-            this.pictureBox25.TabStop = false;
-            // 
             // groupBox73
             // 
             this.groupBox73.BackColor = System.Drawing.Color.White;
@@ -7938,16 +7644,6 @@ namespace Arkansas_Armory
             this.button52.Text = "Full Description";
             this.button52.UseVisualStyleBackColor = true;
             this.button52.Click += new System.EventHandler(this.button52_Click);
-            // 
-            // pictureBox26
-            // 
-            this.pictureBox26.Image = global::Arkansas_Armory.Properties.Resources.Picture30;
-            this.pictureBox26.Location = new System.Drawing.Point(248, 28);
-            this.pictureBox26.Name = "pictureBox26";
-            this.pictureBox26.Size = new System.Drawing.Size(302, 299);
-            this.pictureBox26.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox26.TabIndex = 0;
-            this.pictureBox26.TabStop = false;
             // 
             // groupBox76
             // 
@@ -8181,16 +7877,6 @@ namespace Arkansas_Armory
             this.button54.UseVisualStyleBackColor = true;
             this.button54.Click += new System.EventHandler(this.button54_Click);
             // 
-            // pictureBox27
-            // 
-            this.pictureBox27.Image = global::Arkansas_Armory.Properties.Resources.Picture29;
-            this.pictureBox27.Location = new System.Drawing.Point(249, 110);
-            this.pictureBox27.Name = "pictureBox27";
-            this.pictureBox27.Size = new System.Drawing.Size(295, 76);
-            this.pictureBox27.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox27.TabIndex = 0;
-            this.pictureBox27.TabStop = false;
-            // 
             // groupBox79
             // 
             this.groupBox79.BackColor = System.Drawing.Color.White;
@@ -8422,16 +8108,6 @@ namespace Arkansas_Armory
             this.button56.Text = "Full Description";
             this.button56.UseVisualStyleBackColor = true;
             this.button56.Click += new System.EventHandler(this.button56_Click);
-            // 
-            // pictureBox28
-            // 
-            this.pictureBox28.Image = global::Arkansas_Armory.Properties.Resources.Picture31;
-            this.pictureBox28.Location = new System.Drawing.Point(254, 99);
-            this.pictureBox28.Name = "pictureBox28";
-            this.pictureBox28.Size = new System.Drawing.Size(272, 103);
-            this.pictureBox28.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox28.TabIndex = 0;
-            this.pictureBox28.TabStop = false;
             // 
             // groupBox82
             // 
@@ -8665,16 +8341,6 @@ namespace Arkansas_Armory
             this.button58.UseVisualStyleBackColor = true;
             this.button58.Click += new System.EventHandler(this.button58_Click);
             // 
-            // pictureBox29
-            // 
-            this.pictureBox29.Image = global::Arkansas_Armory.Properties.Resources.Picture32;
-            this.pictureBox29.Location = new System.Drawing.Point(246, 83);
-            this.pictureBox29.Name = "pictureBox29";
-            this.pictureBox29.Size = new System.Drawing.Size(302, 118);
-            this.pictureBox29.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox29.TabIndex = 0;
-            this.pictureBox29.TabStop = false;
-            // 
             // groupBox85
             // 
             this.groupBox85.BackColor = System.Drawing.Color.White;
@@ -8906,16 +8572,6 @@ namespace Arkansas_Armory
             this.button60.Text = "Full Description";
             this.button60.UseVisualStyleBackColor = true;
             this.button60.Click += new System.EventHandler(this.button60_Click);
-            // 
-            // pictureBox30
-            // 
-            this.pictureBox30.Image = global::Arkansas_Armory.Properties.Resources.Picture33;
-            this.pictureBox30.Location = new System.Drawing.Point(250, 63);
-            this.pictureBox30.Name = "pictureBox30";
-            this.pictureBox30.Size = new System.Drawing.Size(276, 172);
-            this.pictureBox30.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox30.TabIndex = 0;
-            this.pictureBox30.TabStop = false;
             // 
             // groupBox88
             // 
@@ -9149,23 +8805,13 @@ namespace Arkansas_Armory
             this.button62.UseVisualStyleBackColor = true;
             this.button62.Click += new System.EventHandler(this.button62_Click);
             // 
-            // pictureBox31
-            // 
-            this.pictureBox31.Image = global::Arkansas_Armory.Properties.Resources.Picture34;
-            this.pictureBox31.Location = new System.Drawing.Point(266, 138);
-            this.pictureBox31.Name = "pictureBox31";
-            this.pictureBox31.Size = new System.Drawing.Size(259, 68);
-            this.pictureBox31.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox31.TabIndex = 0;
-            this.pictureBox31.TabStop = false;
-            // 
             // groupBox91
             // 
             this.groupBox91.BackColor = System.Drawing.Color.White;
             this.groupBox91.Controls.Add(this.groupBox92);
             this.groupBox91.Controls.Add(this.groupBox93);
             this.groupBox91.Controls.Add(this.pictureBox32);
-            this.groupBox91.Location = new System.Drawing.Point(29, 5495);
+            this.groupBox91.Location = new System.Drawing.Point(1184, 6945);
             this.groupBox91.Name = "groupBox91";
             this.groupBox91.Size = new System.Drawing.Size(568, 351);
             this.groupBox91.TabIndex = 38;
@@ -9391,23 +9037,13 @@ namespace Arkansas_Armory
             this.button64.UseVisualStyleBackColor = true;
             this.button64.Click += new System.EventHandler(this.button64_Click);
             // 
-            // pictureBox32
-            // 
-            this.pictureBox32.Image = global::Arkansas_Armory.Properties.Resources.Picture35;
-            this.pictureBox32.Location = new System.Drawing.Point(242, 113);
-            this.pictureBox32.Name = "pictureBox32";
-            this.pictureBox32.Size = new System.Drawing.Size(299, 76);
-            this.pictureBox32.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox32.TabIndex = 0;
-            this.pictureBox32.TabStop = false;
-            // 
             // groupBox94
             // 
             this.groupBox94.BackColor = System.Drawing.Color.White;
             this.groupBox94.Controls.Add(this.groupBox95);
             this.groupBox94.Controls.Add(this.groupBox96);
             this.groupBox94.Controls.Add(this.pictureBox33);
-            this.groupBox94.Location = new System.Drawing.Point(647, 5495);
+            this.groupBox94.Location = new System.Drawing.Point(1802, 6945);
             this.groupBox94.Name = "groupBox94";
             this.groupBox94.Size = new System.Drawing.Size(568, 351);
             this.groupBox94.TabIndex = 39;
@@ -9633,23 +9269,13 @@ namespace Arkansas_Armory
             this.button66.UseVisualStyleBackColor = true;
             this.button66.Click += new System.EventHandler(this.button66_Click);
             // 
-            // pictureBox33
-            // 
-            this.pictureBox33.Image = global::Arkansas_Armory.Properties.Resources.Picture36;
-            this.pictureBox33.Location = new System.Drawing.Point(255, 106);
-            this.pictureBox33.Name = "pictureBox33";
-            this.pictureBox33.Size = new System.Drawing.Size(272, 83);
-            this.pictureBox33.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox33.TabIndex = 0;
-            this.pictureBox33.TabStop = false;
-            // 
             // groupBox97
             // 
             this.groupBox97.BackColor = System.Drawing.Color.White;
             this.groupBox97.Controls.Add(this.groupBox98);
             this.groupBox97.Controls.Add(this.groupBox99);
             this.groupBox97.Controls.Add(this.pictureBox34);
-            this.groupBox97.Location = new System.Drawing.Point(29, 5875);
+            this.groupBox97.Location = new System.Drawing.Point(1184, 7325);
             this.groupBox97.Name = "groupBox97";
             this.groupBox97.Size = new System.Drawing.Size(568, 351);
             this.groupBox97.TabIndex = 40;
@@ -9875,23 +9501,13 @@ namespace Arkansas_Armory
             this.button68.UseVisualStyleBackColor = true;
             this.button68.Click += new System.EventHandler(this.button68_Click);
             // 
-            // pictureBox34
-            // 
-            this.pictureBox34.Image = global::Arkansas_Armory.Properties.Resources.Picture37;
-            this.pictureBox34.Location = new System.Drawing.Point(248, 28);
-            this.pictureBox34.Name = "pictureBox34";
-            this.pictureBox34.Size = new System.Drawing.Size(288, 178);
-            this.pictureBox34.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox34.TabIndex = 0;
-            this.pictureBox34.TabStop = false;
-            // 
             // groupBox100
             // 
             this.groupBox100.BackColor = System.Drawing.Color.White;
             this.groupBox100.Controls.Add(this.groupBox101);
             this.groupBox100.Controls.Add(this.groupBox102);
             this.groupBox100.Controls.Add(this.pictureBox35);
-            this.groupBox100.Location = new System.Drawing.Point(647, 5875);
+            this.groupBox100.Location = new System.Drawing.Point(1802, 7325);
             this.groupBox100.Name = "groupBox100";
             this.groupBox100.Size = new System.Drawing.Size(568, 351);
             this.groupBox100.TabIndex = 41;
@@ -10117,23 +9733,13 @@ namespace Arkansas_Armory
             this.button70.UseVisualStyleBackColor = true;
             this.button70.Click += new System.EventHandler(this.button70_Click);
             // 
-            // pictureBox35
-            // 
-            this.pictureBox35.Image = global::Arkansas_Armory.Properties.Resources.Picture38;
-            this.pictureBox35.Location = new System.Drawing.Point(248, 28);
-            this.pictureBox35.Name = "pictureBox35";
-            this.pictureBox35.Size = new System.Drawing.Size(299, 253);
-            this.pictureBox35.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox35.TabIndex = 0;
-            this.pictureBox35.TabStop = false;
-            // 
             // groupBox103
             // 
             this.groupBox103.BackColor = System.Drawing.Color.White;
             this.groupBox103.Controls.Add(this.groupBox104);
             this.groupBox103.Controls.Add(this.groupBox105);
             this.groupBox103.Controls.Add(this.pictureBox36);
-            this.groupBox103.Location = new System.Drawing.Point(29, 6247);
+            this.groupBox103.Location = new System.Drawing.Point(1184, 7697);
             this.groupBox103.Name = "groupBox103";
             this.groupBox103.Size = new System.Drawing.Size(568, 351);
             this.groupBox103.TabIndex = 42;
@@ -10359,23 +9965,13 @@ namespace Arkansas_Armory
             this.button72.UseVisualStyleBackColor = true;
             this.button72.Click += new System.EventHandler(this.button72_Click);
             // 
-            // pictureBox36
-            // 
-            this.pictureBox36.Image = global::Arkansas_Armory.Properties.Resources.Picture39;
-            this.pictureBox36.Location = new System.Drawing.Point(248, 28);
-            this.pictureBox36.Name = "pictureBox36";
-            this.pictureBox36.Size = new System.Drawing.Size(311, 308);
-            this.pictureBox36.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox36.TabIndex = 0;
-            this.pictureBox36.TabStop = false;
-            // 
             // groupBox106
             // 
             this.groupBox106.BackColor = System.Drawing.Color.White;
             this.groupBox106.Controls.Add(this.groupBox107);
             this.groupBox106.Controls.Add(this.groupBox108);
             this.groupBox106.Controls.Add(this.pictureBox37);
-            this.groupBox106.Location = new System.Drawing.Point(647, 6247);
+            this.groupBox106.Location = new System.Drawing.Point(1802, 7697);
             this.groupBox106.Name = "groupBox106";
             this.groupBox106.Size = new System.Drawing.Size(568, 351);
             this.groupBox106.TabIndex = 43;
@@ -10601,23 +10197,13 @@ namespace Arkansas_Armory
             this.button74.UseVisualStyleBackColor = true;
             this.button74.Click += new System.EventHandler(this.button74_Click);
             // 
-            // pictureBox37
-            // 
-            this.pictureBox37.Image = global::Arkansas_Armory.Properties.Resources.Picture40;
-            this.pictureBox37.Location = new System.Drawing.Point(246, 110);
-            this.pictureBox37.Name = "pictureBox37";
-            this.pictureBox37.Size = new System.Drawing.Size(299, 111);
-            this.pictureBox37.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox37.TabIndex = 0;
-            this.pictureBox37.TabStop = false;
-            // 
             // groupBox109
             // 
             this.groupBox109.BackColor = System.Drawing.Color.White;
             this.groupBox109.Controls.Add(this.groupBox110);
             this.groupBox109.Controls.Add(this.groupBox111);
             this.groupBox109.Controls.Add(this.pictureBox38);
-            this.groupBox109.Location = new System.Drawing.Point(29, 6621);
+            this.groupBox109.Location = new System.Drawing.Point(1184, 8071);
             this.groupBox109.Name = "groupBox109";
             this.groupBox109.Size = new System.Drawing.Size(568, 351);
             this.groupBox109.TabIndex = 44;
@@ -10843,23 +10429,13 @@ namespace Arkansas_Armory
             this.button76.UseVisualStyleBackColor = true;
             this.button76.Click += new System.EventHandler(this.button76_Click);
             // 
-            // pictureBox38
-            // 
-            this.pictureBox38.Image = global::Arkansas_Armory.Properties.Resources.Picture41;
-            this.pictureBox38.Location = new System.Drawing.Point(248, 28);
-            this.pictureBox38.Name = "pictureBox38";
-            this.pictureBox38.Size = new System.Drawing.Size(290, 290);
-            this.pictureBox38.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox38.TabIndex = 0;
-            this.pictureBox38.TabStop = false;
-            // 
             // groupBox112
             // 
             this.groupBox112.BackColor = System.Drawing.Color.White;
             this.groupBox112.Controls.Add(this.groupBox113);
             this.groupBox112.Controls.Add(this.groupBox114);
             this.groupBox112.Controls.Add(this.pictureBox39);
-            this.groupBox112.Location = new System.Drawing.Point(647, 6621);
+            this.groupBox112.Location = new System.Drawing.Point(1802, 8071);
             this.groupBox112.Name = "groupBox112";
             this.groupBox112.Size = new System.Drawing.Size(568, 351);
             this.groupBox112.TabIndex = 45;
@@ -11085,23 +10661,13 @@ namespace Arkansas_Armory
             this.button78.UseVisualStyleBackColor = true;
             this.button78.Click += new System.EventHandler(this.button78_Click);
             // 
-            // pictureBox39
-            // 
-            this.pictureBox39.Image = global::Arkansas_Armory.Properties.Resources.Picture42;
-            this.pictureBox39.Location = new System.Drawing.Point(248, 28);
-            this.pictureBox39.Name = "pictureBox39";
-            this.pictureBox39.Size = new System.Drawing.Size(363, 128);
-            this.pictureBox39.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox39.TabIndex = 0;
-            this.pictureBox39.TabStop = false;
-            // 
             // groupBox115
             // 
             this.groupBox115.BackColor = System.Drawing.Color.White;
             this.groupBox115.Controls.Add(this.groupBox116);
             this.groupBox115.Controls.Add(this.groupBox117);
             this.groupBox115.Controls.Add(this.pictureBox40);
-            this.groupBox115.Location = new System.Drawing.Point(29, 6997);
+            this.groupBox115.Location = new System.Drawing.Point(1184, 8447);
             this.groupBox115.Name = "groupBox115";
             this.groupBox115.Size = new System.Drawing.Size(568, 351);
             this.groupBox115.TabIndex = 46;
@@ -11327,23 +10893,13 @@ namespace Arkansas_Armory
             this.button80.UseVisualStyleBackColor = true;
             this.button80.Click += new System.EventHandler(this.button80_Click);
             // 
-            // pictureBox40
-            // 
-            this.pictureBox40.Image = global::Arkansas_Armory.Properties.Resources.Picture43;
-            this.pictureBox40.Location = new System.Drawing.Point(248, 28);
-            this.pictureBox40.Name = "pictureBox40";
-            this.pictureBox40.Size = new System.Drawing.Size(436, 131);
-            this.pictureBox40.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox40.TabIndex = 0;
-            this.pictureBox40.TabStop = false;
-            // 
             // groupBox118
             // 
             this.groupBox118.BackColor = System.Drawing.Color.White;
             this.groupBox118.Controls.Add(this.groupBox119);
             this.groupBox118.Controls.Add(this.groupBox120);
             this.groupBox118.Controls.Add(this.pictureBox41);
-            this.groupBox118.Location = new System.Drawing.Point(647, 6997);
+            this.groupBox118.Location = new System.Drawing.Point(1802, 8447);
             this.groupBox118.Name = "groupBox118";
             this.groupBox118.Size = new System.Drawing.Size(568, 351);
             this.groupBox118.TabIndex = 47;
@@ -11569,23 +11125,13 @@ namespace Arkansas_Armory
             this.button82.UseVisualStyleBackColor = true;
             this.button82.Click += new System.EventHandler(this.button82_Click);
             // 
-            // pictureBox41
-            // 
-            this.pictureBox41.Image = global::Arkansas_Armory.Properties.Resources.Picture44;
-            this.pictureBox41.Location = new System.Drawing.Point(248, 28);
-            this.pictureBox41.Name = "pictureBox41";
-            this.pictureBox41.Size = new System.Drawing.Size(458, 146);
-            this.pictureBox41.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox41.TabIndex = 0;
-            this.pictureBox41.TabStop = false;
-            // 
             // groupBox121
             // 
             this.groupBox121.BackColor = System.Drawing.Color.White;
             this.groupBox121.Controls.Add(this.groupBox122);
             this.groupBox121.Controls.Add(this.groupBox123);
             this.groupBox121.Controls.Add(this.pictureBox42);
-            this.groupBox121.Location = new System.Drawing.Point(29, 7367);
+            this.groupBox121.Location = new System.Drawing.Point(1184, 8817);
             this.groupBox121.Name = "groupBox121";
             this.groupBox121.Size = new System.Drawing.Size(568, 351);
             this.groupBox121.TabIndex = 48;
@@ -11811,23 +11357,13 @@ namespace Arkansas_Armory
             this.button84.UseVisualStyleBackColor = true;
             this.button84.Click += new System.EventHandler(this.button84_Click);
             // 
-            // pictureBox42
-            // 
-            this.pictureBox42.Image = global::Arkansas_Armory.Properties.Resources.Picture45;
-            this.pictureBox42.Location = new System.Drawing.Point(248, 28);
-            this.pictureBox42.Name = "pictureBox42";
-            this.pictureBox42.Size = new System.Drawing.Size(409, 161);
-            this.pictureBox42.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox42.TabIndex = 0;
-            this.pictureBox42.TabStop = false;
-            // 
             // groupBox124
             // 
             this.groupBox124.BackColor = System.Drawing.Color.White;
             this.groupBox124.Controls.Add(this.groupBox125);
             this.groupBox124.Controls.Add(this.groupBox126);
             this.groupBox124.Controls.Add(this.pictureBox43);
-            this.groupBox124.Location = new System.Drawing.Point(647, 7367);
+            this.groupBox124.Location = new System.Drawing.Point(1802, 8817);
             this.groupBox124.Name = "groupBox124";
             this.groupBox124.Size = new System.Drawing.Size(568, 351);
             this.groupBox124.TabIndex = 49;
@@ -12053,23 +11589,13 @@ namespace Arkansas_Armory
             this.button86.UseVisualStyleBackColor = true;
             this.button86.Click += new System.EventHandler(this.button86_Click);
             // 
-            // pictureBox43
-            // 
-            this.pictureBox43.Image = global::Arkansas_Armory.Properties.Resources.Picture46;
-            this.pictureBox43.Location = new System.Drawing.Point(248, 28);
-            this.pictureBox43.Name = "pictureBox43";
-            this.pictureBox43.Size = new System.Drawing.Size(421, 91);
-            this.pictureBox43.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox43.TabIndex = 0;
-            this.pictureBox43.TabStop = false;
-            // 
             // groupBox127
             // 
             this.groupBox127.BackColor = System.Drawing.Color.White;
             this.groupBox127.Controls.Add(this.groupBox128);
             this.groupBox127.Controls.Add(this.groupBox129);
             this.groupBox127.Controls.Add(this.pictureBox44);
-            this.groupBox127.Location = new System.Drawing.Point(29, 7740);
+            this.groupBox127.Location = new System.Drawing.Point(1184, 9190);
             this.groupBox127.Name = "groupBox127";
             this.groupBox127.Size = new System.Drawing.Size(568, 351);
             this.groupBox127.TabIndex = 50;
@@ -12295,23 +11821,13 @@ namespace Arkansas_Armory
             this.button88.UseVisualStyleBackColor = true;
             this.button88.Click += new System.EventHandler(this.button88_Click);
             // 
-            // pictureBox44
-            // 
-            this.pictureBox44.Image = global::Arkansas_Armory.Properties.Resources.Picture47;
-            this.pictureBox44.Location = new System.Drawing.Point(248, 28);
-            this.pictureBox44.Name = "pictureBox44";
-            this.pictureBox44.Size = new System.Drawing.Size(314, 314);
-            this.pictureBox44.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox44.TabIndex = 0;
-            this.pictureBox44.TabStop = false;
-            // 
             // groupBox130
             // 
             this.groupBox130.BackColor = System.Drawing.Color.White;
             this.groupBox130.Controls.Add(this.groupBox131);
             this.groupBox130.Controls.Add(this.groupBox132);
             this.groupBox130.Controls.Add(this.pictureBox45);
-            this.groupBox130.Location = new System.Drawing.Point(647, 7740);
+            this.groupBox130.Location = new System.Drawing.Point(1802, 9190);
             this.groupBox130.Name = "groupBox130";
             this.groupBox130.Size = new System.Drawing.Size(568, 351);
             this.groupBox130.TabIndex = 51;
@@ -12537,23 +12053,13 @@ namespace Arkansas_Armory
             this.button90.UseVisualStyleBackColor = true;
             this.button90.Click += new System.EventHandler(this.button90_Click);
             // 
-            // pictureBox45
-            // 
-            this.pictureBox45.Image = global::Arkansas_Armory.Properties.Resources.Picture48;
-            this.pictureBox45.Location = new System.Drawing.Point(248, 28);
-            this.pictureBox45.Name = "pictureBox45";
-            this.pictureBox45.Size = new System.Drawing.Size(418, 131);
-            this.pictureBox45.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox45.TabIndex = 0;
-            this.pictureBox45.TabStop = false;
-            // 
             // groupBox133
             // 
             this.groupBox133.BackColor = System.Drawing.Color.White;
             this.groupBox133.Controls.Add(this.groupBox134);
             this.groupBox133.Controls.Add(this.groupBox135);
             this.groupBox133.Controls.Add(this.pictureBox46);
-            this.groupBox133.Location = new System.Drawing.Point(29, 8114);
+            this.groupBox133.Location = new System.Drawing.Point(1184, 9564);
             this.groupBox133.Name = "groupBox133";
             this.groupBox133.Size = new System.Drawing.Size(568, 351);
             this.groupBox133.TabIndex = 50;
@@ -12779,23 +12285,13 @@ namespace Arkansas_Armory
             this.button92.UseVisualStyleBackColor = true;
             this.button92.Click += new System.EventHandler(this.button92_Click);
             // 
-            // pictureBox46
-            // 
-            this.pictureBox46.Image = global::Arkansas_Armory.Properties.Resources.Picture49;
-            this.pictureBox46.Location = new System.Drawing.Point(248, 28);
-            this.pictureBox46.Name = "pictureBox46";
-            this.pictureBox46.Size = new System.Drawing.Size(305, 302);
-            this.pictureBox46.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox46.TabIndex = 0;
-            this.pictureBox46.TabStop = false;
-            // 
             // groupBox136
             // 
             this.groupBox136.BackColor = System.Drawing.Color.White;
             this.groupBox136.Controls.Add(this.groupBox137);
             this.groupBox136.Controls.Add(this.groupBox138);
             this.groupBox136.Controls.Add(this.pictureBox47);
-            this.groupBox136.Location = new System.Drawing.Point(647, 8114);
+            this.groupBox136.Location = new System.Drawing.Point(1802, 9564);
             this.groupBox136.Name = "groupBox136";
             this.groupBox136.Size = new System.Drawing.Size(568, 351);
             this.groupBox136.TabIndex = 51;
@@ -13021,23 +12517,13 @@ namespace Arkansas_Armory
             this.button94.UseVisualStyleBackColor = true;
             this.button94.Click += new System.EventHandler(this.button94_Click);
             // 
-            // pictureBox47
-            // 
-            this.pictureBox47.Image = global::Arkansas_Armory.Properties.Resources.Picture50;
-            this.pictureBox47.Location = new System.Drawing.Point(248, 28);
-            this.pictureBox47.Name = "pictureBox47";
-            this.pictureBox47.Size = new System.Drawing.Size(375, 207);
-            this.pictureBox47.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox47.TabIndex = 0;
-            this.pictureBox47.TabStop = false;
-            // 
             // groupBox139
             // 
             this.groupBox139.BackColor = System.Drawing.Color.White;
             this.groupBox139.Controls.Add(this.groupBox140);
             this.groupBox139.Controls.Add(this.groupBox141);
             this.groupBox139.Controls.Add(this.pictureBox48);
-            this.groupBox139.Location = new System.Drawing.Point(29, 8495);
+            this.groupBox139.Location = new System.Drawing.Point(1184, 9945);
             this.groupBox139.Name = "groupBox139";
             this.groupBox139.Size = new System.Drawing.Size(568, 351);
             this.groupBox139.TabIndex = 52;
@@ -13263,23 +12749,13 @@ namespace Arkansas_Armory
             this.button96.UseVisualStyleBackColor = true;
             this.button96.Click += new System.EventHandler(this.button96_Click);
             // 
-            // pictureBox48
-            // 
-            this.pictureBox48.Image = global::Arkansas_Armory.Properties.Resources.Picture51;
-            this.pictureBox48.Location = new System.Drawing.Point(248, 28);
-            this.pictureBox48.Name = "pictureBox48";
-            this.pictureBox48.Size = new System.Drawing.Size(163, 108);
-            this.pictureBox48.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox48.TabIndex = 0;
-            this.pictureBox48.TabStop = false;
-            // 
             // groupBox142
             // 
             this.groupBox142.BackColor = System.Drawing.Color.White;
             this.groupBox142.Controls.Add(this.groupBox143);
             this.groupBox142.Controls.Add(this.groupBox144);
             this.groupBox142.Controls.Add(this.pictureBox49);
-            this.groupBox142.Location = new System.Drawing.Point(647, 8495);
+            this.groupBox142.Location = new System.Drawing.Point(1802, 9945);
             this.groupBox142.Name = "groupBox142";
             this.groupBox142.Size = new System.Drawing.Size(568, 351);
             this.groupBox142.TabIndex = 53;
@@ -13505,23 +12981,13 @@ namespace Arkansas_Armory
             this.button98.UseVisualStyleBackColor = true;
             this.button98.Click += new System.EventHandler(this.button98_Click);
             // 
-            // pictureBox49
-            // 
-            this.pictureBox49.Image = global::Arkansas_Armory.Properties.Resources.Picture52;
-            this.pictureBox49.Location = new System.Drawing.Point(248, 28);
-            this.pictureBox49.Name = "pictureBox49";
-            this.pictureBox49.Size = new System.Drawing.Size(421, 137);
-            this.pictureBox49.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox49.TabIndex = 0;
-            this.pictureBox49.TabStop = false;
-            // 
             // groupBox145
             // 
             this.groupBox145.BackColor = System.Drawing.Color.White;
             this.groupBox145.Controls.Add(this.groupBox146);
             this.groupBox145.Controls.Add(this.groupBox147);
             this.groupBox145.Controls.Add(this.pictureBox50);
-            this.groupBox145.Location = new System.Drawing.Point(29, 8879);
+            this.groupBox145.Location = new System.Drawing.Point(1184, 10329);
             this.groupBox145.Name = "groupBox145";
             this.groupBox145.Size = new System.Drawing.Size(568, 351);
             this.groupBox145.TabIndex = 53;
@@ -13747,16 +13213,6 @@ namespace Arkansas_Armory
             this.button100.UseVisualStyleBackColor = true;
             this.button100.Click += new System.EventHandler(this.button100_Click);
             // 
-            // pictureBox50
-            // 
-            this.pictureBox50.Image = global::Arkansas_Armory.Properties.Resources.Picture53;
-            this.pictureBox50.Location = new System.Drawing.Point(248, 28);
-            this.pictureBox50.Name = "pictureBox50";
-            this.pictureBox50.Size = new System.Drawing.Size(424, 97);
-            this.pictureBox50.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox50.TabIndex = 0;
-            this.pictureBox50.TabStop = false;
-            // 
             // groupBox148
             // 
             this.groupBox148.BackColor = System.Drawing.Color.White;
@@ -13764,7 +13220,7 @@ namespace Arkansas_Armory
             this.groupBox148.Controls.Add(this.groupBox152);
             this.groupBox148.Controls.Add(this.groupBox153);
             this.groupBox148.Controls.Add(this.pictureBox52);
-            this.groupBox148.Location = new System.Drawing.Point(648, 8879);
+            this.groupBox148.Location = new System.Drawing.Point(1803, 10329);
             this.groupBox148.Name = "groupBox148";
             this.groupBox148.Size = new System.Drawing.Size(568, 351);
             this.groupBox148.TabIndex = 54;
@@ -13991,16 +13447,6 @@ namespace Arkansas_Armory
             this.button102.Text = "Full Description";
             this.button102.UseVisualStyleBackColor = true;
             // 
-            // pictureBox51
-            // 
-            this.pictureBox51.Image = global::Arkansas_Armory.Properties.Resources.Picture51;
-            this.pictureBox51.Location = new System.Drawing.Point(248, 28);
-            this.pictureBox51.Name = "pictureBox51";
-            this.pictureBox51.Size = new System.Drawing.Size(163, 108);
-            this.pictureBox51.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox51.TabIndex = 0;
-            this.pictureBox51.TabStop = false;
-            // 
             // groupBox152
             // 
             this.groupBox152.Controls.Add(this.textBox503);
@@ -14220,23 +13666,13 @@ namespace Arkansas_Armory
             this.button104.UseVisualStyleBackColor = true;
             this.button104.Click += new System.EventHandler(this.button104_Click);
             // 
-            // pictureBox52
-            // 
-            this.pictureBox52.Image = global::Arkansas_Armory.Properties.Resources.Picture54;
-            this.pictureBox52.Location = new System.Drawing.Point(248, 28);
-            this.pictureBox52.Name = "pictureBox52";
-            this.pictureBox52.Size = new System.Drawing.Size(271, 268);
-            this.pictureBox52.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox52.TabIndex = 0;
-            this.pictureBox52.TabStop = false;
-            // 
             // groupBox154
             // 
             this.groupBox154.BackColor = System.Drawing.Color.White;
             this.groupBox154.Controls.Add(this.groupBox155);
             this.groupBox154.Controls.Add(this.groupBox156);
             this.groupBox154.Controls.Add(this.pictureBox53);
-            this.groupBox154.Location = new System.Drawing.Point(29, 9256);
+            this.groupBox154.Location = new System.Drawing.Point(1184, 10706);
             this.groupBox154.Name = "groupBox154";
             this.groupBox154.Size = new System.Drawing.Size(568, 351);
             this.groupBox154.TabIndex = 54;
@@ -14462,23 +13898,13 @@ namespace Arkansas_Armory
             this.button106.UseVisualStyleBackColor = true;
             this.button106.Click += new System.EventHandler(this.button106_Click);
             // 
-            // pictureBox53
-            // 
-            this.pictureBox53.Image = global::Arkansas_Armory.Properties.Resources.Picture55;
-            this.pictureBox53.Location = new System.Drawing.Point(248, 28);
-            this.pictureBox53.Name = "pictureBox53";
-            this.pictureBox53.Size = new System.Drawing.Size(446, 149);
-            this.pictureBox53.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox53.TabIndex = 0;
-            this.pictureBox53.TabStop = false;
-            // 
             // groupBox157
             // 
             this.groupBox157.BackColor = System.Drawing.Color.White;
             this.groupBox157.Controls.Add(this.groupBox158);
             this.groupBox157.Controls.Add(this.groupBox159);
             this.groupBox157.Controls.Add(this.pictureBox54);
-            this.groupBox157.Location = new System.Drawing.Point(648, 9247);
+            this.groupBox157.Location = new System.Drawing.Point(1803, 10697);
             this.groupBox157.Name = "groupBox157";
             this.groupBox157.Size = new System.Drawing.Size(568, 351);
             this.groupBox157.TabIndex = 54;
@@ -14704,16 +14130,6 @@ namespace Arkansas_Armory
             this.button108.UseVisualStyleBackColor = true;
             this.button108.Click += new System.EventHandler(this.button108_Click);
             // 
-            // pictureBox54
-            // 
-            this.pictureBox54.Image = global::Arkansas_Armory.Properties.Resources.Picture56;
-            this.pictureBox54.Location = new System.Drawing.Point(248, 28);
-            this.pictureBox54.Name = "pictureBox54";
-            this.pictureBox54.Size = new System.Drawing.Size(433, 165);
-            this.pictureBox54.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox54.TabIndex = 0;
-            this.pictureBox54.TabStop = false;
-            // 
             // groupBox160
             // 
             this.groupBox160.BackColor = System.Drawing.Color.White;
@@ -14721,7 +14137,7 @@ namespace Arkansas_Armory
             this.groupBox160.Controls.Add(this.groupBox161);
             this.groupBox160.Controls.Add(this.groupBox162);
             this.groupBox160.Controls.Add(this.pictureBox55);
-            this.groupBox160.Location = new System.Drawing.Point(29, 9633);
+            this.groupBox160.Location = new System.Drawing.Point(1184, 11083);
             this.groupBox160.Name = "groupBox160";
             this.groupBox160.Size = new System.Drawing.Size(568, 351);
             this.groupBox160.TabIndex = 55;
@@ -14948,16 +14364,6 @@ namespace Arkansas_Armory
             this.button112.Text = "Full Description";
             this.button112.UseVisualStyleBackColor = true;
             // 
-            // pictureBox56
-            // 
-            this.pictureBox56.Image = global::Arkansas_Armory.Properties.Resources.Picture57;
-            this.pictureBox56.Location = new System.Drawing.Point(248, 28);
-            this.pictureBox56.Name = "pictureBox56";
-            this.pictureBox56.Size = new System.Drawing.Size(464, 134);
-            this.pictureBox56.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox56.TabIndex = 0;
-            this.pictureBox56.TabStop = false;
-            // 
             // groupBox161
             // 
             this.groupBox161.Controls.Add(this.textBox533);
@@ -15177,23 +14583,13 @@ namespace Arkansas_Armory
             this.button110.UseVisualStyleBackColor = true;
             this.button110.Click += new System.EventHandler(this.button110_Click);
             // 
-            // pictureBox55
-            // 
-            this.pictureBox55.Image = global::Arkansas_Armory.Properties.Resources.Picture57;
-            this.pictureBox55.Location = new System.Drawing.Point(248, 28);
-            this.pictureBox55.Name = "pictureBox55";
-            this.pictureBox55.Size = new System.Drawing.Size(464, 134);
-            this.pictureBox55.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox55.TabIndex = 0;
-            this.pictureBox55.TabStop = false;
-            // 
             // groupBox163
             // 
             this.groupBox163.BackColor = System.Drawing.Color.White;
             this.groupBox163.Controls.Add(this.groupBox167);
             this.groupBox163.Controls.Add(this.groupBox168);
             this.groupBox163.Controls.Add(this.pictureBox57);
-            this.groupBox163.Location = new System.Drawing.Point(648, 9633);
+            this.groupBox163.Location = new System.Drawing.Point(1803, 11083);
             this.groupBox163.Name = "groupBox163";
             this.groupBox163.Size = new System.Drawing.Size(568, 351);
             this.groupBox163.TabIndex = 56;
@@ -15419,23 +14815,13 @@ namespace Arkansas_Armory
             this.button114.UseVisualStyleBackColor = true;
             this.button114.Click += new System.EventHandler(this.button114_Click);
             // 
-            // pictureBox57
-            // 
-            this.pictureBox57.Image = global::Arkansas_Armory.Properties.Resources.Picture58;
-            this.pictureBox57.Location = new System.Drawing.Point(248, 28);
-            this.pictureBox57.Name = "pictureBox57";
-            this.pictureBox57.Size = new System.Drawing.Size(443, 122);
-            this.pictureBox57.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox57.TabIndex = 0;
-            this.pictureBox57.TabStop = false;
-            // 
             // groupBox169
             // 
             this.groupBox169.BackColor = System.Drawing.Color.White;
             this.groupBox169.Controls.Add(this.groupBox173);
             this.groupBox169.Controls.Add(this.groupBox174);
             this.groupBox169.Controls.Add(this.pictureBox59);
-            this.groupBox169.Location = new System.Drawing.Point(29, 10020);
+            this.groupBox169.Location = new System.Drawing.Point(1184, 11470);
             this.groupBox169.Name = "groupBox169";
             this.groupBox169.Size = new System.Drawing.Size(568, 351);
             this.groupBox169.TabIndex = 57;
@@ -15661,23 +15047,13 @@ namespace Arkansas_Armory
             this.button118.UseVisualStyleBackColor = true;
             this.button118.Click += new System.EventHandler(this.button118_Click);
             // 
-            // pictureBox59
-            // 
-            this.pictureBox59.Image = global::Arkansas_Armory.Properties.Resources.Picture59;
-            this.pictureBox59.Location = new System.Drawing.Point(253, 124);
-            this.pictureBox59.Name = "pictureBox59";
-            this.pictureBox59.Size = new System.Drawing.Size(288, 60);
-            this.pictureBox59.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox59.TabIndex = 0;
-            this.pictureBox59.TabStop = false;
-            // 
             // groupBox170
             // 
             this.groupBox170.BackColor = System.Drawing.Color.White;
             this.groupBox170.Controls.Add(this.groupBox171);
             this.groupBox170.Controls.Add(this.groupBox172);
             this.groupBox170.Controls.Add(this.pictureBox58);
-            this.groupBox170.Location = new System.Drawing.Point(648, 10020);
+            this.groupBox170.Location = new System.Drawing.Point(1803, 11470);
             this.groupBox170.Name = "groupBox170";
             this.groupBox170.Size = new System.Drawing.Size(568, 351);
             this.groupBox170.TabIndex = 56;
@@ -15903,22 +15279,12 @@ namespace Arkansas_Armory
             this.button116.UseVisualStyleBackColor = true;
             this.button116.Click += new System.EventHandler(this.button116_Click);
             // 
-            // pictureBox58
-            // 
-            this.pictureBox58.Image = global::Arkansas_Armory.Properties.Resources.Picture60;
-            this.pictureBox58.Location = new System.Drawing.Point(248, 120);
-            this.pictureBox58.Name = "pictureBox58";
-            this.pictureBox58.Size = new System.Drawing.Size(299, 64);
-            this.pictureBox58.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox58.TabIndex = 0;
-            this.pictureBox58.TabStop = false;
-            // 
             // groupBox175
             // 
             this.groupBox175.Controls.Add(this.radioButton3);
             this.groupBox175.Controls.Add(this.radioButton2);
             this.groupBox175.Controls.Add(this.radioButton1);
-            this.groupBox175.Location = new System.Drawing.Point(528, 12);
+            this.groupBox175.Location = new System.Drawing.Point(1155, 1556);
             this.groupBox175.Name = "groupBox175";
             this.groupBox175.Size = new System.Drawing.Size(288, 56);
             this.groupBox175.TabIndex = 58;
@@ -15978,7 +15344,7 @@ namespace Arkansas_Armory
             this.Handguns.Controls.Add(this.groupBox46);
             this.Handguns.Controls.Add(this.groupBox22);
             this.Handguns.ForeColor = System.Drawing.Color.DarkRed;
-            this.Handguns.Location = new System.Drawing.Point(255, 145);
+            this.Handguns.Location = new System.Drawing.Point(1410, 1595);
             this.Handguns.Name = "Handguns";
             this.Handguns.Size = new System.Drawing.Size(1211, 2656);
             this.Handguns.TabIndex = 59;
@@ -16001,7 +15367,7 @@ namespace Arkansas_Armory
             this.gboShotguns.Controls.Add(this.groupBox85);
             this.gboShotguns.Controls.Add(this.groupBox88);
             this.gboShotguns.Controls.Add(this.groupBox67);
-            this.gboShotguns.Location = new System.Drawing.Point(104, 2816);
+            this.gboShotguns.Location = new System.Drawing.Point(1259, 4266);
             this.gboShotguns.Name = "gboShotguns";
             this.gboShotguns.Size = new System.Drawing.Size(1211, 3778);
             this.gboShotguns.TabIndex = 60;
@@ -16009,29 +15375,714 @@ namespace Arkansas_Armory
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.DarkGray;
-            this.panel1.Controls.Add(this.btnLogin);
-            this.panel1.Controls.Add(this.btnCreateAccount);
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(34)))), ((int)(((byte)(53)))));
             this.panel1.Controls.Add(this.btnShoppingCart);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel1.Controls.Add(this.btnLogin);
+            this.panel1.Controls.Add(this.btnLogOut);
+            this.panel1.Controls.Add(this.btnCreateAccount);
+            this.panel1.Controls.Add(this.btnOrders);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(200, 10371);
+            this.panel1.Size = new System.Drawing.Size(4597, 100);
             this.panel1.TabIndex = 61;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Nirmala UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(254)))), ((int)(((byte)(254)))));
+            this.label6.Location = new System.Drawing.Point(609, 37);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(78, 30);
+            this.label6.TabIndex = 0;
+            this.label6.Text = "LOGIN";
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(34)))), ((int)(((byte)(53)))));
+            this.panel2.Controls.Add(this.label6);
+            this.panel2.Controls.Add(this.button1);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel2.Location = new System.Drawing.Point(0, 0);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(1451, 100);
+            this.panel2.TabIndex = 11;
+            // 
+            // btnShoppingCart
+            // 
+            this.btnShoppingCart.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(34)))), ((int)(((byte)(53)))));
+            this.btnShoppingCart.FlatAppearance.BorderSize = 0;
+            this.btnShoppingCart.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnShoppingCart.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnShoppingCart.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(254)))), ((int)(((byte)(254)))));
+            this.btnShoppingCart.Image = global::Arkansas_Armory.Properties.Resources.icons8_shopping_cart_48;
+            this.btnShoppingCart.Location = new System.Drawing.Point(397, 0);
+            this.btnShoppingCart.Name = "btnShoppingCart";
+            this.btnShoppingCart.Size = new System.Drawing.Size(200, 100);
+            this.btnShoppingCart.TabIndex = 17;
+            this.btnShoppingCart.Text = "Shopping Cart";
+            this.btnShoppingCart.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.btnShoppingCart.UseVisualStyleBackColor = false;
+            this.btnShoppingCart.Click += new System.EventHandler(this.btnShoppingCart_Click);
+            // 
+            // btnLogin
+            // 
+            this.btnLogin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(34)))), ((int)(((byte)(53)))));
+            this.btnLogin.FlatAppearance.BorderSize = 0;
+            this.btnLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLogin.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLogin.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(254)))), ((int)(((byte)(254)))));
+            this.btnLogin.Image = global::Arkansas_Armory.Properties.Resources.icons8_login_50;
+            this.btnLogin.Location = new System.Drawing.Point(0, 0);
+            this.btnLogin.Name = "btnLogin";
+            this.btnLogin.Size = new System.Drawing.Size(200, 100);
+            this.btnLogin.TabIndex = 15;
+            this.btnLogin.Text = "Login";
+            this.btnLogin.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.btnLogin.UseVisualStyleBackColor = false;
+            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
+            // 
+            // btnLogOut
+            // 
+            this.btnLogOut.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(34)))), ((int)(((byte)(53)))));
+            this.btnLogOut.FlatAppearance.BorderSize = 0;
+            this.btnLogOut.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLogOut.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLogOut.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(254)))), ((int)(((byte)(254)))));
+            this.btnLogOut.Image = global::Arkansas_Armory.Properties.Resources.icons8_log_out_64;
+            this.btnLogOut.Location = new System.Drawing.Point(791, 0);
+            this.btnLogOut.Name = "btnLogOut";
+            this.btnLogOut.Size = new System.Drawing.Size(200, 100);
+            this.btnLogOut.TabIndex = 18;
+            this.btnLogOut.Text = "Log Out";
+            this.btnLogOut.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.btnLogOut.UseVisualStyleBackColor = false;
+            this.btnLogOut.Click += new System.EventHandler(this.btnLogOut_Click);
+            // 
+            // btnCreateAccount
+            // 
+            this.btnCreateAccount.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(34)))), ((int)(((byte)(53)))));
+            this.btnCreateAccount.FlatAppearance.BorderSize = 0;
+            this.btnCreateAccount.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCreateAccount.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCreateAccount.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(254)))), ((int)(((byte)(254)))));
+            this.btnCreateAccount.Image = global::Arkansas_Armory.Properties.Resources.icons8_add_50;
+            this.btnCreateAccount.Location = new System.Drawing.Point(196, 0);
+            this.btnCreateAccount.Name = "btnCreateAccount";
+            this.btnCreateAccount.Size = new System.Drawing.Size(200, 100);
+            this.btnCreateAccount.TabIndex = 17;
+            this.btnCreateAccount.Text = "Create Account";
+            this.btnCreateAccount.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.btnCreateAccount.UseVisualStyleBackColor = false;
+            this.btnCreateAccount.Click += new System.EventHandler(this.btnCreateAccount_Click);
+            // 
+            // btnOrders
+            // 
+            this.btnOrders.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(34)))), ((int)(((byte)(53)))));
+            this.btnOrders.FlatAppearance.BorderSize = 0;
+            this.btnOrders.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnOrders.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnOrders.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(254)))), ((int)(((byte)(254)))));
+            this.btnOrders.Image = global::Arkansas_Armory.Properties.Resources.icons8_order_history_50;
+            this.btnOrders.Location = new System.Drawing.Point(596, 0);
+            this.btnOrders.Name = "btnOrders";
+            this.btnOrders.Size = new System.Drawing.Size(200, 100);
+            this.btnOrders.TabIndex = 17;
+            this.btnOrders.Text = "Orders";
+            this.btnOrders.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.btnOrders.UseVisualStyleBackColor = false;
+            this.btnOrders.Click += new System.EventHandler(this.btnOrders_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(423, 208);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(223, 42);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 6;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox58
+            // 
+            this.pictureBox58.Image = global::Arkansas_Armory.Properties.Resources.Picture60;
+            this.pictureBox58.Location = new System.Drawing.Point(248, 120);
+            this.pictureBox58.Name = "pictureBox58";
+            this.pictureBox58.Size = new System.Drawing.Size(299, 64);
+            this.pictureBox58.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox58.TabIndex = 0;
+            this.pictureBox58.TabStop = false;
+            // 
+            // pictureBox59
+            // 
+            this.pictureBox59.Image = global::Arkansas_Armory.Properties.Resources.Picture59;
+            this.pictureBox59.Location = new System.Drawing.Point(253, 124);
+            this.pictureBox59.Name = "pictureBox59";
+            this.pictureBox59.Size = new System.Drawing.Size(288, 60);
+            this.pictureBox59.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox59.TabIndex = 0;
+            this.pictureBox59.TabStop = false;
+            // 
+            // pictureBox57
+            // 
+            this.pictureBox57.Image = global::Arkansas_Armory.Properties.Resources.Picture58;
+            this.pictureBox57.Location = new System.Drawing.Point(248, 28);
+            this.pictureBox57.Name = "pictureBox57";
+            this.pictureBox57.Size = new System.Drawing.Size(443, 122);
+            this.pictureBox57.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox57.TabIndex = 0;
+            this.pictureBox57.TabStop = false;
+            // 
+            // pictureBox56
+            // 
+            this.pictureBox56.Image = global::Arkansas_Armory.Properties.Resources.Picture57;
+            this.pictureBox56.Location = new System.Drawing.Point(248, 28);
+            this.pictureBox56.Name = "pictureBox56";
+            this.pictureBox56.Size = new System.Drawing.Size(464, 134);
+            this.pictureBox56.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox56.TabIndex = 0;
+            this.pictureBox56.TabStop = false;
+            // 
+            // pictureBox55
+            // 
+            this.pictureBox55.Image = global::Arkansas_Armory.Properties.Resources.Picture57;
+            this.pictureBox55.Location = new System.Drawing.Point(248, 28);
+            this.pictureBox55.Name = "pictureBox55";
+            this.pictureBox55.Size = new System.Drawing.Size(464, 134);
+            this.pictureBox55.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox55.TabIndex = 0;
+            this.pictureBox55.TabStop = false;
+            // 
+            // pictureBox54
+            // 
+            this.pictureBox54.Image = global::Arkansas_Armory.Properties.Resources.Picture56;
+            this.pictureBox54.Location = new System.Drawing.Point(248, 28);
+            this.pictureBox54.Name = "pictureBox54";
+            this.pictureBox54.Size = new System.Drawing.Size(433, 165);
+            this.pictureBox54.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox54.TabIndex = 0;
+            this.pictureBox54.TabStop = false;
+            // 
+            // pictureBox53
+            // 
+            this.pictureBox53.Image = global::Arkansas_Armory.Properties.Resources.Picture55;
+            this.pictureBox53.Location = new System.Drawing.Point(248, 28);
+            this.pictureBox53.Name = "pictureBox53";
+            this.pictureBox53.Size = new System.Drawing.Size(446, 149);
+            this.pictureBox53.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox53.TabIndex = 0;
+            this.pictureBox53.TabStop = false;
+            // 
+            // pictureBox50
+            // 
+            this.pictureBox50.Image = global::Arkansas_Armory.Properties.Resources.Picture53;
+            this.pictureBox50.Location = new System.Drawing.Point(248, 28);
+            this.pictureBox50.Name = "pictureBox50";
+            this.pictureBox50.Size = new System.Drawing.Size(424, 97);
+            this.pictureBox50.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox50.TabIndex = 0;
+            this.pictureBox50.TabStop = false;
+            // 
+            // pictureBox51
+            // 
+            this.pictureBox51.Image = global::Arkansas_Armory.Properties.Resources.Picture51;
+            this.pictureBox51.Location = new System.Drawing.Point(248, 28);
+            this.pictureBox51.Name = "pictureBox51";
+            this.pictureBox51.Size = new System.Drawing.Size(163, 108);
+            this.pictureBox51.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox51.TabIndex = 0;
+            this.pictureBox51.TabStop = false;
+            // 
+            // pictureBox52
+            // 
+            this.pictureBox52.Image = global::Arkansas_Armory.Properties.Resources.Picture54;
+            this.pictureBox52.Location = new System.Drawing.Point(248, 28);
+            this.pictureBox52.Name = "pictureBox52";
+            this.pictureBox52.Size = new System.Drawing.Size(271, 268);
+            this.pictureBox52.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox52.TabIndex = 0;
+            this.pictureBox52.TabStop = false;
+            // 
+            // pictureBox48
+            // 
+            this.pictureBox48.Image = global::Arkansas_Armory.Properties.Resources.Picture51;
+            this.pictureBox48.Location = new System.Drawing.Point(248, 28);
+            this.pictureBox48.Name = "pictureBox48";
+            this.pictureBox48.Size = new System.Drawing.Size(163, 108);
+            this.pictureBox48.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox48.TabIndex = 0;
+            this.pictureBox48.TabStop = false;
+            // 
+            // pictureBox46
+            // 
+            this.pictureBox46.Image = global::Arkansas_Armory.Properties.Resources.Picture49;
+            this.pictureBox46.Location = new System.Drawing.Point(248, 28);
+            this.pictureBox46.Name = "pictureBox46";
+            this.pictureBox46.Size = new System.Drawing.Size(305, 302);
+            this.pictureBox46.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox46.TabIndex = 0;
+            this.pictureBox46.TabStop = false;
+            // 
+            // pictureBox49
+            // 
+            this.pictureBox49.Image = global::Arkansas_Armory.Properties.Resources.Picture52;
+            this.pictureBox49.Location = new System.Drawing.Point(248, 28);
+            this.pictureBox49.Name = "pictureBox49";
+            this.pictureBox49.Size = new System.Drawing.Size(421, 137);
+            this.pictureBox49.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox49.TabIndex = 0;
+            this.pictureBox49.TabStop = false;
+            // 
+            // pictureBox44
+            // 
+            this.pictureBox44.Image = global::Arkansas_Armory.Properties.Resources.Picture47;
+            this.pictureBox44.Location = new System.Drawing.Point(248, 28);
+            this.pictureBox44.Name = "pictureBox44";
+            this.pictureBox44.Size = new System.Drawing.Size(314, 314);
+            this.pictureBox44.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox44.TabIndex = 0;
+            this.pictureBox44.TabStop = false;
+            // 
+            // pictureBox47
+            // 
+            this.pictureBox47.Image = global::Arkansas_Armory.Properties.Resources.Picture50;
+            this.pictureBox47.Location = new System.Drawing.Point(248, 28);
+            this.pictureBox47.Name = "pictureBox47";
+            this.pictureBox47.Size = new System.Drawing.Size(375, 207);
+            this.pictureBox47.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox47.TabIndex = 0;
+            this.pictureBox47.TabStop = false;
+            // 
+            // pictureBox42
+            // 
+            this.pictureBox42.Image = global::Arkansas_Armory.Properties.Resources.Picture45;
+            this.pictureBox42.Location = new System.Drawing.Point(248, 28);
+            this.pictureBox42.Name = "pictureBox42";
+            this.pictureBox42.Size = new System.Drawing.Size(409, 161);
+            this.pictureBox42.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox42.TabIndex = 0;
+            this.pictureBox42.TabStop = false;
+            // 
+            // pictureBox45
+            // 
+            this.pictureBox45.Image = global::Arkansas_Armory.Properties.Resources.Picture48;
+            this.pictureBox45.Location = new System.Drawing.Point(248, 28);
+            this.pictureBox45.Name = "pictureBox45";
+            this.pictureBox45.Size = new System.Drawing.Size(418, 131);
+            this.pictureBox45.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox45.TabIndex = 0;
+            this.pictureBox45.TabStop = false;
+            // 
+            // pictureBox40
+            // 
+            this.pictureBox40.Image = global::Arkansas_Armory.Properties.Resources.Picture43;
+            this.pictureBox40.Location = new System.Drawing.Point(248, 28);
+            this.pictureBox40.Name = "pictureBox40";
+            this.pictureBox40.Size = new System.Drawing.Size(436, 131);
+            this.pictureBox40.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox40.TabIndex = 0;
+            this.pictureBox40.TabStop = false;
+            // 
+            // pictureBox43
+            // 
+            this.pictureBox43.Image = global::Arkansas_Armory.Properties.Resources.Picture46;
+            this.pictureBox43.Location = new System.Drawing.Point(248, 28);
+            this.pictureBox43.Name = "pictureBox43";
+            this.pictureBox43.Size = new System.Drawing.Size(421, 91);
+            this.pictureBox43.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox43.TabIndex = 0;
+            this.pictureBox43.TabStop = false;
+            // 
+            // pictureBox38
+            // 
+            this.pictureBox38.Image = global::Arkansas_Armory.Properties.Resources.Picture41;
+            this.pictureBox38.Location = new System.Drawing.Point(248, 28);
+            this.pictureBox38.Name = "pictureBox38";
+            this.pictureBox38.Size = new System.Drawing.Size(290, 290);
+            this.pictureBox38.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox38.TabIndex = 0;
+            this.pictureBox38.TabStop = false;
+            // 
+            // pictureBox41
+            // 
+            this.pictureBox41.Image = global::Arkansas_Armory.Properties.Resources.Picture44;
+            this.pictureBox41.Location = new System.Drawing.Point(248, 28);
+            this.pictureBox41.Name = "pictureBox41";
+            this.pictureBox41.Size = new System.Drawing.Size(458, 146);
+            this.pictureBox41.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox41.TabIndex = 0;
+            this.pictureBox41.TabStop = false;
+            // 
+            // pictureBox36
+            // 
+            this.pictureBox36.Image = global::Arkansas_Armory.Properties.Resources.Picture39;
+            this.pictureBox36.Location = new System.Drawing.Point(248, 28);
+            this.pictureBox36.Name = "pictureBox36";
+            this.pictureBox36.Size = new System.Drawing.Size(311, 308);
+            this.pictureBox36.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox36.TabIndex = 0;
+            this.pictureBox36.TabStop = false;
+            // 
+            // pictureBox39
+            // 
+            this.pictureBox39.Image = global::Arkansas_Armory.Properties.Resources.Picture42;
+            this.pictureBox39.Location = new System.Drawing.Point(248, 28);
+            this.pictureBox39.Name = "pictureBox39";
+            this.pictureBox39.Size = new System.Drawing.Size(363, 128);
+            this.pictureBox39.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox39.TabIndex = 0;
+            this.pictureBox39.TabStop = false;
+            // 
+            // pictureBox37
+            // 
+            this.pictureBox37.Image = global::Arkansas_Armory.Properties.Resources.Picture40;
+            this.pictureBox37.Location = new System.Drawing.Point(246, 110);
+            this.pictureBox37.Name = "pictureBox37";
+            this.pictureBox37.Size = new System.Drawing.Size(299, 111);
+            this.pictureBox37.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox37.TabIndex = 0;
+            this.pictureBox37.TabStop = false;
+            // 
+            // pictureBox34
+            // 
+            this.pictureBox34.Image = global::Arkansas_Armory.Properties.Resources.Picture37;
+            this.pictureBox34.Location = new System.Drawing.Point(248, 28);
+            this.pictureBox34.Name = "pictureBox34";
+            this.pictureBox34.Size = new System.Drawing.Size(288, 178);
+            this.pictureBox34.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox34.TabIndex = 0;
+            this.pictureBox34.TabStop = false;
+            // 
+            // pictureBox32
+            // 
+            this.pictureBox32.Image = global::Arkansas_Armory.Properties.Resources.Picture35;
+            this.pictureBox32.Location = new System.Drawing.Point(242, 113);
+            this.pictureBox32.Name = "pictureBox32";
+            this.pictureBox32.Size = new System.Drawing.Size(299, 76);
+            this.pictureBox32.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox32.TabIndex = 0;
+            this.pictureBox32.TabStop = false;
+            // 
+            // pictureBox35
+            // 
+            this.pictureBox35.Image = global::Arkansas_Armory.Properties.Resources.Picture38;
+            this.pictureBox35.Location = new System.Drawing.Point(248, 28);
+            this.pictureBox35.Name = "pictureBox35";
+            this.pictureBox35.Size = new System.Drawing.Size(299, 253);
+            this.pictureBox35.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox35.TabIndex = 0;
+            this.pictureBox35.TabStop = false;
+            // 
+            // pictureBox33
+            // 
+            this.pictureBox33.Image = global::Arkansas_Armory.Properties.Resources.Picture36;
+            this.pictureBox33.Location = new System.Drawing.Point(255, 106);
+            this.pictureBox33.Name = "pictureBox33";
+            this.pictureBox33.Size = new System.Drawing.Size(272, 83);
+            this.pictureBox33.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox33.TabIndex = 0;
+            this.pictureBox33.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::Arkansas_Armory.Properties.Resources.Picture1;
+            this.pictureBox3.Location = new System.Drawing.Point(248, 28);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(299, 253);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox3.TabIndex = 0;
+            this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = global::Arkansas_Armory.Properties.Resources.Picture2;
+            this.pictureBox4.Location = new System.Drawing.Point(248, 28);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(299, 253);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox4.TabIndex = 0;
+            this.pictureBox4.TabStop = false;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = global::Arkansas_Armory.Properties.Resources.Picture3;
+            this.pictureBox5.Location = new System.Drawing.Point(232, 28);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(330, 232);
+            this.pictureBox5.TabIndex = 0;
+            this.pictureBox5.TabStop = false;
+            this.pictureBox5.Tag = "299, 253";
+            // 
+            // pictureBox13
+            // 
+            this.pictureBox13.Image = global::Arkansas_Armory.Properties.Resources.Picture10;
+            this.pictureBox13.Location = new System.Drawing.Point(233, 19);
+            this.pictureBox13.Name = "pictureBox13";
+            this.pictureBox13.Size = new System.Drawing.Size(299, 253);
+            this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox13.TabIndex = 0;
+            this.pictureBox13.TabStop = false;
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Image = global::Arkansas_Armory.Properties.Resources.Picture4;
+            this.pictureBox6.Location = new System.Drawing.Point(233, 19);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(336, 302);
+            this.pictureBox6.TabIndex = 0;
+            this.pictureBox6.TabStop = false;
+            this.pictureBox6.Tag = "299, 253";
+            // 
+            // pictureBox8
+            // 
+            this.pictureBox8.Image = global::Arkansas_Armory.Properties.Resources.Picture5;
+            this.pictureBox8.Location = new System.Drawing.Point(248, 28);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(299, 253);
+            this.pictureBox8.TabIndex = 0;
+            this.pictureBox8.TabStop = false;
+            // 
+            // pictureBox10
+            // 
+            this.pictureBox10.Image = global::Arkansas_Armory.Properties.Resources.Picture7;
+            this.pictureBox10.Location = new System.Drawing.Point(248, 28);
+            this.pictureBox10.Name = "pictureBox10";
+            this.pictureBox10.Size = new System.Drawing.Size(299, 253);
+            this.pictureBox10.TabIndex = 0;
+            this.pictureBox10.TabStop = false;
+            // 
+            // pictureBox11
+            // 
+            this.pictureBox11.Image = global::Arkansas_Armory.Properties.Resources.Picture8;
+            this.pictureBox11.Location = new System.Drawing.Point(248, 28);
+            this.pictureBox11.Name = "pictureBox11";
+            this.pictureBox11.Size = new System.Drawing.Size(299, 253);
+            this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox11.TabIndex = 0;
+            this.pictureBox11.TabStop = false;
+            // 
+            // pictureBox12
+            // 
+            this.pictureBox12.Image = global::Arkansas_Armory.Properties.Resources.Picture9;
+            this.pictureBox12.Location = new System.Drawing.Point(238, 32);
+            this.pictureBox12.Name = "pictureBox12";
+            this.pictureBox12.Size = new System.Drawing.Size(305, 202);
+            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox12.TabIndex = 0;
+            this.pictureBox12.TabStop = false;
+            // 
+            // pictureBox14
+            // 
+            this.pictureBox14.Image = global::Arkansas_Armory.Properties.Resources.Picture11;
+            this.pictureBox14.Location = new System.Drawing.Point(248, 28);
+            this.pictureBox14.Name = "pictureBox14";
+            this.pictureBox14.Size = new System.Drawing.Size(299, 253);
+            this.pictureBox14.TabIndex = 0;
+            this.pictureBox14.TabStop = false;
+            // 
+            // pictureBox15
+            // 
+            this.pictureBox15.Image = global::Arkansas_Armory.Properties.Resources.Picture12;
+            this.pictureBox15.Location = new System.Drawing.Point(248, 23);
+            this.pictureBox15.Name = "pictureBox15";
+            this.pictureBox15.Size = new System.Drawing.Size(299, 253);
+            this.pictureBox15.TabIndex = 0;
+            this.pictureBox15.TabStop = false;
+            // 
+            // pictureBox16
+            // 
+            this.pictureBox16.Image = global::Arkansas_Armory.Properties.Resources.Picture13;
+            this.pictureBox16.Location = new System.Drawing.Point(248, 28);
+            this.pictureBox16.Name = "pictureBox16";
+            this.pictureBox16.Size = new System.Drawing.Size(299, 253);
+            this.pictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox16.TabIndex = 0;
+            this.pictureBox16.TabStop = false;
+            // 
+            // pictureBox17
+            // 
+            this.pictureBox17.Image = global::Arkansas_Armory.Properties.Resources.Picture14;
+            this.pictureBox17.Location = new System.Drawing.Point(248, 28);
+            this.pictureBox17.Name = "pictureBox17";
+            this.pictureBox17.Size = new System.Drawing.Size(299, 253);
+            this.pictureBox17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox17.TabIndex = 0;
+            this.pictureBox17.TabStop = false;
+            // 
+            // pictureBox9
+            // 
+            this.pictureBox9.Image = global::Arkansas_Armory.Properties.Resources.Picture6;
+            this.pictureBox9.Location = new System.Drawing.Point(248, 28);
+            this.pictureBox9.Name = "pictureBox9";
+            this.pictureBox9.Size = new System.Drawing.Size(299, 253);
+            this.pictureBox9.TabIndex = 0;
+            this.pictureBox9.TabStop = false;
+            // 
+            // pictureBox19
+            // 
+            this.pictureBox19.Image = global::Arkansas_Armory.Properties.Resources.Picture21;
+            this.pictureBox19.Location = new System.Drawing.Point(260, 84);
+            this.pictureBox19.Name = "pictureBox19";
+            this.pictureBox19.Size = new System.Drawing.Size(276, 98);
+            this.pictureBox19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox19.TabIndex = 0;
+            this.pictureBox19.TabStop = false;
+            // 
+            // pictureBox18
+            // 
+            this.pictureBox18.Image = global::Arkansas_Armory.Properties.Resources.Picture22;
+            this.pictureBox18.Location = new System.Drawing.Point(248, 84);
+            this.pictureBox18.Name = "pictureBox18";
+            this.pictureBox18.Size = new System.Drawing.Size(299, 113);
+            this.pictureBox18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox18.TabIndex = 0;
+            this.pictureBox18.TabStop = false;
+            // 
+            // pictureBox20
+            // 
+            this.pictureBox20.Image = global::Arkansas_Armory.Properties.Resources.Picture24;
+            this.pictureBox20.Location = new System.Drawing.Point(306, 84);
+            this.pictureBox20.Name = "pictureBox20";
+            this.pictureBox20.Size = new System.Drawing.Size(198, 102);
+            this.pictureBox20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox20.TabIndex = 0;
+            this.pictureBox20.TabStop = false;
+            // 
+            // pictureBox21
+            // 
+            this.pictureBox21.Image = global::Arkansas_Armory.Properties.Resources.Picture23;
+            this.pictureBox21.Location = new System.Drawing.Point(260, 84);
+            this.pictureBox21.Name = "pictureBox21";
+            this.pictureBox21.Size = new System.Drawing.Size(272, 124);
+            this.pictureBox21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox21.TabIndex = 0;
+            this.pictureBox21.TabStop = false;
+            // 
+            // pictureBox22
+            // 
+            this.pictureBox22.Image = global::Arkansas_Armory.Properties.Resources.Picture26;
+            this.pictureBox22.Location = new System.Drawing.Point(233, 28);
+            this.pictureBox22.Name = "pictureBox22";
+            this.pictureBox22.Size = new System.Drawing.Size(326, 238);
+            this.pictureBox22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox22.TabIndex = 0;
+            this.pictureBox22.TabStop = false;
+            // 
+            // pictureBox23
+            // 
+            this.pictureBox23.Image = global::Arkansas_Armory.Properties.Resources.Picture25;
+            this.pictureBox23.Location = new System.Drawing.Point(249, 124);
+            this.pictureBox23.Name = "pictureBox23";
+            this.pictureBox23.Size = new System.Drawing.Size(287, 67);
+            this.pictureBox23.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox23.TabIndex = 0;
+            this.pictureBox23.TabStop = false;
+            // 
+            // pictureBox25
+            // 
+            this.pictureBox25.Image = global::Arkansas_Armory.Properties.Resources.Picture27;
+            this.pictureBox25.Location = new System.Drawing.Point(248, 28);
+            this.pictureBox25.Name = "pictureBox25";
+            this.pictureBox25.Size = new System.Drawing.Size(299, 253);
+            this.pictureBox25.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox25.TabIndex = 0;
+            this.pictureBox25.TabStop = false;
+            // 
+            // pictureBox27
+            // 
+            this.pictureBox27.Image = global::Arkansas_Armory.Properties.Resources.Picture29;
+            this.pictureBox27.Location = new System.Drawing.Point(249, 110);
+            this.pictureBox27.Name = "pictureBox27";
+            this.pictureBox27.Size = new System.Drawing.Size(295, 76);
+            this.pictureBox27.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox27.TabIndex = 0;
+            this.pictureBox27.TabStop = false;
+            // 
+            // pictureBox26
+            // 
+            this.pictureBox26.Image = global::Arkansas_Armory.Properties.Resources.Picture30;
+            this.pictureBox26.Location = new System.Drawing.Point(248, 28);
+            this.pictureBox26.Name = "pictureBox26";
+            this.pictureBox26.Size = new System.Drawing.Size(302, 299);
+            this.pictureBox26.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox26.TabIndex = 0;
+            this.pictureBox26.TabStop = false;
+            // 
+            // pictureBox28
+            // 
+            this.pictureBox28.Image = global::Arkansas_Armory.Properties.Resources.Picture31;
+            this.pictureBox28.Location = new System.Drawing.Point(254, 99);
+            this.pictureBox28.Name = "pictureBox28";
+            this.pictureBox28.Size = new System.Drawing.Size(272, 103);
+            this.pictureBox28.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox28.TabIndex = 0;
+            this.pictureBox28.TabStop = false;
+            // 
+            // pictureBox29
+            // 
+            this.pictureBox29.Image = global::Arkansas_Armory.Properties.Resources.Picture32;
+            this.pictureBox29.Location = new System.Drawing.Point(246, 83);
+            this.pictureBox29.Name = "pictureBox29";
+            this.pictureBox29.Size = new System.Drawing.Size(302, 118);
+            this.pictureBox29.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox29.TabIndex = 0;
+            this.pictureBox29.TabStop = false;
+            // 
+            // pictureBox30
+            // 
+            this.pictureBox30.Image = global::Arkansas_Armory.Properties.Resources.Picture33;
+            this.pictureBox30.Location = new System.Drawing.Point(250, 63);
+            this.pictureBox30.Name = "pictureBox30";
+            this.pictureBox30.Size = new System.Drawing.Size(276, 172);
+            this.pictureBox30.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox30.TabIndex = 0;
+            this.pictureBox30.TabStop = false;
+            // 
+            // pictureBox31
+            // 
+            this.pictureBox31.Image = global::Arkansas_Armory.Properties.Resources.Picture34;
+            this.pictureBox31.Location = new System.Drawing.Point(266, 138);
+            this.pictureBox31.Name = "pictureBox31";
+            this.pictureBox31.Size = new System.Drawing.Size(259, 68);
+            this.pictureBox31.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox31.TabIndex = 0;
+            this.pictureBox31.TabStop = false;
+            // 
+            // pictureBox24
+            // 
+            this.pictureBox24.Image = global::Arkansas_Armory.Properties.Resources.Picture28;
+            this.pictureBox24.Location = new System.Drawing.Point(255, 106);
+            this.pictureBox24.Name = "pictureBox24";
+            this.pictureBox24.Size = new System.Drawing.Size(292, 72);
+            this.pictureBox24.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox24.TabIndex = 0;
+            this.pictureBox24.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Dock = System.Windows.Forms.DockStyle.Left;
+            this.pictureBox2.Image = global::Arkansas_Armory.Properties.Resources.Arkansas_armory;
+            this.pictureBox2.Location = new System.Drawing.Point(0, 100);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(356, 688);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 12;
+            this.pictureBox2.TabStop = false;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.BackColor = System.Drawing.Color.DarkRed;
-            this.ClientSize = new System.Drawing.Size(1353, 618);
-            this.Controls.Add(this.pnlOrders);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(254)))), ((int)(((byte)(254)))));
+            this.ClientSize = new System.Drawing.Size(1369, 652);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.btnLogOut);
+            this.Controls.Add(this.pnlOrders);
             this.Controls.Add(this.pnlCreateAccount);
-            this.Controls.Add(this.btnOrders);
             this.Controls.Add(this.pnlShoppingCart);
+            this.Controls.Add(this.pnlLogin);
             this.Controls.Add(this.groupBox175);
             this.Controls.Add(this.groupBox170);
             this.Controls.Add(this.groupBox169);
@@ -16061,17 +16112,13 @@ namespace Arkansas_Armory
             this.Controls.Add(this.groupBox94);
             this.Controls.Add(this.Handguns);
             this.Controls.Add(this.gboShotguns);
-            this.Controls.Add(this.pnlLogin);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form1";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.pnlCreateAccount.ResumeLayout(false);
             this.pnlCreateAccount.PerformLayout();
             this.pnlShoppingCart.ResumeLayout(false);
             this.pnlShoppingCart.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.pnlLogin.ResumeLayout(false);
             this.pnlLogin.PerformLayout();
@@ -16081,7 +16128,6 @@ namespace Arkansas_Armory
             this.groupBox3.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.pnlOrders.ResumeLayout(false);
             this.pnlOrders.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvPurchaseHistory)).EndInit();
@@ -16090,295 +16136,249 @@ namespace Arkansas_Armory
             this.groupBox5.PerformLayout();
             this.groupBox6.ResumeLayout(false);
             this.groupBox6.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.groupBox7.ResumeLayout(false);
             this.groupBox8.ResumeLayout(false);
             this.groupBox8.PerformLayout();
             this.groupBox9.ResumeLayout(false);
             this.groupBox9.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.groupBox10.ResumeLayout(false);
             this.groupBox11.ResumeLayout(false);
             this.groupBox11.PerformLayout();
             this.groupBox12.ResumeLayout(false);
             this.groupBox12.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             this.groupBox19.ResumeLayout(false);
             this.groupBox20.ResumeLayout(false);
             this.groupBox20.PerformLayout();
             this.groupBox21.ResumeLayout(false);
             this.groupBox21.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             this.groupBox22.ResumeLayout(false);
             this.groupBox23.ResumeLayout(false);
             this.groupBox23.PerformLayout();
             this.groupBox24.ResumeLayout(false);
             this.groupBox24.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             this.groupBox25.ResumeLayout(false);
             this.groupBox26.ResumeLayout(false);
             this.groupBox26.PerformLayout();
             this.groupBox27.ResumeLayout(false);
             this.groupBox27.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             this.groupBox28.ResumeLayout(false);
             this.groupBox29.ResumeLayout(false);
             this.groupBox29.PerformLayout();
             this.groupBox30.ResumeLayout(false);
             this.groupBox30.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
             this.groupBox31.ResumeLayout(false);
             this.groupBox32.ResumeLayout(false);
             this.groupBox32.PerformLayout();
             this.groupBox33.ResumeLayout(false);
             this.groupBox33.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
             this.groupBox34.ResumeLayout(false);
             this.groupBox35.ResumeLayout(false);
             this.groupBox35.PerformLayout();
             this.groupBox36.ResumeLayout(false);
             this.groupBox36.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
             this.groupBox37.ResumeLayout(false);
             this.groupBox38.ResumeLayout(false);
             this.groupBox38.PerformLayout();
             this.groupBox39.ResumeLayout(false);
             this.groupBox39.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
             this.groupBox40.ResumeLayout(false);
             this.groupBox41.ResumeLayout(false);
             this.groupBox41.PerformLayout();
             this.groupBox42.ResumeLayout(false);
             this.groupBox42.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
             this.groupBox46.ResumeLayout(false);
             this.groupBox47.ResumeLayout(false);
             this.groupBox47.PerformLayout();
             this.groupBox48.ResumeLayout(false);
             this.groupBox48.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).EndInit();
             this.groupBox43.ResumeLayout(false);
             this.groupBox44.ResumeLayout(false);
             this.groupBox44.PerformLayout();
             this.groupBox45.ResumeLayout(false);
             this.groupBox45.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
             this.groupBox49.ResumeLayout(false);
             this.groupBox50.ResumeLayout(false);
             this.groupBox50.PerformLayout();
             this.groupBox51.ResumeLayout(false);
             this.groupBox51.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).EndInit();
             this.groupBox52.ResumeLayout(false);
             this.groupBox53.ResumeLayout(false);
             this.groupBox53.PerformLayout();
             this.groupBox54.ResumeLayout(false);
             this.groupBox54.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).EndInit();
             this.groupBox55.ResumeLayout(false);
             this.groupBox56.ResumeLayout(false);
             this.groupBox56.PerformLayout();
             this.groupBox57.ResumeLayout(false);
             this.groupBox57.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).EndInit();
             this.groupBox58.ResumeLayout(false);
             this.groupBox59.ResumeLayout(false);
             this.groupBox59.PerformLayout();
             this.groupBox60.ResumeLayout(false);
             this.groupBox60.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).EndInit();
             this.groupBox61.ResumeLayout(false);
             this.groupBox62.ResumeLayout(false);
             this.groupBox62.PerformLayout();
             this.groupBox63.ResumeLayout(false);
             this.groupBox63.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).EndInit();
             this.groupBox64.ResumeLayout(false);
             this.groupBox65.ResumeLayout(false);
             this.groupBox65.PerformLayout();
             this.groupBox66.ResumeLayout(false);
             this.groupBox66.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).EndInit();
             this.groupBox67.ResumeLayout(false);
             this.groupBox68.ResumeLayout(false);
             this.groupBox68.PerformLayout();
             this.groupBox69.ResumeLayout(false);
             this.groupBox69.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).EndInit();
             this.groupBox70.ResumeLayout(false);
             this.groupBox71.ResumeLayout(false);
             this.groupBox71.PerformLayout();
             this.groupBox72.ResumeLayout(false);
             this.groupBox72.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).EndInit();
             this.groupBox73.ResumeLayout(false);
             this.groupBox73.PerformLayout();
             this.groupBox74.ResumeLayout(false);
             this.groupBox74.PerformLayout();
             this.groupBox75.ResumeLayout(false);
             this.groupBox75.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox26)).EndInit();
             this.groupBox76.ResumeLayout(false);
             this.groupBox77.ResumeLayout(false);
             this.groupBox77.PerformLayout();
             this.groupBox78.ResumeLayout(false);
             this.groupBox78.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox27)).EndInit();
             this.groupBox79.ResumeLayout(false);
             this.groupBox80.ResumeLayout(false);
             this.groupBox80.PerformLayout();
             this.groupBox81.ResumeLayout(false);
             this.groupBox81.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox28)).EndInit();
             this.groupBox82.ResumeLayout(false);
             this.groupBox82.PerformLayout();
             this.groupBox83.ResumeLayout(false);
             this.groupBox83.PerformLayout();
             this.groupBox84.ResumeLayout(false);
             this.groupBox84.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox29)).EndInit();
             this.groupBox85.ResumeLayout(false);
             this.groupBox85.PerformLayout();
             this.groupBox86.ResumeLayout(false);
             this.groupBox86.PerformLayout();
             this.groupBox87.ResumeLayout(false);
             this.groupBox87.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox30)).EndInit();
             this.groupBox88.ResumeLayout(false);
             this.groupBox89.ResumeLayout(false);
             this.groupBox89.PerformLayout();
             this.groupBox90.ResumeLayout(false);
             this.groupBox90.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox31)).EndInit();
             this.groupBox91.ResumeLayout(false);
             this.groupBox92.ResumeLayout(false);
             this.groupBox92.PerformLayout();
             this.groupBox93.ResumeLayout(false);
             this.groupBox93.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox32)).EndInit();
             this.groupBox94.ResumeLayout(false);
             this.groupBox95.ResumeLayout(false);
             this.groupBox95.PerformLayout();
             this.groupBox96.ResumeLayout(false);
             this.groupBox96.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox33)).EndInit();
             this.groupBox97.ResumeLayout(false);
             this.groupBox97.PerformLayout();
             this.groupBox98.ResumeLayout(false);
             this.groupBox98.PerformLayout();
             this.groupBox99.ResumeLayout(false);
             this.groupBox99.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox34)).EndInit();
             this.groupBox100.ResumeLayout(false);
             this.groupBox101.ResumeLayout(false);
             this.groupBox101.PerformLayout();
             this.groupBox102.ResumeLayout(false);
             this.groupBox102.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox35)).EndInit();
             this.groupBox103.ResumeLayout(false);
             this.groupBox103.PerformLayout();
             this.groupBox104.ResumeLayout(false);
             this.groupBox104.PerformLayout();
             this.groupBox105.ResumeLayout(false);
             this.groupBox105.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox36)).EndInit();
             this.groupBox106.ResumeLayout(false);
             this.groupBox107.ResumeLayout(false);
             this.groupBox107.PerformLayout();
             this.groupBox108.ResumeLayout(false);
             this.groupBox108.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox37)).EndInit();
             this.groupBox109.ResumeLayout(false);
             this.groupBox109.PerformLayout();
             this.groupBox110.ResumeLayout(false);
             this.groupBox110.PerformLayout();
             this.groupBox111.ResumeLayout(false);
             this.groupBox111.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox38)).EndInit();
             this.groupBox112.ResumeLayout(false);
             this.groupBox112.PerformLayout();
             this.groupBox113.ResumeLayout(false);
             this.groupBox113.PerformLayout();
             this.groupBox114.ResumeLayout(false);
             this.groupBox114.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox39)).EndInit();
             this.groupBox115.ResumeLayout(false);
             this.groupBox115.PerformLayout();
             this.groupBox116.ResumeLayout(false);
             this.groupBox116.PerformLayout();
             this.groupBox117.ResumeLayout(false);
             this.groupBox117.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox40)).EndInit();
             this.groupBox118.ResumeLayout(false);
             this.groupBox118.PerformLayout();
             this.groupBox119.ResumeLayout(false);
             this.groupBox119.PerformLayout();
             this.groupBox120.ResumeLayout(false);
             this.groupBox120.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox41)).EndInit();
             this.groupBox121.ResumeLayout(false);
             this.groupBox121.PerformLayout();
             this.groupBox122.ResumeLayout(false);
             this.groupBox122.PerformLayout();
             this.groupBox123.ResumeLayout(false);
             this.groupBox123.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox42)).EndInit();
             this.groupBox124.ResumeLayout(false);
             this.groupBox124.PerformLayout();
             this.groupBox125.ResumeLayout(false);
             this.groupBox125.PerformLayout();
             this.groupBox126.ResumeLayout(false);
             this.groupBox126.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox43)).EndInit();
             this.groupBox127.ResumeLayout(false);
             this.groupBox127.PerformLayout();
             this.groupBox128.ResumeLayout(false);
             this.groupBox128.PerformLayout();
             this.groupBox129.ResumeLayout(false);
             this.groupBox129.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox44)).EndInit();
             this.groupBox130.ResumeLayout(false);
             this.groupBox130.PerformLayout();
             this.groupBox131.ResumeLayout(false);
             this.groupBox131.PerformLayout();
             this.groupBox132.ResumeLayout(false);
             this.groupBox132.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox45)).EndInit();
             this.groupBox133.ResumeLayout(false);
             this.groupBox133.PerformLayout();
             this.groupBox134.ResumeLayout(false);
             this.groupBox134.PerformLayout();
             this.groupBox135.ResumeLayout(false);
             this.groupBox135.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox46)).EndInit();
             this.groupBox136.ResumeLayout(false);
             this.groupBox136.PerformLayout();
             this.groupBox137.ResumeLayout(false);
             this.groupBox137.PerformLayout();
             this.groupBox138.ResumeLayout(false);
             this.groupBox138.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox47)).EndInit();
             this.groupBox139.ResumeLayout(false);
             this.groupBox139.PerformLayout();
             this.groupBox140.ResumeLayout(false);
             this.groupBox140.PerformLayout();
             this.groupBox141.ResumeLayout(false);
             this.groupBox141.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox48)).EndInit();
             this.groupBox142.ResumeLayout(false);
             this.groupBox142.PerformLayout();
             this.groupBox143.ResumeLayout(false);
             this.groupBox143.PerformLayout();
             this.groupBox144.ResumeLayout(false);
             this.groupBox144.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox49)).EndInit();
             this.groupBox145.ResumeLayout(false);
             this.groupBox145.PerformLayout();
             this.groupBox146.ResumeLayout(false);
             this.groupBox146.PerformLayout();
             this.groupBox147.ResumeLayout(false);
             this.groupBox147.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox50)).EndInit();
             this.groupBox148.ResumeLayout(false);
             this.groupBox148.PerformLayout();
             this.groupBox149.ResumeLayout(false);
@@ -16387,26 +16387,22 @@ namespace Arkansas_Armory
             this.groupBox150.PerformLayout();
             this.groupBox151.ResumeLayout(false);
             this.groupBox151.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox51)).EndInit();
             this.groupBox152.ResumeLayout(false);
             this.groupBox152.PerformLayout();
             this.groupBox153.ResumeLayout(false);
             this.groupBox153.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox52)).EndInit();
             this.groupBox154.ResumeLayout(false);
             this.groupBox154.PerformLayout();
             this.groupBox155.ResumeLayout(false);
             this.groupBox155.PerformLayout();
             this.groupBox156.ResumeLayout(false);
             this.groupBox156.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox53)).EndInit();
             this.groupBox157.ResumeLayout(false);
             this.groupBox157.PerformLayout();
             this.groupBox158.ResumeLayout(false);
             this.groupBox158.PerformLayout();
             this.groupBox159.ResumeLayout(false);
             this.groupBox159.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox54)).EndInit();
             this.groupBox160.ResumeLayout(false);
             this.groupBox160.PerformLayout();
             this.groupBox164.ResumeLayout(false);
@@ -16415,36 +16411,91 @@ namespace Arkansas_Armory
             this.groupBox165.PerformLayout();
             this.groupBox166.ResumeLayout(false);
             this.groupBox166.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox56)).EndInit();
             this.groupBox161.ResumeLayout(false);
             this.groupBox161.PerformLayout();
             this.groupBox162.ResumeLayout(false);
             this.groupBox162.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox55)).EndInit();
             this.groupBox163.ResumeLayout(false);
             this.groupBox163.PerformLayout();
             this.groupBox167.ResumeLayout(false);
             this.groupBox167.PerformLayout();
             this.groupBox168.ResumeLayout(false);
             this.groupBox168.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox57)).EndInit();
             this.groupBox169.ResumeLayout(false);
             this.groupBox173.ResumeLayout(false);
             this.groupBox173.PerformLayout();
             this.groupBox174.ResumeLayout(false);
             this.groupBox174.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox59)).EndInit();
             this.groupBox170.ResumeLayout(false);
             this.groupBox171.ResumeLayout(false);
             this.groupBox171.PerformLayout();
             this.groupBox172.ResumeLayout(false);
             this.groupBox172.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox58)).EndInit();
             this.groupBox175.ResumeLayout(false);
             this.groupBox175.PerformLayout();
             this.Handguns.ResumeLayout(false);
             this.gboShotguns.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox58)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox59)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox57)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox56)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox55)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox54)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox53)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox50)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox51)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox52)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox48)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox46)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox49)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox44)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox47)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox42)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox45)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox40)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox43)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox38)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox41)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox36)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox39)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox37)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox34)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox32)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox35)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox33)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox27)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox26)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox28)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox29)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox30)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox31)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -16503,7 +16554,6 @@ namespace Arkansas_Armory
         private System.Windows.Forms.Panel pnlLogin;
         private System.Windows.Forms.Button loginBTN;
         private System.Windows.Forms.Label label27;
-        private System.Windows.Forms.Label label25;
         private System.Windows.Forms.GroupBox gboGun1;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.GroupBox groupBox3;
@@ -17921,6 +17971,9 @@ namespace Arkansas_Armory
         private System.Windows.Forms.Label label21;
         private System.Windows.Forms.MaskedTextBox txtLoginPassword;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }
 
