@@ -112,7 +112,7 @@ namespace Arkansas_Armory
 
            
             txtLoginPassword.Text = "Guest";
-            txtLoginCustomerID.Text = "1";
+            txtLoginCustomerID.Text = "7";
             
 
             refresh();
@@ -133,10 +133,11 @@ namespace Arkansas_Armory
             pnlShoppingCart.Location = new Point(0, 0);
             pnlShoppingCart.BringToFront();
 
-           // var da = new SqlDataAdapter(sql, connectionstring);
-          //  var ds = new DataSet();
-           // da.Fill(ds);
-           // dataGridView1.DataSource = ds.Tables[0];
+            string sql = "SELECT * FROM ShoppingCart WHERE CustomerID =" + txtLoginCustomerID.Text + "";
+            var da = new SqlDataAdapter(sql, connectionstring);
+            var ds = new DataSet();
+            da.Fill(ds);
+            dataGridView1.DataSource = ds.Tables[0];
         }
 
         private void btnBack_Click(object sender, EventArgs e)
@@ -552,6 +553,9 @@ namespace Arkansas_Armory
 
         }
 
-        
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }
