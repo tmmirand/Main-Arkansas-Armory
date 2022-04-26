@@ -557,5 +557,10 @@ namespace Arkansas_Armory
         {
 
         }
+
+        private void groupBox103_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
 }
