@@ -562,5 +562,10 @@ namespace Arkansas_Armory
         {
 
         }
+
+        private void pictureBox40_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
