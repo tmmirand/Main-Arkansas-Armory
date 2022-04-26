@@ -1504,6 +1504,7 @@ namespace Arkansas_Armory
             this.button37 = new System.Windows.Forms.Button();
             this.textBox173 = new System.Windows.Forms.TextBox();
             this.gboShotguns = new System.Windows.Forms.GroupBox();
+            this.panel6 = new System.Windows.Forms.Panel();
             this.pnlCreateAccount.SuspendLayout();
             this.panel4.SuspendLayout();
             this.pnlShoppingCart.SuspendLayout();
@@ -16104,12 +16105,21 @@ namespace Arkansas_Armory
             this.gboShotguns.Controls.Add(this.groupBox85);
             this.gboShotguns.Controls.Add(this.groupBox88);
             this.gboShotguns.Controls.Add(this.groupBox67);
+            this.gboShotguns.Controls.Add(this.panel6);
             this.gboShotguns.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.gboShotguns.Location = new System.Drawing.Point(136, 185);
             this.gboShotguns.Name = "gboShotguns";
             this.gboShotguns.Size = new System.Drawing.Size(1211, 3778);
             this.gboShotguns.TabIndex = 60;
             this.gboShotguns.TabStop = false;
+            // 
+            // panel6
+            // 
+            this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(97)))), ((int)(((byte)(102)))));
+            this.panel6.Location = new System.Drawing.Point(0, 0);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(1211, 3778);
+            this.panel6.TabIndex = 62;
             // 
             // Form1
             // 
@@ -18021,6 +18031,7 @@ namespace Arkansas_Armory
         private System.Windows.Forms.Button button38;
         private System.Windows.Forms.PictureBox pictureBox19;
         private System.Windows.Forms.GroupBox gboShotguns;
+        private System.Windows.Forms.Panel panel6;
     }
 }
 
