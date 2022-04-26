@@ -506,7 +506,10 @@ namespace Arkansas_Armory
             else
             {
                 Handguns.Visible = true;
-                Handguns.Location = new Point(105, 154);
+                Handguns.Location = new Point(135, 185);
+                gboShotguns.Visible = false;
+                pnlRifles.Visible = false;
+
             }
             
         }
@@ -525,7 +528,10 @@ namespace Arkansas_Armory
             else
             {
                 gboShotguns.Visible = true;
-                gboShotguns.Location = new Point(105, 154);
+                gboShotguns.Location = new Point(135, 185);
+                Handguns.Visible = false;
+                pnlRifles.Visible = false;
+
             }
         }
 
@@ -565,6 +571,33 @@ namespace Arkansas_Armory
 
         private void pictureBox40_Click(object sender, EventArgs e)
         {
+
+        }
+
+        private void radioButton4_CheckedChanged(object sender, EventArgs e)
+        {
+            Handguns.Visible = true;
+            gboShotguns.Visible = true;
+            pnlRifles.Visible = true;
+            Handguns.Location = new Point(135, 185);
+            gboShotguns.Location = new Point(133, 2858);
+            pnlRifles.Location = new Point(123, 6632);
+        }
+
+        private void radioButton3_CheckedChanged(object sender, EventArgs e)
+        {
+            if (radioButton3.Checked == false)
+            {
+                pnlRifles.Visible = false;
+            }
+            else
+            {
+                pnlRifles.Visible = true;
+                pnlRifles.Location = new Point(135, 185);
+                gboShotguns.Visible = false;
+                Handguns.Visible = false;
+
+            }
 
         }
     }

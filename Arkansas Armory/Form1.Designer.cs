@@ -1507,6 +1507,7 @@ namespace Arkansas_Armory
             this.pictureBox32 = new System.Windows.Forms.PictureBox();
             this.panel7 = new System.Windows.Forms.Panel();
             this.pnlRifles = new System.Windows.Forms.Panel();
+            this.radioButton4 = new System.Windows.Forms.RadioButton();
             this.pnlCreateAccount.SuspendLayout();
             this.panel4.SuspendLayout();
             this.pnlShoppingCart.SuspendLayout();
@@ -9877,9 +9878,9 @@ namespace Arkansas_Armory
             // pictureBox54
             // 
             this.pictureBox54.Image = global::Arkansas_Armory.Properties.Resources.Picture56;
-            this.pictureBox54.Location = new System.Drawing.Point(248, 28);
+            this.pictureBox54.Location = new System.Drawing.Point(269, 118);
             this.pictureBox54.Name = "pictureBox54";
-            this.pictureBox54.Size = new System.Drawing.Size(433, 165);
+            this.pictureBox54.Size = new System.Drawing.Size(277, 106);
             this.pictureBox54.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox54.TabIndex = 0;
             this.pictureBox54.TabStop = false;
@@ -11085,12 +11086,13 @@ namespace Arkansas_Armory
             // 
             // groupBox175
             // 
+            this.groupBox175.Controls.Add(this.radioButton4);
             this.groupBox175.Controls.Add(this.radioButton3);
             this.groupBox175.Controls.Add(this.radioButton2);
             this.groupBox175.Controls.Add(this.radioButton1);
             this.groupBox175.Location = new System.Drawing.Point(12, 116);
             this.groupBox175.Name = "groupBox175";
-            this.groupBox175.Size = new System.Drawing.Size(288, 56);
+            this.groupBox175.Size = new System.Drawing.Size(384, 56);
             this.groupBox175.TabIndex = 58;
             this.groupBox175.TabStop = false;
             this.groupBox175.Text = "Filters";
@@ -11098,18 +11100,19 @@ namespace Arkansas_Armory
             // radioButton3
             // 
             this.radioButton3.AutoSize = true;
-            this.radioButton3.Location = new System.Drawing.Point(225, 30);
+            this.radioButton3.Location = new System.Drawing.Point(315, 19);
             this.radioButton3.Name = "radioButton3";
             this.radioButton3.Size = new System.Drawing.Size(51, 17);
             this.radioButton3.TabIndex = 2;
             this.radioButton3.TabStop = true;
             this.radioButton3.Text = "Rifles";
             this.radioButton3.UseVisualStyleBackColor = true;
+            this.radioButton3.CheckedChanged += new System.EventHandler(this.radioButton3_CheckedChanged);
             // 
             // radioButton2
             // 
             this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(124, 27);
+            this.radioButton2.Location = new System.Drawing.Point(214, 18);
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(70, 17);
             this.radioButton2.TabIndex = 1;
@@ -11121,7 +11124,7 @@ namespace Arkansas_Armory
             // radioButton1
             // 
             this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(14, 27);
+            this.radioButton1.Location = new System.Drawing.Point(104, 18);
             this.radioButton1.Name = "radioButton1";
             this.radioButton1.Size = new System.Drawing.Size(74, 17);
             this.radioButton1.TabIndex = 0;
@@ -16157,10 +16160,22 @@ namespace Arkansas_Armory
             this.pnlRifles.Controls.Add(this.groupBox142);
             this.pnlRifles.Controls.Add(this.groupBox145);
             this.pnlRifles.Controls.Add(this.groupBox148);
-            this.pnlRifles.Location = new System.Drawing.Point(133, 6631);
+            this.pnlRifles.Location = new System.Drawing.Point(123, 6632);
             this.pnlRifles.Name = "pnlRifles";
             this.pnlRifles.Size = new System.Drawing.Size(1211, 3707);
             this.pnlRifles.TabIndex = 62;
+            // 
+            // radioButton4
+            // 
+            this.radioButton4.AutoSize = true;
+            this.radioButton4.Location = new System.Drawing.Point(13, 19);
+            this.radioButton4.Name = "radioButton4";
+            this.radioButton4.Size = new System.Drawing.Size(64, 17);
+            this.radioButton4.TabIndex = 3;
+            this.radioButton4.TabStop = true;
+            this.radioButton4.Text = "All Guns";
+            this.radioButton4.UseVisualStyleBackColor = true;
+            this.radioButton4.CheckedChanged += new System.EventHandler(this.radioButton4_CheckedChanged);
             // 
             // Form1
             // 
@@ -18037,6 +18052,7 @@ namespace Arkansas_Armory
         private System.Windows.Forms.PictureBox pictureBox35;
         private System.Windows.Forms.Panel panel7;
         private System.Windows.Forms.Panel pnlRifles;
+        private System.Windows.Forms.RadioButton radioButton4;
     }
 }
 
