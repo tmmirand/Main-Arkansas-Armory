@@ -2923,6 +2923,7 @@ namespace Arkansas_Armory
             this.button7.TabIndex = 5;
             this.button7.Text = "Add to Cart";
             this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // groupBox9
             // 
