@@ -133,11 +133,18 @@ namespace Arkansas_Armory
             pnlShoppingCart.Location = new Point(0, 0);
             pnlShoppingCart.BringToFront();
 
-            string sql = "SELECT FORMAT(G.Price, 'C') AS 'Price', S.SoppingCartItemID, S.CustomerID, S.GunID, FROM ShoppingCart S INNER JOIN GunInventory G ON G.GunID = S.GunID WHERE CustomerID =" + txtLoginCustomerID.Text + "";
+            string sql = "SELECT G.Price, S.SoppingCartItemID, S.CustomerID, S.GunID FROM ShoppingCart S INNER JOIN GunInventory G ON G.GunID = S.GunID WHERE CustomerID =" + txtLoginCustomerID.Text + "";
             var da = new SqlDataAdapter(sql, connectionstring);
             var ds = new DataSet();
             da.Fill(ds);
             dataGridView1.DataSource = ds.Tables[0];
+
+            int sum = 0;
+            for (int i = 0; i < dataGridView1.Rows.Count; ++i)
+            {
+                sum += Convert.ToInt32(dataGridView1.Rows[i].Cells[0].Value);
+            }
+            txttotal.Text = sum.ToString();
         }
 
         private void btnBack_Click(object sender, EventArgs e)
