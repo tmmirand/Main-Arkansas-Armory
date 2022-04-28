@@ -133,7 +133,7 @@ namespace Arkansas_Armory
             pnlShoppingCart.Location = new Point(0, 0);
             pnlShoppingCart.BringToFront();
 
-            string sql = "SELECT * FROM ShoppingCart WHERE CustomerID =" + txtLoginCustomerID.Text + "";
+            string sql = "SELECT FORMAT(G.Price, 'C') AS 'Price', S.SoppingCartItemID, S.CustomerID, S.GunID, FROM ShoppingCart S INNER JOIN GunInventory G ON G.GunID = S.GunID WHERE CustomerID =" + txtLoginCustomerID.Text + "";
             var da = new SqlDataAdapter(sql, connectionstring);
             var ds = new DataSet();
             da.Fill(ds);
@@ -599,6 +599,22 @@ namespace Arkansas_Armory
 
             }
 
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            connection = new SqlConnection(connectionstring);
+            connection.Open();
+            int answer;
+            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 4)";
+            command = new SqlCommand(sql, connection);
+            //These @Name command parameters reference the @name insert into statement above
+            command.Parameters.AddWithValue("@CustomerID", txtLoginCustomerID.Text);
+
+            answer = command.ExecuteNonQuery();
+            MessageBox.Show("Successfully added Gun to cart");
+            connection.Close();
+            command.Dispose();
         }
     }
 }

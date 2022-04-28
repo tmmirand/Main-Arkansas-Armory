@@ -993,10 +993,12 @@ namespace Arkansas_Armory
             this.button116 = new System.Windows.Forms.Button();
             this.pictureBox58 = new System.Windows.Forms.PictureBox();
             this.groupBox175 = new System.Windows.Forms.GroupBox();
+            this.radioButton4 = new System.Windows.Forms.RadioButton();
             this.radioButton3 = new System.Windows.Forms.RadioButton();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.Handguns = new System.Windows.Forms.GroupBox();
+            this.panel7 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnShoppingCart = new System.Windows.Forms.Button();
             this.btnLogin = new System.Windows.Forms.Button();
@@ -1355,31 +1357,6 @@ namespace Arkansas_Armory
             this.pictureBox19 = new System.Windows.Forms.PictureBox();
             this.gboShotguns = new System.Windows.Forms.GroupBox();
             this.panel6 = new System.Windows.Forms.Panel();
-            this.groupBox106 = new System.Windows.Forms.GroupBox();
-            this.groupBox107 = new System.Windows.Forms.GroupBox();
-            this.textBox353 = new System.Windows.Forms.TextBox();
-            this.button73 = new System.Windows.Forms.Button();
-            this.groupBox108 = new System.Windows.Forms.GroupBox();
-            this.label345 = new System.Windows.Forms.Label();
-            this.textBox354 = new System.Windows.Forms.TextBox();
-            this.label346 = new System.Windows.Forms.Label();
-            this.label347 = new System.Windows.Forms.Label();
-            this.textBox355 = new System.Windows.Forms.TextBox();
-            this.textBox356 = new System.Windows.Forms.TextBox();
-            this.label348 = new System.Windows.Forms.Label();
-            this.label349 = new System.Windows.Forms.Label();
-            this.label350 = new System.Windows.Forms.Label();
-            this.label351 = new System.Windows.Forms.Label();
-            this.textBox357 = new System.Windows.Forms.TextBox();
-            this.textBox358 = new System.Windows.Forms.TextBox();
-            this.textBox359 = new System.Windows.Forms.TextBox();
-            this.textBox360 = new System.Windows.Forms.TextBox();
-            this.textBox361 = new System.Windows.Forms.TextBox();
-            this.textBox362 = new System.Windows.Forms.TextBox();
-            this.label352 = new System.Windows.Forms.Label();
-            this.label353 = new System.Windows.Forms.Label();
-            this.button74 = new System.Windows.Forms.Button();
-            this.pictureBox37 = new System.Windows.Forms.PictureBox();
             this.groupBox103 = new System.Windows.Forms.GroupBox();
             this.groupBox104 = new System.Windows.Forms.GroupBox();
             this.textBox343 = new System.Windows.Forms.TextBox();
@@ -1405,6 +1382,31 @@ namespace Arkansas_Armory
             this.label344 = new System.Windows.Forms.Label();
             this.button72 = new System.Windows.Forms.Button();
             this.pictureBox36 = new System.Windows.Forms.PictureBox();
+            this.groupBox106 = new System.Windows.Forms.GroupBox();
+            this.groupBox107 = new System.Windows.Forms.GroupBox();
+            this.textBox353 = new System.Windows.Forms.TextBox();
+            this.button73 = new System.Windows.Forms.Button();
+            this.groupBox108 = new System.Windows.Forms.GroupBox();
+            this.label345 = new System.Windows.Forms.Label();
+            this.textBox354 = new System.Windows.Forms.TextBox();
+            this.label346 = new System.Windows.Forms.Label();
+            this.label347 = new System.Windows.Forms.Label();
+            this.textBox355 = new System.Windows.Forms.TextBox();
+            this.textBox356 = new System.Windows.Forms.TextBox();
+            this.label348 = new System.Windows.Forms.Label();
+            this.label349 = new System.Windows.Forms.Label();
+            this.label350 = new System.Windows.Forms.Label();
+            this.label351 = new System.Windows.Forms.Label();
+            this.textBox357 = new System.Windows.Forms.TextBox();
+            this.textBox358 = new System.Windows.Forms.TextBox();
+            this.textBox359 = new System.Windows.Forms.TextBox();
+            this.textBox360 = new System.Windows.Forms.TextBox();
+            this.textBox361 = new System.Windows.Forms.TextBox();
+            this.textBox362 = new System.Windows.Forms.TextBox();
+            this.label352 = new System.Windows.Forms.Label();
+            this.label353 = new System.Windows.Forms.Label();
+            this.button74 = new System.Windows.Forms.Button();
+            this.pictureBox37 = new System.Windows.Forms.PictureBox();
             this.groupBox97 = new System.Windows.Forms.GroupBox();
             this.groupBox98 = new System.Windows.Forms.GroupBox();
             this.textBox323 = new System.Windows.Forms.TextBox();
@@ -1430,56 +1432,6 @@ namespace Arkansas_Armory
             this.label326 = new System.Windows.Forms.Label();
             this.button68 = new System.Windows.Forms.Button();
             this.pictureBox34 = new System.Windows.Forms.PictureBox();
-            this.groupBox100 = new System.Windows.Forms.GroupBox();
-            this.groupBox101 = new System.Windows.Forms.GroupBox();
-            this.textBox333 = new System.Windows.Forms.TextBox();
-            this.button69 = new System.Windows.Forms.Button();
-            this.groupBox102 = new System.Windows.Forms.GroupBox();
-            this.label327 = new System.Windows.Forms.Label();
-            this.textBox334 = new System.Windows.Forms.TextBox();
-            this.label328 = new System.Windows.Forms.Label();
-            this.label329 = new System.Windows.Forms.Label();
-            this.textBox335 = new System.Windows.Forms.TextBox();
-            this.textBox336 = new System.Windows.Forms.TextBox();
-            this.label330 = new System.Windows.Forms.Label();
-            this.label331 = new System.Windows.Forms.Label();
-            this.label332 = new System.Windows.Forms.Label();
-            this.label333 = new System.Windows.Forms.Label();
-            this.textBox337 = new System.Windows.Forms.TextBox();
-            this.textBox338 = new System.Windows.Forms.TextBox();
-            this.textBox339 = new System.Windows.Forms.TextBox();
-            this.textBox340 = new System.Windows.Forms.TextBox();
-            this.textBox341 = new System.Windows.Forms.TextBox();
-            this.textBox342 = new System.Windows.Forms.TextBox();
-            this.label334 = new System.Windows.Forms.Label();
-            this.label335 = new System.Windows.Forms.Label();
-            this.button70 = new System.Windows.Forms.Button();
-            this.pictureBox35 = new System.Windows.Forms.PictureBox();
-            this.groupBox94 = new System.Windows.Forms.GroupBox();
-            this.groupBox95 = new System.Windows.Forms.GroupBox();
-            this.textBox313 = new System.Windows.Forms.TextBox();
-            this.button65 = new System.Windows.Forms.Button();
-            this.groupBox96 = new System.Windows.Forms.GroupBox();
-            this.label309 = new System.Windows.Forms.Label();
-            this.textBox314 = new System.Windows.Forms.TextBox();
-            this.label310 = new System.Windows.Forms.Label();
-            this.label311 = new System.Windows.Forms.Label();
-            this.textBox315 = new System.Windows.Forms.TextBox();
-            this.textBox316 = new System.Windows.Forms.TextBox();
-            this.label312 = new System.Windows.Forms.Label();
-            this.label313 = new System.Windows.Forms.Label();
-            this.label314 = new System.Windows.Forms.Label();
-            this.label315 = new System.Windows.Forms.Label();
-            this.textBox317 = new System.Windows.Forms.TextBox();
-            this.textBox318 = new System.Windows.Forms.TextBox();
-            this.textBox319 = new System.Windows.Forms.TextBox();
-            this.textBox320 = new System.Windows.Forms.TextBox();
-            this.textBox321 = new System.Windows.Forms.TextBox();
-            this.textBox322 = new System.Windows.Forms.TextBox();
-            this.label316 = new System.Windows.Forms.Label();
-            this.label317 = new System.Windows.Forms.Label();
-            this.button66 = new System.Windows.Forms.Button();
-            this.pictureBox33 = new System.Windows.Forms.PictureBox();
             this.groupBox91 = new System.Windows.Forms.GroupBox();
             this.groupBox92 = new System.Windows.Forms.GroupBox();
             this.textBox303 = new System.Windows.Forms.TextBox();
@@ -1505,9 +1457,57 @@ namespace Arkansas_Armory
             this.label308 = new System.Windows.Forms.Label();
             this.button64 = new System.Windows.Forms.Button();
             this.pictureBox32 = new System.Windows.Forms.PictureBox();
-            this.panel7 = new System.Windows.Forms.Panel();
+            this.groupBox94 = new System.Windows.Forms.GroupBox();
+            this.groupBox95 = new System.Windows.Forms.GroupBox();
+            this.textBox313 = new System.Windows.Forms.TextBox();
+            this.button65 = new System.Windows.Forms.Button();
+            this.groupBox96 = new System.Windows.Forms.GroupBox();
+            this.label309 = new System.Windows.Forms.Label();
+            this.textBox314 = new System.Windows.Forms.TextBox();
+            this.label310 = new System.Windows.Forms.Label();
+            this.label311 = new System.Windows.Forms.Label();
+            this.textBox315 = new System.Windows.Forms.TextBox();
+            this.textBox316 = new System.Windows.Forms.TextBox();
+            this.label312 = new System.Windows.Forms.Label();
+            this.label313 = new System.Windows.Forms.Label();
+            this.label314 = new System.Windows.Forms.Label();
+            this.label315 = new System.Windows.Forms.Label();
+            this.textBox317 = new System.Windows.Forms.TextBox();
+            this.textBox318 = new System.Windows.Forms.TextBox();
+            this.textBox319 = new System.Windows.Forms.TextBox();
+            this.textBox320 = new System.Windows.Forms.TextBox();
+            this.textBox321 = new System.Windows.Forms.TextBox();
+            this.textBox322 = new System.Windows.Forms.TextBox();
+            this.label316 = new System.Windows.Forms.Label();
+            this.label317 = new System.Windows.Forms.Label();
+            this.button66 = new System.Windows.Forms.Button();
+            this.pictureBox33 = new System.Windows.Forms.PictureBox();
+            this.groupBox100 = new System.Windows.Forms.GroupBox();
+            this.groupBox101 = new System.Windows.Forms.GroupBox();
+            this.textBox333 = new System.Windows.Forms.TextBox();
+            this.button69 = new System.Windows.Forms.Button();
+            this.groupBox102 = new System.Windows.Forms.GroupBox();
+            this.label327 = new System.Windows.Forms.Label();
+            this.textBox334 = new System.Windows.Forms.TextBox();
+            this.label328 = new System.Windows.Forms.Label();
+            this.label329 = new System.Windows.Forms.Label();
+            this.textBox335 = new System.Windows.Forms.TextBox();
+            this.textBox336 = new System.Windows.Forms.TextBox();
+            this.label330 = new System.Windows.Forms.Label();
+            this.label331 = new System.Windows.Forms.Label();
+            this.label332 = new System.Windows.Forms.Label();
+            this.label333 = new System.Windows.Forms.Label();
+            this.textBox337 = new System.Windows.Forms.TextBox();
+            this.textBox338 = new System.Windows.Forms.TextBox();
+            this.textBox339 = new System.Windows.Forms.TextBox();
+            this.textBox340 = new System.Windows.Forms.TextBox();
+            this.textBox341 = new System.Windows.Forms.TextBox();
+            this.textBox342 = new System.Windows.Forms.TextBox();
+            this.label334 = new System.Windows.Forms.Label();
+            this.label335 = new System.Windows.Forms.Label();
+            this.button70 = new System.Windows.Forms.Button();
+            this.pictureBox35 = new System.Windows.Forms.PictureBox();
             this.pnlRifles = new System.Windows.Forms.Panel();
-            this.radioButton4 = new System.Windows.Forms.RadioButton();
             this.pnlCreateAccount.SuspendLayout();
             this.panel4.SuspendLayout();
             this.pnlShoppingCart.SuspendLayout();
@@ -1725,30 +1725,30 @@ namespace Arkansas_Armory
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).BeginInit();
             this.gboShotguns.SuspendLayout();
             this.panel6.SuspendLayout();
-            this.groupBox106.SuspendLayout();
-            this.groupBox107.SuspendLayout();
-            this.groupBox108.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox37)).BeginInit();
             this.groupBox103.SuspendLayout();
             this.groupBox104.SuspendLayout();
             this.groupBox105.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox36)).BeginInit();
+            this.groupBox106.SuspendLayout();
+            this.groupBox107.SuspendLayout();
+            this.groupBox108.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox37)).BeginInit();
             this.groupBox97.SuspendLayout();
             this.groupBox98.SuspendLayout();
             this.groupBox99.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox34)).BeginInit();
-            this.groupBox100.SuspendLayout();
-            this.groupBox101.SuspendLayout();
-            this.groupBox102.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox35)).BeginInit();
-            this.groupBox94.SuspendLayout();
-            this.groupBox95.SuspendLayout();
-            this.groupBox96.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox33)).BeginInit();
             this.groupBox91.SuspendLayout();
             this.groupBox92.SuspendLayout();
             this.groupBox93.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox32)).BeginInit();
+            this.groupBox94.SuspendLayout();
+            this.groupBox95.SuspendLayout();
+            this.groupBox96.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox33)).BeginInit();
+            this.groupBox100.SuspendLayout();
+            this.groupBox101.SuspendLayout();
+            this.groupBox102.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox35)).BeginInit();
             this.pnlRifles.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -2184,7 +2184,7 @@ namespace Arkansas_Armory
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(430, 298);
+            this.pictureBox1.Location = new System.Drawing.Point(615, 295);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(223, 42);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -2193,7 +2193,7 @@ namespace Arkansas_Armory
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(461, 231);
+            this.button2.Location = new System.Drawing.Point(646, 228);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(147, 42);
             this.button2.TabIndex = 5;
@@ -2203,7 +2203,7 @@ namespace Arkansas_Armory
             // label24
             // 
             this.label24.AutoSize = true;
-            this.label24.Location = new System.Drawing.Point(446, 195);
+            this.label24.Location = new System.Drawing.Point(631, 192);
             this.label24.Name = "label24";
             this.label24.Size = new System.Drawing.Size(31, 13);
             this.label24.TabIndex = 4;
@@ -2211,7 +2211,7 @@ namespace Arkansas_Armory
             // 
             // txttotal
             // 
-            this.txttotal.Location = new System.Drawing.Point(502, 188);
+            this.txttotal.Location = new System.Drawing.Point(687, 185);
             this.txttotal.Name = "txttotal";
             this.txttotal.Size = new System.Drawing.Size(100, 20);
             this.txttotal.TabIndex = 3;
@@ -2230,7 +2230,7 @@ namespace Arkansas_Armory
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(76, 188);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(308, 142);
+            this.dataGridView1.Size = new System.Drawing.Size(509, 142);
             this.dataGridView1.TabIndex = 0;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
@@ -2680,6 +2680,7 @@ namespace Arkansas_Armory
             this.button5.TabIndex = 5;
             this.button5.Text = "Add to Cart";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // groupBox6
             // 
@@ -11097,6 +11098,18 @@ namespace Arkansas_Armory
             this.groupBox175.TabStop = false;
             this.groupBox175.Text = "Filters";
             // 
+            // radioButton4
+            // 
+            this.radioButton4.AutoSize = true;
+            this.radioButton4.Location = new System.Drawing.Point(13, 19);
+            this.radioButton4.Name = "radioButton4";
+            this.radioButton4.Size = new System.Drawing.Size(64, 17);
+            this.radioButton4.TabIndex = 3;
+            this.radioButton4.TabStop = true;
+            this.radioButton4.Text = "All Guns";
+            this.radioButton4.UseVisualStyleBackColor = true;
+            this.radioButton4.CheckedChanged += new System.EventHandler(this.radioButton4_CheckedChanged);
+            // 
             // radioButton3
             // 
             this.radioButton3.AutoSize = true;
@@ -11157,6 +11170,14 @@ namespace Arkansas_Armory
             this.Handguns.Size = new System.Drawing.Size(1211, 2656);
             this.Handguns.TabIndex = 59;
             this.Handguns.TabStop = false;
+            // 
+            // panel7
+            // 
+            this.panel7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(97)))), ((int)(((byte)(102)))));
+            this.panel7.Location = new System.Drawing.Point(0, 0);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(1211, 2656);
+            this.panel7.TabIndex = 62;
             // 
             // panel1
             // 
@@ -14684,247 +14705,6 @@ namespace Arkansas_Armory
             this.panel6.Size = new System.Drawing.Size(1211, 3757);
             this.panel6.TabIndex = 62;
             // 
-            // groupBox106
-            // 
-            this.groupBox106.BackColor = System.Drawing.Color.White;
-            this.groupBox106.Controls.Add(this.groupBox107);
-            this.groupBox106.Controls.Add(this.groupBox108);
-            this.groupBox106.Controls.Add(this.pictureBox37);
-            this.groupBox106.Location = new System.Drawing.Point(630, 3383);
-            this.groupBox106.Name = "groupBox106";
-            this.groupBox106.Size = new System.Drawing.Size(568, 351);
-            this.groupBox106.TabIndex = 43;
-            this.groupBox106.TabStop = false;
-            this.groupBox106.Text = "Shotgun";
-            // 
-            // groupBox107
-            // 
-            this.groupBox107.Controls.Add(this.textBox353);
-            this.groupBox107.Controls.Add(this.button73);
-            this.groupBox107.Location = new System.Drawing.Point(248, 293);
-            this.groupBox107.Name = "groupBox107";
-            this.groupBox107.Size = new System.Drawing.Size(299, 50);
-            this.groupBox107.TabIndex = 7;
-            this.groupBox107.TabStop = false;
-            this.groupBox107.Text = "Price";
-            // 
-            // textBox353
-            // 
-            this.textBox353.Location = new System.Drawing.Point(19, 19);
-            this.textBox353.Name = "textBox353";
-            this.textBox353.Size = new System.Drawing.Size(100, 20);
-            this.textBox353.TabIndex = 12;
-            this.textBox353.Text = "$502.99";
-            // 
-            // button73
-            // 
-            this.button73.Location = new System.Drawing.Point(203, 17);
-            this.button73.Name = "button73";
-            this.button73.Size = new System.Drawing.Size(75, 23);
-            this.button73.TabIndex = 5;
-            this.button73.Text = "Add to Cart";
-            this.button73.UseVisualStyleBackColor = true;
-            // 
-            // groupBox108
-            // 
-            this.groupBox108.Controls.Add(this.label345);
-            this.groupBox108.Controls.Add(this.textBox354);
-            this.groupBox108.Controls.Add(this.label346);
-            this.groupBox108.Controls.Add(this.label347);
-            this.groupBox108.Controls.Add(this.textBox355);
-            this.groupBox108.Controls.Add(this.textBox356);
-            this.groupBox108.Controls.Add(this.label348);
-            this.groupBox108.Controls.Add(this.label349);
-            this.groupBox108.Controls.Add(this.label350);
-            this.groupBox108.Controls.Add(this.label351);
-            this.groupBox108.Controls.Add(this.textBox357);
-            this.groupBox108.Controls.Add(this.textBox358);
-            this.groupBox108.Controls.Add(this.textBox359);
-            this.groupBox108.Controls.Add(this.textBox360);
-            this.groupBox108.Controls.Add(this.textBox361);
-            this.groupBox108.Controls.Add(this.textBox362);
-            this.groupBox108.Controls.Add(this.label352);
-            this.groupBox108.Controls.Add(this.label353);
-            this.groupBox108.Controls.Add(this.button74);
-            this.groupBox108.Location = new System.Drawing.Point(27, 28);
-            this.groupBox108.Name = "groupBox108";
-            this.groupBox108.Size = new System.Drawing.Size(200, 309);
-            this.groupBox108.TabIndex = 6;
-            this.groupBox108.TabStop = false;
-            this.groupBox108.Text = "Specifications";
-            // 
-            // label345
-            // 
-            this.label345.AutoSize = true;
-            this.label345.Location = new System.Drawing.Point(6, 241);
-            this.label345.Name = "label345";
-            this.label345.Size = new System.Drawing.Size(29, 13);
-            this.label345.TabIndex = 34;
-            this.label345.Text = "UPC";
-            // 
-            // textBox354
-            // 
-            this.textBox354.Location = new System.Drawing.Point(83, 238);
-            this.textBox354.Name = "textBox354";
-            this.textBox354.Size = new System.Drawing.Size(100, 20);
-            this.textBox354.TabIndex = 33;
-            this.textBox354.Text = "850023353054";
-            // 
-            // label346
-            // 
-            this.label346.AutoSize = true;
-            this.label346.Location = new System.Drawing.Point(6, 215);
-            this.label346.Name = "label346";
-            this.label346.Size = new System.Drawing.Size(37, 13);
-            this.label346.TabIndex = 32;
-            this.label346.Text = "Finish ";
-            // 
-            // label347
-            // 
-            this.label347.AutoSize = true;
-            this.label347.Location = new System.Drawing.Point(6, 189);
-            this.label347.Name = "label347";
-            this.label347.Size = new System.Drawing.Size(41, 13);
-            this.label347.TabIndex = 31;
-            this.label347.Text = "Weight";
-            // 
-            // textBox355
-            // 
-            this.textBox355.Location = new System.Drawing.Point(83, 212);
-            this.textBox355.Name = "textBox355";
-            this.textBox355.Size = new System.Drawing.Size(100, 20);
-            this.textBox355.TabIndex = 30;
-            this.textBox355.Text = "Black";
-            // 
-            // textBox356
-            // 
-            this.textBox356.Location = new System.Drawing.Point(83, 186);
-            this.textBox356.Name = "textBox356";
-            this.textBox356.Size = new System.Drawing.Size(100, 20);
-            this.textBox356.TabIndex = 29;
-            this.textBox356.Text = "8.1 lbs";
-            // 
-            // label348
-            // 
-            this.label348.AutoSize = true;
-            this.label348.Location = new System.Drawing.Point(6, 163);
-            this.label348.Name = "label348";
-            this.label348.Size = new System.Drawing.Size(73, 13);
-            this.label348.TabIndex = 28;
-            this.label348.Text = "Barrel Length ";
-            // 
-            // label349
-            // 
-            this.label349.AutoSize = true;
-            this.label349.Location = new System.Drawing.Point(6, 137);
-            this.label349.Name = "label349";
-            this.label349.Size = new System.Drawing.Size(48, 13);
-            this.label349.TabIndex = 27;
-            this.label349.Text = "Capacity";
-            // 
-            // label350
-            // 
-            this.label350.AutoSize = true;
-            this.label350.Location = new System.Drawing.Point(6, 85);
-            this.label350.Name = "label350";
-            this.label350.Size = new System.Drawing.Size(37, 13);
-            this.label350.TabIndex = 26;
-            this.label350.Text = "Action";
-            // 
-            // label351
-            // 
-            this.label351.AutoSize = true;
-            this.label351.Location = new System.Drawing.Point(6, 111);
-            this.label351.Name = "label351";
-            this.label351.Size = new System.Drawing.Size(66, 13);
-            this.label351.TabIndex = 25;
-            this.label351.Text = "Round Type";
-            // 
-            // textBox357
-            // 
-            this.textBox357.Location = new System.Drawing.Point(83, 160);
-            this.textBox357.Name = "textBox357";
-            this.textBox357.Size = new System.Drawing.Size(100, 20);
-            this.textBox357.TabIndex = 11;
-            this.textBox357.Text = "18.5\" Barrel";
-            // 
-            // textBox358
-            // 
-            this.textBox358.Location = new System.Drawing.Point(83, 134);
-            this.textBox358.Name = "textBox358";
-            this.textBox358.Size = new System.Drawing.Size(100, 20);
-            this.textBox358.TabIndex = 10;
-            this.textBox358.Text = "5+1 Rounds";
-            // 
-            // textBox359
-            // 
-            this.textBox359.Location = new System.Drawing.Point(84, 108);
-            this.textBox359.Name = "textBox359";
-            this.textBox359.Size = new System.Drawing.Size(100, 20);
-            this.textBox359.TabIndex = 9;
-            this.textBox359.Text = "12 GA";
-            // 
-            // textBox360
-            // 
-            this.textBox360.Location = new System.Drawing.Point(83, 82);
-            this.textBox360.Name = "textBox360";
-            this.textBox360.Size = new System.Drawing.Size(100, 20);
-            this.textBox360.TabIndex = 8;
-            this.textBox360.Text = "Semi Auto";
-            // 
-            // textBox361
-            // 
-            this.textBox361.Location = new System.Drawing.Point(84, 56);
-            this.textBox361.Name = "textBox361";
-            this.textBox361.Size = new System.Drawing.Size(100, 20);
-            this.textBox361.TabIndex = 7;
-            this.textBox361.Text = "BPX 902";
-            // 
-            // textBox362
-            // 
-            this.textBox362.Location = new System.Drawing.Point(83, 29);
-            this.textBox362.Name = "textBox362";
-            this.textBox362.Size = new System.Drawing.Size(100, 20);
-            this.textBox362.TabIndex = 6;
-            this.textBox362.Text = "Landor Arms";
-            // 
-            // label352
-            // 
-            this.label352.AutoSize = true;
-            this.label352.Location = new System.Drawing.Point(6, 29);
-            this.label352.Name = "label352";
-            this.label352.Size = new System.Drawing.Size(70, 13);
-            this.label352.TabIndex = 1;
-            this.label352.Text = "Manufacturer";
-            // 
-            // label353
-            // 
-            this.label353.AutoSize = true;
-            this.label353.Location = new System.Drawing.Point(6, 56);
-            this.label353.Name = "label353";
-            this.label353.Size = new System.Drawing.Size(36, 13);
-            this.label353.TabIndex = 2;
-            this.label353.Text = "Model";
-            // 
-            // button74
-            // 
-            this.button74.Location = new System.Drawing.Point(83, 265);
-            this.button74.Name = "button74";
-            this.button74.Size = new System.Drawing.Size(100, 23);
-            this.button74.TabIndex = 4;
-            this.button74.Text = "Full Description";
-            this.button74.UseVisualStyleBackColor = true;
-            // 
-            // pictureBox37
-            // 
-            this.pictureBox37.Image = global::Arkansas_Armory.Properties.Resources.Picture40;
-            this.pictureBox37.Location = new System.Drawing.Point(246, 110);
-            this.pictureBox37.Name = "pictureBox37";
-            this.pictureBox37.Size = new System.Drawing.Size(299, 111);
-            this.pictureBox37.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox37.TabIndex = 0;
-            this.pictureBox37.TabStop = false;
-            // 
             // groupBox103
             // 
             this.groupBox103.BackColor = System.Drawing.Color.White;
@@ -15165,6 +14945,247 @@ namespace Arkansas_Armory
             this.pictureBox36.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.pictureBox36.TabIndex = 0;
             this.pictureBox36.TabStop = false;
+            // 
+            // groupBox106
+            // 
+            this.groupBox106.BackColor = System.Drawing.Color.White;
+            this.groupBox106.Controls.Add(this.groupBox107);
+            this.groupBox106.Controls.Add(this.groupBox108);
+            this.groupBox106.Controls.Add(this.pictureBox37);
+            this.groupBox106.Location = new System.Drawing.Point(630, 3383);
+            this.groupBox106.Name = "groupBox106";
+            this.groupBox106.Size = new System.Drawing.Size(568, 351);
+            this.groupBox106.TabIndex = 43;
+            this.groupBox106.TabStop = false;
+            this.groupBox106.Text = "Shotgun";
+            // 
+            // groupBox107
+            // 
+            this.groupBox107.Controls.Add(this.textBox353);
+            this.groupBox107.Controls.Add(this.button73);
+            this.groupBox107.Location = new System.Drawing.Point(248, 293);
+            this.groupBox107.Name = "groupBox107";
+            this.groupBox107.Size = new System.Drawing.Size(299, 50);
+            this.groupBox107.TabIndex = 7;
+            this.groupBox107.TabStop = false;
+            this.groupBox107.Text = "Price";
+            // 
+            // textBox353
+            // 
+            this.textBox353.Location = new System.Drawing.Point(19, 19);
+            this.textBox353.Name = "textBox353";
+            this.textBox353.Size = new System.Drawing.Size(100, 20);
+            this.textBox353.TabIndex = 12;
+            this.textBox353.Text = "$502.99";
+            // 
+            // button73
+            // 
+            this.button73.Location = new System.Drawing.Point(203, 17);
+            this.button73.Name = "button73";
+            this.button73.Size = new System.Drawing.Size(75, 23);
+            this.button73.TabIndex = 5;
+            this.button73.Text = "Add to Cart";
+            this.button73.UseVisualStyleBackColor = true;
+            // 
+            // groupBox108
+            // 
+            this.groupBox108.Controls.Add(this.label345);
+            this.groupBox108.Controls.Add(this.textBox354);
+            this.groupBox108.Controls.Add(this.label346);
+            this.groupBox108.Controls.Add(this.label347);
+            this.groupBox108.Controls.Add(this.textBox355);
+            this.groupBox108.Controls.Add(this.textBox356);
+            this.groupBox108.Controls.Add(this.label348);
+            this.groupBox108.Controls.Add(this.label349);
+            this.groupBox108.Controls.Add(this.label350);
+            this.groupBox108.Controls.Add(this.label351);
+            this.groupBox108.Controls.Add(this.textBox357);
+            this.groupBox108.Controls.Add(this.textBox358);
+            this.groupBox108.Controls.Add(this.textBox359);
+            this.groupBox108.Controls.Add(this.textBox360);
+            this.groupBox108.Controls.Add(this.textBox361);
+            this.groupBox108.Controls.Add(this.textBox362);
+            this.groupBox108.Controls.Add(this.label352);
+            this.groupBox108.Controls.Add(this.label353);
+            this.groupBox108.Controls.Add(this.button74);
+            this.groupBox108.Location = new System.Drawing.Point(27, 28);
+            this.groupBox108.Name = "groupBox108";
+            this.groupBox108.Size = new System.Drawing.Size(200, 309);
+            this.groupBox108.TabIndex = 6;
+            this.groupBox108.TabStop = false;
+            this.groupBox108.Text = "Specifications";
+            // 
+            // label345
+            // 
+            this.label345.AutoSize = true;
+            this.label345.Location = new System.Drawing.Point(6, 241);
+            this.label345.Name = "label345";
+            this.label345.Size = new System.Drawing.Size(29, 13);
+            this.label345.TabIndex = 34;
+            this.label345.Text = "UPC";
+            // 
+            // textBox354
+            // 
+            this.textBox354.Location = new System.Drawing.Point(83, 238);
+            this.textBox354.Name = "textBox354";
+            this.textBox354.Size = new System.Drawing.Size(100, 20);
+            this.textBox354.TabIndex = 33;
+            this.textBox354.Text = "850023353054";
+            // 
+            // label346
+            // 
+            this.label346.AutoSize = true;
+            this.label346.Location = new System.Drawing.Point(6, 215);
+            this.label346.Name = "label346";
+            this.label346.Size = new System.Drawing.Size(37, 13);
+            this.label346.TabIndex = 32;
+            this.label346.Text = "Finish ";
+            // 
+            // label347
+            // 
+            this.label347.AutoSize = true;
+            this.label347.Location = new System.Drawing.Point(6, 189);
+            this.label347.Name = "label347";
+            this.label347.Size = new System.Drawing.Size(41, 13);
+            this.label347.TabIndex = 31;
+            this.label347.Text = "Weight";
+            // 
+            // textBox355
+            // 
+            this.textBox355.Location = new System.Drawing.Point(83, 212);
+            this.textBox355.Name = "textBox355";
+            this.textBox355.Size = new System.Drawing.Size(100, 20);
+            this.textBox355.TabIndex = 30;
+            this.textBox355.Text = "Black";
+            // 
+            // textBox356
+            // 
+            this.textBox356.Location = new System.Drawing.Point(83, 186);
+            this.textBox356.Name = "textBox356";
+            this.textBox356.Size = new System.Drawing.Size(100, 20);
+            this.textBox356.TabIndex = 29;
+            this.textBox356.Text = "8.1 lbs";
+            // 
+            // label348
+            // 
+            this.label348.AutoSize = true;
+            this.label348.Location = new System.Drawing.Point(6, 163);
+            this.label348.Name = "label348";
+            this.label348.Size = new System.Drawing.Size(73, 13);
+            this.label348.TabIndex = 28;
+            this.label348.Text = "Barrel Length ";
+            // 
+            // label349
+            // 
+            this.label349.AutoSize = true;
+            this.label349.Location = new System.Drawing.Point(6, 137);
+            this.label349.Name = "label349";
+            this.label349.Size = new System.Drawing.Size(48, 13);
+            this.label349.TabIndex = 27;
+            this.label349.Text = "Capacity";
+            // 
+            // label350
+            // 
+            this.label350.AutoSize = true;
+            this.label350.Location = new System.Drawing.Point(6, 85);
+            this.label350.Name = "label350";
+            this.label350.Size = new System.Drawing.Size(37, 13);
+            this.label350.TabIndex = 26;
+            this.label350.Text = "Action";
+            // 
+            // label351
+            // 
+            this.label351.AutoSize = true;
+            this.label351.Location = new System.Drawing.Point(6, 111);
+            this.label351.Name = "label351";
+            this.label351.Size = new System.Drawing.Size(66, 13);
+            this.label351.TabIndex = 25;
+            this.label351.Text = "Round Type";
+            // 
+            // textBox357
+            // 
+            this.textBox357.Location = new System.Drawing.Point(83, 160);
+            this.textBox357.Name = "textBox357";
+            this.textBox357.Size = new System.Drawing.Size(100, 20);
+            this.textBox357.TabIndex = 11;
+            this.textBox357.Text = "18.5\" Barrel";
+            // 
+            // textBox358
+            // 
+            this.textBox358.Location = new System.Drawing.Point(83, 134);
+            this.textBox358.Name = "textBox358";
+            this.textBox358.Size = new System.Drawing.Size(100, 20);
+            this.textBox358.TabIndex = 10;
+            this.textBox358.Text = "5+1 Rounds";
+            // 
+            // textBox359
+            // 
+            this.textBox359.Location = new System.Drawing.Point(84, 108);
+            this.textBox359.Name = "textBox359";
+            this.textBox359.Size = new System.Drawing.Size(100, 20);
+            this.textBox359.TabIndex = 9;
+            this.textBox359.Text = "12 GA";
+            // 
+            // textBox360
+            // 
+            this.textBox360.Location = new System.Drawing.Point(83, 82);
+            this.textBox360.Name = "textBox360";
+            this.textBox360.Size = new System.Drawing.Size(100, 20);
+            this.textBox360.TabIndex = 8;
+            this.textBox360.Text = "Semi Auto";
+            // 
+            // textBox361
+            // 
+            this.textBox361.Location = new System.Drawing.Point(84, 56);
+            this.textBox361.Name = "textBox361";
+            this.textBox361.Size = new System.Drawing.Size(100, 20);
+            this.textBox361.TabIndex = 7;
+            this.textBox361.Text = "BPX 902";
+            // 
+            // textBox362
+            // 
+            this.textBox362.Location = new System.Drawing.Point(83, 29);
+            this.textBox362.Name = "textBox362";
+            this.textBox362.Size = new System.Drawing.Size(100, 20);
+            this.textBox362.TabIndex = 6;
+            this.textBox362.Text = "Landor Arms";
+            // 
+            // label352
+            // 
+            this.label352.AutoSize = true;
+            this.label352.Location = new System.Drawing.Point(6, 29);
+            this.label352.Name = "label352";
+            this.label352.Size = new System.Drawing.Size(70, 13);
+            this.label352.TabIndex = 1;
+            this.label352.Text = "Manufacturer";
+            // 
+            // label353
+            // 
+            this.label353.AutoSize = true;
+            this.label353.Location = new System.Drawing.Point(6, 56);
+            this.label353.Name = "label353";
+            this.label353.Size = new System.Drawing.Size(36, 13);
+            this.label353.TabIndex = 2;
+            this.label353.Text = "Model";
+            // 
+            // button74
+            // 
+            this.button74.Location = new System.Drawing.Point(83, 265);
+            this.button74.Name = "button74";
+            this.button74.Size = new System.Drawing.Size(100, 23);
+            this.button74.TabIndex = 4;
+            this.button74.Text = "Full Description";
+            this.button74.UseVisualStyleBackColor = true;
+            // 
+            // pictureBox37
+            // 
+            this.pictureBox37.Image = global::Arkansas_Armory.Properties.Resources.Picture40;
+            this.pictureBox37.Location = new System.Drawing.Point(246, 110);
+            this.pictureBox37.Name = "pictureBox37";
+            this.pictureBox37.Size = new System.Drawing.Size(299, 111);
+            this.pictureBox37.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox37.TabIndex = 0;
+            this.pictureBox37.TabStop = false;
             // 
             // groupBox97
             // 
@@ -15407,246 +15428,246 @@ namespace Arkansas_Armory
             this.pictureBox34.TabIndex = 0;
             this.pictureBox34.TabStop = false;
             // 
-            // groupBox100
+            // groupBox91
             // 
-            this.groupBox100.BackColor = System.Drawing.Color.White;
-            this.groupBox100.Controls.Add(this.groupBox101);
-            this.groupBox100.Controls.Add(this.groupBox102);
-            this.groupBox100.Controls.Add(this.pictureBox35);
-            this.groupBox100.Location = new System.Drawing.Point(630, 3011);
-            this.groupBox100.Name = "groupBox100";
-            this.groupBox100.Size = new System.Drawing.Size(568, 351);
-            this.groupBox100.TabIndex = 41;
-            this.groupBox100.TabStop = false;
-            this.groupBox100.Text = "Shotgun";
+            this.groupBox91.BackColor = System.Drawing.Color.White;
+            this.groupBox91.Controls.Add(this.groupBox92);
+            this.groupBox91.Controls.Add(this.groupBox93);
+            this.groupBox91.Controls.Add(this.pictureBox32);
+            this.groupBox91.Location = new System.Drawing.Point(15, 2644);
+            this.groupBox91.Name = "groupBox91";
+            this.groupBox91.Size = new System.Drawing.Size(568, 351);
+            this.groupBox91.TabIndex = 38;
+            this.groupBox91.TabStop = false;
+            this.groupBox91.Text = "Shotgun";
             // 
-            // groupBox101
+            // groupBox92
             // 
-            this.groupBox101.Controls.Add(this.textBox333);
-            this.groupBox101.Controls.Add(this.button69);
-            this.groupBox101.Location = new System.Drawing.Point(248, 293);
-            this.groupBox101.Name = "groupBox101";
-            this.groupBox101.Size = new System.Drawing.Size(299, 50);
-            this.groupBox101.TabIndex = 7;
-            this.groupBox101.TabStop = false;
-            this.groupBox101.Text = "Price";
+            this.groupBox92.Controls.Add(this.textBox303);
+            this.groupBox92.Controls.Add(this.button63);
+            this.groupBox92.Location = new System.Drawing.Point(248, 293);
+            this.groupBox92.Name = "groupBox92";
+            this.groupBox92.Size = new System.Drawing.Size(299, 50);
+            this.groupBox92.TabIndex = 7;
+            this.groupBox92.TabStop = false;
+            this.groupBox92.Text = "Price";
             // 
-            // textBox333
+            // textBox303
             // 
-            this.textBox333.Location = new System.Drawing.Point(19, 19);
-            this.textBox333.Name = "textBox333";
-            this.textBox333.Size = new System.Drawing.Size(100, 20);
-            this.textBox333.TabIndex = 12;
-            this.textBox333.Text = "$467.99";
+            this.textBox303.Location = new System.Drawing.Point(19, 19);
+            this.textBox303.Name = "textBox303";
+            this.textBox303.Size = new System.Drawing.Size(100, 20);
+            this.textBox303.TabIndex = 12;
+            this.textBox303.Text = "$472.99";
             // 
-            // button69
+            // button63
             // 
-            this.button69.Location = new System.Drawing.Point(203, 17);
-            this.button69.Name = "button69";
-            this.button69.Size = new System.Drawing.Size(75, 23);
-            this.button69.TabIndex = 5;
-            this.button69.Text = "Add to Cart";
-            this.button69.UseVisualStyleBackColor = true;
+            this.button63.Location = new System.Drawing.Point(203, 17);
+            this.button63.Name = "button63";
+            this.button63.Size = new System.Drawing.Size(75, 23);
+            this.button63.TabIndex = 5;
+            this.button63.Text = "Add to Cart";
+            this.button63.UseVisualStyleBackColor = true;
             // 
-            // groupBox102
+            // groupBox93
             // 
-            this.groupBox102.Controls.Add(this.label327);
-            this.groupBox102.Controls.Add(this.textBox334);
-            this.groupBox102.Controls.Add(this.label328);
-            this.groupBox102.Controls.Add(this.label329);
-            this.groupBox102.Controls.Add(this.textBox335);
-            this.groupBox102.Controls.Add(this.textBox336);
-            this.groupBox102.Controls.Add(this.label330);
-            this.groupBox102.Controls.Add(this.label331);
-            this.groupBox102.Controls.Add(this.label332);
-            this.groupBox102.Controls.Add(this.label333);
-            this.groupBox102.Controls.Add(this.textBox337);
-            this.groupBox102.Controls.Add(this.textBox338);
-            this.groupBox102.Controls.Add(this.textBox339);
-            this.groupBox102.Controls.Add(this.textBox340);
-            this.groupBox102.Controls.Add(this.textBox341);
-            this.groupBox102.Controls.Add(this.textBox342);
-            this.groupBox102.Controls.Add(this.label334);
-            this.groupBox102.Controls.Add(this.label335);
-            this.groupBox102.Controls.Add(this.button70);
-            this.groupBox102.Location = new System.Drawing.Point(27, 28);
-            this.groupBox102.Name = "groupBox102";
-            this.groupBox102.Size = new System.Drawing.Size(200, 309);
-            this.groupBox102.TabIndex = 6;
-            this.groupBox102.TabStop = false;
-            this.groupBox102.Text = "Specifications";
+            this.groupBox93.Controls.Add(this.label300);
+            this.groupBox93.Controls.Add(this.textBox304);
+            this.groupBox93.Controls.Add(this.label301);
+            this.groupBox93.Controls.Add(this.label302);
+            this.groupBox93.Controls.Add(this.textBox305);
+            this.groupBox93.Controls.Add(this.textBox306);
+            this.groupBox93.Controls.Add(this.label303);
+            this.groupBox93.Controls.Add(this.label304);
+            this.groupBox93.Controls.Add(this.label305);
+            this.groupBox93.Controls.Add(this.label306);
+            this.groupBox93.Controls.Add(this.textBox307);
+            this.groupBox93.Controls.Add(this.textBox308);
+            this.groupBox93.Controls.Add(this.textBox309);
+            this.groupBox93.Controls.Add(this.textBox310);
+            this.groupBox93.Controls.Add(this.textBox311);
+            this.groupBox93.Controls.Add(this.textBox312);
+            this.groupBox93.Controls.Add(this.label307);
+            this.groupBox93.Controls.Add(this.label308);
+            this.groupBox93.Controls.Add(this.button64);
+            this.groupBox93.Location = new System.Drawing.Point(27, 28);
+            this.groupBox93.Name = "groupBox93";
+            this.groupBox93.Size = new System.Drawing.Size(200, 309);
+            this.groupBox93.TabIndex = 6;
+            this.groupBox93.TabStop = false;
+            this.groupBox93.Text = "Specifications";
             // 
-            // label327
+            // label300
             // 
-            this.label327.AutoSize = true;
-            this.label327.Location = new System.Drawing.Point(6, 241);
-            this.label327.Name = "label327";
-            this.label327.Size = new System.Drawing.Size(29, 13);
-            this.label327.TabIndex = 34;
-            this.label327.Text = "UPC";
+            this.label300.AutoSize = true;
+            this.label300.Location = new System.Drawing.Point(6, 241);
+            this.label300.Name = "label300";
+            this.label300.Size = new System.Drawing.Size(29, 13);
+            this.label300.TabIndex = 34;
+            this.label300.Text = "UPC";
             // 
-            // textBox334
+            // textBox304
             // 
-            this.textBox334.Location = new System.Drawing.Point(83, 238);
-            this.textBox334.Name = "textBox334";
-            this.textBox334.Size = new System.Drawing.Size(100, 20);
-            this.textBox334.TabIndex = 33;
-            this.textBox334.Text = "713135218805";
+            this.textBox304.Location = new System.Drawing.Point(83, 238);
+            this.textBox304.Name = "textBox304";
+            this.textBox304.Size = new System.Drawing.Size(100, 20);
+            this.textBox304.TabIndex = 33;
+            this.textBox304.Text = "037084314471";
             // 
-            // label328
+            // label301
             // 
-            this.label328.AutoSize = true;
-            this.label328.Location = new System.Drawing.Point(6, 215);
-            this.label328.Name = "label328";
-            this.label328.Size = new System.Drawing.Size(37, 13);
-            this.label328.TabIndex = 32;
-            this.label328.Text = "Finish ";
+            this.label301.AutoSize = true;
+            this.label301.Location = new System.Drawing.Point(6, 215);
+            this.label301.Name = "label301";
+            this.label301.Size = new System.Drawing.Size(37, 13);
+            this.label301.TabIndex = 32;
+            this.label301.Text = "Finish ";
             // 
-            // label329
+            // label302
             // 
-            this.label329.AutoSize = true;
-            this.label329.Location = new System.Drawing.Point(6, 189);
-            this.label329.Name = "label329";
-            this.label329.Size = new System.Drawing.Size(41, 13);
-            this.label329.TabIndex = 31;
-            this.label329.Text = "Weight";
+            this.label302.AutoSize = true;
+            this.label302.Location = new System.Drawing.Point(6, 189);
+            this.label302.Name = "label302";
+            this.label302.Size = new System.Drawing.Size(41, 13);
+            this.label302.TabIndex = 31;
+            this.label302.Text = "Weight";
             // 
-            // textBox335
+            // textBox305
             // 
-            this.textBox335.Location = new System.Drawing.Point(83, 212);
-            this.textBox335.Name = "textBox335";
-            this.textBox335.Size = new System.Drawing.Size(100, 20);
-            this.textBox335.TabIndex = 30;
-            this.textBox335.Text = "N/A";
+            this.textBox305.Location = new System.Drawing.Point(83, 212);
+            this.textBox305.Name = "textBox305";
+            this.textBox305.Size = new System.Drawing.Size(100, 20);
+            this.textBox305.TabIndex = 30;
+            this.textBox305.Text = "Black";
             // 
-            // textBox336
+            // textBox306
             // 
-            this.textBox336.Location = new System.Drawing.Point(83, 186);
-            this.textBox336.Name = "textBox336";
-            this.textBox336.Size = new System.Drawing.Size(100, 20);
-            this.textBox336.TabIndex = 29;
-            this.textBox336.Text = "N/A";
+            this.textBox306.Location = new System.Drawing.Point(83, 186);
+            this.textBox306.Name = "textBox306";
+            this.textBox306.Size = new System.Drawing.Size(100, 20);
+            this.textBox306.TabIndex = 29;
+            this.textBox306.Text = "6.5 lbs";
             // 
-            // label330
+            // label303
             // 
-            this.label330.AutoSize = true;
-            this.label330.Location = new System.Drawing.Point(6, 163);
-            this.label330.Name = "label330";
-            this.label330.Size = new System.Drawing.Size(73, 13);
-            this.label330.TabIndex = 28;
-            this.label330.Text = "Barrel Length ";
+            this.label303.AutoSize = true;
+            this.label303.Location = new System.Drawing.Point(6, 163);
+            this.label303.Name = "label303";
+            this.label303.Size = new System.Drawing.Size(73, 13);
+            this.label303.TabIndex = 28;
+            this.label303.Text = "Barrel Length ";
             // 
-            // label331
+            // label304
             // 
-            this.label331.AutoSize = true;
-            this.label331.Location = new System.Drawing.Point(6, 137);
-            this.label331.Name = "label331";
-            this.label331.Size = new System.Drawing.Size(48, 13);
-            this.label331.TabIndex = 27;
-            this.label331.Text = "Capacity";
+            this.label304.AutoSize = true;
+            this.label304.Location = new System.Drawing.Point(6, 137);
+            this.label304.Name = "label304";
+            this.label304.Size = new System.Drawing.Size(48, 13);
+            this.label304.TabIndex = 27;
+            this.label304.Text = "Capacity";
             // 
-            // label332
+            // label305
             // 
-            this.label332.AutoSize = true;
-            this.label332.Location = new System.Drawing.Point(6, 85);
-            this.label332.Name = "label332";
-            this.label332.Size = new System.Drawing.Size(37, 13);
-            this.label332.TabIndex = 26;
-            this.label332.Text = "Action";
+            this.label305.AutoSize = true;
+            this.label305.Location = new System.Drawing.Point(6, 85);
+            this.label305.Name = "label305";
+            this.label305.Size = new System.Drawing.Size(37, 13);
+            this.label305.TabIndex = 26;
+            this.label305.Text = "Action";
             // 
-            // label333
+            // label306
             // 
-            this.label333.AutoSize = true;
-            this.label333.Location = new System.Drawing.Point(6, 111);
-            this.label333.Name = "label333";
-            this.label333.Size = new System.Drawing.Size(66, 13);
-            this.label333.TabIndex = 25;
-            this.label333.Text = "Round Type";
+            this.label306.AutoSize = true;
+            this.label306.Location = new System.Drawing.Point(6, 111);
+            this.label306.Name = "label306";
+            this.label306.Size = new System.Drawing.Size(66, 13);
+            this.label306.TabIndex = 25;
+            this.label306.Text = "Round Type";
             // 
-            // textBox337
+            // textBox307
             // 
-            this.textBox337.Location = new System.Drawing.Point(83, 160);
-            this.textBox337.Name = "textBox337";
-            this.textBox337.Size = new System.Drawing.Size(100, 20);
-            this.textBox337.TabIndex = 11;
-            this.textBox337.Text = "19\" Barrel";
+            this.textBox307.Location = new System.Drawing.Point(83, 160);
+            this.textBox307.Name = "textBox307";
+            this.textBox307.Size = new System.Drawing.Size(100, 20);
+            this.textBox307.TabIndex = 11;
+            this.textBox307.Text = "20\" Barrel";
             // 
-            // textBox338
+            // textBox308
             // 
-            this.textBox338.Location = new System.Drawing.Point(83, 134);
-            this.textBox338.Name = "textBox338";
-            this.textBox338.Size = new System.Drawing.Size(100, 20);
-            this.textBox338.TabIndex = 10;
-            this.textBox338.Text = "5+1 Rounds";
+            this.textBox308.Location = new System.Drawing.Point(83, 134);
+            this.textBox308.Name = "textBox308";
+            this.textBox308.Size = new System.Drawing.Size(100, 20);
+            this.textBox308.TabIndex = 10;
+            this.textBox308.Text = "2 Rounds";
             // 
-            // textBox339
+            // textBox309
             // 
-            this.textBox339.Location = new System.Drawing.Point(84, 108);
-            this.textBox339.Name = "textBox339";
-            this.textBox339.Size = new System.Drawing.Size(100, 20);
-            this.textBox339.TabIndex = 9;
-            this.textBox339.Text = "12 GA";
+            this.textBox309.Location = new System.Drawing.Point(84, 108);
+            this.textBox309.Name = "textBox309";
+            this.textBox309.Size = new System.Drawing.Size(100, 20);
+            this.textBox309.TabIndex = 9;
+            this.textBox309.Text = "20 GA";
             // 
-            // textBox340
+            // textBox310
             // 
-            this.textBox340.Location = new System.Drawing.Point(83, 82);
-            this.textBox340.Name = "textBox340";
-            this.textBox340.Size = new System.Drawing.Size(100, 20);
-            this.textBox340.TabIndex = 8;
-            this.textBox340.Text = "Semi Auto";
+            this.textBox310.Location = new System.Drawing.Point(83, 82);
+            this.textBox310.Name = "textBox310";
+            this.textBox310.Size = new System.Drawing.Size(100, 20);
+            this.textBox310.TabIndex = 8;
+            this.textBox310.Text = "Side By Side";
             // 
-            // textBox341
+            // textBox311
             // 
-            this.textBox341.Location = new System.Drawing.Point(84, 56);
-            this.textBox341.Name = "textBox341";
-            this.textBox341.Size = new System.Drawing.Size(100, 20);
-            this.textBox341.TabIndex = 7;
-            this.textBox341.Text = "Radikal NK-1";
+            this.textBox311.Location = new System.Drawing.Point(84, 56);
+            this.textBox311.Name = "textBox311";
+            this.textBox311.Size = new System.Drawing.Size(100, 20);
+            this.textBox311.TabIndex = 7;
+            this.textBox311.Text = "Double Defense";
             // 
-            // textBox342
+            // textBox312
             // 
-            this.textBox342.Location = new System.Drawing.Point(83, 29);
-            this.textBox342.Name = "textBox342";
-            this.textBox342.Size = new System.Drawing.Size(100, 20);
-            this.textBox342.TabIndex = 6;
-            this.textBox342.Text = "SDS Imports";
+            this.textBox312.Location = new System.Drawing.Point(83, 29);
+            this.textBox312.Name = "textBox312";
+            this.textBox312.Size = new System.Drawing.Size(100, 20);
+            this.textBox312.TabIndex = 6;
+            this.textBox312.Text = "Stoeger";
             // 
-            // label334
+            // label307
             // 
-            this.label334.AutoSize = true;
-            this.label334.Location = new System.Drawing.Point(6, 29);
-            this.label334.Name = "label334";
-            this.label334.Size = new System.Drawing.Size(70, 13);
-            this.label334.TabIndex = 1;
-            this.label334.Text = "Manufacturer";
+            this.label307.AutoSize = true;
+            this.label307.Location = new System.Drawing.Point(6, 29);
+            this.label307.Name = "label307";
+            this.label307.Size = new System.Drawing.Size(70, 13);
+            this.label307.TabIndex = 1;
+            this.label307.Text = "Manufacturer";
             // 
-            // label335
+            // label308
             // 
-            this.label335.AutoSize = true;
-            this.label335.Location = new System.Drawing.Point(6, 56);
-            this.label335.Name = "label335";
-            this.label335.Size = new System.Drawing.Size(36, 13);
-            this.label335.TabIndex = 2;
-            this.label335.Text = "Model";
+            this.label308.AutoSize = true;
+            this.label308.Location = new System.Drawing.Point(6, 56);
+            this.label308.Name = "label308";
+            this.label308.Size = new System.Drawing.Size(36, 13);
+            this.label308.TabIndex = 2;
+            this.label308.Text = "Model";
             // 
-            // button70
+            // button64
             // 
-            this.button70.Location = new System.Drawing.Point(83, 265);
-            this.button70.Name = "button70";
-            this.button70.Size = new System.Drawing.Size(100, 23);
-            this.button70.TabIndex = 4;
-            this.button70.Text = "Full Description";
-            this.button70.UseVisualStyleBackColor = true;
+            this.button64.Location = new System.Drawing.Point(83, 265);
+            this.button64.Name = "button64";
+            this.button64.Size = new System.Drawing.Size(100, 23);
+            this.button64.TabIndex = 4;
+            this.button64.Text = "Full Description";
+            this.button64.UseVisualStyleBackColor = true;
             // 
-            // pictureBox35
+            // pictureBox32
             // 
-            this.pictureBox35.Image = global::Arkansas_Armory.Properties.Resources.Picture38;
-            this.pictureBox35.Location = new System.Drawing.Point(248, 28);
-            this.pictureBox35.Name = "pictureBox35";
-            this.pictureBox35.Size = new System.Drawing.Size(299, 253);
-            this.pictureBox35.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox35.TabIndex = 0;
-            this.pictureBox35.TabStop = false;
+            this.pictureBox32.Image = global::Arkansas_Armory.Properties.Resources.Picture35;
+            this.pictureBox32.Location = new System.Drawing.Point(242, 113);
+            this.pictureBox32.Name = "pictureBox32";
+            this.pictureBox32.Size = new System.Drawing.Size(299, 76);
+            this.pictureBox32.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox32.TabIndex = 0;
+            this.pictureBox32.TabStop = false;
             // 
             // groupBox94
             // 
@@ -15889,254 +15910,246 @@ namespace Arkansas_Armory
             this.pictureBox33.TabIndex = 0;
             this.pictureBox33.TabStop = false;
             // 
-            // groupBox91
+            // groupBox100
             // 
-            this.groupBox91.BackColor = System.Drawing.Color.White;
-            this.groupBox91.Controls.Add(this.groupBox92);
-            this.groupBox91.Controls.Add(this.groupBox93);
-            this.groupBox91.Controls.Add(this.pictureBox32);
-            this.groupBox91.Location = new System.Drawing.Point(15, 2644);
-            this.groupBox91.Name = "groupBox91";
-            this.groupBox91.Size = new System.Drawing.Size(568, 351);
-            this.groupBox91.TabIndex = 38;
-            this.groupBox91.TabStop = false;
-            this.groupBox91.Text = "Shotgun";
+            this.groupBox100.BackColor = System.Drawing.Color.White;
+            this.groupBox100.Controls.Add(this.groupBox101);
+            this.groupBox100.Controls.Add(this.groupBox102);
+            this.groupBox100.Controls.Add(this.pictureBox35);
+            this.groupBox100.Location = new System.Drawing.Point(630, 3011);
+            this.groupBox100.Name = "groupBox100";
+            this.groupBox100.Size = new System.Drawing.Size(568, 351);
+            this.groupBox100.TabIndex = 41;
+            this.groupBox100.TabStop = false;
+            this.groupBox100.Text = "Shotgun";
             // 
-            // groupBox92
+            // groupBox101
             // 
-            this.groupBox92.Controls.Add(this.textBox303);
-            this.groupBox92.Controls.Add(this.button63);
-            this.groupBox92.Location = new System.Drawing.Point(248, 293);
-            this.groupBox92.Name = "groupBox92";
-            this.groupBox92.Size = new System.Drawing.Size(299, 50);
-            this.groupBox92.TabIndex = 7;
-            this.groupBox92.TabStop = false;
-            this.groupBox92.Text = "Price";
+            this.groupBox101.Controls.Add(this.textBox333);
+            this.groupBox101.Controls.Add(this.button69);
+            this.groupBox101.Location = new System.Drawing.Point(248, 293);
+            this.groupBox101.Name = "groupBox101";
+            this.groupBox101.Size = new System.Drawing.Size(299, 50);
+            this.groupBox101.TabIndex = 7;
+            this.groupBox101.TabStop = false;
+            this.groupBox101.Text = "Price";
             // 
-            // textBox303
+            // textBox333
             // 
-            this.textBox303.Location = new System.Drawing.Point(19, 19);
-            this.textBox303.Name = "textBox303";
-            this.textBox303.Size = new System.Drawing.Size(100, 20);
-            this.textBox303.TabIndex = 12;
-            this.textBox303.Text = "$472.99";
+            this.textBox333.Location = new System.Drawing.Point(19, 19);
+            this.textBox333.Name = "textBox333";
+            this.textBox333.Size = new System.Drawing.Size(100, 20);
+            this.textBox333.TabIndex = 12;
+            this.textBox333.Text = "$467.99";
             // 
-            // button63
+            // button69
             // 
-            this.button63.Location = new System.Drawing.Point(203, 17);
-            this.button63.Name = "button63";
-            this.button63.Size = new System.Drawing.Size(75, 23);
-            this.button63.TabIndex = 5;
-            this.button63.Text = "Add to Cart";
-            this.button63.UseVisualStyleBackColor = true;
+            this.button69.Location = new System.Drawing.Point(203, 17);
+            this.button69.Name = "button69";
+            this.button69.Size = new System.Drawing.Size(75, 23);
+            this.button69.TabIndex = 5;
+            this.button69.Text = "Add to Cart";
+            this.button69.UseVisualStyleBackColor = true;
             // 
-            // groupBox93
+            // groupBox102
             // 
-            this.groupBox93.Controls.Add(this.label300);
-            this.groupBox93.Controls.Add(this.textBox304);
-            this.groupBox93.Controls.Add(this.label301);
-            this.groupBox93.Controls.Add(this.label302);
-            this.groupBox93.Controls.Add(this.textBox305);
-            this.groupBox93.Controls.Add(this.textBox306);
-            this.groupBox93.Controls.Add(this.label303);
-            this.groupBox93.Controls.Add(this.label304);
-            this.groupBox93.Controls.Add(this.label305);
-            this.groupBox93.Controls.Add(this.label306);
-            this.groupBox93.Controls.Add(this.textBox307);
-            this.groupBox93.Controls.Add(this.textBox308);
-            this.groupBox93.Controls.Add(this.textBox309);
-            this.groupBox93.Controls.Add(this.textBox310);
-            this.groupBox93.Controls.Add(this.textBox311);
-            this.groupBox93.Controls.Add(this.textBox312);
-            this.groupBox93.Controls.Add(this.label307);
-            this.groupBox93.Controls.Add(this.label308);
-            this.groupBox93.Controls.Add(this.button64);
-            this.groupBox93.Location = new System.Drawing.Point(27, 28);
-            this.groupBox93.Name = "groupBox93";
-            this.groupBox93.Size = new System.Drawing.Size(200, 309);
-            this.groupBox93.TabIndex = 6;
-            this.groupBox93.TabStop = false;
-            this.groupBox93.Text = "Specifications";
+            this.groupBox102.Controls.Add(this.label327);
+            this.groupBox102.Controls.Add(this.textBox334);
+            this.groupBox102.Controls.Add(this.label328);
+            this.groupBox102.Controls.Add(this.label329);
+            this.groupBox102.Controls.Add(this.textBox335);
+            this.groupBox102.Controls.Add(this.textBox336);
+            this.groupBox102.Controls.Add(this.label330);
+            this.groupBox102.Controls.Add(this.label331);
+            this.groupBox102.Controls.Add(this.label332);
+            this.groupBox102.Controls.Add(this.label333);
+            this.groupBox102.Controls.Add(this.textBox337);
+            this.groupBox102.Controls.Add(this.textBox338);
+            this.groupBox102.Controls.Add(this.textBox339);
+            this.groupBox102.Controls.Add(this.textBox340);
+            this.groupBox102.Controls.Add(this.textBox341);
+            this.groupBox102.Controls.Add(this.textBox342);
+            this.groupBox102.Controls.Add(this.label334);
+            this.groupBox102.Controls.Add(this.label335);
+            this.groupBox102.Controls.Add(this.button70);
+            this.groupBox102.Location = new System.Drawing.Point(27, 28);
+            this.groupBox102.Name = "groupBox102";
+            this.groupBox102.Size = new System.Drawing.Size(200, 309);
+            this.groupBox102.TabIndex = 6;
+            this.groupBox102.TabStop = false;
+            this.groupBox102.Text = "Specifications";
             // 
-            // label300
+            // label327
             // 
-            this.label300.AutoSize = true;
-            this.label300.Location = new System.Drawing.Point(6, 241);
-            this.label300.Name = "label300";
-            this.label300.Size = new System.Drawing.Size(29, 13);
-            this.label300.TabIndex = 34;
-            this.label300.Text = "UPC";
+            this.label327.AutoSize = true;
+            this.label327.Location = new System.Drawing.Point(6, 241);
+            this.label327.Name = "label327";
+            this.label327.Size = new System.Drawing.Size(29, 13);
+            this.label327.TabIndex = 34;
+            this.label327.Text = "UPC";
             // 
-            // textBox304
+            // textBox334
             // 
-            this.textBox304.Location = new System.Drawing.Point(83, 238);
-            this.textBox304.Name = "textBox304";
-            this.textBox304.Size = new System.Drawing.Size(100, 20);
-            this.textBox304.TabIndex = 33;
-            this.textBox304.Text = "037084314471";
+            this.textBox334.Location = new System.Drawing.Point(83, 238);
+            this.textBox334.Name = "textBox334";
+            this.textBox334.Size = new System.Drawing.Size(100, 20);
+            this.textBox334.TabIndex = 33;
+            this.textBox334.Text = "713135218805";
             // 
-            // label301
+            // label328
             // 
-            this.label301.AutoSize = true;
-            this.label301.Location = new System.Drawing.Point(6, 215);
-            this.label301.Name = "label301";
-            this.label301.Size = new System.Drawing.Size(37, 13);
-            this.label301.TabIndex = 32;
-            this.label301.Text = "Finish ";
+            this.label328.AutoSize = true;
+            this.label328.Location = new System.Drawing.Point(6, 215);
+            this.label328.Name = "label328";
+            this.label328.Size = new System.Drawing.Size(37, 13);
+            this.label328.TabIndex = 32;
+            this.label328.Text = "Finish ";
             // 
-            // label302
+            // label329
             // 
-            this.label302.AutoSize = true;
-            this.label302.Location = new System.Drawing.Point(6, 189);
-            this.label302.Name = "label302";
-            this.label302.Size = new System.Drawing.Size(41, 13);
-            this.label302.TabIndex = 31;
-            this.label302.Text = "Weight";
+            this.label329.AutoSize = true;
+            this.label329.Location = new System.Drawing.Point(6, 189);
+            this.label329.Name = "label329";
+            this.label329.Size = new System.Drawing.Size(41, 13);
+            this.label329.TabIndex = 31;
+            this.label329.Text = "Weight";
             // 
-            // textBox305
+            // textBox335
             // 
-            this.textBox305.Location = new System.Drawing.Point(83, 212);
-            this.textBox305.Name = "textBox305";
-            this.textBox305.Size = new System.Drawing.Size(100, 20);
-            this.textBox305.TabIndex = 30;
-            this.textBox305.Text = "Black";
+            this.textBox335.Location = new System.Drawing.Point(83, 212);
+            this.textBox335.Name = "textBox335";
+            this.textBox335.Size = new System.Drawing.Size(100, 20);
+            this.textBox335.TabIndex = 30;
+            this.textBox335.Text = "N/A";
             // 
-            // textBox306
+            // textBox336
             // 
-            this.textBox306.Location = new System.Drawing.Point(83, 186);
-            this.textBox306.Name = "textBox306";
-            this.textBox306.Size = new System.Drawing.Size(100, 20);
-            this.textBox306.TabIndex = 29;
-            this.textBox306.Text = "6.5 lbs";
+            this.textBox336.Location = new System.Drawing.Point(83, 186);
+            this.textBox336.Name = "textBox336";
+            this.textBox336.Size = new System.Drawing.Size(100, 20);
+            this.textBox336.TabIndex = 29;
+            this.textBox336.Text = "N/A";
             // 
-            // label303
+            // label330
             // 
-            this.label303.AutoSize = true;
-            this.label303.Location = new System.Drawing.Point(6, 163);
-            this.label303.Name = "label303";
-            this.label303.Size = new System.Drawing.Size(73, 13);
-            this.label303.TabIndex = 28;
-            this.label303.Text = "Barrel Length ";
+            this.label330.AutoSize = true;
+            this.label330.Location = new System.Drawing.Point(6, 163);
+            this.label330.Name = "label330";
+            this.label330.Size = new System.Drawing.Size(73, 13);
+            this.label330.TabIndex = 28;
+            this.label330.Text = "Barrel Length ";
             // 
-            // label304
+            // label331
             // 
-            this.label304.AutoSize = true;
-            this.label304.Location = new System.Drawing.Point(6, 137);
-            this.label304.Name = "label304";
-            this.label304.Size = new System.Drawing.Size(48, 13);
-            this.label304.TabIndex = 27;
-            this.label304.Text = "Capacity";
+            this.label331.AutoSize = true;
+            this.label331.Location = new System.Drawing.Point(6, 137);
+            this.label331.Name = "label331";
+            this.label331.Size = new System.Drawing.Size(48, 13);
+            this.label331.TabIndex = 27;
+            this.label331.Text = "Capacity";
             // 
-            // label305
+            // label332
             // 
-            this.label305.AutoSize = true;
-            this.label305.Location = new System.Drawing.Point(6, 85);
-            this.label305.Name = "label305";
-            this.label305.Size = new System.Drawing.Size(37, 13);
-            this.label305.TabIndex = 26;
-            this.label305.Text = "Action";
+            this.label332.AutoSize = true;
+            this.label332.Location = new System.Drawing.Point(6, 85);
+            this.label332.Name = "label332";
+            this.label332.Size = new System.Drawing.Size(37, 13);
+            this.label332.TabIndex = 26;
+            this.label332.Text = "Action";
             // 
-            // label306
+            // label333
             // 
-            this.label306.AutoSize = true;
-            this.label306.Location = new System.Drawing.Point(6, 111);
-            this.label306.Name = "label306";
-            this.label306.Size = new System.Drawing.Size(66, 13);
-            this.label306.TabIndex = 25;
-            this.label306.Text = "Round Type";
+            this.label333.AutoSize = true;
+            this.label333.Location = new System.Drawing.Point(6, 111);
+            this.label333.Name = "label333";
+            this.label333.Size = new System.Drawing.Size(66, 13);
+            this.label333.TabIndex = 25;
+            this.label333.Text = "Round Type";
             // 
-            // textBox307
+            // textBox337
             // 
-            this.textBox307.Location = new System.Drawing.Point(83, 160);
-            this.textBox307.Name = "textBox307";
-            this.textBox307.Size = new System.Drawing.Size(100, 20);
-            this.textBox307.TabIndex = 11;
-            this.textBox307.Text = "20\" Barrel";
+            this.textBox337.Location = new System.Drawing.Point(83, 160);
+            this.textBox337.Name = "textBox337";
+            this.textBox337.Size = new System.Drawing.Size(100, 20);
+            this.textBox337.TabIndex = 11;
+            this.textBox337.Text = "19\" Barrel";
             // 
-            // textBox308
+            // textBox338
             // 
-            this.textBox308.Location = new System.Drawing.Point(83, 134);
-            this.textBox308.Name = "textBox308";
-            this.textBox308.Size = new System.Drawing.Size(100, 20);
-            this.textBox308.TabIndex = 10;
-            this.textBox308.Text = "2 Rounds";
+            this.textBox338.Location = new System.Drawing.Point(83, 134);
+            this.textBox338.Name = "textBox338";
+            this.textBox338.Size = new System.Drawing.Size(100, 20);
+            this.textBox338.TabIndex = 10;
+            this.textBox338.Text = "5+1 Rounds";
             // 
-            // textBox309
+            // textBox339
             // 
-            this.textBox309.Location = new System.Drawing.Point(84, 108);
-            this.textBox309.Name = "textBox309";
-            this.textBox309.Size = new System.Drawing.Size(100, 20);
-            this.textBox309.TabIndex = 9;
-            this.textBox309.Text = "20 GA";
+            this.textBox339.Location = new System.Drawing.Point(84, 108);
+            this.textBox339.Name = "textBox339";
+            this.textBox339.Size = new System.Drawing.Size(100, 20);
+            this.textBox339.TabIndex = 9;
+            this.textBox339.Text = "12 GA";
             // 
-            // textBox310
+            // textBox340
             // 
-            this.textBox310.Location = new System.Drawing.Point(83, 82);
-            this.textBox310.Name = "textBox310";
-            this.textBox310.Size = new System.Drawing.Size(100, 20);
-            this.textBox310.TabIndex = 8;
-            this.textBox310.Text = "Side By Side";
+            this.textBox340.Location = new System.Drawing.Point(83, 82);
+            this.textBox340.Name = "textBox340";
+            this.textBox340.Size = new System.Drawing.Size(100, 20);
+            this.textBox340.TabIndex = 8;
+            this.textBox340.Text = "Semi Auto";
             // 
-            // textBox311
+            // textBox341
             // 
-            this.textBox311.Location = new System.Drawing.Point(84, 56);
-            this.textBox311.Name = "textBox311";
-            this.textBox311.Size = new System.Drawing.Size(100, 20);
-            this.textBox311.TabIndex = 7;
-            this.textBox311.Text = "Double Defense";
+            this.textBox341.Location = new System.Drawing.Point(84, 56);
+            this.textBox341.Name = "textBox341";
+            this.textBox341.Size = new System.Drawing.Size(100, 20);
+            this.textBox341.TabIndex = 7;
+            this.textBox341.Text = "Radikal NK-1";
             // 
-            // textBox312
+            // textBox342
             // 
-            this.textBox312.Location = new System.Drawing.Point(83, 29);
-            this.textBox312.Name = "textBox312";
-            this.textBox312.Size = new System.Drawing.Size(100, 20);
-            this.textBox312.TabIndex = 6;
-            this.textBox312.Text = "Stoeger";
+            this.textBox342.Location = new System.Drawing.Point(83, 29);
+            this.textBox342.Name = "textBox342";
+            this.textBox342.Size = new System.Drawing.Size(100, 20);
+            this.textBox342.TabIndex = 6;
+            this.textBox342.Text = "SDS Imports";
             // 
-            // label307
+            // label334
             // 
-            this.label307.AutoSize = true;
-            this.label307.Location = new System.Drawing.Point(6, 29);
-            this.label307.Name = "label307";
-            this.label307.Size = new System.Drawing.Size(70, 13);
-            this.label307.TabIndex = 1;
-            this.label307.Text = "Manufacturer";
+            this.label334.AutoSize = true;
+            this.label334.Location = new System.Drawing.Point(6, 29);
+            this.label334.Name = "label334";
+            this.label334.Size = new System.Drawing.Size(70, 13);
+            this.label334.TabIndex = 1;
+            this.label334.Text = "Manufacturer";
             // 
-            // label308
+            // label335
             // 
-            this.label308.AutoSize = true;
-            this.label308.Location = new System.Drawing.Point(6, 56);
-            this.label308.Name = "label308";
-            this.label308.Size = new System.Drawing.Size(36, 13);
-            this.label308.TabIndex = 2;
-            this.label308.Text = "Model";
+            this.label335.AutoSize = true;
+            this.label335.Location = new System.Drawing.Point(6, 56);
+            this.label335.Name = "label335";
+            this.label335.Size = new System.Drawing.Size(36, 13);
+            this.label335.TabIndex = 2;
+            this.label335.Text = "Model";
             // 
-            // button64
+            // button70
             // 
-            this.button64.Location = new System.Drawing.Point(83, 265);
-            this.button64.Name = "button64";
-            this.button64.Size = new System.Drawing.Size(100, 23);
-            this.button64.TabIndex = 4;
-            this.button64.Text = "Full Description";
-            this.button64.UseVisualStyleBackColor = true;
+            this.button70.Location = new System.Drawing.Point(83, 265);
+            this.button70.Name = "button70";
+            this.button70.Size = new System.Drawing.Size(100, 23);
+            this.button70.TabIndex = 4;
+            this.button70.Text = "Full Description";
+            this.button70.UseVisualStyleBackColor = true;
             // 
-            // pictureBox32
+            // pictureBox35
             // 
-            this.pictureBox32.Image = global::Arkansas_Armory.Properties.Resources.Picture35;
-            this.pictureBox32.Location = new System.Drawing.Point(242, 113);
-            this.pictureBox32.Name = "pictureBox32";
-            this.pictureBox32.Size = new System.Drawing.Size(299, 76);
-            this.pictureBox32.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox32.TabIndex = 0;
-            this.pictureBox32.TabStop = false;
-            // 
-            // panel7
-            // 
-            this.panel7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(97)))), ((int)(((byte)(102)))));
-            this.panel7.Location = new System.Drawing.Point(0, 0);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(1211, 2656);
-            this.panel7.TabIndex = 62;
+            this.pictureBox35.Image = global::Arkansas_Armory.Properties.Resources.Picture38;
+            this.pictureBox35.Location = new System.Drawing.Point(248, 28);
+            this.pictureBox35.Name = "pictureBox35";
+            this.pictureBox35.Size = new System.Drawing.Size(299, 253);
+            this.pictureBox35.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox35.TabIndex = 0;
+            this.pictureBox35.TabStop = false;
             // 
             // pnlRifles
             // 
@@ -16164,18 +16177,6 @@ namespace Arkansas_Armory
             this.pnlRifles.Name = "pnlRifles";
             this.pnlRifles.Size = new System.Drawing.Size(1211, 3707);
             this.pnlRifles.TabIndex = 62;
-            // 
-            // radioButton4
-            // 
-            this.radioButton4.AutoSize = true;
-            this.radioButton4.Location = new System.Drawing.Point(13, 19);
-            this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(64, 17);
-            this.radioButton4.TabIndex = 3;
-            this.radioButton4.TabStop = true;
-            this.radioButton4.Text = "All Guns";
-            this.radioButton4.UseVisualStyleBackColor = true;
-            this.radioButton4.CheckedChanged += new System.EventHandler(this.radioButton4_CheckedChanged);
             // 
             // Form1
             // 
@@ -16531,12 +16532,6 @@ namespace Arkansas_Armory
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).EndInit();
             this.gboShotguns.ResumeLayout(false);
             this.panel6.ResumeLayout(false);
-            this.groupBox106.ResumeLayout(false);
-            this.groupBox107.ResumeLayout(false);
-            this.groupBox107.PerformLayout();
-            this.groupBox108.ResumeLayout(false);
-            this.groupBox108.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox37)).EndInit();
             this.groupBox103.ResumeLayout(false);
             this.groupBox103.PerformLayout();
             this.groupBox104.ResumeLayout(false);
@@ -16544,6 +16539,12 @@ namespace Arkansas_Armory
             this.groupBox105.ResumeLayout(false);
             this.groupBox105.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox36)).EndInit();
+            this.groupBox106.ResumeLayout(false);
+            this.groupBox107.ResumeLayout(false);
+            this.groupBox107.PerformLayout();
+            this.groupBox108.ResumeLayout(false);
+            this.groupBox108.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox37)).EndInit();
             this.groupBox97.ResumeLayout(false);
             this.groupBox97.PerformLayout();
             this.groupBox98.ResumeLayout(false);
@@ -16551,24 +16552,24 @@ namespace Arkansas_Armory
             this.groupBox99.ResumeLayout(false);
             this.groupBox99.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox34)).EndInit();
-            this.groupBox100.ResumeLayout(false);
-            this.groupBox101.ResumeLayout(false);
-            this.groupBox101.PerformLayout();
-            this.groupBox102.ResumeLayout(false);
-            this.groupBox102.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox35)).EndInit();
-            this.groupBox94.ResumeLayout(false);
-            this.groupBox95.ResumeLayout(false);
-            this.groupBox95.PerformLayout();
-            this.groupBox96.ResumeLayout(false);
-            this.groupBox96.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox33)).EndInit();
             this.groupBox91.ResumeLayout(false);
             this.groupBox92.ResumeLayout(false);
             this.groupBox92.PerformLayout();
             this.groupBox93.ResumeLayout(false);
             this.groupBox93.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox32)).EndInit();
+            this.groupBox94.ResumeLayout(false);
+            this.groupBox95.ResumeLayout(false);
+            this.groupBox95.PerformLayout();
+            this.groupBox96.ResumeLayout(false);
+            this.groupBox96.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox33)).EndInit();
+            this.groupBox100.ResumeLayout(false);
+            this.groupBox101.ResumeLayout(false);
+            this.groupBox101.PerformLayout();
+            this.groupBox102.ResumeLayout(false);
+            this.groupBox102.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox35)).EndInit();
             this.pnlRifles.ResumeLayout(false);
             this.ResumeLayout(false);
 
