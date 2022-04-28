@@ -3166,6 +3166,7 @@ namespace Arkansas_Armory
             this.button9.TabIndex = 5;
             this.button9.Text = "Add to Cart";
             this.button9.UseVisualStyleBackColor = true;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
             // groupBox12
             // 
@@ -3408,6 +3409,7 @@ namespace Arkansas_Armory
             this.button15.TabIndex = 5;
             this.button15.Text = "Add to Cart";
             this.button15.UseVisualStyleBackColor = true;
+            this.button15.Click += new System.EventHandler(this.button15_Click);
             // 
             // groupBox21
             // 
@@ -3649,6 +3651,7 @@ namespace Arkansas_Armory
             this.button17.TabIndex = 5;
             this.button17.Text = "Add to Cart";
             this.button17.UseVisualStyleBackColor = true;
+            this.button17.Click += new System.EventHandler(this.button17_Click);
             // 
             // groupBox24
             // 
@@ -3890,6 +3893,7 @@ namespace Arkansas_Armory
             this.button19.TabIndex = 5;
             this.button19.Text = "Add to Cart";
             this.button19.UseVisualStyleBackColor = true;
+            this.button19.Click += new System.EventHandler(this.button19_Click);
             // 
             // groupBox27
             // 
@@ -4131,6 +4135,7 @@ namespace Arkansas_Armory
             this.button21.TabIndex = 5;
             this.button21.Text = "Add to Cart";
             this.button21.UseVisualStyleBackColor = true;
+            this.button21.Click += new System.EventHandler(this.button21_Click);
             // 
             // groupBox30
             // 
@@ -4373,6 +4378,7 @@ namespace Arkansas_Armory
             this.button23.TabIndex = 5;
             this.button23.Text = "Add to Cart";
             this.button23.UseVisualStyleBackColor = true;
+            this.button23.Click += new System.EventHandler(this.button23_Click);
             // 
             // groupBox33
             // 
@@ -4615,6 +4621,7 @@ namespace Arkansas_Armory
             this.button25.TabIndex = 5;
             this.button25.Text = "Add to Cart";
             this.button25.UseVisualStyleBackColor = true;
+            this.button25.Click += new System.EventHandler(this.button25_Click);
             // 
             // groupBox36
             // 
@@ -4857,6 +4864,7 @@ namespace Arkansas_Armory
             this.button27.TabIndex = 5;
             this.button27.Text = "Add to Cart";
             this.button27.UseVisualStyleBackColor = true;
+            this.button27.Click += new System.EventHandler(this.button27_Click);
             // 
             // groupBox39
             // 
@@ -5098,6 +5106,7 @@ namespace Arkansas_Armory
             this.button29.TabIndex = 5;
             this.button29.Text = "Add to Cart";
             this.button29.UseVisualStyleBackColor = true;
+            this.button29.Click += new System.EventHandler(this.button29_Click);
             // 
             // groupBox42
             // 
@@ -5339,6 +5348,7 @@ namespace Arkansas_Armory
             this.button33.TabIndex = 5;
             this.button33.Text = "Add to Cart";
             this.button33.UseVisualStyleBackColor = true;
+            this.button33.Click += new System.EventHandler(this.button33_Click);
             // 
             // groupBox48
             // 
@@ -5581,6 +5591,7 @@ namespace Arkansas_Armory
             this.button31.TabIndex = 5;
             this.button31.Text = "Add to Cart";
             this.button31.UseVisualStyleBackColor = true;
+            this.button31.Click += new System.EventHandler(this.button31_Click);
             // 
             // groupBox45
             // 
@@ -5823,6 +5834,7 @@ namespace Arkansas_Armory
             this.button75.TabIndex = 5;
             this.button75.Text = "Add to Cart";
             this.button75.UseVisualStyleBackColor = true;
+            this.button75.Click += new System.EventHandler(this.button75_Click);
             // 
             // groupBox111
             // 
@@ -6065,6 +6077,7 @@ namespace Arkansas_Armory
             this.button77.TabIndex = 5;
             this.button77.Text = "Add to Cart";
             this.button77.UseVisualStyleBackColor = true;
+            this.button77.Click += new System.EventHandler(this.button77_Click);
             // 
             // groupBox114
             // 
@@ -6307,6 +6320,7 @@ namespace Arkansas_Armory
             this.button79.TabIndex = 5;
             this.button79.Text = "Add to Cart";
             this.button79.UseVisualStyleBackColor = true;
+            this.button79.Click += new System.EventHandler(this.button79_Click);
             // 
             // groupBox117
             // 
@@ -6550,6 +6564,7 @@ namespace Arkansas_Armory
             this.button81.TabIndex = 5;
             this.button81.Text = "Add to Cart";
             this.button81.UseVisualStyleBackColor = true;
+            this.button81.Click += new System.EventHandler(this.button81_Click);
             // 
             // groupBox120
             // 
@@ -6792,6 +6807,7 @@ namespace Arkansas_Armory
             this.button83.TabIndex = 5;
             this.button83.Text = "Add to Cart";
             this.button83.UseVisualStyleBackColor = true;
+            this.button83.Click += new System.EventHandler(this.button83_Click);
             // 
             // groupBox123
             // 
@@ -7034,6 +7050,7 @@ namespace Arkansas_Armory
             this.button85.TabIndex = 5;
             this.button85.Text = "Add to Cart";
             this.button85.UseVisualStyleBackColor = true;
+            this.button85.Click += new System.EventHandler(this.button85_Click);
             // 
             // groupBox126
             // 
@@ -7276,6 +7293,7 @@ namespace Arkansas_Armory
             this.button87.TabIndex = 5;
             this.button87.Text = "Add to Cart";
             this.button87.UseVisualStyleBackColor = true;
+            this.button87.Click += new System.EventHandler(this.button87_Click);
             // 
             // groupBox129
             // 
@@ -7518,6 +7536,7 @@ namespace Arkansas_Armory
             this.button89.TabIndex = 5;
             this.button89.Text = "Add to Cart";
             this.button89.UseVisualStyleBackColor = true;
+            this.button89.Click += new System.EventHandler(this.button89_Click);
             // 
             // groupBox132
             // 
@@ -7760,6 +7779,7 @@ namespace Arkansas_Armory
             this.button91.TabIndex = 5;
             this.button91.Text = "Add to Cart";
             this.button91.UseVisualStyleBackColor = true;
+            this.button91.Click += new System.EventHandler(this.button91_Click);
             // 
             // groupBox135
             // 
@@ -8002,6 +8022,7 @@ namespace Arkansas_Armory
             this.button93.TabIndex = 5;
             this.button93.Text = "Add to Cart";
             this.button93.UseVisualStyleBackColor = true;
+            this.button93.Click += new System.EventHandler(this.button93_Click);
             // 
             // groupBox138
             // 
@@ -8244,6 +8265,7 @@ namespace Arkansas_Armory
             this.button95.TabIndex = 5;
             this.button95.Text = "Add to Cart";
             this.button95.UseVisualStyleBackColor = true;
+            this.button95.Click += new System.EventHandler(this.button95_Click);
             // 
             // groupBox141
             // 
@@ -8486,6 +8508,7 @@ namespace Arkansas_Armory
             this.button97.TabIndex = 5;
             this.button97.Text = "Add to Cart";
             this.button97.UseVisualStyleBackColor = true;
+            this.button97.Click += new System.EventHandler(this.button97_Click);
             // 
             // groupBox144
             // 
@@ -8728,6 +8751,7 @@ namespace Arkansas_Armory
             this.button99.TabIndex = 5;
             this.button99.Text = "Add to Cart";
             this.button99.UseVisualStyleBackColor = true;
+            this.button99.Click += new System.EventHandler(this.button99_Click);
             // 
             // groupBox147
             // 
@@ -9201,6 +9225,7 @@ namespace Arkansas_Armory
             this.button103.TabIndex = 5;
             this.button103.Text = "Add to Cart";
             this.button103.UseVisualStyleBackColor = true;
+            this.button103.Click += new System.EventHandler(this.button103_Click);
             // 
             // groupBox153
             // 
@@ -9443,6 +9468,7 @@ namespace Arkansas_Armory
             this.button105.TabIndex = 5;
             this.button105.Text = "Add to Cart";
             this.button105.UseVisualStyleBackColor = true;
+            this.button105.Click += new System.EventHandler(this.button105_Click);
             // 
             // groupBox156
             // 
@@ -9685,6 +9711,7 @@ namespace Arkansas_Armory
             this.button107.TabIndex = 5;
             this.button107.Text = "Add to Cart";
             this.button107.UseVisualStyleBackColor = true;
+            this.button107.Click += new System.EventHandler(this.button107_Click);
             // 
             // groupBox159
             // 
@@ -10158,6 +10185,7 @@ namespace Arkansas_Armory
             this.button109.TabIndex = 5;
             this.button109.Text = "Add to Cart";
             this.button109.UseVisualStyleBackColor = true;
+            this.button109.Click += new System.EventHandler(this.button109_Click);
             // 
             // groupBox162
             // 
@@ -10400,6 +10428,7 @@ namespace Arkansas_Armory
             this.button113.TabIndex = 5;
             this.button113.Text = "Add to Cart";
             this.button113.UseVisualStyleBackColor = true;
+            this.button113.Click += new System.EventHandler(this.button113_Click);
             // 
             // groupBox168
             // 
@@ -10642,6 +10671,7 @@ namespace Arkansas_Armory
             this.button117.TabIndex = 5;
             this.button117.Text = "Add to Cart";
             this.button117.UseVisualStyleBackColor = true;
+            this.button117.Click += new System.EventHandler(this.button117_Click);
             // 
             // groupBox174
             // 
@@ -10884,6 +10914,7 @@ namespace Arkansas_Armory
             this.button115.TabIndex = 5;
             this.button115.Text = "Add to Cart";
             this.button115.UseVisualStyleBackColor = true;
+            this.button115.Click += new System.EventHandler(this.button115_Click);
             // 
             // groupBox172
             // 
@@ -11319,6 +11350,7 @@ namespace Arkansas_Armory
             this.button47.TabIndex = 5;
             this.button47.Text = "Add to Cart";
             this.button47.UseVisualStyleBackColor = true;
+            this.button47.Click += new System.EventHandler(this.button47_Click);
             // 
             // groupBox69
             // 
@@ -11561,6 +11593,7 @@ namespace Arkansas_Armory
             this.button61.TabIndex = 5;
             this.button61.Text = "Add to Cart";
             this.button61.UseVisualStyleBackColor = true;
+            this.button61.Click += new System.EventHandler(this.button61_Click);
             // 
             // groupBox90
             // 
@@ -11803,6 +11836,7 @@ namespace Arkansas_Armory
             this.button59.TabIndex = 5;
             this.button59.Text = "Add to Cart";
             this.button59.UseVisualStyleBackColor = true;
+            this.button59.Click += new System.EventHandler(this.button59_Click);
             // 
             // groupBox87
             // 
@@ -12045,6 +12079,7 @@ namespace Arkansas_Armory
             this.button57.TabIndex = 5;
             this.button57.Text = "Add to Cart";
             this.button57.UseVisualStyleBackColor = true;
+            this.button57.Click += new System.EventHandler(this.button57_Click);
             // 
             // groupBox84
             // 
@@ -12287,6 +12322,7 @@ namespace Arkansas_Armory
             this.button55.TabIndex = 5;
             this.button55.Text = "Add to Cart";
             this.button55.UseVisualStyleBackColor = true;
+            this.button55.Click += new System.EventHandler(this.button55_Click);
             // 
             // groupBox81
             // 
@@ -12529,6 +12565,7 @@ namespace Arkansas_Armory
             this.button51.TabIndex = 5;
             this.button51.Text = "Add to Cart";
             this.button51.UseVisualStyleBackColor = true;
+            this.button51.Click += new System.EventHandler(this.button51_Click);
             // 
             // groupBox75
             // 
@@ -12771,6 +12808,7 @@ namespace Arkansas_Armory
             this.button53.TabIndex = 5;
             this.button53.Text = "Add to Cart";
             this.button53.UseVisualStyleBackColor = true;
+            this.button53.Click += new System.EventHandler(this.button53_Click);
             // 
             // groupBox78
             // 
@@ -13013,6 +13051,7 @@ namespace Arkansas_Armory
             this.button49.TabIndex = 5;
             this.button49.Text = "Add to Cart";
             this.button49.UseVisualStyleBackColor = true;
+            this.button49.Click += new System.EventHandler(this.button49_Click);
             // 
             // groupBox72
             // 
@@ -13255,6 +13294,7 @@ namespace Arkansas_Armory
             this.button45.TabIndex = 5;
             this.button45.Text = "Add to Cart";
             this.button45.UseVisualStyleBackColor = true;
+            this.button45.Click += new System.EventHandler(this.button45_Click);
             // 
             // groupBox66
             // 
@@ -13497,6 +13537,7 @@ namespace Arkansas_Armory
             this.button43.TabIndex = 5;
             this.button43.Text = "Add to Cart";
             this.button43.UseVisualStyleBackColor = true;
+            this.button43.Click += new System.EventHandler(this.button43_Click);
             // 
             // groupBox63
             // 
@@ -13739,6 +13780,7 @@ namespace Arkansas_Armory
             this.button41.TabIndex = 5;
             this.button41.Text = "Add to Cart";
             this.button41.UseVisualStyleBackColor = true;
+            this.button41.Click += new System.EventHandler(this.button41_Click);
             // 
             // groupBox60
             // 
@@ -13981,6 +14023,7 @@ namespace Arkansas_Armory
             this.button39.TabIndex = 5;
             this.button39.Text = "Add to Cart";
             this.button39.UseVisualStyleBackColor = true;
+            this.button39.Click += new System.EventHandler(this.button39_Click);
             // 
             // groupBox57
             // 
@@ -14223,6 +14266,7 @@ namespace Arkansas_Armory
             this.button35.TabIndex = 5;
             this.button35.Text = "Add to Cart";
             this.button35.UseVisualStyleBackColor = true;
+            this.button35.Click += new System.EventHandler(this.button35_Click);
             // 
             // groupBox51
             // 
@@ -14465,6 +14509,7 @@ namespace Arkansas_Armory
             this.button37.TabIndex = 5;
             this.button37.Text = "Add to Cart";
             this.button37.UseVisualStyleBackColor = true;
+            this.button37.Click += new System.EventHandler(this.button37_Click);
             // 
             // groupBox54
             // 
@@ -14746,6 +14791,7 @@ namespace Arkansas_Armory
             this.button71.TabIndex = 5;
             this.button71.Text = "Add to Cart";
             this.button71.UseVisualStyleBackColor = true;
+            this.button71.Click += new System.EventHandler(this.button71_Click);
             // 
             // groupBox105
             // 
@@ -14987,6 +15033,7 @@ namespace Arkansas_Armory
             this.button73.TabIndex = 5;
             this.button73.Text = "Add to Cart";
             this.button73.UseVisualStyleBackColor = true;
+            this.button73.Click += new System.EventHandler(this.button73_Click);
             // 
             // groupBox108
             // 
@@ -15228,6 +15275,7 @@ namespace Arkansas_Armory
             this.button67.TabIndex = 5;
             this.button67.Text = "Add to Cart";
             this.button67.UseVisualStyleBackColor = true;
+            this.button67.Click += new System.EventHandler(this.button67_Click);
             // 
             // groupBox99
             // 
@@ -15469,6 +15517,7 @@ namespace Arkansas_Armory
             this.button63.TabIndex = 5;
             this.button63.Text = "Add to Cart";
             this.button63.UseVisualStyleBackColor = true;
+            this.button63.Click += new System.EventHandler(this.button63_Click);
             // 
             // groupBox93
             // 
@@ -15710,6 +15759,7 @@ namespace Arkansas_Armory
             this.button65.TabIndex = 5;
             this.button65.Text = "Add to Cart";
             this.button65.UseVisualStyleBackColor = true;
+            this.button65.Click += new System.EventHandler(this.button65_Click);
             // 
             // groupBox96
             // 
@@ -15951,6 +16001,7 @@ namespace Arkansas_Armory
             this.button69.TabIndex = 5;
             this.button69.Text = "Add to Cart";
             this.button69.UseVisualStyleBackColor = true;
+            this.button69.Click += new System.EventHandler(this.button69_Click);
             // 
             // groupBox102
             // 

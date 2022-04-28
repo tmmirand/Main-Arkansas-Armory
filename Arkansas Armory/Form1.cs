@@ -639,5 +639,821 @@ namespace Arkansas_Armory
             connection.Close();
             command.Dispose();
         }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            connection = new SqlConnection(connectionstring);
+            connection.Open();
+            int answer;
+            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 4)";
+            command = new SqlCommand(sql, connection);
+            //These @Name command parameters reference the @name insert into statement above
+            command.Parameters.AddWithValue("@CustomerID", txtLoginCustomerID.Text);
+
+            answer = command.ExecuteNonQuery();
+            MessageBox.Show("Successfully added Gun to cart");
+            connection.Close();
+            command.Dispose();
+        }
+
+        private void button15_Click(object sender, EventArgs e)
+        {
+            connection = new SqlConnection(connectionstring);
+            connection.Open();
+            int answer;
+            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 5)";
+            command = new SqlCommand(sql, connection);
+            //These @Name command parameters reference the @name insert into statement above
+            command.Parameters.AddWithValue("@CustomerID", txtLoginCustomerID.Text);
+
+            answer = command.ExecuteNonQuery();
+            MessageBox.Show("Successfully added Gun to cart");
+            connection.Close();
+            command.Dispose();
+        }
+
+        private void button17_Click(object sender, EventArgs e)
+        {
+            connection = new SqlConnection(connectionstring);
+            connection.Open();
+            int answer;
+            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 6)";
+            command = new SqlCommand(sql, connection);
+            //These @Name command parameters reference the @name insert into statement above
+            command.Parameters.AddWithValue("@CustomerID", txtLoginCustomerID.Text);
+
+            answer = command.ExecuteNonQuery();
+            MessageBox.Show("Successfully added Gun to cart");
+            connection.Close();
+            command.Dispose();
+        }
+
+        private void button19_Click(object sender, EventArgs e)
+        {
+            connection = new SqlConnection(connectionstring);
+            connection.Open();
+            int answer;
+            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 7)";
+            command = new SqlCommand(sql, connection);
+            //These @Name command parameters reference the @name insert into statement above
+            command.Parameters.AddWithValue("@CustomerID", txtLoginCustomerID.Text);
+
+            answer = command.ExecuteNonQuery();
+            MessageBox.Show("Successfully added Gun to cart");
+            connection.Close();
+            command.Dispose();
+        }
+
+        private void button21_Click(object sender, EventArgs e)
+        {
+            connection = new SqlConnection(connectionstring);
+            connection.Open();
+            int answer;
+            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 8)";
+            command = new SqlCommand(sql, connection);
+            //These @Name command parameters reference the @name insert into statement above
+            command.Parameters.AddWithValue("@CustomerID", txtLoginCustomerID.Text);
+
+            answer = command.ExecuteNonQuery();
+            MessageBox.Show("Successfully added Gun to cart");
+            connection.Close();
+            command.Dispose();
+        }
+
+        private void button23_Click(object sender, EventArgs e)
+        {
+            connection = new SqlConnection(connectionstring);
+            connection.Open();
+            int answer;
+            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 9)";
+            command = new SqlCommand(sql, connection);
+            //These @Name command parameters reference the @name insert into statement above
+            command.Parameters.AddWithValue("@CustomerID", txtLoginCustomerID.Text);
+
+            answer = command.ExecuteNonQuery();
+            MessageBox.Show("Successfully added Gun to cart");
+            connection.Close();
+            command.Dispose();
+        }
+
+        private void button25_Click(object sender, EventArgs e)
+        {
+            connection = new SqlConnection(connectionstring);
+            connection.Open();
+            int answer;
+            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 10)";
+            command = new SqlCommand(sql, connection);
+            //These @Name command parameters reference the @name insert into statement above
+            command.Parameters.AddWithValue("@CustomerID", txtLoginCustomerID.Text);
+
+            answer = command.ExecuteNonQuery();
+            MessageBox.Show("Successfully added Gun to cart");
+            connection.Close();
+            command.Dispose();
+        }
+
+        private void button27_Click(object sender, EventArgs e)
+        {
+            connection = new SqlConnection(connectionstring);
+            connection.Open();
+            int answer;
+            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 11)";
+            command = new SqlCommand(sql, connection);
+            //These @Name command parameters reference the @name insert into statement above
+            command.Parameters.AddWithValue("@CustomerID", txtLoginCustomerID.Text);
+
+            answer = command.ExecuteNonQuery();
+            MessageBox.Show("Successfully added Gun to cart");
+            connection.Close();
+            command.Dispose();
+        }
+
+        private void button29_Click(object sender, EventArgs e)
+        {
+            connection = new SqlConnection(connectionstring);
+            connection.Open();
+            int answer;
+            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 12)";
+            command = new SqlCommand(sql, connection);
+            //These @Name command parameters reference the @name insert into statement above
+            command.Parameters.AddWithValue("@CustomerID", txtLoginCustomerID.Text);
+
+            answer = command.ExecuteNonQuery();
+            MessageBox.Show("Successfully added Gun to cart");
+            connection.Close();
+            command.Dispose();
+        }
+
+        private void button31_Click(object sender, EventArgs e)
+        {
+            connection = new SqlConnection(connectionstring);
+            connection.Open();
+            int answer;
+            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 13)";
+            command = new SqlCommand(sql, connection);
+            //These @Name command parameters reference the @name insert into statement above
+            command.Parameters.AddWithValue("@CustomerID", txtLoginCustomerID.Text);
+
+            answer = command.ExecuteNonQuery();
+            MessageBox.Show("Successfully added Gun to cart");
+            connection.Close();
+            command.Dispose();
+        }
+
+        private void button33_Click(object sender, EventArgs e)
+        {
+            connection = new SqlConnection(connectionstring);
+            connection.Open();
+            int answer;
+            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 14)";
+            command = new SqlCommand(sql, connection);
+            //These @Name command parameters reference the @name insert into statement above
+            command.Parameters.AddWithValue("@CustomerID", txtLoginCustomerID.Text);
+
+            answer = command.ExecuteNonQuery();
+            MessageBox.Show("Successfully added Gun to cart");
+            connection.Close();
+            command.Dispose();
+        }
+
+        private void button37_Click(object sender, EventArgs e)
+        {
+            connection = new SqlConnection(connectionstring);
+            connection.Open();
+            int answer;
+            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 15)";
+            command = new SqlCommand(sql, connection);
+            //These @Name command parameters reference the @name insert into statement above
+            command.Parameters.AddWithValue("@CustomerID", txtLoginCustomerID.Text);
+
+            answer = command.ExecuteNonQuery();
+            MessageBox.Show("Successfully added Gun to cart");
+            connection.Close();
+            command.Dispose();
+        }
+
+        private void button35_Click(object sender, EventArgs e)
+        {
+            connection = new SqlConnection(connectionstring);
+            connection.Open();
+            int answer;
+            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 16)";
+            command = new SqlCommand(sql, connection);
+            //These @Name command parameters reference the @name insert into statement above
+            command.Parameters.AddWithValue("@CustomerID", txtLoginCustomerID.Text);
+
+            answer = command.ExecuteNonQuery();
+            MessageBox.Show("Successfully added Gun to cart");
+            connection.Close();
+            command.Dispose();
+        }
+
+        private void button41_Click(object sender, EventArgs e)
+        {
+            connection = new SqlConnection(connectionstring);
+            connection.Open();
+            int answer;
+            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 17)";
+            command = new SqlCommand(sql, connection);
+            //These @Name command parameters reference the @name insert into statement above
+            command.Parameters.AddWithValue("@CustomerID", txtLoginCustomerID.Text);
+
+            answer = command.ExecuteNonQuery();
+            MessageBox.Show("Successfully added Gun to cart");
+            connection.Close();
+            command.Dispose();
+        }
+
+        private void button39_Click(object sender, EventArgs e)
+        {
+            connection = new SqlConnection(connectionstring);
+            connection.Open();
+            int answer;
+            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 18)";
+            command = new SqlCommand(sql, connection);
+            //These @Name command parameters reference the @name insert into statement above
+            command.Parameters.AddWithValue("@CustomerID", txtLoginCustomerID.Text);
+
+            answer = command.ExecuteNonQuery();
+            MessageBox.Show("Successfully added Gun to cart");
+            connection.Close();
+            command.Dispose();
+        }
+
+        private void button45_Click(object sender, EventArgs e)
+        {
+            connection = new SqlConnection(connectionstring);
+            connection.Open();
+            int answer;
+            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 19)";
+            command = new SqlCommand(sql, connection);
+            //These @Name command parameters reference the @name insert into statement above
+            command.Parameters.AddWithValue("@CustomerID", txtLoginCustomerID.Text);
+
+            answer = command.ExecuteNonQuery();
+            MessageBox.Show("Successfully added Gun to cart");
+            connection.Close();
+            command.Dispose();
+        }
+
+        private void button43_Click(object sender, EventArgs e)
+        {
+            connection = new SqlConnection(connectionstring);
+            connection.Open();
+            int answer;
+            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 20)";
+            command = new SqlCommand(sql, connection);
+            //These @Name command parameters reference the @name insert into statement above
+            command.Parameters.AddWithValue("@CustomerID", txtLoginCustomerID.Text);
+
+            answer = command.ExecuteNonQuery();
+            MessageBox.Show("Successfully added Gun to cart");
+            connection.Close();
+            command.Dispose();
+        }
+
+        private void button49_Click(object sender, EventArgs e)
+        {
+            connection = new SqlConnection(connectionstring);
+            connection.Open();
+            int answer;
+            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 21)";
+            command = new SqlCommand(sql, connection);
+            //These @Name command parameters reference the @name insert into statement above
+            command.Parameters.AddWithValue("@CustomerID", txtLoginCustomerID.Text);
+
+            answer = command.ExecuteNonQuery();
+            MessageBox.Show("Successfully added Gun to cart");
+            connection.Close();
+            command.Dispose();
+        }
+
+        private void button47_Click(object sender, EventArgs e)
+        {
+            connection = new SqlConnection(connectionstring);
+            connection.Open();
+            int answer;
+            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 22)";
+            command = new SqlCommand(sql, connection);
+            //These @Name command parameters reference the @name insert into statement above
+            command.Parameters.AddWithValue("@CustomerID", txtLoginCustomerID.Text);
+
+            answer = command.ExecuteNonQuery();
+            MessageBox.Show("Successfully added Gun to cart");
+            connection.Close();
+            command.Dispose();
+        }
+
+        private void button53_Click(object sender, EventArgs e)
+        {
+            connection = new SqlConnection(connectionstring);
+            connection.Open();
+            int answer;
+            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 23)";
+            command = new SqlCommand(sql, connection);
+            //These @Name command parameters reference the @name insert into statement above
+            command.Parameters.AddWithValue("@CustomerID", txtLoginCustomerID.Text);
+
+            answer = command.ExecuteNonQuery();
+            MessageBox.Show("Successfully added Gun to cart");
+            connection.Close();
+            command.Dispose();
+        }
+
+        private void button51_Click(object sender, EventArgs e)
+        {
+            connection = new SqlConnection(connectionstring);
+            connection.Open();
+            int answer;
+            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 24)";
+            command = new SqlCommand(sql, connection);
+            //These @Name command parameters reference the @name insert into statement above
+            command.Parameters.AddWithValue("@CustomerID", txtLoginCustomerID.Text);
+
+            answer = command.ExecuteNonQuery();
+            MessageBox.Show("Successfully added Gun to cart");
+            connection.Close();
+            command.Dispose();
+        }
+
+        private void button55_Click(object sender, EventArgs e)
+        {
+            connection = new SqlConnection(connectionstring);
+            connection.Open();
+            int answer;
+            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 25)";
+            command = new SqlCommand(sql, connection);
+            //These @Name command parameters reference the @name insert into statement above
+            command.Parameters.AddWithValue("@CustomerID", txtLoginCustomerID.Text);
+
+            answer = command.ExecuteNonQuery();
+            MessageBox.Show("Successfully added Gun to cart");
+            connection.Close();
+            command.Dispose();
+        }
+
+        private void button57_Click(object sender, EventArgs e)
+        {
+            connection = new SqlConnection(connectionstring);
+            connection.Open();
+            int answer;
+            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 26)";
+            command = new SqlCommand(sql, connection);
+            //These @Name command parameters reference the @name insert into statement above
+            command.Parameters.AddWithValue("@CustomerID", txtLoginCustomerID.Text);
+
+            answer = command.ExecuteNonQuery();
+            MessageBox.Show("Successfully added Gun to cart");
+            connection.Close();
+            command.Dispose();
+        }
+
+        private void button59_Click(object sender, EventArgs e)
+        {
+            connection = new SqlConnection(connectionstring);
+            connection.Open();
+            int answer;
+            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 27)";
+            command = new SqlCommand(sql, connection);
+            //These @Name command parameters reference the @name insert into statement above
+            command.Parameters.AddWithValue("@CustomerID", txtLoginCustomerID.Text);
+
+            answer = command.ExecuteNonQuery();
+            MessageBox.Show("Successfully added Gun to cart");
+            connection.Close();
+            command.Dispose();
+        }
+
+        private void button61_Click(object sender, EventArgs e)
+        {
+            connection = new SqlConnection(connectionstring);
+            connection.Open();
+            int answer;
+            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 28)";
+            command = new SqlCommand(sql, connection);
+            //These @Name command parameters reference the @name insert into statement above
+            command.Parameters.AddWithValue("@CustomerID", txtLoginCustomerID.Text);
+
+            answer = command.ExecuteNonQuery();
+            MessageBox.Show("Successfully added Gun to cart");
+            connection.Close();
+            command.Dispose();
+        }
+
+        private void button63_Click(object sender, EventArgs e)
+        {
+            connection = new SqlConnection(connectionstring);
+            connection.Open();
+            int answer;
+            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 29)";
+            command = new SqlCommand(sql, connection);
+            //These @Name command parameters reference the @name insert into statement above
+            command.Parameters.AddWithValue("@CustomerID", txtLoginCustomerID.Text);
+
+            answer = command.ExecuteNonQuery();
+            MessageBox.Show("Successfully added Gun to cart");
+            connection.Close();
+            command.Dispose();
+        }
+
+        private void button65_Click(object sender, EventArgs e)
+        {
+            connection = new SqlConnection(connectionstring);
+            connection.Open();
+            int answer;
+            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 30)";
+            command = new SqlCommand(sql, connection);
+            //These @Name command parameters reference the @name insert into statement above
+            command.Parameters.AddWithValue("@CustomerID", txtLoginCustomerID.Text);
+
+            answer = command.ExecuteNonQuery();
+            MessageBox.Show("Successfully added Gun to cart");
+            connection.Close();
+            command.Dispose();
+        }
+
+        private void button67_Click(object sender, EventArgs e)
+        {
+            connection = new SqlConnection(connectionstring);
+            connection.Open();
+            int answer;
+            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 31)";
+            command = new SqlCommand(sql, connection);
+            //These @Name command parameters reference the @name insert into statement above
+            command.Parameters.AddWithValue("@CustomerID", txtLoginCustomerID.Text);
+
+            answer = command.ExecuteNonQuery();
+            MessageBox.Show("Successfully added Gun to cart");
+            connection.Close();
+            command.Dispose();
+        }
+
+        private void button69_Click(object sender, EventArgs e)
+        {
+            connection = new SqlConnection(connectionstring);
+            connection.Open();
+            int answer;
+            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 32)";
+            command = new SqlCommand(sql, connection);
+            //These @Name command parameters reference the @name insert into statement above
+            command.Parameters.AddWithValue("@CustomerID", txtLoginCustomerID.Text);
+
+            answer = command.ExecuteNonQuery();
+            MessageBox.Show("Successfully added Gun to cart");
+            connection.Close();
+            command.Dispose();
+        }
+
+        private void button71_Click(object sender, EventArgs e)
+        {
+            connection = new SqlConnection(connectionstring);
+            connection.Open();
+            int answer;
+            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 33)";
+            command = new SqlCommand(sql, connection);
+            //These @Name command parameters reference the @name insert into statement above
+            command.Parameters.AddWithValue("@CustomerID", txtLoginCustomerID.Text);
+
+            answer = command.ExecuteNonQuery();
+            MessageBox.Show("Successfully added Gun to cart");
+            connection.Close();
+            command.Dispose();
+        }
+
+        private void button73_Click(object sender, EventArgs e)
+        {
+            connection = new SqlConnection(connectionstring);
+            connection.Open();
+            int answer;
+            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 34)";
+            command = new SqlCommand(sql, connection);
+            //These @Name command parameters reference the @name insert into statement above
+            command.Parameters.AddWithValue("@CustomerID", txtLoginCustomerID.Text);
+
+            answer = command.ExecuteNonQuery();
+            MessageBox.Show("Successfully added Gun to cart");
+            connection.Close();
+            command.Dispose();
+        }
+
+        private void button75_Click(object sender, EventArgs e)
+        {
+            connection = new SqlConnection(connectionstring);
+            connection.Open();
+            int answer;
+            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 35)";
+            command = new SqlCommand(sql, connection);
+            //These @Name command parameters reference the @name insert into statement above
+            command.Parameters.AddWithValue("@CustomerID", txtLoginCustomerID.Text);
+
+            answer = command.ExecuteNonQuery();
+            MessageBox.Show("Successfully added Gun to cart");
+            connection.Close();
+            command.Dispose();
+        }
+
+        private void button77_Click(object sender, EventArgs e)
+        {
+            connection = new SqlConnection(connectionstring);
+            connection.Open();
+            int answer;
+            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 36)";
+            command = new SqlCommand(sql, connection);
+            //These @Name command parameters reference the @name insert into statement above
+            command.Parameters.AddWithValue("@CustomerID", txtLoginCustomerID.Text);
+
+            answer = command.ExecuteNonQuery();
+            MessageBox.Show("Successfully added Gun to cart");
+            connection.Close();
+            command.Dispose();
+        }
+
+        private void button79_Click(object sender, EventArgs e)
+        {
+            connection = new SqlConnection(connectionstring);
+            connection.Open();
+            int answer;
+            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 37)";
+            command = new SqlCommand(sql, connection);
+            //These @Name command parameters reference the @name insert into statement above
+            command.Parameters.AddWithValue("@CustomerID", txtLoginCustomerID.Text);
+
+            answer = command.ExecuteNonQuery();
+            MessageBox.Show("Successfully added Gun to cart");
+            connection.Close();
+            command.Dispose();
+        }
+
+        private void button81_Click(object sender, EventArgs e)
+        {
+            connection = new SqlConnection(connectionstring);
+            connection.Open();
+            int answer;
+            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 38)";
+            command = new SqlCommand(sql, connection);
+            //These @Name command parameters reference the @name insert into statement above
+            command.Parameters.AddWithValue("@CustomerID", txtLoginCustomerID.Text);
+
+            answer = command.ExecuteNonQuery();
+            MessageBox.Show("Successfully added Gun to cart");
+            connection.Close();
+            command.Dispose();
+        }
+
+        private void button83_Click(object sender, EventArgs e)
+        {
+            connection = new SqlConnection(connectionstring);
+            connection.Open();
+            int answer;
+            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 39)";
+            command = new SqlCommand(sql, connection);
+            //These @Name command parameters reference the @name insert into statement above
+            command.Parameters.AddWithValue("@CustomerID", txtLoginCustomerID.Text);
+
+            answer = command.ExecuteNonQuery();
+            MessageBox.Show("Successfully added Gun to cart");
+            connection.Close();
+            command.Dispose();
+        }
+
+        private void button85_Click(object sender, EventArgs e)
+        {
+            connection = new SqlConnection(connectionstring);
+            connection.Open();
+            int answer;
+            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 40)";
+            command = new SqlCommand(sql, connection);
+            //These @Name command parameters reference the @name insert into statement above
+            command.Parameters.AddWithValue("@CustomerID", txtLoginCustomerID.Text);
+
+            answer = command.ExecuteNonQuery();
+            MessageBox.Show("Successfully added Gun to cart");
+            connection.Close();
+            command.Dispose();
+        }
+
+        private void button87_Click(object sender, EventArgs e)
+        {
+            connection = new SqlConnection(connectionstring);
+            connection.Open();
+            int answer;
+            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 41)";
+            command = new SqlCommand(sql, connection);
+            //These @Name command parameters reference the @name insert into statement above
+            command.Parameters.AddWithValue("@CustomerID", txtLoginCustomerID.Text);
+
+            answer = command.ExecuteNonQuery();
+            MessageBox.Show("Successfully added Gun to cart");
+            connection.Close();
+            command.Dispose();
+        }
+
+        private void button89_Click(object sender, EventArgs e)
+        {
+            connection = new SqlConnection(connectionstring);
+            connection.Open();
+            int answer;
+            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 42)";
+            command = new SqlCommand(sql, connection);
+            //These @Name command parameters reference the @name insert into statement above
+            command.Parameters.AddWithValue("@CustomerID", txtLoginCustomerID.Text);
+
+            answer = command.ExecuteNonQuery();
+            MessageBox.Show("Successfully added Gun to cart");
+            connection.Close();
+            command.Dispose();
+        }
+
+        private void button91_Click(object sender, EventArgs e)
+        {
+            connection = new SqlConnection(connectionstring);
+            connection.Open();
+            int answer;
+            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 43)";
+            command = new SqlCommand(sql, connection);
+            //These @Name command parameters reference the @name insert into statement above
+            command.Parameters.AddWithValue("@CustomerID", txtLoginCustomerID.Text);
+
+            answer = command.ExecuteNonQuery();
+            MessageBox.Show("Successfully added Gun to cart");
+            connection.Close();
+            command.Dispose();
+        }
+
+        private void button93_Click(object sender, EventArgs e)
+        {
+            connection = new SqlConnection(connectionstring);
+            connection.Open();
+            int answer;
+            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 44)";
+            command = new SqlCommand(sql, connection);
+            //These @Name command parameters reference the @name insert into statement above
+            command.Parameters.AddWithValue("@CustomerID", txtLoginCustomerID.Text);
+
+            answer = command.ExecuteNonQuery();
+            MessageBox.Show("Successfully added Gun to cart");
+            connection.Close();
+            command.Dispose();
+        }
+
+        private void button95_Click(object sender, EventArgs e)
+        {
+            connection = new SqlConnection(connectionstring);
+            connection.Open();
+            int answer;
+            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 45)";
+            command = new SqlCommand(sql, connection);
+            //These @Name command parameters reference the @name insert into statement above
+            command.Parameters.AddWithValue("@CustomerID", txtLoginCustomerID.Text);
+
+            answer = command.ExecuteNonQuery();
+            MessageBox.Show("Successfully added Gun to cart");
+            connection.Close();
+            command.Dispose();
+        }
+
+        private void button97_Click(object sender, EventArgs e)
+        {
+            connection = new SqlConnection(connectionstring);
+            connection.Open();
+            int answer;
+            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 46)";
+            command = new SqlCommand(sql, connection);
+            //These @Name command parameters reference the @name insert into statement above
+            command.Parameters.AddWithValue("@CustomerID", txtLoginCustomerID.Text);
+
+            answer = command.ExecuteNonQuery();
+            MessageBox.Show("Successfully added Gun to cart");
+            connection.Close();
+            command.Dispose();
+        }
+
+        private void button99_Click(object sender, EventArgs e)
+        {
+            connection = new SqlConnection(connectionstring);
+            connection.Open();
+            int answer;
+            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 47)";
+            command = new SqlCommand(sql, connection);
+            //These @Name command parameters reference the @name insert into statement above
+            command.Parameters.AddWithValue("@CustomerID", txtLoginCustomerID.Text);
+
+            answer = command.ExecuteNonQuery();
+            MessageBox.Show("Successfully added Gun to cart");
+            connection.Close();
+            command.Dispose();
+        }
+
+        private void button103_Click(object sender, EventArgs e)
+        {
+            connection = new SqlConnection(connectionstring);
+            connection.Open();
+            int answer;
+            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 48)";
+            command = new SqlCommand(sql, connection);
+            //These @Name command parameters reference the @name insert into statement above
+            command.Parameters.AddWithValue("@CustomerID", txtLoginCustomerID.Text);
+
+            answer = command.ExecuteNonQuery();
+            MessageBox.Show("Successfully added Gun to cart");
+            connection.Close();
+            command.Dispose();
+        }
+
+        private void button107_Click(object sender, EventArgs e)
+        {
+            connection = new SqlConnection(connectionstring);
+            connection.Open();
+            int answer;
+            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 50)";
+            command = new SqlCommand(sql, connection);
+            //These @Name command parameters reference the @name insert into statement above
+            command.Parameters.AddWithValue("@CustomerID", txtLoginCustomerID.Text);
+
+            answer = command.ExecuteNonQuery();
+            MessageBox.Show("Successfully added Gun to cart");
+            connection.Close();
+            command.Dispose();
+        }
+
+        private void button105_Click(object sender, EventArgs e)
+        {
+            connection = new SqlConnection(connectionstring);
+            connection.Open();
+            int answer;
+            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 49)";
+            command = new SqlCommand(sql, connection);
+            //These @Name command parameters reference the @name insert into statement above
+            command.Parameters.AddWithValue("@CustomerID", txtLoginCustomerID.Text);
+
+            answer = command.ExecuteNonQuery();
+            MessageBox.Show("Successfully added Gun to cart");
+            connection.Close();
+            command.Dispose();
+        }
+
+        private void button109_Click(object sender, EventArgs e)
+        {
+            connection = new SqlConnection(connectionstring);
+            connection.Open();
+            int answer;
+            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 51)";
+            command = new SqlCommand(sql, connection);
+            //These @Name command parameters reference the @name insert into statement above
+            command.Parameters.AddWithValue("@CustomerID", txtLoginCustomerID.Text);
+
+            answer = command.ExecuteNonQuery();
+            MessageBox.Show("Successfully added Gun to cart");
+            connection.Close();
+            command.Dispose();
+        }
+
+        private void button113_Click(object sender, EventArgs e)
+        {
+            connection = new SqlConnection(connectionstring);
+            connection.Open();
+            int answer;
+            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 52)";
+            command = new SqlCommand(sql, connection);
+            //These @Name command parameters reference the @name insert into statement above
+            command.Parameters.AddWithValue("@CustomerID", txtLoginCustomerID.Text);
+
+            answer = command.ExecuteNonQuery();
+            MessageBox.Show("Successfully added Gun to cart");
+            connection.Close();
+            command.Dispose();
+        }
+
+        private void button117_Click(object sender, EventArgs e)
+        {
+            connection = new SqlConnection(connectionstring);
+            connection.Open();
+            int answer;
+            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 53)";
+            command = new SqlCommand(sql, connection);
+            //These @Name command parameters reference the @name insert into statement above
+            command.Parameters.AddWithValue("@CustomerID", txtLoginCustomerID.Text);
+
+            answer = command.ExecuteNonQuery();
+            MessageBox.Show("Successfully added Gun to cart");
+            connection.Close();
+            command.Dispose();
+        }
+
+        private void button115_Click(object sender, EventArgs e)
+        {
+            connection = new SqlConnection(connectionstring);
+            connection.Open();
+            int answer;
+            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 54)";
+            command = new SqlCommand(sql, connection);
+            //These @Name command parameters reference the @name insert into statement above
+            command.Parameters.AddWithValue("@CustomerID", txtLoginCustomerID.Text);
+
+            answer = command.ExecuteNonQuery();
+            MessageBox.Show("Successfully added Gun to cart");
+            connection.Close();
+            command.Dispose();
+        }
     }
 }
