@@ -73,6 +73,16 @@ namespace Arkansas_Armory.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Arkansas_armory_1_ {
+            get {
+                object obj = ResourceManager.GetObject("Arkansas armory(1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_add_50 {
             get {
                 object obj = ResourceManager.GetObject("icons8-add-50", resourceCulture);
