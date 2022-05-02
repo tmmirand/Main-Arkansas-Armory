@@ -93,6 +93,36 @@ namespace Arkansas_Armory.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_all_64 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-all-64", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_assault_rifle_64 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-assault-rifle-64", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_handgun_64 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-handgun-64", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_log_out_64 {
             get {
                 object obj = ResourceManager.GetObject("icons8-log-out-64", resourceCulture);
@@ -126,6 +156,16 @@ namespace Arkansas_Armory.Properties {
         internal static System.Drawing.Bitmap icons8_shopping_cart_48 {
             get {
                 object obj = ResourceManager.GetObject("icons8-shopping-cart-48", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_shotgun_64 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-shotgun-64", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

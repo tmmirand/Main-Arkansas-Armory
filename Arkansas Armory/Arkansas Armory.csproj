@@ -281,5 +281,17 @@
   <ItemGroup>
     <None Include="Resources\Arkansas armory%281%29.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-all-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-handgun-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-shotgun-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-assault-rifle-64.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -34,7 +34,7 @@ namespace Arkansas_Armory
             dtCustomerCount = new DataTable();
             adpt.Fill(dtCustomerCount);
             cnn.Close();
-            
+
 
 
         }
@@ -47,12 +47,12 @@ namespace Arkansas_Armory
 
         private void cboAccount_SelectedIndexChanged(object sender, EventArgs e)
         {
-            
+
         }
 
         private void btnCreate_Account_Click(object sender, EventArgs e)
         {
-            
+
             try
             {
                 connection = new SqlConnection(connectionstring);
@@ -79,9 +79,9 @@ namespace Arkansas_Armory
                 command.Parameters.AddWithValue("@Email", txtEmail.Text);
                 answer = command.ExecuteNonQuery();
                 refresh();
-                
+
                 MessageBox.Show("You have successfully entered " + answer + " into the database.");
-                MessageBox.Show("Your Customer ID is " + (dtCustomerCount.Rows.Count+5) + "");
+                MessageBox.Show("Your Customer ID is " + (dtCustomerCount.Rows.Count + 5) + "");
                 connection.Close();
                 command.Dispose();
 
@@ -90,7 +90,7 @@ namespace Arkansas_Armory
             {
                 MessageBox.Show("Error! You need to solve: " + ex);
             }
-            
+
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
@@ -110,14 +110,14 @@ namespace Arkansas_Armory
             pnlLogin.Visible = false;
             pnlOrders.Visible = false;
 
-           
+
             txtLoginPassword.Text = "Guest";
             txtLoginCustomerID.Text = "7";
-            
+
 
             refresh();
 
-            
+
         }
 
         private void btnCreateAccount_Click(object sender, EventArgs e)
@@ -478,17 +478,17 @@ namespace Arkansas_Armory
 
         private void loginBTN_Click(object sender, EventArgs e)
         {
-            
+
             string connectionstring;
             SqlConnection cnn;
             connectionstring = @"Data Source=essql1.walton.uark.edu; Initial Catalog=PROJECTS2241; User ID=PROJECTS2241; Password=CN74kyu$;";
             cnn = new SqlConnection(connectionstring);
-            
+
             cnn.Open();
             adpt = new SqlDataAdapter("Select CustomerID FROM Customer WHERE CustomerID=" + txtLoginCustomerID.Text + " AND Password='" + txtLoginPassword.Text + "'", cnn);
             dtCustomer = new DataTable();
             adpt.Fill(dtCustomer);
-            if (dtCustomer.Rows.Count >0)
+            if (dtCustomer.Rows.Count > 0)
             {
                 MessageBox.Show("Login Success!");
             }
@@ -499,47 +499,14 @@ namespace Arkansas_Armory
             }
             cnn.Close();
             pnlLogin.Visible = false;
-            
-          
-            
-        }
 
-        private void radioButton1_CheckedChanged(object sender, EventArgs e)
-        {
-            if (radioButton1.Checked == false)
-                    {
-                Handguns.Visible = false;
-                    }
-            else
-            {
-                Handguns.Visible = true;
-                Handguns.Location = new Point(135, 185);
-                gboShotguns.Visible = false;
-                pnlRifles.Visible = false;
 
-            }
-            
+
         }
 
         private void button11_Click(object sender, EventArgs e)
         {
-            pnlShoppingCart.Visible = false; 
-        }
-
-        private void radioButton2_CheckedChanged(object sender, EventArgs e)
-        {
-            if (radioButton2.Checked == false)
-            {
-                gboShotguns.Visible = false;
-            }
-            else
-            {
-                gboShotguns.Visible = true;
-                gboShotguns.Location = new Point(135, 185);
-                Handguns.Visible = false;
-                pnlRifles.Visible = false;
-
-            }
+            pnlShoppingCart.Visible = false;
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -578,33 +545,6 @@ namespace Arkansas_Armory
 
         private void pictureBox40_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void radioButton4_CheckedChanged(object sender, EventArgs e)
-        {
-            Handguns.Visible = true;
-            gboShotguns.Visible = true;
-            pnlRifles.Visible = true;
-            Handguns.Location = new Point(135, 185);
-            gboShotguns.Location = new Point(133, 2858);
-            pnlRifles.Location = new Point(123, 6632);
-        }
-
-        private void radioButton3_CheckedChanged(object sender, EventArgs e)
-        {
-            if (radioButton3.Checked == false)
-            {
-                pnlRifles.Visible = false;
-            }
-            else
-            {
-                pnlRifles.Visible = true;
-                pnlRifles.Location = new Point(135, 185);
-                gboShotguns.Visible = false;
-                Handguns.Visible = false;
-
-            }
 
         }
 
@@ -1454,6 +1394,40 @@ namespace Arkansas_Armory
             MessageBox.Show("Successfully added Gun to cart");
             connection.Close();
             command.Dispose();
+        }
+
+        private void btnAllGuns_Click(object sender, EventArgs e)
+        {
+            Handguns.Visible = true;
+            gboShotguns.Visible = true;
+            pnlRifles.Visible = true;
+            Handguns.Location = new Point(135, 185);
+            gboShotguns.Location = new Point(133, 2858);
+            pnlRifles.Location = new Point(123, 6632);
+        }
+
+        private void btnHandguns_Click(object sender, EventArgs e)
+        {
+            Handguns.Visible = true;
+            Handguns.Location = new Point(135, 185);
+            gboShotguns.Visible = false;
+            pnlRifles.Visible = false;
+        }
+
+        private void btnShotguns_Click(object sender, EventArgs e)
+        {
+            gboShotguns.Visible = true;
+            gboShotguns.Location = new Point(135, 185);
+            Handguns.Visible = false;
+            pnlRifles.Visible = false;
+        }
+
+        private void btnRifles_Click(object sender, EventArgs e)
+        {
+            pnlRifles.Visible = true;
+            pnlRifles.Location = new Point(135, 185);
+            gboShotguns.Visible = false;
+            Handguns.Visible = false;
         }
     }
 }
