@@ -82,11 +82,9 @@ namespace Arkansas_Armory
             this.panel2 = new System.Windows.Forms.Panel();
             this.label6 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
-            this.label21 = new System.Windows.Forms.Label();
             this.txtLoginPassword = new System.Windows.Forms.MaskedTextBox();
             this.txtLoginCustomerID = new System.Windows.Forms.TextBox();
             this.loginBTN = new System.Windows.Forms.Button();
-            this.label27 = new System.Windows.Forms.Label();
             this.gboGun1 = new System.Windows.Forms.GroupBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.textBox9 = new System.Windows.Forms.TextBox();
@@ -1508,6 +1506,8 @@ namespace Arkansas_Armory
             this.button70 = new System.Windows.Forms.Button();
             this.pictureBox35 = new System.Windows.Forms.PictureBox();
             this.pnlRifles = new System.Windows.Forms.Panel();
+            this.panel8 = new System.Windows.Forms.Panel();
+            this.panel9 = new System.Windows.Forms.Panel();
             this.pnlCreateAccount.SuspendLayout();
             this.panel4.SuspendLayout();
             this.pnlShoppingCart.SuspendLayout();
@@ -2237,13 +2237,13 @@ namespace Arkansas_Armory
             // pnlLogin
             // 
             this.pnlLogin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(97)))), ((int)(((byte)(102)))));
+            this.pnlLogin.Controls.Add(this.panel9);
+            this.pnlLogin.Controls.Add(this.panel8);
             this.pnlLogin.Controls.Add(this.pictureBox2);
             this.pnlLogin.Controls.Add(this.panel2);
-            this.pnlLogin.Controls.Add(this.label21);
             this.pnlLogin.Controls.Add(this.txtLoginPassword);
             this.pnlLogin.Controls.Add(this.txtLoginCustomerID);
             this.pnlLogin.Controls.Add(this.loginBTN);
-            this.pnlLogin.Controls.Add(this.label27);
             this.pnlLogin.Location = new System.Drawing.Point(2648, 3351);
             this.pnlLogin.Name = "pnlLogin";
             this.pnlLogin.Size = new System.Drawing.Size(1310, 798);
@@ -2297,49 +2297,43 @@ namespace Arkansas_Armory
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // label21
-            // 
-            this.label21.AutoSize = true;
-            this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.Location = new System.Drawing.Point(510, 219);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(92, 18);
-            this.label21.TabIndex = 10;
-            this.label21.Text = "Customer ID";
-            // 
             // txtLoginPassword
             // 
-            this.txtLoginPassword.Location = new System.Drawing.Point(646, 277);
+            this.txtLoginPassword.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(97)))), ((int)(((byte)(102)))));
+            this.txtLoginPassword.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtLoginPassword.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtLoginPassword.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(254)))), ((int)(((byte)(254)))));
+            this.txtLoginPassword.Location = new System.Drawing.Point(646, 281);
             this.txtLoginPassword.Name = "txtLoginPassword";
             this.txtLoginPassword.Size = new System.Drawing.Size(100, 20);
             this.txtLoginPassword.TabIndex = 9;
+            this.txtLoginPassword.Text = "Password";
             // 
             // txtLoginCustomerID
             // 
-            this.txtLoginCustomerID.Location = new System.Drawing.Point(646, 217);
+            this.txtLoginCustomerID.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(97)))), ((int)(((byte)(102)))));
+            this.txtLoginCustomerID.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtLoginCustomerID.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtLoginCustomerID.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(254)))), ((int)(((byte)(254)))));
+            this.txtLoginCustomerID.Location = new System.Drawing.Point(646, 215);
             this.txtLoginCustomerID.Name = "txtLoginCustomerID";
-            this.txtLoginCustomerID.Size = new System.Drawing.Size(100, 20);
+            this.txtLoginCustomerID.Size = new System.Drawing.Size(388, 20);
             this.txtLoginCustomerID.TabIndex = 8;
+            this.txtLoginCustomerID.Text = "Customer ID";
             // 
             // loginBTN
             // 
-            this.loginBTN.Location = new System.Drawing.Point(646, 358);
+            this.loginBTN.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(34)))), ((int)(((byte)(53)))));
+            this.loginBTN.FlatAppearance.BorderSize = 0;
+            this.loginBTN.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.loginBTN.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.loginBTN.Location = new System.Drawing.Point(634, 384);
             this.loginBTN.Name = "loginBTN";
-            this.loginBTN.Size = new System.Drawing.Size(75, 23);
+            this.loginBTN.Size = new System.Drawing.Size(100, 64);
             this.loginBTN.TabIndex = 5;
             this.loginBTN.Text = "Login";
-            this.loginBTN.UseVisualStyleBackColor = true;
+            this.loginBTN.UseVisualStyleBackColor = false;
             this.loginBTN.Click += new System.EventHandler(this.loginBTN_Click);
-            // 
-            // label27
-            // 
-            this.label27.AutoSize = true;
-            this.label27.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label27.Location = new System.Drawing.Point(510, 279);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(75, 18);
-            this.label27.TabIndex = 3;
-            this.label27.Text = "Password";
             // 
             // gboGun1
             // 
@@ -16230,13 +16224,29 @@ namespace Arkansas_Armory
             this.pnlRifles.Size = new System.Drawing.Size(1211, 3707);
             this.pnlRifles.TabIndex = 62;
             // 
+            // panel8
+            // 
+            this.panel8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(254)))), ((int)(((byte)(254)))));
+            this.panel8.Location = new System.Drawing.Point(521, 245);
+            this.panel8.Name = "panel8";
+            this.panel8.Size = new System.Drawing.Size(250, 1);
+            this.panel8.TabIndex = 13;
+            // 
+            // panel9
+            // 
+            this.panel9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(254)))), ((int)(((byte)(254)))));
+            this.panel9.Location = new System.Drawing.Point(521, 324);
+            this.panel9.Name = "panel9";
+            this.panel9.Size = new System.Drawing.Size(250, 1);
+            this.panel9.TabIndex = 14;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(97)))), ((int)(((byte)(102)))));
-            this.ClientSize = new System.Drawing.Size(1594, 729);
+            this.ClientSize = new System.Drawing.Size(1370, 729);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.pnlOrders);
             this.Controls.Add(this.pnlShoppingCart);
@@ -16677,7 +16687,6 @@ namespace Arkansas_Armory
         private System.Windows.Forms.Button btnBack;
         private System.Windows.Forms.Panel pnlLogin;
         private System.Windows.Forms.Button loginBTN;
-        private System.Windows.Forms.Label label27;
         private System.Windows.Forms.GroupBox gboGun1;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.GroupBox groupBox3;
@@ -17589,7 +17598,6 @@ namespace Arkansas_Armory
         private System.Windows.Forms.TextBox txtLoginCustomerID;
         private System.Windows.Forms.GroupBox Handguns;
         private System.Windows.Forms.Button button11;
-        private System.Windows.Forms.Label label21;
         private System.Windows.Forms.MaskedTextBox txtLoginPassword;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
@@ -18106,6 +18114,8 @@ namespace Arkansas_Armory
         private System.Windows.Forms.Panel panel7;
         private System.Windows.Forms.Panel pnlRifles;
         private System.Windows.Forms.RadioButton radioButton4;
+        private System.Windows.Forms.Panel panel9;
+        private System.Windows.Forms.Panel panel8;
     }
 }
 
