@@ -30,6 +30,10 @@ namespace Arkansas_Armory
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             this.label2 = new System.Windows.Forms.Label();
             this.btnCreate_Account = new System.Windows.Forms.Button();
             this.txtFirst_Name = new System.Windows.Forms.TextBox();
@@ -1508,6 +1512,9 @@ namespace Arkansas_Armory
             this.button70 = new System.Windows.Forms.Button();
             this.pictureBox35 = new System.Windows.Forms.PictureBox();
             this.pnlRifles = new System.Windows.Forms.Panel();
+            this.panel10 = new System.Windows.Forms.Panel();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.label21 = new System.Windows.Forms.Label();
             this.pnlCreateAccount.SuspendLayout();
             this.panel4.SuspendLayout();
             this.pnlShoppingCart.SuspendLayout();
@@ -1750,6 +1757,8 @@ namespace Arkansas_Armory
             this.groupBox102.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox35)).BeginInit();
             this.pnlRifles.SuspendLayout();
+            this.panel10.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             this.SuspendLayout();
             // 
             // label2
@@ -1951,11 +1960,12 @@ namespace Arkansas_Armory
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.label14.Font = new System.Drawing.Font("HelveticaNeueforSAS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(34)))), ((int)(((byte)(53)))));
+            this.label14.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(254)))), ((int)(((byte)(254)))));
             this.label14.Location = new System.Drawing.Point(623, 383);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(163, 21);
+            this.label14.Size = new System.Drawing.Size(162, 21);
             this.label14.TabIndex = 37;
             this.label14.Text = "Credit Card Number";
             // 
@@ -1969,11 +1979,12 @@ namespace Arkansas_Armory
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.label15.Font = new System.Drawing.Font("HelveticaNeueforSAS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(34)))), ((int)(((byte)(53)))));
+            this.label15.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(254)))), ((int)(((byte)(254)))));
             this.label15.Location = new System.Drawing.Point(597, 343);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(189, 21);
+            this.label15.Size = new System.Drawing.Size(185, 21);
             this.label15.TabIndex = 35;
             this.label15.Text = "Concealed Carry Status";
             // 
@@ -1987,11 +1998,12 @@ namespace Arkansas_Armory
             // label16
             // 
             this.label16.AutoSize = true;
-            this.label16.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.label16.Font = new System.Drawing.Font("HelveticaNeueforSAS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(34)))), ((int)(((byte)(53)))));
+            this.label16.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(254)))), ((int)(((byte)(254)))));
             this.label16.Location = new System.Drawing.Point(595, 306);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(191, 21);
+            this.label16.Size = new System.Drawing.Size(192, 21);
             this.label16.TabIndex = 33;
             this.label16.Text = "Driver Liscence Number";
             // 
@@ -2005,11 +2017,12 @@ namespace Arkansas_Armory
             // label17
             // 
             this.label17.AutoSize = true;
-            this.label17.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.label17.Font = new System.Drawing.Font("HelveticaNeueforSAS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(34)))), ((int)(((byte)(53)))));
+            this.label17.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(254)))), ((int)(((byte)(254)))));
             this.label17.Location = new System.Drawing.Point(681, 265);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(105, 21);
+            this.label17.Size = new System.Drawing.Size(107, 21);
             this.label17.TabIndex = 31;
             this.label17.Text = "Date of Birth";
             // 
@@ -2023,11 +2036,12 @@ namespace Arkansas_Armory
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.label10.Font = new System.Drawing.Font("HelveticaNeueforSAS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(34)))), ((int)(((byte)(53)))));
+            this.label10.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(254)))), ((int)(((byte)(254)))));
             this.label10.Location = new System.Drawing.Point(686, 226);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(100, 21);
+            this.label10.Size = new System.Drawing.Size(102, 21);
             this.label10.TabIndex = 29;
             this.label10.Text = "Billing State";
             // 
@@ -2041,11 +2055,12 @@ namespace Arkansas_Armory
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.label11.Font = new System.Drawing.Font("HelveticaNeueforSAS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(34)))), ((int)(((byte)(53)))));
+            this.label11.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(254)))), ((int)(((byte)(254)))));
             this.label11.Location = new System.Drawing.Point(657, 194);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(129, 21);
+            this.label11.Size = new System.Drawing.Size(132, 21);
             this.label11.TabIndex = 27;
             this.label11.Text = "Billing Zip Code";
             // 
@@ -2059,11 +2074,12 @@ namespace Arkansas_Armory
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.label12.Font = new System.Drawing.Font("HelveticaNeueforSAS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(34)))), ((int)(((byte)(53)))));
+            this.label12.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(254)))), ((int)(((byte)(254)))));
             this.label12.Location = new System.Drawing.Point(696, 160);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(90, 21);
+            this.label12.Size = new System.Drawing.Size(94, 21);
             this.label12.TabIndex = 25;
             this.label12.Text = "Billing City";
             // 
@@ -2077,11 +2093,12 @@ namespace Arkansas_Armory
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.label13.Font = new System.Drawing.Font("HelveticaNeueforSAS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(34)))), ((int)(((byte)(53)))));
+            this.label13.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(254)))), ((int)(((byte)(254)))));
             this.label13.Location = new System.Drawing.Point(612, 124);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(174, 21);
+            this.label13.Size = new System.Drawing.Size(172, 21);
             this.label13.TabIndex = 23;
             this.label13.Text = "Billing Street Address";
             // 
@@ -2145,16 +2162,17 @@ namespace Arkansas_Armory
             // pnlShoppingCart
             // 
             this.pnlShoppingCart.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(97)))), ((int)(((byte)(102)))));
+            this.pnlShoppingCart.Controls.Add(this.txttotal);
+            this.pnlShoppingCart.Controls.Add(this.panel10);
+            this.pnlShoppingCart.Controls.Add(this.button2);
             this.pnlShoppingCart.Controls.Add(this.panel5);
             this.pnlShoppingCart.Controls.Add(this.pictureBox1);
-            this.pnlShoppingCart.Controls.Add(this.button2);
             this.pnlShoppingCart.Controls.Add(this.label24);
-            this.pnlShoppingCart.Controls.Add(this.txttotal);
             this.pnlShoppingCart.Controls.Add(this.label23);
             this.pnlShoppingCart.Controls.Add(this.dataGridView1);
             this.pnlShoppingCart.Location = new System.Drawing.Point(2648, 2531);
             this.pnlShoppingCart.Name = "pnlShoppingCart";
-            this.pnlShoppingCart.Size = new System.Drawing.Size(1310, 798);
+            this.pnlShoppingCart.Size = new System.Drawing.Size(1317, 798);
             this.pnlShoppingCart.TabIndex = 21;
             // 
             // panel5
@@ -2165,7 +2183,7 @@ namespace Arkansas_Armory
             this.panel5.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel5.Location = new System.Drawing.Point(0, 0);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(1310, 100);
+            this.panel5.Size = new System.Drawing.Size(1317, 100);
             this.panel5.TabIndex = 8;
             // 
             // label19
@@ -2186,7 +2204,7 @@ namespace Arkansas_Armory
             this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button11.Font = new System.Drawing.Font("Nirmala UI", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(254)))), ((int)(((byte)(254)))));
-            this.button11.Location = new System.Drawing.Point(1203, 0);
+            this.button11.Location = new System.Drawing.Point(1210, 0);
             this.button11.Name = "button11";
             this.button11.Size = new System.Drawing.Size(107, 100);
             this.button11.TabIndex = 7;
@@ -2197,7 +2215,7 @@ namespace Arkansas_Armory
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(615, 295);
+            this.pictureBox1.Location = new System.Drawing.Point(1057, 109);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(223, 42);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -2206,44 +2224,73 @@ namespace Arkansas_Armory
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(646, 228);
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(34)))), ((int)(((byte)(53)))));
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(254)))), ((int)(((byte)(254)))));
+            this.button2.Location = new System.Drawing.Point(755, 276);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(147, 42);
+            this.button2.Size = new System.Drawing.Size(218, 64);
             this.button2.TabIndex = 5;
-            this.button2.Text = "Proceed to Checkout";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Text = "Checkout";
+            this.button2.UseVisualStyleBackColor = false;
             // 
             // label24
             // 
             this.label24.AutoSize = true;
-            this.label24.Location = new System.Drawing.Point(631, 192);
+            this.label24.Font = new System.Drawing.Font("Nirmala UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label24.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(254)))), ((int)(((byte)(254)))));
+            this.label24.Location = new System.Drawing.Point(750, 162);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(31, 13);
+            this.label24.Size = new System.Drawing.Size(75, 30);
             this.label24.TabIndex = 4;
-            this.label24.Text = "Total";
+            this.label24.Text = "TOTAL";
             // 
             // txttotal
             // 
-            this.txttotal.Location = new System.Drawing.Point(687, 185);
+            this.txttotal.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txttotal.Location = new System.Drawing.Point(857, 172);
             this.txttotal.Name = "txttotal";
-            this.txttotal.Size = new System.Drawing.Size(100, 20);
+            this.txttotal.Size = new System.Drawing.Size(107, 13);
             this.txttotal.TabIndex = 3;
             // 
             // label23
             // 
             this.label23.AutoSize = true;
+            this.label23.Font = new System.Drawing.Font("Nirmala UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label23.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(254)))), ((int)(((byte)(254)))));
             this.label23.Location = new System.Drawing.Point(73, 152);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(44, 13);
+            this.label23.Size = new System.Drawing.Size(123, 30);
             this.label23.TabIndex = 2;
-            this.label23.Text = "Product";
+            this.label23.Text = "PRODUCTS";
             // 
             // dataGridView1
             // 
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(97)))), ((int)(((byte)(102)))));
+            this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(34)))), ((int)(((byte)(53)))));
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(254)))), ((int)(((byte)(254)))));
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(97)))), ((int)(((byte)(102)))));
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(254)))), ((int)(((byte)(254)))));
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.EnableHeadersVisualStyles = false;
+            this.dataGridView1.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(254)))), ((int)(((byte)(254)))));
             this.dataGridView1.Location = new System.Drawing.Point(76, 188);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(509, 142);
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(97)))), ((int)(((byte)(102)))));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(254)))), ((int)(((byte)(254)))));
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(34)))), ((int)(((byte)(53)))));
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(254)))), ((int)(((byte)(254)))));
+            this.dataGridView1.RowsDefaultCellStyle = dataGridViewCellStyle2;
+            this.dataGridView1.Size = new System.Drawing.Size(582, 497);
             this.dataGridView1.TabIndex = 0;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
@@ -2610,6 +2657,7 @@ namespace Arkansas_Armory
             // pnlOrders
             // 
             this.pnlOrders.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(97)))), ((int)(((byte)(102)))));
+            this.pnlOrders.Controls.Add(this.label21);
             this.pnlOrders.Controls.Add(this.panel3);
             this.pnlOrders.Controls.Add(this.dgvPurchaseHistory);
             this.pnlOrders.Location = new System.Drawing.Point(2637, 1701);
@@ -2633,11 +2681,11 @@ namespace Arkansas_Armory
             this.label18.AutoSize = true;
             this.label18.Font = new System.Drawing.Font("Nirmala UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(254)))), ((int)(((byte)(254)))));
-            this.label18.Location = new System.Drawing.Point(378, 30);
+            this.label18.Location = new System.Drawing.Point(656, 41);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(217, 30);
+            this.label18.Size = new System.Drawing.Size(95, 30);
             this.label18.TabIndex = 0;
-            this.label18.Text = "PURCHASE HISTORY";
+            this.label18.Text = "ORDERS";
             // 
             // btnOrdersMainMenu
             // 
@@ -2656,9 +2704,27 @@ namespace Arkansas_Armory
             // 
             // dgvPurchaseHistory
             // 
+            this.dgvPurchaseHistory.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(97)))), ((int)(((byte)(102)))));
+            this.dgvPurchaseHistory.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(34)))), ((int)(((byte)(53)))));
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(254)))), ((int)(((byte)(254)))));
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(97)))), ((int)(((byte)(102)))));
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(254)))), ((int)(((byte)(254)))));
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvPurchaseHistory.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle3;
             this.dgvPurchaseHistory.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvPurchaseHistory.Location = new System.Drawing.Point(174, 127);
+            this.dgvPurchaseHistory.EnableHeadersVisualStyles = false;
+            this.dgvPurchaseHistory.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(254)))), ((int)(((byte)(254)))));
+            this.dgvPurchaseHistory.Location = new System.Drawing.Point(179, 188);
             this.dgvPurchaseHistory.Name = "dgvPurchaseHistory";
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(97)))), ((int)(((byte)(102)))));
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(254)))), ((int)(((byte)(254)))));
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(34)))), ((int)(((byte)(53)))));
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(254)))), ((int)(((byte)(254)))));
+            this.dgvPurchaseHistory.RowsDefaultCellStyle = dataGridViewCellStyle4;
             this.dgvPurchaseHistory.Size = new System.Drawing.Size(985, 553);
             this.dgvPurchaseHistory.TabIndex = 3;
             // 
@@ -11244,7 +11310,7 @@ namespace Arkansas_Armory
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(3958, 100);
+            this.panel1.Size = new System.Drawing.Size(3965, 100);
             this.panel1.TabIndex = 61;
             // 
             // btnShoppingCart
@@ -16252,6 +16318,36 @@ namespace Arkansas_Armory
             this.pnlRifles.Size = new System.Drawing.Size(1211, 3707);
             this.pnlRifles.TabIndex = 62;
             // 
+            // panel10
+            // 
+            this.panel10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(254)))), ((int)(((byte)(254)))));
+            this.panel10.Controls.Add(this.pictureBox7);
+            this.panel10.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panel10.Location = new System.Drawing.Point(755, 199);
+            this.panel10.Name = "panel10";
+            this.panel10.Size = new System.Drawing.Size(218, 47);
+            this.panel10.TabIndex = 9;
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.Dock = System.Windows.Forms.DockStyle.Left;
+            this.pictureBox7.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(100, 47);
+            this.pictureBox7.TabIndex = 10;
+            this.pictureBox7.TabStop = false;
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Font = new System.Drawing.Font("Nirmala UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label21.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(254)))), ((int)(((byte)(254)))));
+            this.label21.Location = new System.Drawing.Point(174, 148);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(217, 30);
+            this.label21.TabIndex = 47;
+            this.label21.Text = "PURCHASE HISTORY";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -16295,6 +16391,7 @@ namespace Arkansas_Armory
             this.groupBox2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.pnlOrders.ResumeLayout(false);
+            this.pnlOrders.PerformLayout();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvPurchaseHistory)).EndInit();
@@ -16645,6 +16742,8 @@ namespace Arkansas_Armory
             this.groupBox102.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox35)).EndInit();
             this.pnlRifles.ResumeLayout(false);
+            this.panel10.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -18128,6 +18227,9 @@ namespace Arkansas_Armory
         private System.Windows.Forms.RadioButton radioButton4;
         private System.Windows.Forms.Panel panel9;
         private System.Windows.Forms.Panel panel8;
+        private System.Windows.Forms.Panel panel10;
+        private System.Windows.Forms.PictureBox pictureBox7;
+        private System.Windows.Forms.Label label21;
     }
 }
 
