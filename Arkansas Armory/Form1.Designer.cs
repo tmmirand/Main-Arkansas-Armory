@@ -3485,7 +3485,7 @@ namespace Arkansas_Armory
             this.pictureBox6.Image = global::Arkansas_Armory.Properties.Resources.Picture4;
             this.pictureBox6.Location = new System.Drawing.Point(233, 19);
             this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(336, 302);
+            this.pictureBox6.Size = new System.Drawing.Size(329, 263);
             this.pictureBox6.TabIndex = 0;
             this.pictureBox6.TabStop = false;
             this.pictureBox6.Tag = "299, 253";
@@ -3728,7 +3728,7 @@ namespace Arkansas_Armory
             this.pictureBox8.Image = global::Arkansas_Armory.Properties.Resources.Picture5;
             this.pictureBox8.Location = new System.Drawing.Point(248, 28);
             this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(299, 253);
+            this.pictureBox8.Size = new System.Drawing.Size(299, 232);
             this.pictureBox8.TabIndex = 0;
             this.pictureBox8.TabStop = false;
             // 
@@ -5949,6 +5949,7 @@ namespace Arkansas_Armory
             // 
             // button75
             // 
+            this.button75.ForeColor = System.Drawing.Color.DarkRed;
             this.button75.Location = new System.Drawing.Point(203, 17);
             this.button75.Name = "button75";
             this.button75.Size = new System.Drawing.Size(75, 23);
@@ -5988,6 +5989,7 @@ namespace Arkansas_Armory
             // label354
             // 
             this.label354.AutoSize = true;
+            this.label354.ForeColor = System.Drawing.Color.DarkRed;
             this.label354.Location = new System.Drawing.Point(6, 241);
             this.label354.Name = "label354";
             this.label354.Size = new System.Drawing.Size(29, 13);
@@ -6005,6 +6007,7 @@ namespace Arkansas_Armory
             // label355
             // 
             this.label355.AutoSize = true;
+            this.label355.ForeColor = System.Drawing.Color.DarkRed;
             this.label355.Location = new System.Drawing.Point(6, 215);
             this.label355.Name = "label355";
             this.label355.Size = new System.Drawing.Size(37, 13);
@@ -6014,6 +6017,7 @@ namespace Arkansas_Armory
             // label356
             // 
             this.label356.AutoSize = true;
+            this.label356.ForeColor = System.Drawing.Color.DarkRed;
             this.label356.Location = new System.Drawing.Point(6, 189);
             this.label356.Name = "label356";
             this.label356.Size = new System.Drawing.Size(41, 13);
@@ -6039,6 +6043,7 @@ namespace Arkansas_Armory
             // label357
             // 
             this.label357.AutoSize = true;
+            this.label357.ForeColor = System.Drawing.Color.DarkRed;
             this.label357.Location = new System.Drawing.Point(6, 163);
             this.label357.Name = "label357";
             this.label357.Size = new System.Drawing.Size(73, 13);
@@ -6048,6 +6053,7 @@ namespace Arkansas_Armory
             // label358
             // 
             this.label358.AutoSize = true;
+            this.label358.ForeColor = System.Drawing.Color.DarkRed;
             this.label358.Location = new System.Drawing.Point(6, 137);
             this.label358.Name = "label358";
             this.label358.Size = new System.Drawing.Size(48, 13);
@@ -6057,6 +6063,7 @@ namespace Arkansas_Armory
             // label359
             // 
             this.label359.AutoSize = true;
+            this.label359.ForeColor = System.Drawing.Color.DarkRed;
             this.label359.Location = new System.Drawing.Point(6, 85);
             this.label359.Name = "label359";
             this.label359.Size = new System.Drawing.Size(37, 13);
@@ -6066,6 +6073,7 @@ namespace Arkansas_Armory
             // label360
             // 
             this.label360.AutoSize = true;
+            this.label360.ForeColor = System.Drawing.Color.DarkRed;
             this.label360.Location = new System.Drawing.Point(6, 111);
             this.label360.Name = "label360";
             this.label360.Size = new System.Drawing.Size(66, 13);
@@ -6123,6 +6131,7 @@ namespace Arkansas_Armory
             // label361
             // 
             this.label361.AutoSize = true;
+            this.label361.ForeColor = System.Drawing.Color.DarkRed;
             this.label361.Location = new System.Drawing.Point(6, 29);
             this.label361.Name = "label361";
             this.label361.Size = new System.Drawing.Size(70, 13);
@@ -6132,6 +6141,7 @@ namespace Arkansas_Armory
             // label362
             // 
             this.label362.AutoSize = true;
+            this.label362.ForeColor = System.Drawing.Color.DarkRed;
             this.label362.Location = new System.Drawing.Point(6, 56);
             this.label362.Name = "label362";
             this.label362.Size = new System.Drawing.Size(36, 13);
@@ -6140,6 +6150,7 @@ namespace Arkansas_Armory
             // 
             // button76
             // 
+            this.button76.ForeColor = System.Drawing.Color.DarkRed;
             this.button76.Location = new System.Drawing.Point(83, 265);
             this.button76.Name = "button76";
             this.button76.Size = new System.Drawing.Size(100, 23);
@@ -6192,6 +6203,7 @@ namespace Arkansas_Armory
             // 
             // button77
             // 
+            this.button77.ForeColor = System.Drawing.Color.DarkRed;
             this.button77.Location = new System.Drawing.Point(203, 17);
             this.button77.Name = "button77";
             this.button77.Size = new System.Drawing.Size(75, 23);
@@ -6231,6 +6243,7 @@ namespace Arkansas_Armory
             // label363
             // 
             this.label363.AutoSize = true;
+            this.label363.ForeColor = System.Drawing.Color.DarkRed;
             this.label363.Location = new System.Drawing.Point(6, 241);
             this.label363.Name = "label363";
             this.label363.Size = new System.Drawing.Size(29, 13);
@@ -6248,6 +6261,7 @@ namespace Arkansas_Armory
             // label364
             // 
             this.label364.AutoSize = true;
+            this.label364.ForeColor = System.Drawing.Color.DarkRed;
             this.label364.Location = new System.Drawing.Point(6, 215);
             this.label364.Name = "label364";
             this.label364.Size = new System.Drawing.Size(37, 13);
@@ -6257,6 +6271,7 @@ namespace Arkansas_Armory
             // label365
             // 
             this.label365.AutoSize = true;
+            this.label365.ForeColor = System.Drawing.Color.DarkRed;
             this.label365.Location = new System.Drawing.Point(6, 189);
             this.label365.Name = "label365";
             this.label365.Size = new System.Drawing.Size(41, 13);
@@ -6282,6 +6297,7 @@ namespace Arkansas_Armory
             // label366
             // 
             this.label366.AutoSize = true;
+            this.label366.ForeColor = System.Drawing.Color.DarkRed;
             this.label366.Location = new System.Drawing.Point(6, 163);
             this.label366.Name = "label366";
             this.label366.Size = new System.Drawing.Size(73, 13);
@@ -6291,6 +6307,7 @@ namespace Arkansas_Armory
             // label367
             // 
             this.label367.AutoSize = true;
+            this.label367.ForeColor = System.Drawing.Color.DarkRed;
             this.label367.Location = new System.Drawing.Point(6, 137);
             this.label367.Name = "label367";
             this.label367.Size = new System.Drawing.Size(48, 13);
@@ -6300,6 +6317,7 @@ namespace Arkansas_Armory
             // label368
             // 
             this.label368.AutoSize = true;
+            this.label368.ForeColor = System.Drawing.Color.DarkRed;
             this.label368.Location = new System.Drawing.Point(6, 85);
             this.label368.Name = "label368";
             this.label368.Size = new System.Drawing.Size(37, 13);
@@ -6309,6 +6327,7 @@ namespace Arkansas_Armory
             // label369
             // 
             this.label369.AutoSize = true;
+            this.label369.ForeColor = System.Drawing.Color.DarkRed;
             this.label369.Location = new System.Drawing.Point(6, 111);
             this.label369.Name = "label369";
             this.label369.Size = new System.Drawing.Size(66, 13);
@@ -6366,6 +6385,7 @@ namespace Arkansas_Armory
             // label370
             // 
             this.label370.AutoSize = true;
+            this.label370.ForeColor = System.Drawing.Color.DarkRed;
             this.label370.Location = new System.Drawing.Point(6, 29);
             this.label370.Name = "label370";
             this.label370.Size = new System.Drawing.Size(70, 13);
@@ -6375,6 +6395,7 @@ namespace Arkansas_Armory
             // label371
             // 
             this.label371.AutoSize = true;
+            this.label371.ForeColor = System.Drawing.Color.DarkRed;
             this.label371.Location = new System.Drawing.Point(6, 56);
             this.label371.Name = "label371";
             this.label371.Size = new System.Drawing.Size(36, 13);
@@ -6383,6 +6404,7 @@ namespace Arkansas_Armory
             // 
             // button78
             // 
+            this.button78.ForeColor = System.Drawing.Color.DarkRed;
             this.button78.Location = new System.Drawing.Point(83, 265);
             this.button78.Name = "button78";
             this.button78.Size = new System.Drawing.Size(100, 23);
@@ -6435,6 +6457,7 @@ namespace Arkansas_Armory
             // 
             // button79
             // 
+            this.button79.ForeColor = System.Drawing.Color.DarkRed;
             this.button79.Location = new System.Drawing.Point(203, 17);
             this.button79.Name = "button79";
             this.button79.Size = new System.Drawing.Size(75, 23);
@@ -6474,6 +6497,7 @@ namespace Arkansas_Armory
             // label372
             // 
             this.label372.AutoSize = true;
+            this.label372.ForeColor = System.Drawing.Color.DarkRed;
             this.label372.Location = new System.Drawing.Point(6, 241);
             this.label372.Name = "label372";
             this.label372.Size = new System.Drawing.Size(29, 13);
@@ -6491,6 +6515,7 @@ namespace Arkansas_Armory
             // label373
             // 
             this.label373.AutoSize = true;
+            this.label373.ForeColor = System.Drawing.Color.DarkRed;
             this.label373.Location = new System.Drawing.Point(6, 215);
             this.label373.Name = "label373";
             this.label373.Size = new System.Drawing.Size(37, 13);
@@ -6500,6 +6525,7 @@ namespace Arkansas_Armory
             // label374
             // 
             this.label374.AutoSize = true;
+            this.label374.ForeColor = System.Drawing.Color.DarkRed;
             this.label374.Location = new System.Drawing.Point(6, 189);
             this.label374.Name = "label374";
             this.label374.Size = new System.Drawing.Size(41, 13);
@@ -6525,6 +6551,7 @@ namespace Arkansas_Armory
             // label375
             // 
             this.label375.AutoSize = true;
+            this.label375.ForeColor = System.Drawing.Color.DarkRed;
             this.label375.Location = new System.Drawing.Point(6, 163);
             this.label375.Name = "label375";
             this.label375.Size = new System.Drawing.Size(73, 13);
@@ -6534,6 +6561,7 @@ namespace Arkansas_Armory
             // label376
             // 
             this.label376.AutoSize = true;
+            this.label376.ForeColor = System.Drawing.Color.DarkRed;
             this.label376.Location = new System.Drawing.Point(6, 137);
             this.label376.Name = "label376";
             this.label376.Size = new System.Drawing.Size(48, 13);
@@ -6543,6 +6571,7 @@ namespace Arkansas_Armory
             // label377
             // 
             this.label377.AutoSize = true;
+            this.label377.ForeColor = System.Drawing.Color.DarkRed;
             this.label377.Location = new System.Drawing.Point(6, 85);
             this.label377.Name = "label377";
             this.label377.Size = new System.Drawing.Size(37, 13);
@@ -6552,6 +6581,7 @@ namespace Arkansas_Armory
             // label378
             // 
             this.label378.AutoSize = true;
+            this.label378.ForeColor = System.Drawing.Color.DarkRed;
             this.label378.Location = new System.Drawing.Point(6, 111);
             this.label378.Name = "label378";
             this.label378.Size = new System.Drawing.Size(66, 13);
@@ -6609,6 +6639,7 @@ namespace Arkansas_Armory
             // label379
             // 
             this.label379.AutoSize = true;
+            this.label379.ForeColor = System.Drawing.Color.DarkRed;
             this.label379.Location = new System.Drawing.Point(6, 29);
             this.label379.Name = "label379";
             this.label379.Size = new System.Drawing.Size(70, 13);
@@ -6618,6 +6649,7 @@ namespace Arkansas_Armory
             // label380
             // 
             this.label380.AutoSize = true;
+            this.label380.ForeColor = System.Drawing.Color.DarkRed;
             this.label380.Location = new System.Drawing.Point(6, 56);
             this.label380.Name = "label380";
             this.label380.Size = new System.Drawing.Size(36, 13);
@@ -6626,6 +6658,7 @@ namespace Arkansas_Armory
             // 
             // button80
             // 
+            this.button80.ForeColor = System.Drawing.Color.DarkRed;
             this.button80.Location = new System.Drawing.Point(83, 265);
             this.button80.Name = "button80";
             this.button80.Size = new System.Drawing.Size(100, 23);
@@ -6679,6 +6712,7 @@ namespace Arkansas_Armory
             // 
             // button81
             // 
+            this.button81.ForeColor = System.Drawing.Color.DarkRed;
             this.button81.Location = new System.Drawing.Point(203, 17);
             this.button81.Name = "button81";
             this.button81.Size = new System.Drawing.Size(75, 23);
@@ -6718,6 +6752,7 @@ namespace Arkansas_Armory
             // label381
             // 
             this.label381.AutoSize = true;
+            this.label381.ForeColor = System.Drawing.Color.DarkRed;
             this.label381.Location = new System.Drawing.Point(6, 241);
             this.label381.Name = "label381";
             this.label381.Size = new System.Drawing.Size(29, 13);
@@ -6735,6 +6770,7 @@ namespace Arkansas_Armory
             // label382
             // 
             this.label382.AutoSize = true;
+            this.label382.ForeColor = System.Drawing.Color.DarkRed;
             this.label382.Location = new System.Drawing.Point(6, 215);
             this.label382.Name = "label382";
             this.label382.Size = new System.Drawing.Size(37, 13);
@@ -6744,6 +6780,7 @@ namespace Arkansas_Armory
             // label383
             // 
             this.label383.AutoSize = true;
+            this.label383.ForeColor = System.Drawing.Color.DarkRed;
             this.label383.Location = new System.Drawing.Point(6, 189);
             this.label383.Name = "label383";
             this.label383.Size = new System.Drawing.Size(41, 13);
@@ -6769,6 +6806,7 @@ namespace Arkansas_Armory
             // label384
             // 
             this.label384.AutoSize = true;
+            this.label384.ForeColor = System.Drawing.Color.DarkRed;
             this.label384.Location = new System.Drawing.Point(6, 163);
             this.label384.Name = "label384";
             this.label384.Size = new System.Drawing.Size(73, 13);
@@ -6778,6 +6816,7 @@ namespace Arkansas_Armory
             // label385
             // 
             this.label385.AutoSize = true;
+            this.label385.ForeColor = System.Drawing.Color.DarkRed;
             this.label385.Location = new System.Drawing.Point(6, 137);
             this.label385.Name = "label385";
             this.label385.Size = new System.Drawing.Size(48, 13);
@@ -6787,6 +6826,7 @@ namespace Arkansas_Armory
             // label386
             // 
             this.label386.AutoSize = true;
+            this.label386.ForeColor = System.Drawing.Color.DarkRed;
             this.label386.Location = new System.Drawing.Point(6, 85);
             this.label386.Name = "label386";
             this.label386.Size = new System.Drawing.Size(37, 13);
@@ -6796,6 +6836,7 @@ namespace Arkansas_Armory
             // label387
             // 
             this.label387.AutoSize = true;
+            this.label387.ForeColor = System.Drawing.Color.DarkRed;
             this.label387.Location = new System.Drawing.Point(6, 111);
             this.label387.Name = "label387";
             this.label387.Size = new System.Drawing.Size(66, 13);
@@ -6853,6 +6894,7 @@ namespace Arkansas_Armory
             // label388
             // 
             this.label388.AutoSize = true;
+            this.label388.ForeColor = System.Drawing.Color.DarkRed;
             this.label388.Location = new System.Drawing.Point(6, 29);
             this.label388.Name = "label388";
             this.label388.Size = new System.Drawing.Size(70, 13);
@@ -6862,6 +6904,7 @@ namespace Arkansas_Armory
             // label389
             // 
             this.label389.AutoSize = true;
+            this.label389.ForeColor = System.Drawing.Color.DarkRed;
             this.label389.Location = new System.Drawing.Point(6, 56);
             this.label389.Name = "label389";
             this.label389.Size = new System.Drawing.Size(36, 13);
@@ -6870,6 +6913,7 @@ namespace Arkansas_Armory
             // 
             // button82
             // 
+            this.button82.ForeColor = System.Drawing.Color.DarkRed;
             this.button82.Location = new System.Drawing.Point(83, 265);
             this.button82.Name = "button82";
             this.button82.Size = new System.Drawing.Size(100, 23);
@@ -7408,6 +7452,7 @@ namespace Arkansas_Armory
             // 
             // button87
             // 
+            this.button87.ForeColor = System.Drawing.Color.DarkRed;
             this.button87.Location = new System.Drawing.Point(203, 17);
             this.button87.Name = "button87";
             this.button87.Size = new System.Drawing.Size(75, 23);
@@ -7447,6 +7492,7 @@ namespace Arkansas_Armory
             // label408
             // 
             this.label408.AutoSize = true;
+            this.label408.ForeColor = System.Drawing.Color.DarkRed;
             this.label408.Location = new System.Drawing.Point(6, 241);
             this.label408.Name = "label408";
             this.label408.Size = new System.Drawing.Size(29, 13);
@@ -7464,6 +7510,7 @@ namespace Arkansas_Armory
             // label409
             // 
             this.label409.AutoSize = true;
+            this.label409.ForeColor = System.Drawing.Color.DarkRed;
             this.label409.Location = new System.Drawing.Point(6, 215);
             this.label409.Name = "label409";
             this.label409.Size = new System.Drawing.Size(37, 13);
@@ -7473,6 +7520,7 @@ namespace Arkansas_Armory
             // label410
             // 
             this.label410.AutoSize = true;
+            this.label410.ForeColor = System.Drawing.Color.DarkRed;
             this.label410.Location = new System.Drawing.Point(6, 189);
             this.label410.Name = "label410";
             this.label410.Size = new System.Drawing.Size(41, 13);
@@ -7498,6 +7546,7 @@ namespace Arkansas_Armory
             // label411
             // 
             this.label411.AutoSize = true;
+            this.label411.ForeColor = System.Drawing.Color.DarkRed;
             this.label411.Location = new System.Drawing.Point(6, 163);
             this.label411.Name = "label411";
             this.label411.Size = new System.Drawing.Size(73, 13);
@@ -7507,6 +7556,7 @@ namespace Arkansas_Armory
             // label412
             // 
             this.label412.AutoSize = true;
+            this.label412.ForeColor = System.Drawing.Color.DarkRed;
             this.label412.Location = new System.Drawing.Point(6, 137);
             this.label412.Name = "label412";
             this.label412.Size = new System.Drawing.Size(48, 13);
@@ -7516,6 +7566,7 @@ namespace Arkansas_Armory
             // label413
             // 
             this.label413.AutoSize = true;
+            this.label413.ForeColor = System.Drawing.Color.DarkRed;
             this.label413.Location = new System.Drawing.Point(6, 85);
             this.label413.Name = "label413";
             this.label413.Size = new System.Drawing.Size(37, 13);
@@ -7525,6 +7576,7 @@ namespace Arkansas_Armory
             // label414
             // 
             this.label414.AutoSize = true;
+            this.label414.ForeColor = System.Drawing.Color.DarkRed;
             this.label414.Location = new System.Drawing.Point(6, 111);
             this.label414.Name = "label414";
             this.label414.Size = new System.Drawing.Size(66, 13);
@@ -7582,6 +7634,7 @@ namespace Arkansas_Armory
             // label415
             // 
             this.label415.AutoSize = true;
+            this.label415.ForeColor = System.Drawing.Color.DarkRed;
             this.label415.Location = new System.Drawing.Point(6, 29);
             this.label415.Name = "label415";
             this.label415.Size = new System.Drawing.Size(70, 13);
@@ -7591,6 +7644,7 @@ namespace Arkansas_Armory
             // label416
             // 
             this.label416.AutoSize = true;
+            this.label416.ForeColor = System.Drawing.Color.DarkRed;
             this.label416.Location = new System.Drawing.Point(6, 56);
             this.label416.Name = "label416";
             this.label416.Size = new System.Drawing.Size(36, 13);
@@ -7599,6 +7653,7 @@ namespace Arkansas_Armory
             // 
             // button88
             // 
+            this.button88.ForeColor = System.Drawing.Color.DarkRed;
             this.button88.Location = new System.Drawing.Point(83, 265);
             this.button88.Name = "button88";
             this.button88.Size = new System.Drawing.Size(100, 23);
@@ -7651,6 +7706,7 @@ namespace Arkansas_Armory
             // 
             // button89
             // 
+            this.button89.ForeColor = System.Drawing.Color.DarkRed;
             this.button89.Location = new System.Drawing.Point(203, 17);
             this.button89.Name = "button89";
             this.button89.Size = new System.Drawing.Size(75, 23);
@@ -7690,6 +7746,7 @@ namespace Arkansas_Armory
             // label417
             // 
             this.label417.AutoSize = true;
+            this.label417.ForeColor = System.Drawing.Color.DarkRed;
             this.label417.Location = new System.Drawing.Point(6, 241);
             this.label417.Name = "label417";
             this.label417.Size = new System.Drawing.Size(29, 13);
@@ -7707,6 +7764,7 @@ namespace Arkansas_Armory
             // label418
             // 
             this.label418.AutoSize = true;
+            this.label418.ForeColor = System.Drawing.Color.DarkRed;
             this.label418.Location = new System.Drawing.Point(6, 215);
             this.label418.Name = "label418";
             this.label418.Size = new System.Drawing.Size(37, 13);
@@ -7716,6 +7774,7 @@ namespace Arkansas_Armory
             // label419
             // 
             this.label419.AutoSize = true;
+            this.label419.ForeColor = System.Drawing.Color.DarkRed;
             this.label419.Location = new System.Drawing.Point(6, 189);
             this.label419.Name = "label419";
             this.label419.Size = new System.Drawing.Size(41, 13);
@@ -7741,6 +7800,7 @@ namespace Arkansas_Armory
             // label420
             // 
             this.label420.AutoSize = true;
+            this.label420.ForeColor = System.Drawing.Color.DarkRed;
             this.label420.Location = new System.Drawing.Point(6, 163);
             this.label420.Name = "label420";
             this.label420.Size = new System.Drawing.Size(73, 13);
@@ -7750,6 +7810,7 @@ namespace Arkansas_Armory
             // label421
             // 
             this.label421.AutoSize = true;
+            this.label421.ForeColor = System.Drawing.Color.DarkRed;
             this.label421.Location = new System.Drawing.Point(6, 137);
             this.label421.Name = "label421";
             this.label421.Size = new System.Drawing.Size(48, 13);
@@ -7759,6 +7820,7 @@ namespace Arkansas_Armory
             // label422
             // 
             this.label422.AutoSize = true;
+            this.label422.ForeColor = System.Drawing.Color.DarkRed;
             this.label422.Location = new System.Drawing.Point(6, 85);
             this.label422.Name = "label422";
             this.label422.Size = new System.Drawing.Size(37, 13);
@@ -7768,6 +7830,7 @@ namespace Arkansas_Armory
             // label423
             // 
             this.label423.AutoSize = true;
+            this.label423.ForeColor = System.Drawing.Color.DarkRed;
             this.label423.Location = new System.Drawing.Point(6, 111);
             this.label423.Name = "label423";
             this.label423.Size = new System.Drawing.Size(66, 13);
@@ -7825,6 +7888,7 @@ namespace Arkansas_Armory
             // label424
             // 
             this.label424.AutoSize = true;
+            this.label424.ForeColor = System.Drawing.Color.DarkRed;
             this.label424.Location = new System.Drawing.Point(6, 29);
             this.label424.Name = "label424";
             this.label424.Size = new System.Drawing.Size(70, 13);
@@ -7834,6 +7898,7 @@ namespace Arkansas_Armory
             // label425
             // 
             this.label425.AutoSize = true;
+            this.label425.ForeColor = System.Drawing.Color.DarkRed;
             this.label425.Location = new System.Drawing.Point(6, 56);
             this.label425.Name = "label425";
             this.label425.Size = new System.Drawing.Size(36, 13);
@@ -7842,6 +7907,7 @@ namespace Arkansas_Armory
             // 
             // button90
             // 
+            this.button90.ForeColor = System.Drawing.Color.DarkRed;
             this.button90.Location = new System.Drawing.Point(83, 265);
             this.button90.Name = "button90";
             this.button90.Size = new System.Drawing.Size(100, 23);
@@ -7894,6 +7960,7 @@ namespace Arkansas_Armory
             // 
             // button91
             // 
+            this.button91.ForeColor = System.Drawing.Color.DarkRed;
             this.button91.Location = new System.Drawing.Point(203, 17);
             this.button91.Name = "button91";
             this.button91.Size = new System.Drawing.Size(75, 23);
@@ -7933,6 +8000,7 @@ namespace Arkansas_Armory
             // label426
             // 
             this.label426.AutoSize = true;
+            this.label426.ForeColor = System.Drawing.Color.DarkRed;
             this.label426.Location = new System.Drawing.Point(6, 241);
             this.label426.Name = "label426";
             this.label426.Size = new System.Drawing.Size(29, 13);
@@ -7950,6 +8018,7 @@ namespace Arkansas_Armory
             // label427
             // 
             this.label427.AutoSize = true;
+            this.label427.ForeColor = System.Drawing.Color.DarkRed;
             this.label427.Location = new System.Drawing.Point(6, 215);
             this.label427.Name = "label427";
             this.label427.Size = new System.Drawing.Size(37, 13);
@@ -7959,6 +8028,7 @@ namespace Arkansas_Armory
             // label428
             // 
             this.label428.AutoSize = true;
+            this.label428.ForeColor = System.Drawing.Color.DarkRed;
             this.label428.Location = new System.Drawing.Point(6, 189);
             this.label428.Name = "label428";
             this.label428.Size = new System.Drawing.Size(41, 13);
@@ -7984,6 +8054,7 @@ namespace Arkansas_Armory
             // label429
             // 
             this.label429.AutoSize = true;
+            this.label429.ForeColor = System.Drawing.Color.DarkRed;
             this.label429.Location = new System.Drawing.Point(6, 163);
             this.label429.Name = "label429";
             this.label429.Size = new System.Drawing.Size(73, 13);
@@ -7993,6 +8064,7 @@ namespace Arkansas_Armory
             // label430
             // 
             this.label430.AutoSize = true;
+            this.label430.ForeColor = System.Drawing.Color.DarkRed;
             this.label430.Location = new System.Drawing.Point(6, 137);
             this.label430.Name = "label430";
             this.label430.Size = new System.Drawing.Size(48, 13);
@@ -8002,6 +8074,7 @@ namespace Arkansas_Armory
             // label431
             // 
             this.label431.AutoSize = true;
+            this.label431.ForeColor = System.Drawing.Color.DarkRed;
             this.label431.Location = new System.Drawing.Point(6, 85);
             this.label431.Name = "label431";
             this.label431.Size = new System.Drawing.Size(37, 13);
@@ -8011,6 +8084,7 @@ namespace Arkansas_Armory
             // label432
             // 
             this.label432.AutoSize = true;
+            this.label432.ForeColor = System.Drawing.Color.DarkRed;
             this.label432.Location = new System.Drawing.Point(6, 111);
             this.label432.Name = "label432";
             this.label432.Size = new System.Drawing.Size(66, 13);
@@ -8068,6 +8142,7 @@ namespace Arkansas_Armory
             // label433
             // 
             this.label433.AutoSize = true;
+            this.label433.ForeColor = System.Drawing.Color.DarkRed;
             this.label433.Location = new System.Drawing.Point(6, 29);
             this.label433.Name = "label433";
             this.label433.Size = new System.Drawing.Size(70, 13);
@@ -8077,6 +8152,7 @@ namespace Arkansas_Armory
             // label434
             // 
             this.label434.AutoSize = true;
+            this.label434.ForeColor = System.Drawing.Color.DarkRed;
             this.label434.Location = new System.Drawing.Point(6, 56);
             this.label434.Name = "label434";
             this.label434.Size = new System.Drawing.Size(36, 13);
@@ -8085,6 +8161,7 @@ namespace Arkansas_Armory
             // 
             // button92
             // 
+            this.button92.ForeColor = System.Drawing.Color.DarkRed;
             this.button92.Location = new System.Drawing.Point(83, 265);
             this.button92.Name = "button92";
             this.button92.Size = new System.Drawing.Size(100, 23);
@@ -8137,6 +8214,7 @@ namespace Arkansas_Armory
             // 
             // button93
             // 
+            this.button93.ForeColor = System.Drawing.Color.DarkRed;
             this.button93.Location = new System.Drawing.Point(203, 17);
             this.button93.Name = "button93";
             this.button93.Size = new System.Drawing.Size(75, 23);
@@ -8176,6 +8254,7 @@ namespace Arkansas_Armory
             // label435
             // 
             this.label435.AutoSize = true;
+            this.label435.ForeColor = System.Drawing.Color.DarkRed;
             this.label435.Location = new System.Drawing.Point(6, 241);
             this.label435.Name = "label435";
             this.label435.Size = new System.Drawing.Size(29, 13);
@@ -8193,6 +8272,7 @@ namespace Arkansas_Armory
             // label436
             // 
             this.label436.AutoSize = true;
+            this.label436.ForeColor = System.Drawing.Color.DarkRed;
             this.label436.Location = new System.Drawing.Point(6, 215);
             this.label436.Name = "label436";
             this.label436.Size = new System.Drawing.Size(37, 13);
@@ -8202,6 +8282,7 @@ namespace Arkansas_Armory
             // label437
             // 
             this.label437.AutoSize = true;
+            this.label437.ForeColor = System.Drawing.Color.DarkRed;
             this.label437.Location = new System.Drawing.Point(6, 189);
             this.label437.Name = "label437";
             this.label437.Size = new System.Drawing.Size(41, 13);
@@ -8227,6 +8308,7 @@ namespace Arkansas_Armory
             // label438
             // 
             this.label438.AutoSize = true;
+            this.label438.ForeColor = System.Drawing.Color.DarkRed;
             this.label438.Location = new System.Drawing.Point(6, 163);
             this.label438.Name = "label438";
             this.label438.Size = new System.Drawing.Size(73, 13);
@@ -8236,6 +8318,7 @@ namespace Arkansas_Armory
             // label439
             // 
             this.label439.AutoSize = true;
+            this.label439.ForeColor = System.Drawing.Color.DarkRed;
             this.label439.Location = new System.Drawing.Point(6, 137);
             this.label439.Name = "label439";
             this.label439.Size = new System.Drawing.Size(48, 13);
@@ -8245,6 +8328,7 @@ namespace Arkansas_Armory
             // label440
             // 
             this.label440.AutoSize = true;
+            this.label440.ForeColor = System.Drawing.Color.DarkRed;
             this.label440.Location = new System.Drawing.Point(6, 85);
             this.label440.Name = "label440";
             this.label440.Size = new System.Drawing.Size(37, 13);
@@ -8254,6 +8338,7 @@ namespace Arkansas_Armory
             // label441
             // 
             this.label441.AutoSize = true;
+            this.label441.ForeColor = System.Drawing.Color.DarkRed;
             this.label441.Location = new System.Drawing.Point(6, 111);
             this.label441.Name = "label441";
             this.label441.Size = new System.Drawing.Size(66, 13);
@@ -8311,6 +8396,7 @@ namespace Arkansas_Armory
             // label442
             // 
             this.label442.AutoSize = true;
+            this.label442.ForeColor = System.Drawing.Color.DarkRed;
             this.label442.Location = new System.Drawing.Point(6, 29);
             this.label442.Name = "label442";
             this.label442.Size = new System.Drawing.Size(70, 13);
@@ -8320,6 +8406,7 @@ namespace Arkansas_Armory
             // label443
             // 
             this.label443.AutoSize = true;
+            this.label443.ForeColor = System.Drawing.Color.DarkRed;
             this.label443.Location = new System.Drawing.Point(6, 56);
             this.label443.Name = "label443";
             this.label443.Size = new System.Drawing.Size(36, 13);
@@ -8328,6 +8415,7 @@ namespace Arkansas_Armory
             // 
             // button94
             // 
+            this.button94.ForeColor = System.Drawing.Color.DarkRed;
             this.button94.Location = new System.Drawing.Point(83, 265);
             this.button94.Name = "button94";
             this.button94.Size = new System.Drawing.Size(100, 23);
@@ -8380,6 +8468,7 @@ namespace Arkansas_Armory
             // 
             // button95
             // 
+            this.button95.ForeColor = System.Drawing.Color.DarkRed;
             this.button95.Location = new System.Drawing.Point(203, 17);
             this.button95.Name = "button95";
             this.button95.Size = new System.Drawing.Size(75, 23);
@@ -8419,6 +8508,7 @@ namespace Arkansas_Armory
             // label444
             // 
             this.label444.AutoSize = true;
+            this.label444.ForeColor = System.Drawing.Color.DarkRed;
             this.label444.Location = new System.Drawing.Point(6, 241);
             this.label444.Name = "label444";
             this.label444.Size = new System.Drawing.Size(29, 13);
@@ -8436,6 +8526,7 @@ namespace Arkansas_Armory
             // label445
             // 
             this.label445.AutoSize = true;
+            this.label445.ForeColor = System.Drawing.Color.DarkRed;
             this.label445.Location = new System.Drawing.Point(6, 215);
             this.label445.Name = "label445";
             this.label445.Size = new System.Drawing.Size(37, 13);
@@ -8445,6 +8536,7 @@ namespace Arkansas_Armory
             // label446
             // 
             this.label446.AutoSize = true;
+            this.label446.ForeColor = System.Drawing.Color.DarkRed;
             this.label446.Location = new System.Drawing.Point(6, 189);
             this.label446.Name = "label446";
             this.label446.Size = new System.Drawing.Size(41, 13);
@@ -8470,6 +8562,7 @@ namespace Arkansas_Armory
             // label447
             // 
             this.label447.AutoSize = true;
+            this.label447.ForeColor = System.Drawing.Color.DarkRed;
             this.label447.Location = new System.Drawing.Point(6, 163);
             this.label447.Name = "label447";
             this.label447.Size = new System.Drawing.Size(73, 13);
@@ -8479,6 +8572,7 @@ namespace Arkansas_Armory
             // label448
             // 
             this.label448.AutoSize = true;
+            this.label448.ForeColor = System.Drawing.Color.DarkRed;
             this.label448.Location = new System.Drawing.Point(6, 137);
             this.label448.Name = "label448";
             this.label448.Size = new System.Drawing.Size(48, 13);
@@ -8488,6 +8582,7 @@ namespace Arkansas_Armory
             // label449
             // 
             this.label449.AutoSize = true;
+            this.label449.ForeColor = System.Drawing.Color.DarkRed;
             this.label449.Location = new System.Drawing.Point(6, 85);
             this.label449.Name = "label449";
             this.label449.Size = new System.Drawing.Size(37, 13);
@@ -8497,6 +8592,7 @@ namespace Arkansas_Armory
             // label450
             // 
             this.label450.AutoSize = true;
+            this.label450.ForeColor = System.Drawing.Color.DarkRed;
             this.label450.Location = new System.Drawing.Point(6, 111);
             this.label450.Name = "label450";
             this.label450.Size = new System.Drawing.Size(66, 13);
@@ -8554,6 +8650,7 @@ namespace Arkansas_Armory
             // label451
             // 
             this.label451.AutoSize = true;
+            this.label451.ForeColor = System.Drawing.Color.DarkRed;
             this.label451.Location = new System.Drawing.Point(6, 29);
             this.label451.Name = "label451";
             this.label451.Size = new System.Drawing.Size(70, 13);
@@ -8563,6 +8660,7 @@ namespace Arkansas_Armory
             // label452
             // 
             this.label452.AutoSize = true;
+            this.label452.ForeColor = System.Drawing.Color.DarkRed;
             this.label452.Location = new System.Drawing.Point(6, 56);
             this.label452.Name = "label452";
             this.label452.Size = new System.Drawing.Size(36, 13);
@@ -8571,6 +8669,7 @@ namespace Arkansas_Armory
             // 
             // button96
             // 
+            this.button96.ForeColor = System.Drawing.Color.DarkRed;
             this.button96.Location = new System.Drawing.Point(83, 265);
             this.button96.Name = "button96";
             this.button96.Size = new System.Drawing.Size(100, 23);
@@ -8582,9 +8681,9 @@ namespace Arkansas_Armory
             // pictureBox48
             // 
             this.pictureBox48.Image = global::Arkansas_Armory.Properties.Resources.Picture51;
-            this.pictureBox48.Location = new System.Drawing.Point(309, 109);
+            this.pictureBox48.Location = new System.Drawing.Point(266, 84);
             this.pictureBox48.Name = "pictureBox48";
-            this.pictureBox48.Size = new System.Drawing.Size(171, 98);
+            this.pictureBox48.Size = new System.Drawing.Size(241, 138);
             this.pictureBox48.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox48.TabIndex = 0;
             this.pictureBox48.TabStop = false;
@@ -8623,6 +8722,7 @@ namespace Arkansas_Armory
             // 
             // button97
             // 
+            this.button97.ForeColor = System.Drawing.Color.DarkRed;
             this.button97.Location = new System.Drawing.Point(203, 17);
             this.button97.Name = "button97";
             this.button97.Size = new System.Drawing.Size(75, 23);
@@ -8662,6 +8762,7 @@ namespace Arkansas_Armory
             // label453
             // 
             this.label453.AutoSize = true;
+            this.label453.ForeColor = System.Drawing.Color.DarkRed;
             this.label453.Location = new System.Drawing.Point(6, 241);
             this.label453.Name = "label453";
             this.label453.Size = new System.Drawing.Size(29, 13);
@@ -8679,6 +8780,7 @@ namespace Arkansas_Armory
             // label454
             // 
             this.label454.AutoSize = true;
+            this.label454.ForeColor = System.Drawing.Color.DarkRed;
             this.label454.Location = new System.Drawing.Point(6, 215);
             this.label454.Name = "label454";
             this.label454.Size = new System.Drawing.Size(37, 13);
@@ -8688,6 +8790,7 @@ namespace Arkansas_Armory
             // label455
             // 
             this.label455.AutoSize = true;
+            this.label455.ForeColor = System.Drawing.Color.DarkRed;
             this.label455.Location = new System.Drawing.Point(6, 189);
             this.label455.Name = "label455";
             this.label455.Size = new System.Drawing.Size(41, 13);
@@ -8713,6 +8816,7 @@ namespace Arkansas_Armory
             // label456
             // 
             this.label456.AutoSize = true;
+            this.label456.ForeColor = System.Drawing.Color.DarkRed;
             this.label456.Location = new System.Drawing.Point(6, 163);
             this.label456.Name = "label456";
             this.label456.Size = new System.Drawing.Size(73, 13);
@@ -8722,6 +8826,7 @@ namespace Arkansas_Armory
             // label457
             // 
             this.label457.AutoSize = true;
+            this.label457.ForeColor = System.Drawing.Color.DarkRed;
             this.label457.Location = new System.Drawing.Point(6, 137);
             this.label457.Name = "label457";
             this.label457.Size = new System.Drawing.Size(48, 13);
@@ -8731,6 +8836,7 @@ namespace Arkansas_Armory
             // label458
             // 
             this.label458.AutoSize = true;
+            this.label458.ForeColor = System.Drawing.Color.DarkRed;
             this.label458.Location = new System.Drawing.Point(6, 85);
             this.label458.Name = "label458";
             this.label458.Size = new System.Drawing.Size(37, 13);
@@ -8740,6 +8846,7 @@ namespace Arkansas_Armory
             // label459
             // 
             this.label459.AutoSize = true;
+            this.label459.ForeColor = System.Drawing.Color.DarkRed;
             this.label459.Location = new System.Drawing.Point(6, 111);
             this.label459.Name = "label459";
             this.label459.Size = new System.Drawing.Size(66, 13);
@@ -8797,6 +8904,7 @@ namespace Arkansas_Armory
             // label460
             // 
             this.label460.AutoSize = true;
+            this.label460.ForeColor = System.Drawing.Color.DarkRed;
             this.label460.Location = new System.Drawing.Point(6, 29);
             this.label460.Name = "label460";
             this.label460.Size = new System.Drawing.Size(70, 13);
@@ -8806,6 +8914,7 @@ namespace Arkansas_Armory
             // label461
             // 
             this.label461.AutoSize = true;
+            this.label461.ForeColor = System.Drawing.Color.DarkRed;
             this.label461.Location = new System.Drawing.Point(6, 56);
             this.label461.Name = "label461";
             this.label461.Size = new System.Drawing.Size(36, 13);
@@ -8814,6 +8923,7 @@ namespace Arkansas_Armory
             // 
             // button98
             // 
+            this.button98.ForeColor = System.Drawing.Color.DarkRed;
             this.button98.Location = new System.Drawing.Point(83, 265);
             this.button98.Name = "button98";
             this.button98.Size = new System.Drawing.Size(100, 23);
@@ -8866,6 +8976,7 @@ namespace Arkansas_Armory
             // 
             // button99
             // 
+            this.button99.ForeColor = System.Drawing.Color.DarkRed;
             this.button99.Location = new System.Drawing.Point(203, 17);
             this.button99.Name = "button99";
             this.button99.Size = new System.Drawing.Size(75, 23);
@@ -8905,6 +9016,7 @@ namespace Arkansas_Armory
             // label462
             // 
             this.label462.AutoSize = true;
+            this.label462.ForeColor = System.Drawing.Color.DarkRed;
             this.label462.Location = new System.Drawing.Point(6, 241);
             this.label462.Name = "label462";
             this.label462.Size = new System.Drawing.Size(29, 13);
@@ -8922,6 +9034,7 @@ namespace Arkansas_Armory
             // label463
             // 
             this.label463.AutoSize = true;
+            this.label463.ForeColor = System.Drawing.Color.DarkRed;
             this.label463.Location = new System.Drawing.Point(6, 215);
             this.label463.Name = "label463";
             this.label463.Size = new System.Drawing.Size(37, 13);
@@ -8931,6 +9044,7 @@ namespace Arkansas_Armory
             // label464
             // 
             this.label464.AutoSize = true;
+            this.label464.ForeColor = System.Drawing.Color.DarkRed;
             this.label464.Location = new System.Drawing.Point(6, 189);
             this.label464.Name = "label464";
             this.label464.Size = new System.Drawing.Size(41, 13);
@@ -8956,6 +9070,7 @@ namespace Arkansas_Armory
             // label465
             // 
             this.label465.AutoSize = true;
+            this.label465.ForeColor = System.Drawing.Color.DarkRed;
             this.label465.Location = new System.Drawing.Point(6, 163);
             this.label465.Name = "label465";
             this.label465.Size = new System.Drawing.Size(73, 13);
@@ -8965,6 +9080,7 @@ namespace Arkansas_Armory
             // label466
             // 
             this.label466.AutoSize = true;
+            this.label466.ForeColor = System.Drawing.Color.DarkRed;
             this.label466.Location = new System.Drawing.Point(6, 137);
             this.label466.Name = "label466";
             this.label466.Size = new System.Drawing.Size(48, 13);
@@ -8974,6 +9090,7 @@ namespace Arkansas_Armory
             // label467
             // 
             this.label467.AutoSize = true;
+            this.label467.ForeColor = System.Drawing.Color.DarkRed;
             this.label467.Location = new System.Drawing.Point(6, 85);
             this.label467.Name = "label467";
             this.label467.Size = new System.Drawing.Size(37, 13);
@@ -8983,6 +9100,7 @@ namespace Arkansas_Armory
             // label468
             // 
             this.label468.AutoSize = true;
+            this.label468.ForeColor = System.Drawing.Color.DarkRed;
             this.label468.Location = new System.Drawing.Point(6, 111);
             this.label468.Name = "label468";
             this.label468.Size = new System.Drawing.Size(66, 13);
@@ -9040,6 +9158,7 @@ namespace Arkansas_Armory
             // label469
             // 
             this.label469.AutoSize = true;
+            this.label469.ForeColor = System.Drawing.Color.DarkRed;
             this.label469.Location = new System.Drawing.Point(6, 29);
             this.label469.Name = "label469";
             this.label469.Size = new System.Drawing.Size(70, 13);
@@ -9049,6 +9168,7 @@ namespace Arkansas_Armory
             // label470
             // 
             this.label470.AutoSize = true;
+            this.label470.ForeColor = System.Drawing.Color.DarkRed;
             this.label470.Location = new System.Drawing.Point(6, 56);
             this.label470.Name = "label470";
             this.label470.Size = new System.Drawing.Size(36, 13);
@@ -9057,6 +9177,7 @@ namespace Arkansas_Armory
             // 
             // button100
             // 
+            this.button100.ForeColor = System.Drawing.Color.DarkRed;
             this.button100.Location = new System.Drawing.Point(83, 265);
             this.button100.Name = "button100";
             this.button100.Size = new System.Drawing.Size(100, 23);
@@ -9068,7 +9189,7 @@ namespace Arkansas_Armory
             // pictureBox50
             // 
             this.pictureBox50.Image = global::Arkansas_Armory.Properties.Resources.Picture53;
-            this.pictureBox50.Location = new System.Drawing.Point(248, 28);
+            this.pictureBox50.Location = new System.Drawing.Point(245, 105);
             this.pictureBox50.Name = "pictureBox50";
             this.pictureBox50.Size = new System.Drawing.Size(305, 76);
             this.pictureBox50.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -9340,6 +9461,7 @@ namespace Arkansas_Armory
             // 
             // button103
             // 
+            this.button103.ForeColor = System.Drawing.Color.DarkRed;
             this.button103.Location = new System.Drawing.Point(203, 17);
             this.button103.Name = "button103";
             this.button103.Size = new System.Drawing.Size(75, 23);
@@ -9379,6 +9501,7 @@ namespace Arkansas_Armory
             // label480
             // 
             this.label480.AutoSize = true;
+            this.label480.ForeColor = System.Drawing.Color.DarkRed;
             this.label480.Location = new System.Drawing.Point(6, 241);
             this.label480.Name = "label480";
             this.label480.Size = new System.Drawing.Size(29, 13);
@@ -9396,6 +9519,7 @@ namespace Arkansas_Armory
             // label481
             // 
             this.label481.AutoSize = true;
+            this.label481.ForeColor = System.Drawing.Color.DarkRed;
             this.label481.Location = new System.Drawing.Point(6, 215);
             this.label481.Name = "label481";
             this.label481.Size = new System.Drawing.Size(37, 13);
@@ -9405,6 +9529,7 @@ namespace Arkansas_Armory
             // label482
             // 
             this.label482.AutoSize = true;
+            this.label482.ForeColor = System.Drawing.Color.DarkRed;
             this.label482.Location = new System.Drawing.Point(6, 189);
             this.label482.Name = "label482";
             this.label482.Size = new System.Drawing.Size(41, 13);
@@ -9430,6 +9555,7 @@ namespace Arkansas_Armory
             // label483
             // 
             this.label483.AutoSize = true;
+            this.label483.ForeColor = System.Drawing.Color.DarkRed;
             this.label483.Location = new System.Drawing.Point(6, 163);
             this.label483.Name = "label483";
             this.label483.Size = new System.Drawing.Size(73, 13);
@@ -9439,6 +9565,7 @@ namespace Arkansas_Armory
             // label484
             // 
             this.label484.AutoSize = true;
+            this.label484.ForeColor = System.Drawing.Color.DarkRed;
             this.label484.Location = new System.Drawing.Point(6, 137);
             this.label484.Name = "label484";
             this.label484.Size = new System.Drawing.Size(48, 13);
@@ -9448,6 +9575,7 @@ namespace Arkansas_Armory
             // label485
             // 
             this.label485.AutoSize = true;
+            this.label485.ForeColor = System.Drawing.Color.DarkRed;
             this.label485.Location = new System.Drawing.Point(6, 85);
             this.label485.Name = "label485";
             this.label485.Size = new System.Drawing.Size(37, 13);
@@ -9457,6 +9585,7 @@ namespace Arkansas_Armory
             // label486
             // 
             this.label486.AutoSize = true;
+            this.label486.ForeColor = System.Drawing.Color.DarkRed;
             this.label486.Location = new System.Drawing.Point(6, 111);
             this.label486.Name = "label486";
             this.label486.Size = new System.Drawing.Size(66, 13);
@@ -9514,6 +9643,7 @@ namespace Arkansas_Armory
             // label487
             // 
             this.label487.AutoSize = true;
+            this.label487.ForeColor = System.Drawing.Color.DarkRed;
             this.label487.Location = new System.Drawing.Point(6, 29);
             this.label487.Name = "label487";
             this.label487.Size = new System.Drawing.Size(70, 13);
@@ -9523,6 +9653,7 @@ namespace Arkansas_Armory
             // label488
             // 
             this.label488.AutoSize = true;
+            this.label488.ForeColor = System.Drawing.Color.DarkRed;
             this.label488.Location = new System.Drawing.Point(6, 56);
             this.label488.Name = "label488";
             this.label488.Size = new System.Drawing.Size(36, 13);
@@ -9531,6 +9662,7 @@ namespace Arkansas_Armory
             // 
             // button104
             // 
+            this.button104.ForeColor = System.Drawing.Color.DarkRed;
             this.button104.Location = new System.Drawing.Point(83, 265);
             this.button104.Name = "button104";
             this.button104.Size = new System.Drawing.Size(100, 23);
@@ -9583,6 +9715,7 @@ namespace Arkansas_Armory
             // 
             // button105
             // 
+            this.button105.ForeColor = System.Drawing.Color.DarkRed;
             this.button105.Location = new System.Drawing.Point(203, 17);
             this.button105.Name = "button105";
             this.button105.Size = new System.Drawing.Size(75, 23);
@@ -9622,6 +9755,7 @@ namespace Arkansas_Armory
             // label489
             // 
             this.label489.AutoSize = true;
+            this.label489.ForeColor = System.Drawing.Color.DarkRed;
             this.label489.Location = new System.Drawing.Point(6, 241);
             this.label489.Name = "label489";
             this.label489.Size = new System.Drawing.Size(29, 13);
@@ -9639,6 +9773,7 @@ namespace Arkansas_Armory
             // label490
             // 
             this.label490.AutoSize = true;
+            this.label490.ForeColor = System.Drawing.Color.DarkRed;
             this.label490.Location = new System.Drawing.Point(6, 215);
             this.label490.Name = "label490";
             this.label490.Size = new System.Drawing.Size(37, 13);
@@ -9648,6 +9783,7 @@ namespace Arkansas_Armory
             // label491
             // 
             this.label491.AutoSize = true;
+            this.label491.ForeColor = System.Drawing.Color.DarkRed;
             this.label491.Location = new System.Drawing.Point(6, 189);
             this.label491.Name = "label491";
             this.label491.Size = new System.Drawing.Size(41, 13);
@@ -9673,6 +9809,7 @@ namespace Arkansas_Armory
             // label492
             // 
             this.label492.AutoSize = true;
+            this.label492.ForeColor = System.Drawing.Color.DarkRed;
             this.label492.Location = new System.Drawing.Point(6, 163);
             this.label492.Name = "label492";
             this.label492.Size = new System.Drawing.Size(73, 13);
@@ -9682,6 +9819,7 @@ namespace Arkansas_Armory
             // label493
             // 
             this.label493.AutoSize = true;
+            this.label493.ForeColor = System.Drawing.Color.DarkRed;
             this.label493.Location = new System.Drawing.Point(6, 137);
             this.label493.Name = "label493";
             this.label493.Size = new System.Drawing.Size(48, 13);
@@ -9691,6 +9829,7 @@ namespace Arkansas_Armory
             // label494
             // 
             this.label494.AutoSize = true;
+            this.label494.ForeColor = System.Drawing.Color.DarkRed;
             this.label494.Location = new System.Drawing.Point(6, 85);
             this.label494.Name = "label494";
             this.label494.Size = new System.Drawing.Size(37, 13);
@@ -9700,6 +9839,7 @@ namespace Arkansas_Armory
             // label495
             // 
             this.label495.AutoSize = true;
+            this.label495.ForeColor = System.Drawing.Color.DarkRed;
             this.label495.Location = new System.Drawing.Point(6, 111);
             this.label495.Name = "label495";
             this.label495.Size = new System.Drawing.Size(66, 13);
@@ -9757,6 +9897,7 @@ namespace Arkansas_Armory
             // label496
             // 
             this.label496.AutoSize = true;
+            this.label496.ForeColor = System.Drawing.Color.DarkRed;
             this.label496.Location = new System.Drawing.Point(6, 29);
             this.label496.Name = "label496";
             this.label496.Size = new System.Drawing.Size(70, 13);
@@ -9766,6 +9907,7 @@ namespace Arkansas_Armory
             // label497
             // 
             this.label497.AutoSize = true;
+            this.label497.ForeColor = System.Drawing.Color.DarkRed;
             this.label497.Location = new System.Drawing.Point(6, 56);
             this.label497.Name = "label497";
             this.label497.Size = new System.Drawing.Size(36, 13);
@@ -9774,6 +9916,7 @@ namespace Arkansas_Armory
             // 
             // button106
             // 
+            this.button106.ForeColor = System.Drawing.Color.DarkRed;
             this.button106.Location = new System.Drawing.Point(83, 265);
             this.button106.Name = "button106";
             this.button106.Size = new System.Drawing.Size(100, 23);
@@ -9826,6 +9969,7 @@ namespace Arkansas_Armory
             // 
             // button107
             // 
+            this.button107.ForeColor = System.Drawing.Color.DarkRed;
             this.button107.Location = new System.Drawing.Point(203, 17);
             this.button107.Name = "button107";
             this.button107.Size = new System.Drawing.Size(75, 23);
@@ -9865,6 +10009,7 @@ namespace Arkansas_Armory
             // label498
             // 
             this.label498.AutoSize = true;
+            this.label498.ForeColor = System.Drawing.Color.DarkRed;
             this.label498.Location = new System.Drawing.Point(6, 241);
             this.label498.Name = "label498";
             this.label498.Size = new System.Drawing.Size(29, 13);
@@ -9882,6 +10027,7 @@ namespace Arkansas_Armory
             // label499
             // 
             this.label499.AutoSize = true;
+            this.label499.ForeColor = System.Drawing.Color.DarkRed;
             this.label499.Location = new System.Drawing.Point(6, 215);
             this.label499.Name = "label499";
             this.label499.Size = new System.Drawing.Size(37, 13);
@@ -9891,6 +10037,7 @@ namespace Arkansas_Armory
             // label500
             // 
             this.label500.AutoSize = true;
+            this.label500.ForeColor = System.Drawing.Color.DarkRed;
             this.label500.Location = new System.Drawing.Point(6, 189);
             this.label500.Name = "label500";
             this.label500.Size = new System.Drawing.Size(41, 13);
@@ -9916,6 +10063,7 @@ namespace Arkansas_Armory
             // label501
             // 
             this.label501.AutoSize = true;
+            this.label501.ForeColor = System.Drawing.Color.DarkRed;
             this.label501.Location = new System.Drawing.Point(6, 163);
             this.label501.Name = "label501";
             this.label501.Size = new System.Drawing.Size(73, 13);
@@ -9925,6 +10073,7 @@ namespace Arkansas_Armory
             // label502
             // 
             this.label502.AutoSize = true;
+            this.label502.ForeColor = System.Drawing.Color.DarkRed;
             this.label502.Location = new System.Drawing.Point(6, 137);
             this.label502.Name = "label502";
             this.label502.Size = new System.Drawing.Size(48, 13);
@@ -9934,6 +10083,7 @@ namespace Arkansas_Armory
             // label503
             // 
             this.label503.AutoSize = true;
+            this.label503.ForeColor = System.Drawing.Color.DarkRed;
             this.label503.Location = new System.Drawing.Point(6, 85);
             this.label503.Name = "label503";
             this.label503.Size = new System.Drawing.Size(37, 13);
@@ -9943,6 +10093,7 @@ namespace Arkansas_Armory
             // label504
             // 
             this.label504.AutoSize = true;
+            this.label504.ForeColor = System.Drawing.Color.DarkRed;
             this.label504.Location = new System.Drawing.Point(6, 111);
             this.label504.Name = "label504";
             this.label504.Size = new System.Drawing.Size(66, 13);
@@ -10000,6 +10151,7 @@ namespace Arkansas_Armory
             // label505
             // 
             this.label505.AutoSize = true;
+            this.label505.ForeColor = System.Drawing.Color.DarkRed;
             this.label505.Location = new System.Drawing.Point(6, 29);
             this.label505.Name = "label505";
             this.label505.Size = new System.Drawing.Size(70, 13);
@@ -10009,6 +10161,7 @@ namespace Arkansas_Armory
             // label506
             // 
             this.label506.AutoSize = true;
+            this.label506.ForeColor = System.Drawing.Color.DarkRed;
             this.label506.Location = new System.Drawing.Point(6, 56);
             this.label506.Name = "label506";
             this.label506.Size = new System.Drawing.Size(36, 13);
@@ -10017,6 +10170,7 @@ namespace Arkansas_Armory
             // 
             // button108
             // 
+            this.button108.ForeColor = System.Drawing.Color.DarkRed;
             this.button108.Location = new System.Drawing.Point(83, 265);
             this.button108.Name = "button108";
             this.button108.Size = new System.Drawing.Size(100, 23);
@@ -10300,6 +10454,7 @@ namespace Arkansas_Armory
             // 
             // button109
             // 
+            this.button109.ForeColor = System.Drawing.Color.DarkRed;
             this.button109.Location = new System.Drawing.Point(203, 17);
             this.button109.Name = "button109";
             this.button109.Size = new System.Drawing.Size(75, 23);
@@ -10339,6 +10494,7 @@ namespace Arkansas_Armory
             // label507
             // 
             this.label507.AutoSize = true;
+            this.label507.ForeColor = System.Drawing.Color.DarkRed;
             this.label507.Location = new System.Drawing.Point(6, 241);
             this.label507.Name = "label507";
             this.label507.Size = new System.Drawing.Size(29, 13);
@@ -10356,6 +10512,7 @@ namespace Arkansas_Armory
             // label508
             // 
             this.label508.AutoSize = true;
+            this.label508.ForeColor = System.Drawing.Color.DarkRed;
             this.label508.Location = new System.Drawing.Point(6, 215);
             this.label508.Name = "label508";
             this.label508.Size = new System.Drawing.Size(37, 13);
@@ -10365,6 +10522,7 @@ namespace Arkansas_Armory
             // label509
             // 
             this.label509.AutoSize = true;
+            this.label509.ForeColor = System.Drawing.Color.DarkRed;
             this.label509.Location = new System.Drawing.Point(6, 189);
             this.label509.Name = "label509";
             this.label509.Size = new System.Drawing.Size(41, 13);
@@ -10390,6 +10548,7 @@ namespace Arkansas_Armory
             // label510
             // 
             this.label510.AutoSize = true;
+            this.label510.ForeColor = System.Drawing.Color.DarkRed;
             this.label510.Location = new System.Drawing.Point(6, 163);
             this.label510.Name = "label510";
             this.label510.Size = new System.Drawing.Size(73, 13);
@@ -10399,6 +10558,7 @@ namespace Arkansas_Armory
             // label511
             // 
             this.label511.AutoSize = true;
+            this.label511.ForeColor = System.Drawing.Color.DarkRed;
             this.label511.Location = new System.Drawing.Point(6, 137);
             this.label511.Name = "label511";
             this.label511.Size = new System.Drawing.Size(48, 13);
@@ -10408,6 +10568,7 @@ namespace Arkansas_Armory
             // label512
             // 
             this.label512.AutoSize = true;
+            this.label512.ForeColor = System.Drawing.Color.DarkRed;
             this.label512.Location = new System.Drawing.Point(6, 85);
             this.label512.Name = "label512";
             this.label512.Size = new System.Drawing.Size(37, 13);
@@ -10417,6 +10578,7 @@ namespace Arkansas_Armory
             // label513
             // 
             this.label513.AutoSize = true;
+            this.label513.ForeColor = System.Drawing.Color.DarkRed;
             this.label513.Location = new System.Drawing.Point(6, 111);
             this.label513.Name = "label513";
             this.label513.Size = new System.Drawing.Size(66, 13);
@@ -10474,6 +10636,7 @@ namespace Arkansas_Armory
             // label514
             // 
             this.label514.AutoSize = true;
+            this.label514.ForeColor = System.Drawing.Color.DarkRed;
             this.label514.Location = new System.Drawing.Point(6, 29);
             this.label514.Name = "label514";
             this.label514.Size = new System.Drawing.Size(70, 13);
@@ -10483,6 +10646,7 @@ namespace Arkansas_Armory
             // label515
             // 
             this.label515.AutoSize = true;
+            this.label515.ForeColor = System.Drawing.Color.DarkRed;
             this.label515.Location = new System.Drawing.Point(6, 56);
             this.label515.Name = "label515";
             this.label515.Size = new System.Drawing.Size(36, 13);
@@ -10491,6 +10655,7 @@ namespace Arkansas_Armory
             // 
             // button110
             // 
+            this.button110.ForeColor = System.Drawing.Color.DarkRed;
             this.button110.Location = new System.Drawing.Point(83, 265);
             this.button110.Name = "button110";
             this.button110.Size = new System.Drawing.Size(100, 23);
@@ -10543,6 +10708,7 @@ namespace Arkansas_Armory
             // 
             // button113
             // 
+            this.button113.ForeColor = System.Drawing.Color.DarkRed;
             this.button113.Location = new System.Drawing.Point(203, 17);
             this.button113.Name = "button113";
             this.button113.Size = new System.Drawing.Size(75, 23);
@@ -10582,6 +10748,7 @@ namespace Arkansas_Armory
             // label525
             // 
             this.label525.AutoSize = true;
+            this.label525.ForeColor = System.Drawing.Color.DarkRed;
             this.label525.Location = new System.Drawing.Point(6, 241);
             this.label525.Name = "label525";
             this.label525.Size = new System.Drawing.Size(29, 13);
@@ -10599,6 +10766,7 @@ namespace Arkansas_Armory
             // label526
             // 
             this.label526.AutoSize = true;
+            this.label526.ForeColor = System.Drawing.Color.DarkRed;
             this.label526.Location = new System.Drawing.Point(6, 215);
             this.label526.Name = "label526";
             this.label526.Size = new System.Drawing.Size(37, 13);
@@ -10608,6 +10776,7 @@ namespace Arkansas_Armory
             // label527
             // 
             this.label527.AutoSize = true;
+            this.label527.ForeColor = System.Drawing.Color.DarkRed;
             this.label527.Location = new System.Drawing.Point(6, 189);
             this.label527.Name = "label527";
             this.label527.Size = new System.Drawing.Size(41, 13);
@@ -10633,6 +10802,7 @@ namespace Arkansas_Armory
             // label528
             // 
             this.label528.AutoSize = true;
+            this.label528.ForeColor = System.Drawing.Color.DarkRed;
             this.label528.Location = new System.Drawing.Point(6, 163);
             this.label528.Name = "label528";
             this.label528.Size = new System.Drawing.Size(73, 13);
@@ -10642,6 +10812,7 @@ namespace Arkansas_Armory
             // label529
             // 
             this.label529.AutoSize = true;
+            this.label529.ForeColor = System.Drawing.Color.DarkRed;
             this.label529.Location = new System.Drawing.Point(6, 137);
             this.label529.Name = "label529";
             this.label529.Size = new System.Drawing.Size(48, 13);
@@ -10651,6 +10822,7 @@ namespace Arkansas_Armory
             // label530
             // 
             this.label530.AutoSize = true;
+            this.label530.ForeColor = System.Drawing.Color.DarkRed;
             this.label530.Location = new System.Drawing.Point(6, 85);
             this.label530.Name = "label530";
             this.label530.Size = new System.Drawing.Size(37, 13);
@@ -10660,6 +10832,7 @@ namespace Arkansas_Armory
             // label531
             // 
             this.label531.AutoSize = true;
+            this.label531.ForeColor = System.Drawing.Color.DarkRed;
             this.label531.Location = new System.Drawing.Point(6, 111);
             this.label531.Name = "label531";
             this.label531.Size = new System.Drawing.Size(66, 13);
@@ -10717,6 +10890,7 @@ namespace Arkansas_Armory
             // label532
             // 
             this.label532.AutoSize = true;
+            this.label532.ForeColor = System.Drawing.Color.DarkRed;
             this.label532.Location = new System.Drawing.Point(6, 29);
             this.label532.Name = "label532";
             this.label532.Size = new System.Drawing.Size(70, 13);
@@ -10726,6 +10900,7 @@ namespace Arkansas_Armory
             // label533
             // 
             this.label533.AutoSize = true;
+            this.label533.ForeColor = System.Drawing.Color.DarkRed;
             this.label533.Location = new System.Drawing.Point(6, 56);
             this.label533.Name = "label533";
             this.label533.Size = new System.Drawing.Size(36, 13);
@@ -10734,6 +10909,7 @@ namespace Arkansas_Armory
             // 
             // button114
             // 
+            this.button114.ForeColor = System.Drawing.Color.DarkRed;
             this.button114.Location = new System.Drawing.Point(83, 265);
             this.button114.Name = "button114";
             this.button114.Size = new System.Drawing.Size(100, 23);
@@ -10786,6 +10962,7 @@ namespace Arkansas_Armory
             // 
             // button117
             // 
+            this.button117.ForeColor = System.Drawing.Color.DarkRed;
             this.button117.Location = new System.Drawing.Point(203, 17);
             this.button117.Name = "button117";
             this.button117.Size = new System.Drawing.Size(75, 23);
@@ -10825,6 +11002,7 @@ namespace Arkansas_Armory
             // label543
             // 
             this.label543.AutoSize = true;
+            this.label543.ForeColor = System.Drawing.Color.DarkRed;
             this.label543.Location = new System.Drawing.Point(6, 241);
             this.label543.Name = "label543";
             this.label543.Size = new System.Drawing.Size(29, 13);
@@ -10842,6 +11020,7 @@ namespace Arkansas_Armory
             // label544
             // 
             this.label544.AutoSize = true;
+            this.label544.ForeColor = System.Drawing.Color.DarkRed;
             this.label544.Location = new System.Drawing.Point(6, 215);
             this.label544.Name = "label544";
             this.label544.Size = new System.Drawing.Size(37, 13);
@@ -10851,6 +11030,7 @@ namespace Arkansas_Armory
             // label545
             // 
             this.label545.AutoSize = true;
+            this.label545.ForeColor = System.Drawing.Color.DarkRed;
             this.label545.Location = new System.Drawing.Point(6, 189);
             this.label545.Name = "label545";
             this.label545.Size = new System.Drawing.Size(41, 13);
@@ -10876,6 +11056,7 @@ namespace Arkansas_Armory
             // label546
             // 
             this.label546.AutoSize = true;
+            this.label546.ForeColor = System.Drawing.Color.DarkRed;
             this.label546.Location = new System.Drawing.Point(6, 163);
             this.label546.Name = "label546";
             this.label546.Size = new System.Drawing.Size(73, 13);
@@ -10885,6 +11066,7 @@ namespace Arkansas_Armory
             // label547
             // 
             this.label547.AutoSize = true;
+            this.label547.ForeColor = System.Drawing.Color.DarkRed;
             this.label547.Location = new System.Drawing.Point(6, 137);
             this.label547.Name = "label547";
             this.label547.Size = new System.Drawing.Size(48, 13);
@@ -10894,6 +11076,7 @@ namespace Arkansas_Armory
             // label548
             // 
             this.label548.AutoSize = true;
+            this.label548.ForeColor = System.Drawing.Color.DarkRed;
             this.label548.Location = new System.Drawing.Point(6, 85);
             this.label548.Name = "label548";
             this.label548.Size = new System.Drawing.Size(37, 13);
@@ -10903,6 +11086,7 @@ namespace Arkansas_Armory
             // label549
             // 
             this.label549.AutoSize = true;
+            this.label549.ForeColor = System.Drawing.Color.DarkRed;
             this.label549.Location = new System.Drawing.Point(6, 111);
             this.label549.Name = "label549";
             this.label549.Size = new System.Drawing.Size(66, 13);
@@ -10960,6 +11144,7 @@ namespace Arkansas_Armory
             // label550
             // 
             this.label550.AutoSize = true;
+            this.label550.ForeColor = System.Drawing.Color.DarkRed;
             this.label550.Location = new System.Drawing.Point(6, 29);
             this.label550.Name = "label550";
             this.label550.Size = new System.Drawing.Size(70, 13);
@@ -10969,6 +11154,7 @@ namespace Arkansas_Armory
             // label551
             // 
             this.label551.AutoSize = true;
+            this.label551.ForeColor = System.Drawing.Color.DarkRed;
             this.label551.Location = new System.Drawing.Point(6, 56);
             this.label551.Name = "label551";
             this.label551.Size = new System.Drawing.Size(36, 13);
@@ -10977,6 +11163,7 @@ namespace Arkansas_Armory
             // 
             // button118
             // 
+            this.button118.ForeColor = System.Drawing.Color.DarkRed;
             this.button118.Location = new System.Drawing.Point(83, 265);
             this.button118.Name = "button118";
             this.button118.Size = new System.Drawing.Size(100, 23);
@@ -11029,6 +11216,7 @@ namespace Arkansas_Armory
             // 
             // button115
             // 
+            this.button115.ForeColor = System.Drawing.Color.DarkRed;
             this.button115.Location = new System.Drawing.Point(203, 17);
             this.button115.Name = "button115";
             this.button115.Size = new System.Drawing.Size(75, 23);
@@ -11068,6 +11256,7 @@ namespace Arkansas_Armory
             // label534
             // 
             this.label534.AutoSize = true;
+            this.label534.ForeColor = System.Drawing.Color.DarkRed;
             this.label534.Location = new System.Drawing.Point(6, 241);
             this.label534.Name = "label534";
             this.label534.Size = new System.Drawing.Size(29, 13);
@@ -11085,6 +11274,7 @@ namespace Arkansas_Armory
             // label535
             // 
             this.label535.AutoSize = true;
+            this.label535.ForeColor = System.Drawing.Color.DarkRed;
             this.label535.Location = new System.Drawing.Point(6, 215);
             this.label535.Name = "label535";
             this.label535.Size = new System.Drawing.Size(37, 13);
@@ -11094,6 +11284,7 @@ namespace Arkansas_Armory
             // label536
             // 
             this.label536.AutoSize = true;
+            this.label536.ForeColor = System.Drawing.Color.DarkRed;
             this.label536.Location = new System.Drawing.Point(6, 189);
             this.label536.Name = "label536";
             this.label536.Size = new System.Drawing.Size(41, 13);
@@ -11119,6 +11310,7 @@ namespace Arkansas_Armory
             // label537
             // 
             this.label537.AutoSize = true;
+            this.label537.ForeColor = System.Drawing.Color.DarkRed;
             this.label537.Location = new System.Drawing.Point(6, 163);
             this.label537.Name = "label537";
             this.label537.Size = new System.Drawing.Size(73, 13);
@@ -11128,6 +11320,7 @@ namespace Arkansas_Armory
             // label538
             // 
             this.label538.AutoSize = true;
+            this.label538.ForeColor = System.Drawing.Color.DarkRed;
             this.label538.Location = new System.Drawing.Point(6, 137);
             this.label538.Name = "label538";
             this.label538.Size = new System.Drawing.Size(48, 13);
@@ -11137,6 +11330,7 @@ namespace Arkansas_Armory
             // label539
             // 
             this.label539.AutoSize = true;
+            this.label539.ForeColor = System.Drawing.Color.DarkRed;
             this.label539.Location = new System.Drawing.Point(6, 85);
             this.label539.Name = "label539";
             this.label539.Size = new System.Drawing.Size(37, 13);
@@ -11146,6 +11340,7 @@ namespace Arkansas_Armory
             // label540
             // 
             this.label540.AutoSize = true;
+            this.label540.ForeColor = System.Drawing.Color.DarkRed;
             this.label540.Location = new System.Drawing.Point(6, 111);
             this.label540.Name = "label540";
             this.label540.Size = new System.Drawing.Size(66, 13);
@@ -11203,6 +11398,7 @@ namespace Arkansas_Armory
             // label541
             // 
             this.label541.AutoSize = true;
+            this.label541.ForeColor = System.Drawing.Color.DarkRed;
             this.label541.Location = new System.Drawing.Point(6, 29);
             this.label541.Name = "label541";
             this.label541.Size = new System.Drawing.Size(70, 13);
@@ -11212,6 +11408,7 @@ namespace Arkansas_Armory
             // label542
             // 
             this.label542.AutoSize = true;
+            this.label542.ForeColor = System.Drawing.Color.DarkRed;
             this.label542.Location = new System.Drawing.Point(6, 56);
             this.label542.Name = "label542";
             this.label542.Size = new System.Drawing.Size(36, 13);
@@ -11220,6 +11417,7 @@ namespace Arkansas_Armory
             // 
             // button116
             // 
+            this.button116.ForeColor = System.Drawing.Color.DarkRed;
             this.button116.Location = new System.Drawing.Point(83, 265);
             this.button116.Name = "button116";
             this.button116.Size = new System.Drawing.Size(100, 23);
@@ -11306,6 +11504,7 @@ namespace Arkansas_Armory
             // 
             // button47
             // 
+            this.button47.ForeColor = System.Drawing.Color.DarkRed;
             this.button47.Location = new System.Drawing.Point(203, 17);
             this.button47.Name = "button47";
             this.button47.Size = new System.Drawing.Size(75, 23);
@@ -11345,6 +11544,7 @@ namespace Arkansas_Armory
             // label228
             // 
             this.label228.AutoSize = true;
+            this.label228.ForeColor = System.Drawing.Color.DarkRed;
             this.label228.Location = new System.Drawing.Point(6, 241);
             this.label228.Name = "label228";
             this.label228.Size = new System.Drawing.Size(29, 13);
@@ -11362,6 +11562,7 @@ namespace Arkansas_Armory
             // label229
             // 
             this.label229.AutoSize = true;
+            this.label229.ForeColor = System.Drawing.Color.DarkRed;
             this.label229.Location = new System.Drawing.Point(6, 215);
             this.label229.Name = "label229";
             this.label229.Size = new System.Drawing.Size(37, 13);
@@ -11371,6 +11572,7 @@ namespace Arkansas_Armory
             // label230
             // 
             this.label230.AutoSize = true;
+            this.label230.ForeColor = System.Drawing.Color.DarkRed;
             this.label230.Location = new System.Drawing.Point(6, 189);
             this.label230.Name = "label230";
             this.label230.Size = new System.Drawing.Size(41, 13);
@@ -11396,6 +11598,7 @@ namespace Arkansas_Armory
             // label231
             // 
             this.label231.AutoSize = true;
+            this.label231.ForeColor = System.Drawing.Color.DarkRed;
             this.label231.Location = new System.Drawing.Point(6, 163);
             this.label231.Name = "label231";
             this.label231.Size = new System.Drawing.Size(73, 13);
@@ -11405,6 +11608,7 @@ namespace Arkansas_Armory
             // label232
             // 
             this.label232.AutoSize = true;
+            this.label232.ForeColor = System.Drawing.Color.DarkRed;
             this.label232.Location = new System.Drawing.Point(6, 137);
             this.label232.Name = "label232";
             this.label232.Size = new System.Drawing.Size(48, 13);
@@ -11414,6 +11618,7 @@ namespace Arkansas_Armory
             // label233
             // 
             this.label233.AutoSize = true;
+            this.label233.ForeColor = System.Drawing.Color.DarkRed;
             this.label233.Location = new System.Drawing.Point(6, 85);
             this.label233.Name = "label233";
             this.label233.Size = new System.Drawing.Size(37, 13);
@@ -11423,6 +11628,7 @@ namespace Arkansas_Armory
             // label234
             // 
             this.label234.AutoSize = true;
+            this.label234.ForeColor = System.Drawing.Color.DarkRed;
             this.label234.Location = new System.Drawing.Point(6, 111);
             this.label234.Name = "label234";
             this.label234.Size = new System.Drawing.Size(66, 13);
@@ -11480,6 +11686,7 @@ namespace Arkansas_Armory
             // label235
             // 
             this.label235.AutoSize = true;
+            this.label235.ForeColor = System.Drawing.Color.DarkRed;
             this.label235.Location = new System.Drawing.Point(6, 29);
             this.label235.Name = "label235";
             this.label235.Size = new System.Drawing.Size(70, 13);
@@ -11489,6 +11696,7 @@ namespace Arkansas_Armory
             // label236
             // 
             this.label236.AutoSize = true;
+            this.label236.ForeColor = System.Drawing.Color.DarkRed;
             this.label236.Location = new System.Drawing.Point(6, 56);
             this.label236.Name = "label236";
             this.label236.Size = new System.Drawing.Size(36, 13);
@@ -11497,6 +11705,7 @@ namespace Arkansas_Armory
             // 
             // button48
             // 
+            this.button48.ForeColor = System.Drawing.Color.DarkRed;
             this.button48.Location = new System.Drawing.Point(83, 265);
             this.button48.Name = "button48";
             this.button48.Size = new System.Drawing.Size(100, 23);
@@ -11549,6 +11758,7 @@ namespace Arkansas_Armory
             // 
             // button61
             // 
+            this.button61.ForeColor = System.Drawing.Color.DarkRed;
             this.button61.Location = new System.Drawing.Point(203, 17);
             this.button61.Name = "button61";
             this.button61.Size = new System.Drawing.Size(75, 23);
@@ -11588,6 +11798,7 @@ namespace Arkansas_Armory
             // label291
             // 
             this.label291.AutoSize = true;
+            this.label291.ForeColor = System.Drawing.Color.DarkRed;
             this.label291.Location = new System.Drawing.Point(6, 241);
             this.label291.Name = "label291";
             this.label291.Size = new System.Drawing.Size(29, 13);
@@ -11605,6 +11816,7 @@ namespace Arkansas_Armory
             // label292
             // 
             this.label292.AutoSize = true;
+            this.label292.ForeColor = System.Drawing.Color.DarkRed;
             this.label292.Location = new System.Drawing.Point(6, 215);
             this.label292.Name = "label292";
             this.label292.Size = new System.Drawing.Size(37, 13);
@@ -11614,6 +11826,7 @@ namespace Arkansas_Armory
             // label293
             // 
             this.label293.AutoSize = true;
+            this.label293.ForeColor = System.Drawing.Color.DarkRed;
             this.label293.Location = new System.Drawing.Point(6, 189);
             this.label293.Name = "label293";
             this.label293.Size = new System.Drawing.Size(41, 13);
@@ -11639,6 +11852,7 @@ namespace Arkansas_Armory
             // label294
             // 
             this.label294.AutoSize = true;
+            this.label294.ForeColor = System.Drawing.Color.DarkRed;
             this.label294.Location = new System.Drawing.Point(6, 163);
             this.label294.Name = "label294";
             this.label294.Size = new System.Drawing.Size(73, 13);
@@ -11648,6 +11862,7 @@ namespace Arkansas_Armory
             // label295
             // 
             this.label295.AutoSize = true;
+            this.label295.ForeColor = System.Drawing.Color.DarkRed;
             this.label295.Location = new System.Drawing.Point(6, 137);
             this.label295.Name = "label295";
             this.label295.Size = new System.Drawing.Size(48, 13);
@@ -11657,6 +11872,7 @@ namespace Arkansas_Armory
             // label296
             // 
             this.label296.AutoSize = true;
+            this.label296.ForeColor = System.Drawing.Color.DarkRed;
             this.label296.Location = new System.Drawing.Point(6, 85);
             this.label296.Name = "label296";
             this.label296.Size = new System.Drawing.Size(37, 13);
@@ -11666,6 +11882,7 @@ namespace Arkansas_Armory
             // label297
             // 
             this.label297.AutoSize = true;
+            this.label297.ForeColor = System.Drawing.Color.DarkRed;
             this.label297.Location = new System.Drawing.Point(6, 111);
             this.label297.Name = "label297";
             this.label297.Size = new System.Drawing.Size(66, 13);
@@ -11723,6 +11940,7 @@ namespace Arkansas_Armory
             // label298
             // 
             this.label298.AutoSize = true;
+            this.label298.ForeColor = System.Drawing.Color.DarkRed;
             this.label298.Location = new System.Drawing.Point(6, 29);
             this.label298.Name = "label298";
             this.label298.Size = new System.Drawing.Size(70, 13);
@@ -11732,6 +11950,7 @@ namespace Arkansas_Armory
             // label299
             // 
             this.label299.AutoSize = true;
+            this.label299.ForeColor = System.Drawing.Color.DarkRed;
             this.label299.Location = new System.Drawing.Point(6, 56);
             this.label299.Name = "label299";
             this.label299.Size = new System.Drawing.Size(36, 13);
@@ -11740,6 +11959,7 @@ namespace Arkansas_Armory
             // 
             // button62
             // 
+            this.button62.ForeColor = System.Drawing.Color.DarkRed;
             this.button62.Location = new System.Drawing.Point(83, 265);
             this.button62.Name = "button62";
             this.button62.Size = new System.Drawing.Size(100, 23);
@@ -11792,6 +12012,7 @@ namespace Arkansas_Armory
             // 
             // button59
             // 
+            this.button59.ForeColor = System.Drawing.Color.DarkRed;
             this.button59.Location = new System.Drawing.Point(203, 17);
             this.button59.Name = "button59";
             this.button59.Size = new System.Drawing.Size(75, 23);
@@ -11831,6 +12052,7 @@ namespace Arkansas_Armory
             // label282
             // 
             this.label282.AutoSize = true;
+            this.label282.ForeColor = System.Drawing.Color.DarkRed;
             this.label282.Location = new System.Drawing.Point(6, 241);
             this.label282.Name = "label282";
             this.label282.Size = new System.Drawing.Size(29, 13);
@@ -11848,6 +12070,7 @@ namespace Arkansas_Armory
             // label283
             // 
             this.label283.AutoSize = true;
+            this.label283.ForeColor = System.Drawing.Color.DarkRed;
             this.label283.Location = new System.Drawing.Point(6, 215);
             this.label283.Name = "label283";
             this.label283.Size = new System.Drawing.Size(37, 13);
@@ -11857,6 +12080,7 @@ namespace Arkansas_Armory
             // label284
             // 
             this.label284.AutoSize = true;
+            this.label284.ForeColor = System.Drawing.Color.DarkRed;
             this.label284.Location = new System.Drawing.Point(6, 189);
             this.label284.Name = "label284";
             this.label284.Size = new System.Drawing.Size(41, 13);
@@ -11882,6 +12106,7 @@ namespace Arkansas_Armory
             // label285
             // 
             this.label285.AutoSize = true;
+            this.label285.ForeColor = System.Drawing.Color.DarkRed;
             this.label285.Location = new System.Drawing.Point(6, 163);
             this.label285.Name = "label285";
             this.label285.Size = new System.Drawing.Size(73, 13);
@@ -11891,6 +12116,7 @@ namespace Arkansas_Armory
             // label286
             // 
             this.label286.AutoSize = true;
+            this.label286.ForeColor = System.Drawing.Color.DarkRed;
             this.label286.Location = new System.Drawing.Point(6, 137);
             this.label286.Name = "label286";
             this.label286.Size = new System.Drawing.Size(48, 13);
@@ -11900,6 +12126,7 @@ namespace Arkansas_Armory
             // label287
             // 
             this.label287.AutoSize = true;
+            this.label287.ForeColor = System.Drawing.Color.DarkRed;
             this.label287.Location = new System.Drawing.Point(6, 85);
             this.label287.Name = "label287";
             this.label287.Size = new System.Drawing.Size(37, 13);
@@ -11909,6 +12136,7 @@ namespace Arkansas_Armory
             // label288
             // 
             this.label288.AutoSize = true;
+            this.label288.ForeColor = System.Drawing.Color.DarkRed;
             this.label288.Location = new System.Drawing.Point(6, 111);
             this.label288.Name = "label288";
             this.label288.Size = new System.Drawing.Size(66, 13);
@@ -11966,6 +12194,7 @@ namespace Arkansas_Armory
             // label289
             // 
             this.label289.AutoSize = true;
+            this.label289.ForeColor = System.Drawing.Color.DarkRed;
             this.label289.Location = new System.Drawing.Point(6, 29);
             this.label289.Name = "label289";
             this.label289.Size = new System.Drawing.Size(70, 13);
@@ -11975,6 +12204,7 @@ namespace Arkansas_Armory
             // label290
             // 
             this.label290.AutoSize = true;
+            this.label290.ForeColor = System.Drawing.Color.DarkRed;
             this.label290.Location = new System.Drawing.Point(6, 56);
             this.label290.Name = "label290";
             this.label290.Size = new System.Drawing.Size(36, 13);
@@ -11983,6 +12213,7 @@ namespace Arkansas_Armory
             // 
             // button60
             // 
+            this.button60.ForeColor = System.Drawing.Color.DarkRed;
             this.button60.Location = new System.Drawing.Point(83, 265);
             this.button60.Name = "button60";
             this.button60.Size = new System.Drawing.Size(100, 23);
@@ -12035,6 +12266,7 @@ namespace Arkansas_Armory
             // 
             // button57
             // 
+            this.button57.ForeColor = System.Drawing.Color.DarkRed;
             this.button57.Location = new System.Drawing.Point(203, 17);
             this.button57.Name = "button57";
             this.button57.Size = new System.Drawing.Size(75, 23);
@@ -12074,6 +12306,7 @@ namespace Arkansas_Armory
             // label273
             // 
             this.label273.AutoSize = true;
+            this.label273.ForeColor = System.Drawing.Color.DarkRed;
             this.label273.Location = new System.Drawing.Point(6, 241);
             this.label273.Name = "label273";
             this.label273.Size = new System.Drawing.Size(29, 13);
@@ -12091,6 +12324,7 @@ namespace Arkansas_Armory
             // label274
             // 
             this.label274.AutoSize = true;
+            this.label274.ForeColor = System.Drawing.Color.DarkRed;
             this.label274.Location = new System.Drawing.Point(6, 215);
             this.label274.Name = "label274";
             this.label274.Size = new System.Drawing.Size(37, 13);
@@ -12100,6 +12334,7 @@ namespace Arkansas_Armory
             // label275
             // 
             this.label275.AutoSize = true;
+            this.label275.ForeColor = System.Drawing.Color.DarkRed;
             this.label275.Location = new System.Drawing.Point(6, 189);
             this.label275.Name = "label275";
             this.label275.Size = new System.Drawing.Size(41, 13);
@@ -12125,6 +12360,7 @@ namespace Arkansas_Armory
             // label276
             // 
             this.label276.AutoSize = true;
+            this.label276.ForeColor = System.Drawing.Color.DarkRed;
             this.label276.Location = new System.Drawing.Point(6, 163);
             this.label276.Name = "label276";
             this.label276.Size = new System.Drawing.Size(73, 13);
@@ -12134,6 +12370,7 @@ namespace Arkansas_Armory
             // label277
             // 
             this.label277.AutoSize = true;
+            this.label277.ForeColor = System.Drawing.Color.DarkRed;
             this.label277.Location = new System.Drawing.Point(6, 137);
             this.label277.Name = "label277";
             this.label277.Size = new System.Drawing.Size(48, 13);
@@ -12143,6 +12380,7 @@ namespace Arkansas_Armory
             // label278
             // 
             this.label278.AutoSize = true;
+            this.label278.ForeColor = System.Drawing.Color.DarkRed;
             this.label278.Location = new System.Drawing.Point(6, 85);
             this.label278.Name = "label278";
             this.label278.Size = new System.Drawing.Size(37, 13);
@@ -12152,6 +12390,7 @@ namespace Arkansas_Armory
             // label279
             // 
             this.label279.AutoSize = true;
+            this.label279.ForeColor = System.Drawing.Color.DarkRed;
             this.label279.Location = new System.Drawing.Point(6, 111);
             this.label279.Name = "label279";
             this.label279.Size = new System.Drawing.Size(66, 13);
@@ -12209,6 +12448,7 @@ namespace Arkansas_Armory
             // label280
             // 
             this.label280.AutoSize = true;
+            this.label280.ForeColor = System.Drawing.Color.DarkRed;
             this.label280.Location = new System.Drawing.Point(6, 29);
             this.label280.Name = "label280";
             this.label280.Size = new System.Drawing.Size(70, 13);
@@ -12218,6 +12458,7 @@ namespace Arkansas_Armory
             // label281
             // 
             this.label281.AutoSize = true;
+            this.label281.ForeColor = System.Drawing.Color.DarkRed;
             this.label281.Location = new System.Drawing.Point(6, 56);
             this.label281.Name = "label281";
             this.label281.Size = new System.Drawing.Size(36, 13);
@@ -12226,6 +12467,7 @@ namespace Arkansas_Armory
             // 
             // button58
             // 
+            this.button58.ForeColor = System.Drawing.Color.DarkRed;
             this.button58.Location = new System.Drawing.Point(83, 265);
             this.button58.Name = "button58";
             this.button58.Size = new System.Drawing.Size(100, 23);
@@ -12278,6 +12520,7 @@ namespace Arkansas_Armory
             // 
             // button55
             // 
+            this.button55.ForeColor = System.Drawing.Color.DarkRed;
             this.button55.Location = new System.Drawing.Point(203, 17);
             this.button55.Name = "button55";
             this.button55.Size = new System.Drawing.Size(75, 23);
@@ -12317,6 +12560,7 @@ namespace Arkansas_Armory
             // label264
             // 
             this.label264.AutoSize = true;
+            this.label264.ForeColor = System.Drawing.Color.DarkRed;
             this.label264.Location = new System.Drawing.Point(6, 241);
             this.label264.Name = "label264";
             this.label264.Size = new System.Drawing.Size(29, 13);
@@ -12334,6 +12578,7 @@ namespace Arkansas_Armory
             // label265
             // 
             this.label265.AutoSize = true;
+            this.label265.ForeColor = System.Drawing.Color.DarkRed;
             this.label265.Location = new System.Drawing.Point(6, 215);
             this.label265.Name = "label265";
             this.label265.Size = new System.Drawing.Size(37, 13);
@@ -12343,6 +12588,7 @@ namespace Arkansas_Armory
             // label266
             // 
             this.label266.AutoSize = true;
+            this.label266.ForeColor = System.Drawing.Color.DarkRed;
             this.label266.Location = new System.Drawing.Point(6, 189);
             this.label266.Name = "label266";
             this.label266.Size = new System.Drawing.Size(41, 13);
@@ -12368,6 +12614,7 @@ namespace Arkansas_Armory
             // label267
             // 
             this.label267.AutoSize = true;
+            this.label267.ForeColor = System.Drawing.Color.DarkRed;
             this.label267.Location = new System.Drawing.Point(6, 163);
             this.label267.Name = "label267";
             this.label267.Size = new System.Drawing.Size(73, 13);
@@ -12377,6 +12624,7 @@ namespace Arkansas_Armory
             // label268
             // 
             this.label268.AutoSize = true;
+            this.label268.ForeColor = System.Drawing.Color.DarkRed;
             this.label268.Location = new System.Drawing.Point(6, 137);
             this.label268.Name = "label268";
             this.label268.Size = new System.Drawing.Size(48, 13);
@@ -12386,6 +12634,7 @@ namespace Arkansas_Armory
             // label269
             // 
             this.label269.AutoSize = true;
+            this.label269.ForeColor = System.Drawing.Color.DarkRed;
             this.label269.Location = new System.Drawing.Point(6, 85);
             this.label269.Name = "label269";
             this.label269.Size = new System.Drawing.Size(37, 13);
@@ -12395,6 +12644,7 @@ namespace Arkansas_Armory
             // label270
             // 
             this.label270.AutoSize = true;
+            this.label270.ForeColor = System.Drawing.Color.DarkRed;
             this.label270.Location = new System.Drawing.Point(6, 111);
             this.label270.Name = "label270";
             this.label270.Size = new System.Drawing.Size(66, 13);
@@ -12452,6 +12702,7 @@ namespace Arkansas_Armory
             // label271
             // 
             this.label271.AutoSize = true;
+            this.label271.ForeColor = System.Drawing.Color.DarkRed;
             this.label271.Location = new System.Drawing.Point(6, 29);
             this.label271.Name = "label271";
             this.label271.Size = new System.Drawing.Size(70, 13);
@@ -12461,6 +12712,7 @@ namespace Arkansas_Armory
             // label272
             // 
             this.label272.AutoSize = true;
+            this.label272.ForeColor = System.Drawing.Color.DarkRed;
             this.label272.Location = new System.Drawing.Point(6, 56);
             this.label272.Name = "label272";
             this.label272.Size = new System.Drawing.Size(36, 13);
@@ -12469,6 +12721,7 @@ namespace Arkansas_Armory
             // 
             // button56
             // 
+            this.button56.ForeColor = System.Drawing.Color.DarkRed;
             this.button56.Location = new System.Drawing.Point(83, 265);
             this.button56.Name = "button56";
             this.button56.Size = new System.Drawing.Size(100, 23);
@@ -12521,6 +12774,7 @@ namespace Arkansas_Armory
             // 
             // button51
             // 
+            this.button51.ForeColor = System.Drawing.Color.DarkRed;
             this.button51.Location = new System.Drawing.Point(203, 17);
             this.button51.Name = "button51";
             this.button51.Size = new System.Drawing.Size(75, 23);
@@ -12560,6 +12814,7 @@ namespace Arkansas_Armory
             // label246
             // 
             this.label246.AutoSize = true;
+            this.label246.ForeColor = System.Drawing.Color.DarkRed;
             this.label246.Location = new System.Drawing.Point(6, 241);
             this.label246.Name = "label246";
             this.label246.Size = new System.Drawing.Size(29, 13);
@@ -12577,6 +12832,7 @@ namespace Arkansas_Armory
             // label247
             // 
             this.label247.AutoSize = true;
+            this.label247.ForeColor = System.Drawing.Color.DarkRed;
             this.label247.Location = new System.Drawing.Point(6, 215);
             this.label247.Name = "label247";
             this.label247.Size = new System.Drawing.Size(37, 13);
@@ -12586,6 +12842,7 @@ namespace Arkansas_Armory
             // label248
             // 
             this.label248.AutoSize = true;
+            this.label248.ForeColor = System.Drawing.Color.DarkRed;
             this.label248.Location = new System.Drawing.Point(6, 189);
             this.label248.Name = "label248";
             this.label248.Size = new System.Drawing.Size(41, 13);
@@ -12611,6 +12868,7 @@ namespace Arkansas_Armory
             // label249
             // 
             this.label249.AutoSize = true;
+            this.label249.ForeColor = System.Drawing.Color.DarkRed;
             this.label249.Location = new System.Drawing.Point(6, 163);
             this.label249.Name = "label249";
             this.label249.Size = new System.Drawing.Size(73, 13);
@@ -12620,6 +12878,7 @@ namespace Arkansas_Armory
             // label250
             // 
             this.label250.AutoSize = true;
+            this.label250.ForeColor = System.Drawing.Color.DarkRed;
             this.label250.Location = new System.Drawing.Point(6, 137);
             this.label250.Name = "label250";
             this.label250.Size = new System.Drawing.Size(48, 13);
@@ -12629,6 +12888,7 @@ namespace Arkansas_Armory
             // label251
             // 
             this.label251.AutoSize = true;
+            this.label251.ForeColor = System.Drawing.Color.DarkRed;
             this.label251.Location = new System.Drawing.Point(6, 85);
             this.label251.Name = "label251";
             this.label251.Size = new System.Drawing.Size(37, 13);
@@ -12638,6 +12898,7 @@ namespace Arkansas_Armory
             // label252
             // 
             this.label252.AutoSize = true;
+            this.label252.ForeColor = System.Drawing.Color.DarkRed;
             this.label252.Location = new System.Drawing.Point(6, 111);
             this.label252.Name = "label252";
             this.label252.Size = new System.Drawing.Size(66, 13);
@@ -12695,6 +12956,7 @@ namespace Arkansas_Armory
             // label253
             // 
             this.label253.AutoSize = true;
+            this.label253.ForeColor = System.Drawing.Color.DarkRed;
             this.label253.Location = new System.Drawing.Point(6, 29);
             this.label253.Name = "label253";
             this.label253.Size = new System.Drawing.Size(70, 13);
@@ -12704,6 +12966,7 @@ namespace Arkansas_Armory
             // label254
             // 
             this.label254.AutoSize = true;
+            this.label254.ForeColor = System.Drawing.Color.DarkRed;
             this.label254.Location = new System.Drawing.Point(6, 56);
             this.label254.Name = "label254";
             this.label254.Size = new System.Drawing.Size(36, 13);
@@ -12712,6 +12975,7 @@ namespace Arkansas_Armory
             // 
             // button52
             // 
+            this.button52.ForeColor = System.Drawing.Color.DarkRed;
             this.button52.Location = new System.Drawing.Point(83, 265);
             this.button52.Name = "button52";
             this.button52.Size = new System.Drawing.Size(100, 23);
@@ -12764,6 +13028,7 @@ namespace Arkansas_Armory
             // 
             // button53
             // 
+            this.button53.ForeColor = System.Drawing.Color.DarkRed;
             this.button53.Location = new System.Drawing.Point(203, 17);
             this.button53.Name = "button53";
             this.button53.Size = new System.Drawing.Size(75, 23);
@@ -12803,6 +13068,7 @@ namespace Arkansas_Armory
             // label255
             // 
             this.label255.AutoSize = true;
+            this.label255.ForeColor = System.Drawing.Color.DarkRed;
             this.label255.Location = new System.Drawing.Point(6, 241);
             this.label255.Name = "label255";
             this.label255.Size = new System.Drawing.Size(29, 13);
@@ -12820,6 +13086,7 @@ namespace Arkansas_Armory
             // label256
             // 
             this.label256.AutoSize = true;
+            this.label256.ForeColor = System.Drawing.Color.DarkRed;
             this.label256.Location = new System.Drawing.Point(6, 215);
             this.label256.Name = "label256";
             this.label256.Size = new System.Drawing.Size(37, 13);
@@ -12829,6 +13096,7 @@ namespace Arkansas_Armory
             // label257
             // 
             this.label257.AutoSize = true;
+            this.label257.ForeColor = System.Drawing.Color.DarkRed;
             this.label257.Location = new System.Drawing.Point(6, 189);
             this.label257.Name = "label257";
             this.label257.Size = new System.Drawing.Size(41, 13);
@@ -12854,6 +13122,7 @@ namespace Arkansas_Armory
             // label258
             // 
             this.label258.AutoSize = true;
+            this.label258.ForeColor = System.Drawing.Color.DarkRed;
             this.label258.Location = new System.Drawing.Point(6, 163);
             this.label258.Name = "label258";
             this.label258.Size = new System.Drawing.Size(73, 13);
@@ -12863,6 +13132,7 @@ namespace Arkansas_Armory
             // label259
             // 
             this.label259.AutoSize = true;
+            this.label259.ForeColor = System.Drawing.Color.DarkRed;
             this.label259.Location = new System.Drawing.Point(6, 137);
             this.label259.Name = "label259";
             this.label259.Size = new System.Drawing.Size(48, 13);
@@ -12872,6 +13142,7 @@ namespace Arkansas_Armory
             // label260
             // 
             this.label260.AutoSize = true;
+            this.label260.ForeColor = System.Drawing.Color.DarkRed;
             this.label260.Location = new System.Drawing.Point(6, 85);
             this.label260.Name = "label260";
             this.label260.Size = new System.Drawing.Size(37, 13);
@@ -12881,6 +13152,7 @@ namespace Arkansas_Armory
             // label261
             // 
             this.label261.AutoSize = true;
+            this.label261.ForeColor = System.Drawing.Color.DarkRed;
             this.label261.Location = new System.Drawing.Point(6, 111);
             this.label261.Name = "label261";
             this.label261.Size = new System.Drawing.Size(66, 13);
@@ -12938,6 +13210,7 @@ namespace Arkansas_Armory
             // label262
             // 
             this.label262.AutoSize = true;
+            this.label262.ForeColor = System.Drawing.Color.DarkRed;
             this.label262.Location = new System.Drawing.Point(6, 29);
             this.label262.Name = "label262";
             this.label262.Size = new System.Drawing.Size(70, 13);
@@ -12947,6 +13220,7 @@ namespace Arkansas_Armory
             // label263
             // 
             this.label263.AutoSize = true;
+            this.label263.ForeColor = System.Drawing.Color.DarkRed;
             this.label263.Location = new System.Drawing.Point(6, 56);
             this.label263.Name = "label263";
             this.label263.Size = new System.Drawing.Size(36, 13);
@@ -12955,6 +13229,7 @@ namespace Arkansas_Armory
             // 
             // button54
             // 
+            this.button54.ForeColor = System.Drawing.Color.DarkRed;
             this.button54.Location = new System.Drawing.Point(83, 265);
             this.button54.Name = "button54";
             this.button54.Size = new System.Drawing.Size(100, 23);
@@ -13007,6 +13282,7 @@ namespace Arkansas_Armory
             // 
             // button49
             // 
+            this.button49.ForeColor = System.Drawing.Color.DarkRed;
             this.button49.Location = new System.Drawing.Point(203, 17);
             this.button49.Name = "button49";
             this.button49.Size = new System.Drawing.Size(75, 23);
@@ -13046,6 +13322,7 @@ namespace Arkansas_Armory
             // label237
             // 
             this.label237.AutoSize = true;
+            this.label237.ForeColor = System.Drawing.Color.DarkRed;
             this.label237.Location = new System.Drawing.Point(6, 241);
             this.label237.Name = "label237";
             this.label237.Size = new System.Drawing.Size(29, 13);
@@ -13063,6 +13340,7 @@ namespace Arkansas_Armory
             // label238
             // 
             this.label238.AutoSize = true;
+            this.label238.ForeColor = System.Drawing.Color.DarkRed;
             this.label238.Location = new System.Drawing.Point(6, 215);
             this.label238.Name = "label238";
             this.label238.Size = new System.Drawing.Size(37, 13);
@@ -13072,6 +13350,7 @@ namespace Arkansas_Armory
             // label239
             // 
             this.label239.AutoSize = true;
+            this.label239.ForeColor = System.Drawing.Color.DarkRed;
             this.label239.Location = new System.Drawing.Point(6, 189);
             this.label239.Name = "label239";
             this.label239.Size = new System.Drawing.Size(41, 13);
@@ -13097,6 +13376,7 @@ namespace Arkansas_Armory
             // label240
             // 
             this.label240.AutoSize = true;
+            this.label240.ForeColor = System.Drawing.Color.DarkRed;
             this.label240.Location = new System.Drawing.Point(6, 163);
             this.label240.Name = "label240";
             this.label240.Size = new System.Drawing.Size(73, 13);
@@ -13106,6 +13386,7 @@ namespace Arkansas_Armory
             // label241
             // 
             this.label241.AutoSize = true;
+            this.label241.ForeColor = System.Drawing.Color.DarkRed;
             this.label241.Location = new System.Drawing.Point(6, 137);
             this.label241.Name = "label241";
             this.label241.Size = new System.Drawing.Size(48, 13);
@@ -13115,6 +13396,7 @@ namespace Arkansas_Armory
             // label242
             // 
             this.label242.AutoSize = true;
+            this.label242.ForeColor = System.Drawing.Color.DarkRed;
             this.label242.Location = new System.Drawing.Point(6, 85);
             this.label242.Name = "label242";
             this.label242.Size = new System.Drawing.Size(37, 13);
@@ -13124,6 +13406,7 @@ namespace Arkansas_Armory
             // label243
             // 
             this.label243.AutoSize = true;
+            this.label243.ForeColor = System.Drawing.Color.DarkRed;
             this.label243.Location = new System.Drawing.Point(6, 111);
             this.label243.Name = "label243";
             this.label243.Size = new System.Drawing.Size(66, 13);
@@ -13181,6 +13464,7 @@ namespace Arkansas_Armory
             // label244
             // 
             this.label244.AutoSize = true;
+            this.label244.ForeColor = System.Drawing.Color.DarkRed;
             this.label244.Location = new System.Drawing.Point(6, 29);
             this.label244.Name = "label244";
             this.label244.Size = new System.Drawing.Size(70, 13);
@@ -13190,6 +13474,7 @@ namespace Arkansas_Armory
             // label245
             // 
             this.label245.AutoSize = true;
+            this.label245.ForeColor = System.Drawing.Color.DarkRed;
             this.label245.Location = new System.Drawing.Point(6, 56);
             this.label245.Name = "label245";
             this.label245.Size = new System.Drawing.Size(36, 13);
@@ -13198,6 +13483,7 @@ namespace Arkansas_Armory
             // 
             // button50
             // 
+            this.button50.ForeColor = System.Drawing.Color.DarkRed;
             this.button50.Location = new System.Drawing.Point(83, 265);
             this.button50.Name = "button50";
             this.button50.Size = new System.Drawing.Size(100, 23);
@@ -13250,6 +13536,7 @@ namespace Arkansas_Armory
             // 
             // button45
             // 
+            this.button45.ForeColor = System.Drawing.Color.DarkRed;
             this.button45.Location = new System.Drawing.Point(203, 17);
             this.button45.Name = "button45";
             this.button45.Size = new System.Drawing.Size(75, 23);
@@ -13289,6 +13576,7 @@ namespace Arkansas_Armory
             // label219
             // 
             this.label219.AutoSize = true;
+            this.label219.ForeColor = System.Drawing.Color.DarkRed;
             this.label219.Location = new System.Drawing.Point(6, 241);
             this.label219.Name = "label219";
             this.label219.Size = new System.Drawing.Size(29, 13);
@@ -13306,6 +13594,7 @@ namespace Arkansas_Armory
             // label220
             // 
             this.label220.AutoSize = true;
+            this.label220.ForeColor = System.Drawing.Color.DarkRed;
             this.label220.Location = new System.Drawing.Point(6, 215);
             this.label220.Name = "label220";
             this.label220.Size = new System.Drawing.Size(37, 13);
@@ -13315,6 +13604,7 @@ namespace Arkansas_Armory
             // label221
             // 
             this.label221.AutoSize = true;
+            this.label221.ForeColor = System.Drawing.Color.DarkRed;
             this.label221.Location = new System.Drawing.Point(6, 189);
             this.label221.Name = "label221";
             this.label221.Size = new System.Drawing.Size(41, 13);
@@ -13340,6 +13630,7 @@ namespace Arkansas_Armory
             // label222
             // 
             this.label222.AutoSize = true;
+            this.label222.ForeColor = System.Drawing.Color.DarkRed;
             this.label222.Location = new System.Drawing.Point(6, 163);
             this.label222.Name = "label222";
             this.label222.Size = new System.Drawing.Size(73, 13);
@@ -13349,6 +13640,7 @@ namespace Arkansas_Armory
             // label223
             // 
             this.label223.AutoSize = true;
+            this.label223.ForeColor = System.Drawing.Color.DarkRed;
             this.label223.Location = new System.Drawing.Point(6, 137);
             this.label223.Name = "label223";
             this.label223.Size = new System.Drawing.Size(48, 13);
@@ -13358,6 +13650,7 @@ namespace Arkansas_Armory
             // label224
             // 
             this.label224.AutoSize = true;
+            this.label224.ForeColor = System.Drawing.Color.DarkRed;
             this.label224.Location = new System.Drawing.Point(6, 85);
             this.label224.Name = "label224";
             this.label224.Size = new System.Drawing.Size(37, 13);
@@ -13367,6 +13660,7 @@ namespace Arkansas_Armory
             // label225
             // 
             this.label225.AutoSize = true;
+            this.label225.ForeColor = System.Drawing.Color.DarkRed;
             this.label225.Location = new System.Drawing.Point(6, 111);
             this.label225.Name = "label225";
             this.label225.Size = new System.Drawing.Size(66, 13);
@@ -13424,6 +13718,7 @@ namespace Arkansas_Armory
             // label226
             // 
             this.label226.AutoSize = true;
+            this.label226.ForeColor = System.Drawing.Color.DarkRed;
             this.label226.Location = new System.Drawing.Point(6, 29);
             this.label226.Name = "label226";
             this.label226.Size = new System.Drawing.Size(70, 13);
@@ -13433,6 +13728,7 @@ namespace Arkansas_Armory
             // label227
             // 
             this.label227.AutoSize = true;
+            this.label227.ForeColor = System.Drawing.Color.DarkRed;
             this.label227.Location = new System.Drawing.Point(6, 56);
             this.label227.Name = "label227";
             this.label227.Size = new System.Drawing.Size(36, 13);
@@ -13441,6 +13737,7 @@ namespace Arkansas_Armory
             // 
             // button46
             // 
+            this.button46.ForeColor = System.Drawing.Color.DarkRed;
             this.button46.Location = new System.Drawing.Point(83, 265);
             this.button46.Name = "button46";
             this.button46.Size = new System.Drawing.Size(100, 23);
@@ -13493,6 +13790,7 @@ namespace Arkansas_Armory
             // 
             // button43
             // 
+            this.button43.ForeColor = System.Drawing.Color.DarkRed;
             this.button43.Location = new System.Drawing.Point(203, 17);
             this.button43.Name = "button43";
             this.button43.Size = new System.Drawing.Size(75, 23);
@@ -13532,6 +13830,7 @@ namespace Arkansas_Armory
             // label210
             // 
             this.label210.AutoSize = true;
+            this.label210.ForeColor = System.Drawing.Color.DarkRed;
             this.label210.Location = new System.Drawing.Point(6, 241);
             this.label210.Name = "label210";
             this.label210.Size = new System.Drawing.Size(29, 13);
@@ -13549,6 +13848,7 @@ namespace Arkansas_Armory
             // label211
             // 
             this.label211.AutoSize = true;
+            this.label211.ForeColor = System.Drawing.Color.DarkRed;
             this.label211.Location = new System.Drawing.Point(6, 215);
             this.label211.Name = "label211";
             this.label211.Size = new System.Drawing.Size(37, 13);
@@ -13558,6 +13858,7 @@ namespace Arkansas_Armory
             // label212
             // 
             this.label212.AutoSize = true;
+            this.label212.ForeColor = System.Drawing.Color.DarkRed;
             this.label212.Location = new System.Drawing.Point(6, 189);
             this.label212.Name = "label212";
             this.label212.Size = new System.Drawing.Size(41, 13);
@@ -13583,6 +13884,7 @@ namespace Arkansas_Armory
             // label213
             // 
             this.label213.AutoSize = true;
+            this.label213.ForeColor = System.Drawing.Color.DarkRed;
             this.label213.Location = new System.Drawing.Point(6, 163);
             this.label213.Name = "label213";
             this.label213.Size = new System.Drawing.Size(73, 13);
@@ -13592,6 +13894,7 @@ namespace Arkansas_Armory
             // label214
             // 
             this.label214.AutoSize = true;
+            this.label214.ForeColor = System.Drawing.Color.DarkRed;
             this.label214.Location = new System.Drawing.Point(6, 137);
             this.label214.Name = "label214";
             this.label214.Size = new System.Drawing.Size(48, 13);
@@ -13601,6 +13904,7 @@ namespace Arkansas_Armory
             // label215
             // 
             this.label215.AutoSize = true;
+            this.label215.ForeColor = System.Drawing.Color.DarkRed;
             this.label215.Location = new System.Drawing.Point(6, 85);
             this.label215.Name = "label215";
             this.label215.Size = new System.Drawing.Size(37, 13);
@@ -13610,6 +13914,7 @@ namespace Arkansas_Armory
             // label216
             // 
             this.label216.AutoSize = true;
+            this.label216.ForeColor = System.Drawing.Color.DarkRed;
             this.label216.Location = new System.Drawing.Point(6, 111);
             this.label216.Name = "label216";
             this.label216.Size = new System.Drawing.Size(66, 13);
@@ -13667,6 +13972,7 @@ namespace Arkansas_Armory
             // label217
             // 
             this.label217.AutoSize = true;
+            this.label217.ForeColor = System.Drawing.Color.DarkRed;
             this.label217.Location = new System.Drawing.Point(6, 29);
             this.label217.Name = "label217";
             this.label217.Size = new System.Drawing.Size(70, 13);
@@ -13676,6 +13982,7 @@ namespace Arkansas_Armory
             // label218
             // 
             this.label218.AutoSize = true;
+            this.label218.ForeColor = System.Drawing.Color.DarkRed;
             this.label218.Location = new System.Drawing.Point(6, 56);
             this.label218.Name = "label218";
             this.label218.Size = new System.Drawing.Size(36, 13);
@@ -13684,6 +13991,7 @@ namespace Arkansas_Armory
             // 
             // button44
             // 
+            this.button44.ForeColor = System.Drawing.Color.DarkRed;
             this.button44.Location = new System.Drawing.Point(83, 265);
             this.button44.Name = "button44";
             this.button44.Size = new System.Drawing.Size(100, 23);
@@ -13736,6 +14044,7 @@ namespace Arkansas_Armory
             // 
             // button41
             // 
+            this.button41.ForeColor = System.Drawing.Color.DarkRed;
             this.button41.Location = new System.Drawing.Point(203, 17);
             this.button41.Name = "button41";
             this.button41.Size = new System.Drawing.Size(75, 23);
@@ -13775,6 +14084,7 @@ namespace Arkansas_Armory
             // label201
             // 
             this.label201.AutoSize = true;
+            this.label201.ForeColor = System.Drawing.Color.DarkRed;
             this.label201.Location = new System.Drawing.Point(6, 241);
             this.label201.Name = "label201";
             this.label201.Size = new System.Drawing.Size(29, 13);
@@ -13792,6 +14102,7 @@ namespace Arkansas_Armory
             // label202
             // 
             this.label202.AutoSize = true;
+            this.label202.ForeColor = System.Drawing.Color.DarkRed;
             this.label202.Location = new System.Drawing.Point(6, 215);
             this.label202.Name = "label202";
             this.label202.Size = new System.Drawing.Size(37, 13);
@@ -13801,6 +14112,7 @@ namespace Arkansas_Armory
             // label203
             // 
             this.label203.AutoSize = true;
+            this.label203.ForeColor = System.Drawing.Color.DarkRed;
             this.label203.Location = new System.Drawing.Point(6, 189);
             this.label203.Name = "label203";
             this.label203.Size = new System.Drawing.Size(41, 13);
@@ -13826,6 +14138,7 @@ namespace Arkansas_Armory
             // label204
             // 
             this.label204.AutoSize = true;
+            this.label204.ForeColor = System.Drawing.Color.DarkRed;
             this.label204.Location = new System.Drawing.Point(6, 163);
             this.label204.Name = "label204";
             this.label204.Size = new System.Drawing.Size(73, 13);
@@ -13835,6 +14148,7 @@ namespace Arkansas_Armory
             // label205
             // 
             this.label205.AutoSize = true;
+            this.label205.ForeColor = System.Drawing.Color.DarkRed;
             this.label205.Location = new System.Drawing.Point(6, 137);
             this.label205.Name = "label205";
             this.label205.Size = new System.Drawing.Size(48, 13);
@@ -13844,6 +14158,7 @@ namespace Arkansas_Armory
             // label206
             // 
             this.label206.AutoSize = true;
+            this.label206.ForeColor = System.Drawing.Color.DarkRed;
             this.label206.Location = new System.Drawing.Point(6, 85);
             this.label206.Name = "label206";
             this.label206.Size = new System.Drawing.Size(37, 13);
@@ -13853,6 +14168,7 @@ namespace Arkansas_Armory
             // label207
             // 
             this.label207.AutoSize = true;
+            this.label207.ForeColor = System.Drawing.Color.DarkRed;
             this.label207.Location = new System.Drawing.Point(6, 111);
             this.label207.Name = "label207";
             this.label207.Size = new System.Drawing.Size(66, 13);
@@ -13910,6 +14226,7 @@ namespace Arkansas_Armory
             // label208
             // 
             this.label208.AutoSize = true;
+            this.label208.ForeColor = System.Drawing.Color.DarkRed;
             this.label208.Location = new System.Drawing.Point(6, 29);
             this.label208.Name = "label208";
             this.label208.Size = new System.Drawing.Size(70, 13);
@@ -13919,6 +14236,7 @@ namespace Arkansas_Armory
             // label209
             // 
             this.label209.AutoSize = true;
+            this.label209.ForeColor = System.Drawing.Color.DarkRed;
             this.label209.Location = new System.Drawing.Point(6, 56);
             this.label209.Name = "label209";
             this.label209.Size = new System.Drawing.Size(36, 13);
@@ -13927,6 +14245,7 @@ namespace Arkansas_Armory
             // 
             // button42
             // 
+            this.button42.ForeColor = System.Drawing.Color.DarkRed;
             this.button42.Location = new System.Drawing.Point(83, 265);
             this.button42.Name = "button42";
             this.button42.Size = new System.Drawing.Size(100, 23);
@@ -13951,6 +14270,7 @@ namespace Arkansas_Armory
             this.groupBox55.Controls.Add(this.groupBox56);
             this.groupBox55.Controls.Add(this.groupBox57);
             this.groupBox55.Controls.Add(this.pictureBox20);
+            this.groupBox55.ForeColor = System.Drawing.Color.DarkRed;
             this.groupBox55.Location = new System.Drawing.Point(630, 407);
             this.groupBox55.Name = "groupBox55";
             this.groupBox55.Size = new System.Drawing.Size(568, 351);
@@ -13979,6 +14299,7 @@ namespace Arkansas_Armory
             // 
             // button39
             // 
+            this.button39.ForeColor = System.Drawing.Color.DarkRed;
             this.button39.Location = new System.Drawing.Point(203, 17);
             this.button39.Name = "button39";
             this.button39.Size = new System.Drawing.Size(75, 23);
@@ -14018,6 +14339,7 @@ namespace Arkansas_Armory
             // label192
             // 
             this.label192.AutoSize = true;
+            this.label192.ForeColor = System.Drawing.Color.DarkRed;
             this.label192.Location = new System.Drawing.Point(6, 241);
             this.label192.Name = "label192";
             this.label192.Size = new System.Drawing.Size(29, 13);
@@ -14035,6 +14357,7 @@ namespace Arkansas_Armory
             // label193
             // 
             this.label193.AutoSize = true;
+            this.label193.ForeColor = System.Drawing.Color.DarkRed;
             this.label193.Location = new System.Drawing.Point(6, 215);
             this.label193.Name = "label193";
             this.label193.Size = new System.Drawing.Size(37, 13);
@@ -14044,6 +14367,7 @@ namespace Arkansas_Armory
             // label194
             // 
             this.label194.AutoSize = true;
+            this.label194.ForeColor = System.Drawing.Color.DarkRed;
             this.label194.Location = new System.Drawing.Point(6, 189);
             this.label194.Name = "label194";
             this.label194.Size = new System.Drawing.Size(41, 13);
@@ -14069,6 +14393,7 @@ namespace Arkansas_Armory
             // label195
             // 
             this.label195.AutoSize = true;
+            this.label195.ForeColor = System.Drawing.Color.DarkRed;
             this.label195.Location = new System.Drawing.Point(6, 163);
             this.label195.Name = "label195";
             this.label195.Size = new System.Drawing.Size(73, 13);
@@ -14078,6 +14403,7 @@ namespace Arkansas_Armory
             // label196
             // 
             this.label196.AutoSize = true;
+            this.label196.ForeColor = System.Drawing.Color.DarkRed;
             this.label196.Location = new System.Drawing.Point(6, 137);
             this.label196.Name = "label196";
             this.label196.Size = new System.Drawing.Size(48, 13);
@@ -14087,6 +14413,7 @@ namespace Arkansas_Armory
             // label197
             // 
             this.label197.AutoSize = true;
+            this.label197.ForeColor = System.Drawing.Color.DarkRed;
             this.label197.Location = new System.Drawing.Point(6, 85);
             this.label197.Name = "label197";
             this.label197.Size = new System.Drawing.Size(37, 13);
@@ -14096,6 +14423,7 @@ namespace Arkansas_Armory
             // label198
             // 
             this.label198.AutoSize = true;
+            this.label198.ForeColor = System.Drawing.Color.DarkRed;
             this.label198.Location = new System.Drawing.Point(6, 111);
             this.label198.Name = "label198";
             this.label198.Size = new System.Drawing.Size(66, 13);
@@ -14153,6 +14481,7 @@ namespace Arkansas_Armory
             // label199
             // 
             this.label199.AutoSize = true;
+            this.label199.ForeColor = System.Drawing.Color.DarkRed;
             this.label199.Location = new System.Drawing.Point(6, 29);
             this.label199.Name = "label199";
             this.label199.Size = new System.Drawing.Size(70, 13);
@@ -14162,6 +14491,7 @@ namespace Arkansas_Armory
             // label200
             // 
             this.label200.AutoSize = true;
+            this.label200.ForeColor = System.Drawing.Color.DarkRed;
             this.label200.Location = new System.Drawing.Point(6, 56);
             this.label200.Name = "label200";
             this.label200.Size = new System.Drawing.Size(36, 13);
@@ -14170,6 +14500,7 @@ namespace Arkansas_Armory
             // 
             // button40
             // 
+            this.button40.ForeColor = System.Drawing.Color.DarkRed;
             this.button40.Location = new System.Drawing.Point(83, 265);
             this.button40.Name = "button40";
             this.button40.Size = new System.Drawing.Size(100, 23);
@@ -14222,6 +14553,7 @@ namespace Arkansas_Armory
             // 
             // button35
             // 
+            this.button35.ForeColor = System.Drawing.Color.DarkRed;
             this.button35.Location = new System.Drawing.Point(203, 17);
             this.button35.Name = "button35";
             this.button35.Size = new System.Drawing.Size(75, 23);
@@ -14261,6 +14593,7 @@ namespace Arkansas_Armory
             // label174
             // 
             this.label174.AutoSize = true;
+            this.label174.ForeColor = System.Drawing.Color.DarkRed;
             this.label174.Location = new System.Drawing.Point(6, 241);
             this.label174.Name = "label174";
             this.label174.Size = new System.Drawing.Size(29, 13);
@@ -14278,6 +14611,7 @@ namespace Arkansas_Armory
             // label175
             // 
             this.label175.AutoSize = true;
+            this.label175.ForeColor = System.Drawing.Color.DarkRed;
             this.label175.Location = new System.Drawing.Point(6, 215);
             this.label175.Name = "label175";
             this.label175.Size = new System.Drawing.Size(37, 13);
@@ -14287,6 +14621,7 @@ namespace Arkansas_Armory
             // label176
             // 
             this.label176.AutoSize = true;
+            this.label176.ForeColor = System.Drawing.Color.DarkRed;
             this.label176.Location = new System.Drawing.Point(6, 189);
             this.label176.Name = "label176";
             this.label176.Size = new System.Drawing.Size(41, 13);
@@ -14312,6 +14647,7 @@ namespace Arkansas_Armory
             // label177
             // 
             this.label177.AutoSize = true;
+            this.label177.ForeColor = System.Drawing.Color.DarkRed;
             this.label177.Location = new System.Drawing.Point(6, 163);
             this.label177.Name = "label177";
             this.label177.Size = new System.Drawing.Size(73, 13);
@@ -14321,6 +14657,7 @@ namespace Arkansas_Armory
             // label178
             // 
             this.label178.AutoSize = true;
+            this.label178.ForeColor = System.Drawing.Color.DarkRed;
             this.label178.Location = new System.Drawing.Point(6, 137);
             this.label178.Name = "label178";
             this.label178.Size = new System.Drawing.Size(48, 13);
@@ -14330,6 +14667,7 @@ namespace Arkansas_Armory
             // label179
             // 
             this.label179.AutoSize = true;
+            this.label179.ForeColor = System.Drawing.Color.DarkRed;
             this.label179.Location = new System.Drawing.Point(6, 85);
             this.label179.Name = "label179";
             this.label179.Size = new System.Drawing.Size(37, 13);
@@ -14339,6 +14677,7 @@ namespace Arkansas_Armory
             // label180
             // 
             this.label180.AutoSize = true;
+            this.label180.ForeColor = System.Drawing.Color.DarkRed;
             this.label180.Location = new System.Drawing.Point(6, 111);
             this.label180.Name = "label180";
             this.label180.Size = new System.Drawing.Size(66, 13);
@@ -14396,6 +14735,7 @@ namespace Arkansas_Armory
             // label181
             // 
             this.label181.AutoSize = true;
+            this.label181.ForeColor = System.Drawing.Color.DarkRed;
             this.label181.Location = new System.Drawing.Point(6, 29);
             this.label181.Name = "label181";
             this.label181.Size = new System.Drawing.Size(70, 13);
@@ -14405,6 +14745,7 @@ namespace Arkansas_Armory
             // label182
             // 
             this.label182.AutoSize = true;
+            this.label182.ForeColor = System.Drawing.Color.DarkRed;
             this.label182.Location = new System.Drawing.Point(6, 56);
             this.label182.Name = "label182";
             this.label182.Size = new System.Drawing.Size(36, 13);
@@ -14413,6 +14754,7 @@ namespace Arkansas_Armory
             // 
             // button36
             // 
+            this.button36.ForeColor = System.Drawing.Color.DarkRed;
             this.button36.Location = new System.Drawing.Point(83, 265);
             this.button36.Name = "button36";
             this.button36.Size = new System.Drawing.Size(100, 23);
@@ -14465,6 +14807,7 @@ namespace Arkansas_Armory
             // 
             // button37
             // 
+            this.button37.ForeColor = System.Drawing.Color.DarkRed;
             this.button37.Location = new System.Drawing.Point(203, 17);
             this.button37.Name = "button37";
             this.button37.Size = new System.Drawing.Size(75, 23);
@@ -14504,6 +14847,7 @@ namespace Arkansas_Armory
             // label183
             // 
             this.label183.AutoSize = true;
+            this.label183.ForeColor = System.Drawing.Color.DarkRed;
             this.label183.Location = new System.Drawing.Point(6, 241);
             this.label183.Name = "label183";
             this.label183.Size = new System.Drawing.Size(29, 13);
@@ -14521,6 +14865,7 @@ namespace Arkansas_Armory
             // label184
             // 
             this.label184.AutoSize = true;
+            this.label184.ForeColor = System.Drawing.Color.DarkRed;
             this.label184.Location = new System.Drawing.Point(6, 215);
             this.label184.Name = "label184";
             this.label184.Size = new System.Drawing.Size(37, 13);
@@ -14530,6 +14875,7 @@ namespace Arkansas_Armory
             // label185
             // 
             this.label185.AutoSize = true;
+            this.label185.ForeColor = System.Drawing.Color.DarkRed;
             this.label185.Location = new System.Drawing.Point(6, 189);
             this.label185.Name = "label185";
             this.label185.Size = new System.Drawing.Size(41, 13);
@@ -14555,6 +14901,7 @@ namespace Arkansas_Armory
             // label186
             // 
             this.label186.AutoSize = true;
+            this.label186.ForeColor = System.Drawing.Color.DarkRed;
             this.label186.Location = new System.Drawing.Point(6, 163);
             this.label186.Name = "label186";
             this.label186.Size = new System.Drawing.Size(73, 13);
@@ -14564,6 +14911,7 @@ namespace Arkansas_Armory
             // label187
             // 
             this.label187.AutoSize = true;
+            this.label187.ForeColor = System.Drawing.Color.DarkRed;
             this.label187.Location = new System.Drawing.Point(6, 137);
             this.label187.Name = "label187";
             this.label187.Size = new System.Drawing.Size(48, 13);
@@ -14573,6 +14921,7 @@ namespace Arkansas_Armory
             // label188
             // 
             this.label188.AutoSize = true;
+            this.label188.ForeColor = System.Drawing.Color.DarkRed;
             this.label188.Location = new System.Drawing.Point(6, 85);
             this.label188.Name = "label188";
             this.label188.Size = new System.Drawing.Size(37, 13);
@@ -14582,6 +14931,7 @@ namespace Arkansas_Armory
             // label189
             // 
             this.label189.AutoSize = true;
+            this.label189.ForeColor = System.Drawing.Color.DarkRed;
             this.label189.Location = new System.Drawing.Point(6, 111);
             this.label189.Name = "label189";
             this.label189.Size = new System.Drawing.Size(66, 13);
@@ -14639,6 +14989,7 @@ namespace Arkansas_Armory
             // label190
             // 
             this.label190.AutoSize = true;
+            this.label190.ForeColor = System.Drawing.Color.DarkRed;
             this.label190.Location = new System.Drawing.Point(6, 29);
             this.label190.Name = "label190";
             this.label190.Size = new System.Drawing.Size(70, 13);
@@ -14648,6 +14999,7 @@ namespace Arkansas_Armory
             // label191
             // 
             this.label191.AutoSize = true;
+            this.label191.ForeColor = System.Drawing.Color.DarkRed;
             this.label191.Location = new System.Drawing.Point(6, 56);
             this.label191.Name = "label191";
             this.label191.Size = new System.Drawing.Size(36, 13);
@@ -14656,6 +15008,7 @@ namespace Arkansas_Armory
             // 
             // button38
             // 
+            this.button38.ForeColor = System.Drawing.Color.DarkRed;
             this.button38.Location = new System.Drawing.Point(83, 265);
             this.button38.Name = "button38";
             this.button38.Size = new System.Drawing.Size(100, 23);
@@ -14747,6 +15100,7 @@ namespace Arkansas_Armory
             // 
             // button71
             // 
+            this.button71.ForeColor = System.Drawing.Color.DarkRed;
             this.button71.Location = new System.Drawing.Point(203, 17);
             this.button71.Name = "button71";
             this.button71.Size = new System.Drawing.Size(75, 23);
@@ -14786,6 +15140,7 @@ namespace Arkansas_Armory
             // label336
             // 
             this.label336.AutoSize = true;
+            this.label336.ForeColor = System.Drawing.Color.DarkRed;
             this.label336.Location = new System.Drawing.Point(6, 241);
             this.label336.Name = "label336";
             this.label336.Size = new System.Drawing.Size(29, 13);
@@ -14803,6 +15158,7 @@ namespace Arkansas_Armory
             // label337
             // 
             this.label337.AutoSize = true;
+            this.label337.ForeColor = System.Drawing.Color.DarkRed;
             this.label337.Location = new System.Drawing.Point(6, 215);
             this.label337.Name = "label337";
             this.label337.Size = new System.Drawing.Size(37, 13);
@@ -14812,6 +15168,7 @@ namespace Arkansas_Armory
             // label338
             // 
             this.label338.AutoSize = true;
+            this.label338.ForeColor = System.Drawing.Color.DarkRed;
             this.label338.Location = new System.Drawing.Point(6, 189);
             this.label338.Name = "label338";
             this.label338.Size = new System.Drawing.Size(41, 13);
@@ -14837,6 +15194,7 @@ namespace Arkansas_Armory
             // label339
             // 
             this.label339.AutoSize = true;
+            this.label339.ForeColor = System.Drawing.Color.DarkRed;
             this.label339.Location = new System.Drawing.Point(6, 163);
             this.label339.Name = "label339";
             this.label339.Size = new System.Drawing.Size(73, 13);
@@ -14846,6 +15204,7 @@ namespace Arkansas_Armory
             // label340
             // 
             this.label340.AutoSize = true;
+            this.label340.ForeColor = System.Drawing.Color.DarkRed;
             this.label340.Location = new System.Drawing.Point(6, 137);
             this.label340.Name = "label340";
             this.label340.Size = new System.Drawing.Size(48, 13);
@@ -14855,6 +15214,7 @@ namespace Arkansas_Armory
             // label341
             // 
             this.label341.AutoSize = true;
+            this.label341.ForeColor = System.Drawing.Color.DarkRed;
             this.label341.Location = new System.Drawing.Point(6, 85);
             this.label341.Name = "label341";
             this.label341.Size = new System.Drawing.Size(37, 13);
@@ -14864,6 +15224,7 @@ namespace Arkansas_Armory
             // label342
             // 
             this.label342.AutoSize = true;
+            this.label342.ForeColor = System.Drawing.Color.DarkRed;
             this.label342.Location = new System.Drawing.Point(6, 111);
             this.label342.Name = "label342";
             this.label342.Size = new System.Drawing.Size(66, 13);
@@ -14921,6 +15282,7 @@ namespace Arkansas_Armory
             // label343
             // 
             this.label343.AutoSize = true;
+            this.label343.ForeColor = System.Drawing.Color.DarkRed;
             this.label343.Location = new System.Drawing.Point(6, 29);
             this.label343.Name = "label343";
             this.label343.Size = new System.Drawing.Size(70, 13);
@@ -14930,6 +15292,7 @@ namespace Arkansas_Armory
             // label344
             // 
             this.label344.AutoSize = true;
+            this.label344.ForeColor = System.Drawing.Color.DarkRed;
             this.label344.Location = new System.Drawing.Point(6, 56);
             this.label344.Name = "label344";
             this.label344.Size = new System.Drawing.Size(36, 13);
@@ -14938,6 +15301,7 @@ namespace Arkansas_Armory
             // 
             // button72
             // 
+            this.button72.ForeColor = System.Drawing.Color.DarkRed;
             this.button72.Location = new System.Drawing.Point(83, 265);
             this.button72.Name = "button72";
             this.button72.Size = new System.Drawing.Size(100, 23);
@@ -14989,6 +15353,7 @@ namespace Arkansas_Armory
             // 
             // button73
             // 
+            this.button73.ForeColor = System.Drawing.Color.DarkRed;
             this.button73.Location = new System.Drawing.Point(203, 17);
             this.button73.Name = "button73";
             this.button73.Size = new System.Drawing.Size(75, 23);
@@ -15028,6 +15393,7 @@ namespace Arkansas_Armory
             // label345
             // 
             this.label345.AutoSize = true;
+            this.label345.ForeColor = System.Drawing.Color.DarkRed;
             this.label345.Location = new System.Drawing.Point(6, 241);
             this.label345.Name = "label345";
             this.label345.Size = new System.Drawing.Size(29, 13);
@@ -15045,6 +15411,7 @@ namespace Arkansas_Armory
             // label346
             // 
             this.label346.AutoSize = true;
+            this.label346.ForeColor = System.Drawing.Color.DarkRed;
             this.label346.Location = new System.Drawing.Point(6, 215);
             this.label346.Name = "label346";
             this.label346.Size = new System.Drawing.Size(37, 13);
@@ -15054,6 +15421,7 @@ namespace Arkansas_Armory
             // label347
             // 
             this.label347.AutoSize = true;
+            this.label347.ForeColor = System.Drawing.Color.DarkRed;
             this.label347.Location = new System.Drawing.Point(6, 189);
             this.label347.Name = "label347";
             this.label347.Size = new System.Drawing.Size(41, 13);
@@ -15079,6 +15447,7 @@ namespace Arkansas_Armory
             // label348
             // 
             this.label348.AutoSize = true;
+            this.label348.ForeColor = System.Drawing.Color.DarkRed;
             this.label348.Location = new System.Drawing.Point(6, 163);
             this.label348.Name = "label348";
             this.label348.Size = new System.Drawing.Size(73, 13);
@@ -15088,6 +15457,7 @@ namespace Arkansas_Armory
             // label349
             // 
             this.label349.AutoSize = true;
+            this.label349.ForeColor = System.Drawing.Color.DarkRed;
             this.label349.Location = new System.Drawing.Point(6, 137);
             this.label349.Name = "label349";
             this.label349.Size = new System.Drawing.Size(48, 13);
@@ -15097,6 +15467,7 @@ namespace Arkansas_Armory
             // label350
             // 
             this.label350.AutoSize = true;
+            this.label350.ForeColor = System.Drawing.Color.DarkRed;
             this.label350.Location = new System.Drawing.Point(6, 85);
             this.label350.Name = "label350";
             this.label350.Size = new System.Drawing.Size(37, 13);
@@ -15106,6 +15477,7 @@ namespace Arkansas_Armory
             // label351
             // 
             this.label351.AutoSize = true;
+            this.label351.ForeColor = System.Drawing.Color.DarkRed;
             this.label351.Location = new System.Drawing.Point(6, 111);
             this.label351.Name = "label351";
             this.label351.Size = new System.Drawing.Size(66, 13);
@@ -15163,6 +15535,7 @@ namespace Arkansas_Armory
             // label352
             // 
             this.label352.AutoSize = true;
+            this.label352.ForeColor = System.Drawing.Color.DarkRed;
             this.label352.Location = new System.Drawing.Point(6, 29);
             this.label352.Name = "label352";
             this.label352.Size = new System.Drawing.Size(70, 13);
@@ -15172,6 +15545,7 @@ namespace Arkansas_Armory
             // label353
             // 
             this.label353.AutoSize = true;
+            this.label353.ForeColor = System.Drawing.Color.DarkRed;
             this.label353.Location = new System.Drawing.Point(6, 56);
             this.label353.Name = "label353";
             this.label353.Size = new System.Drawing.Size(36, 13);
@@ -15180,6 +15554,7 @@ namespace Arkansas_Armory
             // 
             // button74
             // 
+            this.button74.ForeColor = System.Drawing.Color.DarkRed;
             this.button74.Location = new System.Drawing.Point(83, 265);
             this.button74.Name = "button74";
             this.button74.Size = new System.Drawing.Size(100, 23);
@@ -15231,6 +15606,7 @@ namespace Arkansas_Armory
             // 
             // button67
             // 
+            this.button67.ForeColor = System.Drawing.Color.DarkRed;
             this.button67.Location = new System.Drawing.Point(203, 17);
             this.button67.Name = "button67";
             this.button67.Size = new System.Drawing.Size(75, 23);
@@ -15270,6 +15646,7 @@ namespace Arkansas_Armory
             // label318
             // 
             this.label318.AutoSize = true;
+            this.label318.ForeColor = System.Drawing.Color.DarkRed;
             this.label318.Location = new System.Drawing.Point(6, 241);
             this.label318.Name = "label318";
             this.label318.Size = new System.Drawing.Size(29, 13);
@@ -15287,6 +15664,7 @@ namespace Arkansas_Armory
             // label319
             // 
             this.label319.AutoSize = true;
+            this.label319.ForeColor = System.Drawing.Color.DarkRed;
             this.label319.Location = new System.Drawing.Point(6, 215);
             this.label319.Name = "label319";
             this.label319.Size = new System.Drawing.Size(37, 13);
@@ -15296,6 +15674,7 @@ namespace Arkansas_Armory
             // label320
             // 
             this.label320.AutoSize = true;
+            this.label320.ForeColor = System.Drawing.Color.DarkRed;
             this.label320.Location = new System.Drawing.Point(6, 189);
             this.label320.Name = "label320";
             this.label320.Size = new System.Drawing.Size(41, 13);
@@ -15321,6 +15700,7 @@ namespace Arkansas_Armory
             // label321
             // 
             this.label321.AutoSize = true;
+            this.label321.ForeColor = System.Drawing.Color.DarkRed;
             this.label321.Location = new System.Drawing.Point(6, 163);
             this.label321.Name = "label321";
             this.label321.Size = new System.Drawing.Size(73, 13);
@@ -15330,6 +15710,7 @@ namespace Arkansas_Armory
             // label322
             // 
             this.label322.AutoSize = true;
+            this.label322.ForeColor = System.Drawing.Color.DarkRed;
             this.label322.Location = new System.Drawing.Point(6, 137);
             this.label322.Name = "label322";
             this.label322.Size = new System.Drawing.Size(48, 13);
@@ -15339,6 +15720,7 @@ namespace Arkansas_Armory
             // label323
             // 
             this.label323.AutoSize = true;
+            this.label323.ForeColor = System.Drawing.Color.DarkRed;
             this.label323.Location = new System.Drawing.Point(6, 85);
             this.label323.Name = "label323";
             this.label323.Size = new System.Drawing.Size(37, 13);
@@ -15348,6 +15730,7 @@ namespace Arkansas_Armory
             // label324
             // 
             this.label324.AutoSize = true;
+            this.label324.ForeColor = System.Drawing.Color.DarkRed;
             this.label324.Location = new System.Drawing.Point(6, 111);
             this.label324.Name = "label324";
             this.label324.Size = new System.Drawing.Size(66, 13);
@@ -15405,6 +15788,7 @@ namespace Arkansas_Armory
             // label325
             // 
             this.label325.AutoSize = true;
+            this.label325.ForeColor = System.Drawing.Color.DarkRed;
             this.label325.Location = new System.Drawing.Point(6, 29);
             this.label325.Name = "label325";
             this.label325.Size = new System.Drawing.Size(70, 13);
@@ -15414,6 +15798,7 @@ namespace Arkansas_Armory
             // label326
             // 
             this.label326.AutoSize = true;
+            this.label326.ForeColor = System.Drawing.Color.DarkRed;
             this.label326.Location = new System.Drawing.Point(6, 56);
             this.label326.Name = "label326";
             this.label326.Size = new System.Drawing.Size(36, 13);
@@ -15422,6 +15807,7 @@ namespace Arkansas_Armory
             // 
             // button68
             // 
+            this.button68.ForeColor = System.Drawing.Color.DarkRed;
             this.button68.Location = new System.Drawing.Point(83, 265);
             this.button68.Name = "button68";
             this.button68.Size = new System.Drawing.Size(100, 23);
@@ -15473,6 +15859,7 @@ namespace Arkansas_Armory
             // 
             // button63
             // 
+            this.button63.ForeColor = System.Drawing.Color.DarkRed;
             this.button63.Location = new System.Drawing.Point(203, 17);
             this.button63.Name = "button63";
             this.button63.Size = new System.Drawing.Size(75, 23);
@@ -15512,6 +15899,7 @@ namespace Arkansas_Armory
             // label300
             // 
             this.label300.AutoSize = true;
+            this.label300.ForeColor = System.Drawing.Color.DarkRed;
             this.label300.Location = new System.Drawing.Point(6, 241);
             this.label300.Name = "label300";
             this.label300.Size = new System.Drawing.Size(29, 13);
@@ -15529,6 +15917,7 @@ namespace Arkansas_Armory
             // label301
             // 
             this.label301.AutoSize = true;
+            this.label301.ForeColor = System.Drawing.Color.DarkRed;
             this.label301.Location = new System.Drawing.Point(6, 215);
             this.label301.Name = "label301";
             this.label301.Size = new System.Drawing.Size(37, 13);
@@ -15538,6 +15927,7 @@ namespace Arkansas_Armory
             // label302
             // 
             this.label302.AutoSize = true;
+            this.label302.ForeColor = System.Drawing.Color.DarkRed;
             this.label302.Location = new System.Drawing.Point(6, 189);
             this.label302.Name = "label302";
             this.label302.Size = new System.Drawing.Size(41, 13);
@@ -15563,6 +15953,7 @@ namespace Arkansas_Armory
             // label303
             // 
             this.label303.AutoSize = true;
+            this.label303.ForeColor = System.Drawing.Color.DarkRed;
             this.label303.Location = new System.Drawing.Point(6, 163);
             this.label303.Name = "label303";
             this.label303.Size = new System.Drawing.Size(73, 13);
@@ -15572,6 +15963,7 @@ namespace Arkansas_Armory
             // label304
             // 
             this.label304.AutoSize = true;
+            this.label304.ForeColor = System.Drawing.Color.DarkRed;
             this.label304.Location = new System.Drawing.Point(6, 137);
             this.label304.Name = "label304";
             this.label304.Size = new System.Drawing.Size(48, 13);
@@ -15581,6 +15973,7 @@ namespace Arkansas_Armory
             // label305
             // 
             this.label305.AutoSize = true;
+            this.label305.ForeColor = System.Drawing.Color.DarkRed;
             this.label305.Location = new System.Drawing.Point(6, 85);
             this.label305.Name = "label305";
             this.label305.Size = new System.Drawing.Size(37, 13);
@@ -15590,6 +15983,7 @@ namespace Arkansas_Armory
             // label306
             // 
             this.label306.AutoSize = true;
+            this.label306.ForeColor = System.Drawing.Color.DarkRed;
             this.label306.Location = new System.Drawing.Point(6, 111);
             this.label306.Name = "label306";
             this.label306.Size = new System.Drawing.Size(66, 13);
@@ -15647,6 +16041,7 @@ namespace Arkansas_Armory
             // label307
             // 
             this.label307.AutoSize = true;
+            this.label307.ForeColor = System.Drawing.Color.DarkRed;
             this.label307.Location = new System.Drawing.Point(6, 29);
             this.label307.Name = "label307";
             this.label307.Size = new System.Drawing.Size(70, 13);
@@ -15656,6 +16051,7 @@ namespace Arkansas_Armory
             // label308
             // 
             this.label308.AutoSize = true;
+            this.label308.ForeColor = System.Drawing.Color.DarkRed;
             this.label308.Location = new System.Drawing.Point(6, 56);
             this.label308.Name = "label308";
             this.label308.Size = new System.Drawing.Size(36, 13);
@@ -15664,6 +16060,7 @@ namespace Arkansas_Armory
             // 
             // button64
             // 
+            this.button64.ForeColor = System.Drawing.Color.DarkRed;
             this.button64.Location = new System.Drawing.Point(83, 265);
             this.button64.Name = "button64";
             this.button64.Size = new System.Drawing.Size(100, 23);
@@ -15715,6 +16112,7 @@ namespace Arkansas_Armory
             // 
             // button65
             // 
+            this.button65.ForeColor = System.Drawing.Color.DarkRed;
             this.button65.Location = new System.Drawing.Point(203, 17);
             this.button65.Name = "button65";
             this.button65.Size = new System.Drawing.Size(75, 23);
@@ -15754,6 +16152,7 @@ namespace Arkansas_Armory
             // label309
             // 
             this.label309.AutoSize = true;
+            this.label309.ForeColor = System.Drawing.Color.DarkRed;
             this.label309.Location = new System.Drawing.Point(6, 241);
             this.label309.Name = "label309";
             this.label309.Size = new System.Drawing.Size(29, 13);
@@ -15771,6 +16170,7 @@ namespace Arkansas_Armory
             // label310
             // 
             this.label310.AutoSize = true;
+            this.label310.ForeColor = System.Drawing.Color.DarkRed;
             this.label310.Location = new System.Drawing.Point(6, 215);
             this.label310.Name = "label310";
             this.label310.Size = new System.Drawing.Size(37, 13);
@@ -15780,6 +16180,7 @@ namespace Arkansas_Armory
             // label311
             // 
             this.label311.AutoSize = true;
+            this.label311.ForeColor = System.Drawing.Color.DarkRed;
             this.label311.Location = new System.Drawing.Point(6, 189);
             this.label311.Name = "label311";
             this.label311.Size = new System.Drawing.Size(41, 13);
@@ -15805,6 +16206,7 @@ namespace Arkansas_Armory
             // label312
             // 
             this.label312.AutoSize = true;
+            this.label312.ForeColor = System.Drawing.Color.DarkRed;
             this.label312.Location = new System.Drawing.Point(6, 163);
             this.label312.Name = "label312";
             this.label312.Size = new System.Drawing.Size(73, 13);
@@ -15814,6 +16216,7 @@ namespace Arkansas_Armory
             // label313
             // 
             this.label313.AutoSize = true;
+            this.label313.ForeColor = System.Drawing.Color.DarkRed;
             this.label313.Location = new System.Drawing.Point(6, 137);
             this.label313.Name = "label313";
             this.label313.Size = new System.Drawing.Size(48, 13);
@@ -15823,6 +16226,7 @@ namespace Arkansas_Armory
             // label314
             // 
             this.label314.AutoSize = true;
+            this.label314.ForeColor = System.Drawing.Color.DarkRed;
             this.label314.Location = new System.Drawing.Point(6, 85);
             this.label314.Name = "label314";
             this.label314.Size = new System.Drawing.Size(37, 13);
@@ -15832,6 +16236,7 @@ namespace Arkansas_Armory
             // label315
             // 
             this.label315.AutoSize = true;
+            this.label315.ForeColor = System.Drawing.Color.DarkRed;
             this.label315.Location = new System.Drawing.Point(6, 111);
             this.label315.Name = "label315";
             this.label315.Size = new System.Drawing.Size(66, 13);
@@ -15889,6 +16294,7 @@ namespace Arkansas_Armory
             // label316
             // 
             this.label316.AutoSize = true;
+            this.label316.ForeColor = System.Drawing.Color.DarkRed;
             this.label316.Location = new System.Drawing.Point(6, 29);
             this.label316.Name = "label316";
             this.label316.Size = new System.Drawing.Size(70, 13);
@@ -15898,6 +16304,7 @@ namespace Arkansas_Armory
             // label317
             // 
             this.label317.AutoSize = true;
+            this.label317.ForeColor = System.Drawing.Color.DarkRed;
             this.label317.Location = new System.Drawing.Point(6, 56);
             this.label317.Name = "label317";
             this.label317.Size = new System.Drawing.Size(36, 13);
@@ -15906,6 +16313,7 @@ namespace Arkansas_Armory
             // 
             // button66
             // 
+            this.button66.ForeColor = System.Drawing.Color.DarkRed;
             this.button66.Location = new System.Drawing.Point(83, 265);
             this.button66.Name = "button66";
             this.button66.Size = new System.Drawing.Size(100, 23);
@@ -15957,6 +16365,7 @@ namespace Arkansas_Armory
             // 
             // button69
             // 
+            this.button69.ForeColor = System.Drawing.Color.DarkRed;
             this.button69.Location = new System.Drawing.Point(203, 17);
             this.button69.Name = "button69";
             this.button69.Size = new System.Drawing.Size(75, 23);
@@ -15996,6 +16405,7 @@ namespace Arkansas_Armory
             // label327
             // 
             this.label327.AutoSize = true;
+            this.label327.ForeColor = System.Drawing.Color.DarkRed;
             this.label327.Location = new System.Drawing.Point(6, 241);
             this.label327.Name = "label327";
             this.label327.Size = new System.Drawing.Size(29, 13);
@@ -16013,6 +16423,7 @@ namespace Arkansas_Armory
             // label328
             // 
             this.label328.AutoSize = true;
+            this.label328.ForeColor = System.Drawing.Color.DarkRed;
             this.label328.Location = new System.Drawing.Point(6, 215);
             this.label328.Name = "label328";
             this.label328.Size = new System.Drawing.Size(37, 13);
@@ -16022,6 +16433,7 @@ namespace Arkansas_Armory
             // label329
             // 
             this.label329.AutoSize = true;
+            this.label329.ForeColor = System.Drawing.Color.DarkRed;
             this.label329.Location = new System.Drawing.Point(6, 189);
             this.label329.Name = "label329";
             this.label329.Size = new System.Drawing.Size(41, 13);
@@ -16047,6 +16459,7 @@ namespace Arkansas_Armory
             // label330
             // 
             this.label330.AutoSize = true;
+            this.label330.ForeColor = System.Drawing.Color.DarkRed;
             this.label330.Location = new System.Drawing.Point(6, 163);
             this.label330.Name = "label330";
             this.label330.Size = new System.Drawing.Size(73, 13);
@@ -16056,6 +16469,7 @@ namespace Arkansas_Armory
             // label331
             // 
             this.label331.AutoSize = true;
+            this.label331.ForeColor = System.Drawing.Color.DarkRed;
             this.label331.Location = new System.Drawing.Point(6, 137);
             this.label331.Name = "label331";
             this.label331.Size = new System.Drawing.Size(48, 13);
@@ -16065,6 +16479,7 @@ namespace Arkansas_Armory
             // label332
             // 
             this.label332.AutoSize = true;
+            this.label332.ForeColor = System.Drawing.Color.DarkRed;
             this.label332.Location = new System.Drawing.Point(6, 85);
             this.label332.Name = "label332";
             this.label332.Size = new System.Drawing.Size(37, 13);
@@ -16074,6 +16489,7 @@ namespace Arkansas_Armory
             // label333
             // 
             this.label333.AutoSize = true;
+            this.label333.ForeColor = System.Drawing.Color.DarkRed;
             this.label333.Location = new System.Drawing.Point(6, 111);
             this.label333.Name = "label333";
             this.label333.Size = new System.Drawing.Size(66, 13);
@@ -16131,6 +16547,7 @@ namespace Arkansas_Armory
             // label334
             // 
             this.label334.AutoSize = true;
+            this.label334.ForeColor = System.Drawing.Color.DarkRed;
             this.label334.Location = new System.Drawing.Point(6, 29);
             this.label334.Name = "label334";
             this.label334.Size = new System.Drawing.Size(70, 13);
@@ -16140,6 +16557,7 @@ namespace Arkansas_Armory
             // label335
             // 
             this.label335.AutoSize = true;
+            this.label335.ForeColor = System.Drawing.Color.DarkRed;
             this.label335.Location = new System.Drawing.Point(6, 56);
             this.label335.Name = "label335";
             this.label335.Size = new System.Drawing.Size(36, 13);
@@ -16148,6 +16566,7 @@ namespace Arkansas_Armory
             // 
             // button70
             // 
+            this.button70.ForeColor = System.Drawing.Color.DarkRed;
             this.button70.Location = new System.Drawing.Point(83, 265);
             this.button70.Name = "button70";
             this.button70.Size = new System.Drawing.Size(100, 23);
