@@ -1429,5 +1429,45 @@ namespace Arkansas_Armory
             gboShotguns.Visible = false;
             Handguns.Visible = false;
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            connection = new SqlConnection(connectionstring);
+            connection.Open();
+            int answer;
+            string sql = "INSERT INTO Orders VALUES (@CustomerID,@Date,@Total)";
+            command = new SqlCommand(sql, connection);
+            command.Parameters.AddWithValue("@CustomerID", txtLoginCustomerID.Text);
+            command.Parameters.AddWithValue("@Date", DateTime.Today);
+            command.Parameters.AddWithValue("@Total", txttotal.Text);
+
+            answer = command.ExecuteNonQuery();
+            MessageBox.Show("Order Created. See orders page to see details. Your shopping cart is now empty.");
+            connection.Close();
+            command.Dispose();
+
+            connection = new SqlConnection(connectionstring);
+            connection.Open();
+            int answer2;
+            string sql2 = "Delete FROM ShoppingCart WHERE CustomerID=@CustomerID";
+            command = new SqlCommand(sql2, connection);
+            command.Parameters.AddWithValue("@CustomerID", txtLoginCustomerID.Text);
+            answer2 = command.ExecuteNonQuery();
+            connection.Close();
+            command.Dispose();
+
+            string sql1 = "SELECT G.Price, S.SoppingCartItemID, S.CustomerID, S.GunID FROM ShoppingCart S INNER JOIN GunInventory G ON G.GunID = S.GunID WHERE CustomerID =" + txtLoginCustomerID.Text + "";
+            var da = new SqlDataAdapter(sql1, connectionstring);
+            var ds = new DataSet();
+            da.Fill(ds);
+            dataGridView1.DataSource = ds.Tables[0];
+
+            int sum = 0;
+            for (int i = 0; i < dataGridView1.Rows.Count; ++i)
+            {
+                sum += Convert.ToInt32(dataGridView1.Rows[i].Cells[0].Value);
+            }
+            txttotal.Text = sum.ToString();
+        }
     }
 }
