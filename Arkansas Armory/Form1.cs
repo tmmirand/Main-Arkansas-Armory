@@ -530,7 +530,9 @@ namespace Arkansas_Armory
 
         private void btnLogOut_Click(object sender, EventArgs e)
         {
-
+            txtLoginCustomerID.Text = "6";
+            txtLoginPassword.Text = "Guest";
+            MessageBox.Show("You're logged out. Guest account active. ");
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -1446,6 +1448,32 @@ namespace Arkansas_Armory
             connection.Close();
             command.Dispose();
 
+            connection = new SqlConnection(connectionstring);
+            connection.Open();
+            int answer2;
+            string sql2 = "Delete FROM ShoppingCart WHERE CustomerID=@CustomerID";
+            command = new SqlCommand(sql2, connection);
+            command.Parameters.AddWithValue("@CustomerID", txtLoginCustomerID.Text);
+            answer2 = command.ExecuteNonQuery();
+            connection.Close();
+            command.Dispose();
+
+            string sql1 = "SELECT G.Price, S.SoppingCartItemID, S.CustomerID, S.GunID FROM ShoppingCart S INNER JOIN GunInventory G ON G.GunID = S.GunID WHERE CustomerID =" + txtLoginCustomerID.Text + "";
+            var da = new SqlDataAdapter(sql1, connectionstring);
+            var ds = new DataSet();
+            da.Fill(ds);
+            dataGridView1.DataSource = ds.Tables[0];
+
+            int sum = 0;
+            for (int i = 0; i < dataGridView1.Rows.Count; ++i)
+            {
+                sum += Convert.ToInt32(dataGridView1.Rows[i].Cells[0].Value);
+            }
+            txttotal.Text = sum.ToString();
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
             connection = new SqlConnection(connectionstring);
             connection.Open();
             int answer2;
