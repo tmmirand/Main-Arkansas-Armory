@@ -532,7 +532,7 @@ namespace Arkansas_Armory
         {
             txtLoginCustomerID.Text = "6";
             txtLoginPassword.Text = "Guest";
-            MessageBox.Show("You're logged out. Guest account active. ");
+            MessageBox.Show("You're logged out. Guest account active.");
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -763,7 +763,7 @@ namespace Arkansas_Armory
             connection = new SqlConnection(connectionstring);
             connection.Open();
             int answer;
-            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 15)";
+            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 21)";
             command = new SqlCommand(sql, connection);
             //These @Name command parameters reference the @name insert into statement above
             command.Parameters.AddWithValue("@CustomerID", txtLoginCustomerID.Text);
@@ -779,7 +779,7 @@ namespace Arkansas_Armory
             connection = new SqlConnection(connectionstring);
             connection.Open();
             int answer;
-            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 16)";
+            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 22)";
             command = new SqlCommand(sql, connection);
             //These @Name command parameters reference the @name insert into statement above
             command.Parameters.AddWithValue("@CustomerID", txtLoginCustomerID.Text);
@@ -795,7 +795,7 @@ namespace Arkansas_Armory
             connection = new SqlConnection(connectionstring);
             connection.Open();
             int answer;
-            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 17)";
+            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID,23)";
             command = new SqlCommand(sql, connection);
             //These @Name command parameters reference the @name insert into statement above
             command.Parameters.AddWithValue("@CustomerID", txtLoginCustomerID.Text);
@@ -811,7 +811,7 @@ namespace Arkansas_Armory
             connection = new SqlConnection(connectionstring);
             connection.Open();
             int answer;
-            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 18)";
+            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 24)";
             command = new SqlCommand(sql, connection);
             //These @Name command parameters reference the @name insert into statement above
             command.Parameters.AddWithValue("@CustomerID", txtLoginCustomerID.Text);
@@ -827,7 +827,7 @@ namespace Arkansas_Armory
             connection = new SqlConnection(connectionstring);
             connection.Open();
             int answer;
-            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 19)";
+            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 25)";
             command = new SqlCommand(sql, connection);
             //These @Name command parameters reference the @name insert into statement above
             command.Parameters.AddWithValue("@CustomerID", txtLoginCustomerID.Text);
@@ -843,7 +843,7 @@ namespace Arkansas_Armory
             connection = new SqlConnection(connectionstring);
             connection.Open();
             int answer;
-            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 20)";
+            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 26)";
             command = new SqlCommand(sql, connection);
             //These @Name command parameters reference the @name insert into statement above
             command.Parameters.AddWithValue("@CustomerID", txtLoginCustomerID.Text);
@@ -859,7 +859,7 @@ namespace Arkansas_Armory
             connection = new SqlConnection(connectionstring);
             connection.Open();
             int answer;
-            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 21)";
+            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 27)";
             command = new SqlCommand(sql, connection);
             //These @Name command parameters reference the @name insert into statement above
             command.Parameters.AddWithValue("@CustomerID", txtLoginCustomerID.Text);
@@ -875,7 +875,7 @@ namespace Arkansas_Armory
             connection = new SqlConnection(connectionstring);
             connection.Open();
             int answer;
-            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 22)";
+            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 28)";
             command = new SqlCommand(sql, connection);
             //These @Name command parameters reference the @name insert into statement above
             command.Parameters.AddWithValue("@CustomerID", txtLoginCustomerID.Text);
@@ -891,7 +891,7 @@ namespace Arkansas_Armory
             connection = new SqlConnection(connectionstring);
             connection.Open();
             int answer;
-            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 23)";
+            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 29)";
             command = new SqlCommand(sql, connection);
             //These @Name command parameters reference the @name insert into statement above
             command.Parameters.AddWithValue("@CustomerID", txtLoginCustomerID.Text);
@@ -907,7 +907,7 @@ namespace Arkansas_Armory
             connection = new SqlConnection(connectionstring);
             connection.Open();
             int answer;
-            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 24)";
+            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 30)";
             command = new SqlCommand(sql, connection);
             //These @Name command parameters reference the @name insert into statement above
             command.Parameters.AddWithValue("@CustomerID", txtLoginCustomerID.Text);
@@ -923,7 +923,7 @@ namespace Arkansas_Armory
             connection = new SqlConnection(connectionstring);
             connection.Open();
             int answer;
-            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 25)";
+            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 31)";
             command = new SqlCommand(sql, connection);
             //These @Name command parameters reference the @name insert into statement above
             command.Parameters.AddWithValue("@CustomerID", txtLoginCustomerID.Text);
@@ -939,7 +939,7 @@ namespace Arkansas_Armory
             connection = new SqlConnection(connectionstring);
             connection.Open();
             int answer;
-            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 26)";
+            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 32)";
             command = new SqlCommand(sql, connection);
             //These @Name command parameters reference the @name insert into statement above
             command.Parameters.AddWithValue("@CustomerID", txtLoginCustomerID.Text);
@@ -955,7 +955,7 @@ namespace Arkansas_Armory
             connection = new SqlConnection(connectionstring);
             connection.Open();
             int answer;
-            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 27)";
+            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 33)";
             command = new SqlCommand(sql, connection);
             //These @Name command parameters reference the @name insert into statement above
             command.Parameters.AddWithValue("@CustomerID", txtLoginCustomerID.Text);
@@ -971,7 +971,7 @@ namespace Arkansas_Armory
             connection = new SqlConnection(connectionstring);
             connection.Open();
             int answer;
-            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 28)";
+            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 34)";
             command = new SqlCommand(sql, connection);
             //These @Name command parameters reference the @name insert into statement above
             command.Parameters.AddWithValue("@CustomerID", txtLoginCustomerID.Text);
@@ -987,7 +987,7 @@ namespace Arkansas_Armory
             connection = new SqlConnection(connectionstring);
             connection.Open();
             int answer;
-            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 29)";
+            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 35)";
             command = new SqlCommand(sql, connection);
             //These @Name command parameters reference the @name insert into statement above
             command.Parameters.AddWithValue("@CustomerID", txtLoginCustomerID.Text);
@@ -1003,7 +1003,7 @@ namespace Arkansas_Armory
             connection = new SqlConnection(connectionstring);
             connection.Open();
             int answer;
-            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 30)";
+            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 36)";
             command = new SqlCommand(sql, connection);
             //These @Name command parameters reference the @name insert into statement above
             command.Parameters.AddWithValue("@CustomerID", txtLoginCustomerID.Text);
@@ -1019,7 +1019,7 @@ namespace Arkansas_Armory
             connection = new SqlConnection(connectionstring);
             connection.Open();
             int answer;
-            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 31)";
+            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 37)";
             command = new SqlCommand(sql, connection);
             //These @Name command parameters reference the @name insert into statement above
             command.Parameters.AddWithValue("@CustomerID", txtLoginCustomerID.Text);
@@ -1035,7 +1035,7 @@ namespace Arkansas_Armory
             connection = new SqlConnection(connectionstring);
             connection.Open();
             int answer;
-            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 32)";
+            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 38)";
             command = new SqlCommand(sql, connection);
             //These @Name command parameters reference the @name insert into statement above
             command.Parameters.AddWithValue("@CustomerID", txtLoginCustomerID.Text);
@@ -1051,7 +1051,7 @@ namespace Arkansas_Armory
             connection = new SqlConnection(connectionstring);
             connection.Open();
             int answer;
-            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 33)";
+            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 39)";
             command = new SqlCommand(sql, connection);
             //These @Name command parameters reference the @name insert into statement above
             command.Parameters.AddWithValue("@CustomerID", txtLoginCustomerID.Text);
@@ -1067,7 +1067,7 @@ namespace Arkansas_Armory
             connection = new SqlConnection(connectionstring);
             connection.Open();
             int answer;
-            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 34)";
+            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 40)";
             command = new SqlCommand(sql, connection);
             //These @Name command parameters reference the @name insert into statement above
             command.Parameters.AddWithValue("@CustomerID", txtLoginCustomerID.Text);
@@ -1083,7 +1083,7 @@ namespace Arkansas_Armory
             connection = new SqlConnection(connectionstring);
             connection.Open();
             int answer;
-            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 35)";
+            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 41)";
             command = new SqlCommand(sql, connection);
             //These @Name command parameters reference the @name insert into statement above
             command.Parameters.AddWithValue("@CustomerID", txtLoginCustomerID.Text);
@@ -1099,7 +1099,7 @@ namespace Arkansas_Armory
             connection = new SqlConnection(connectionstring);
             connection.Open();
             int answer;
-            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 36)";
+            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 42)";
             command = new SqlCommand(sql, connection);
             //These @Name command parameters reference the @name insert into statement above
             command.Parameters.AddWithValue("@CustomerID", txtLoginCustomerID.Text);
@@ -1115,7 +1115,7 @@ namespace Arkansas_Armory
             connection = new SqlConnection(connectionstring);
             connection.Open();
             int answer;
-            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 37)";
+            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 43)";
             command = new SqlCommand(sql, connection);
             //These @Name command parameters reference the @name insert into statement above
             command.Parameters.AddWithValue("@CustomerID", txtLoginCustomerID.Text);
@@ -1131,7 +1131,7 @@ namespace Arkansas_Armory
             connection = new SqlConnection(connectionstring);
             connection.Open();
             int answer;
-            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 38)";
+            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 44)";
             command = new SqlCommand(sql, connection);
             //These @Name command parameters reference the @name insert into statement above
             command.Parameters.AddWithValue("@CustomerID", txtLoginCustomerID.Text);
@@ -1147,7 +1147,7 @@ namespace Arkansas_Armory
             connection = new SqlConnection(connectionstring);
             connection.Open();
             int answer;
-            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 39)";
+            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 45)";
             command = new SqlCommand(sql, connection);
             //These @Name command parameters reference the @name insert into statement above
             command.Parameters.AddWithValue("@CustomerID", txtLoginCustomerID.Text);
@@ -1163,7 +1163,7 @@ namespace Arkansas_Armory
             connection = new SqlConnection(connectionstring);
             connection.Open();
             int answer;
-            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 40)";
+            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 46)";
             command = new SqlCommand(sql, connection);
             //These @Name command parameters reference the @name insert into statement above
             command.Parameters.AddWithValue("@CustomerID", txtLoginCustomerID.Text);
@@ -1179,7 +1179,7 @@ namespace Arkansas_Armory
             connection = new SqlConnection(connectionstring);
             connection.Open();
             int answer;
-            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 41)";
+            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 47)";
             command = new SqlCommand(sql, connection);
             //These @Name command parameters reference the @name insert into statement above
             command.Parameters.AddWithValue("@CustomerID", txtLoginCustomerID.Text);
@@ -1195,7 +1195,7 @@ namespace Arkansas_Armory
             connection = new SqlConnection(connectionstring);
             connection.Open();
             int answer;
-            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 42)";
+            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 48)";
             command = new SqlCommand(sql, connection);
             //These @Name command parameters reference the @name insert into statement above
             command.Parameters.AddWithValue("@CustomerID", txtLoginCustomerID.Text);
@@ -1211,7 +1211,7 @@ namespace Arkansas_Armory
             connection = new SqlConnection(connectionstring);
             connection.Open();
             int answer;
-            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 43)";
+            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 49)";
             command = new SqlCommand(sql, connection);
             //These @Name command parameters reference the @name insert into statement above
             command.Parameters.AddWithValue("@CustomerID", txtLoginCustomerID.Text);
@@ -1227,7 +1227,7 @@ namespace Arkansas_Armory
             connection = new SqlConnection(connectionstring);
             connection.Open();
             int answer;
-            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 44)";
+            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 50)";
             command = new SqlCommand(sql, connection);
             //These @Name command parameters reference the @name insert into statement above
             command.Parameters.AddWithValue("@CustomerID", txtLoginCustomerID.Text);
@@ -1243,7 +1243,7 @@ namespace Arkansas_Armory
             connection = new SqlConnection(connectionstring);
             connection.Open();
             int answer;
-            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 45)";
+            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 51)";
             command = new SqlCommand(sql, connection);
             //These @Name command parameters reference the @name insert into statement above
             command.Parameters.AddWithValue("@CustomerID", txtLoginCustomerID.Text);
@@ -1259,7 +1259,7 @@ namespace Arkansas_Armory
             connection = new SqlConnection(connectionstring);
             connection.Open();
             int answer;
-            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 46)";
+            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 52)";
             command = new SqlCommand(sql, connection);
             //These @Name command parameters reference the @name insert into statement above
             command.Parameters.AddWithValue("@CustomerID", txtLoginCustomerID.Text);
@@ -1275,7 +1275,7 @@ namespace Arkansas_Armory
             connection = new SqlConnection(connectionstring);
             connection.Open();
             int answer;
-            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 47)";
+            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 53)";
             command = new SqlCommand(sql, connection);
             //These @Name command parameters reference the @name insert into statement above
             command.Parameters.AddWithValue("@CustomerID", txtLoginCustomerID.Text);
@@ -1291,7 +1291,7 @@ namespace Arkansas_Armory
             connection = new SqlConnection(connectionstring);
             connection.Open();
             int answer;
-            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 48)";
+            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 54)";
             command = new SqlCommand(sql, connection);
             //These @Name command parameters reference the @name insert into statement above
             command.Parameters.AddWithValue("@CustomerID", txtLoginCustomerID.Text);
@@ -1307,7 +1307,7 @@ namespace Arkansas_Armory
             connection = new SqlConnection(connectionstring);
             connection.Open();
             int answer;
-            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 50)";
+            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 56)";
             command = new SqlCommand(sql, connection);
             //These @Name command parameters reference the @name insert into statement above
             command.Parameters.AddWithValue("@CustomerID", txtLoginCustomerID.Text);
@@ -1323,7 +1323,7 @@ namespace Arkansas_Armory
             connection = new SqlConnection(connectionstring);
             connection.Open();
             int answer;
-            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 49)";
+            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 55)";
             command = new SqlCommand(sql, connection);
             //These @Name command parameters reference the @name insert into statement above
             command.Parameters.AddWithValue("@CustomerID", txtLoginCustomerID.Text);
@@ -1339,7 +1339,7 @@ namespace Arkansas_Armory
             connection = new SqlConnection(connectionstring);
             connection.Open();
             int answer;
-            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 51)";
+            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 57)";
             command = new SqlCommand(sql, connection);
             //These @Name command parameters reference the @name insert into statement above
             command.Parameters.AddWithValue("@CustomerID", txtLoginCustomerID.Text);
@@ -1355,7 +1355,7 @@ namespace Arkansas_Armory
             connection = new SqlConnection(connectionstring);
             connection.Open();
             int answer;
-            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 52)";
+            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 58)";
             command = new SqlCommand(sql, connection);
             //These @Name command parameters reference the @name insert into statement above
             command.Parameters.AddWithValue("@CustomerID", txtLoginCustomerID.Text);
@@ -1371,7 +1371,7 @@ namespace Arkansas_Armory
             connection = new SqlConnection(connectionstring);
             connection.Open();
             int answer;
-            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 53)";
+            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 59)";
             command = new SqlCommand(sql, connection);
             //These @Name command parameters reference the @name insert into statement above
             command.Parameters.AddWithValue("@CustomerID", txtLoginCustomerID.Text);
@@ -1387,7 +1387,7 @@ namespace Arkansas_Armory
             connection = new SqlConnection(connectionstring);
             connection.Open();
             int answer;
-            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 54)";
+            string sql = "INSERT INTO ShoppingCart VALUES (@CustomerID, 60)";
             command = new SqlCommand(sql, connection);
             //These @Name command parameters reference the @name insert into statement above
             command.Parameters.AddWithValue("@CustomerID", txtLoginCustomerID.Text);
