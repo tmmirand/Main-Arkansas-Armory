@@ -153,6 +153,16 @@ namespace Arkansas_Armory.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_password_60 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-password-60", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_shopping_cart_48 {
             get {
                 object obj = ResourceManager.GetObject("icons8-shopping-cart-48", resourceCulture);
@@ -166,6 +176,16 @@ namespace Arkansas_Armory.Properties {
         internal static System.Drawing.Bitmap icons8_shotgun_64 {
             get {
                 object obj = ResourceManager.GetObject("icons8-shotgun-64", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_user_64 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-user-64", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
