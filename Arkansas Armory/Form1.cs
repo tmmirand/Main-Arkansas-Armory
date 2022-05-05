@@ -116,6 +116,7 @@ namespace Arkansas_Armory
 
 
             refresh();
+            
 
 
         }
